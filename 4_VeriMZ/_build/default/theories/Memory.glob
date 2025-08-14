@@ -1,0 +1,431 @@
+DIGEST 4e70910cdf045ed984dd909eee7ee9aa
+FVerimz.Memory
+R27:29 Verimz.Int <> <> lib
+R31:35 Verimz.Utils <> <> lib
+R53:56 Coq.Bool.Bool <> <> lib
+R58:62 Coq.Arith.Arith <> <> lib
+def 132:138 <> mem_val
+R143:146 compcert.lib.Integers <> byte abbrev
+def 199:201 <> mem
+R206:209 Coq.Init.Datatypes <> list ind
+R211:217 Verimz.Memory <> mem_val def
+def 232:239 <> mem_addr
+R244:246 Coq.Init.Datatypes <> nat ind
+def 375:386 <> valid_access
+R392:394 Verimz.Memory <> mem def
+binder 389:389 <> m:1
+R404:411 Verimz.Memory <> mem_addr def
+binder 398:401 <> addr:2
+R418:420 Coq.Init.Datatypes <> nat ind
+binder 415:415 <> s:3
+R452:457 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R439:442 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R451:451 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R435:438 Verimz.Memory <> addr:2 var
+R443:448 Coq.Init.Datatypes <> length def
+R450:450 Verimz.Memory <> m:1 var
+R463:468 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R459:461 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R462:462 Verimz.Memory <> s:3 var
+R477:480 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R489:489 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R473:475 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R469:472 Verimz.Memory <> addr:2 var
+R476:476 Verimz.Memory <> s:3 var
+R481:486 Coq.Init.Datatypes <> length def
+R488:488 Verimz.Memory <> m:1 var
+prf 499:514 <> valid_access_dec
+binder 527:527 <> m:4
+binder 529:532 <> addr:5
+binder 534:534 <> s:6
+R539:540 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R562:568 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R592:593 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R541:552 Verimz.Memory <> valid_access def
+R554:554 Verimz.Memory <> m:4 var
+R556:559 Verimz.Memory <> addr:5 var
+R561:561 Verimz.Memory <> s:6 var
+R569:570 Coq.Init.Logic <> ::type_scope:'~'_x not
+R571:582 Verimz.Memory <> valid_access def
+R584:584 Verimz.Memory <> m:4 var
+R586:589 Verimz.Memory <> addr:5 var
+R591:591 Verimz.Memory <> s:6 var
+R620:631 Verimz.Memory <> valid_access def
+R646:651 Coq.Arith.Compare_dec <> lt_dec thm
+R659:664 Coq.Init.Datatypes <> length def
+R683:688 Coq.Arith.Compare_dec <> lt_dec thm
+R708:713 Coq.Arith.Compare_dec <> lt_dec thm
+R720:722 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R727:732 Coq.Init.Datatypes <> length def
+R646:651 Coq.Arith.Compare_dec <> lt_dec thm
+R659:664 Coq.Init.Datatypes <> length def
+R683:688 Coq.Arith.Compare_dec <> lt_dec thm
+R683:688 Coq.Arith.Compare_dec <> lt_dec thm
+R708:713 Coq.Arith.Compare_dec <> lt_dec thm
+R720:722 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R727:732 Coq.Init.Datatypes <> length def
+R708:713 Coq.Arith.Compare_dec <> lt_dec thm
+R720:722 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R727:732 Coq.Init.Datatypes <> length def
+R708:713 Coq.Arith.Compare_dec <> lt_dec thm
+R720:722 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R727:732 Coq.Init.Datatypes <> length def
+R708:713 Coq.Arith.Compare_dec <> lt_dec thm
+R720:722 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R727:732 Coq.Init.Datatypes <> length def
+def 767:774 <> read_aux
+R780:782 Verimz.Memory <> mem def
+binder 777:777 <> m:7
+R792:799 Verimz.Memory <> mem_addr def
+binder 786:789 <> addr:8
+R807:809 Coq.Init.Datatypes <> nat ind
+binder 803:803 <> s:9
+R814:819 Coq.Init.Datatypes <> option ind
+R822:825 Coq.Init.Datatypes <> list ind
+R827:833 Verimz.Memory <> mem_val def
+R856:856 Verimz.Memory <> m:7 var
+R853:853 Verimz.Memory <> s:9 var
+R847:850 Verimz.Memory <> addr:8 var
+R867:867 Coq.Init.Datatypes <> O constr
+R870:870 Coq.Init.Datatypes <> S constr
+R877:880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R893:895 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R898:901 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R918:925 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R902:909 Verimz.Memory <> read_aux:10 def
+R914:914 Coq.Init.Datatypes <> O constr
+binder 896:897 <> lv:14
+R926:929 Coq.Init.Datatypes <> Some constr
+R933:936 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R937:938 Verimz.Memory <> lv:14 var
+R945:945 Coq.Init.Datatypes <> O constr
+R948:948 Coq.Init.Datatypes <> O constr
+R956:959 Coq.Init.Datatypes <> Some constr
+R961:962 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R968:968 Coq.Init.Datatypes <> S constr
+R981:984 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R991:998 Verimz.Memory <> read_aux:10 def
+R1009:1009 Verimz.Memory <> s:9 var
+R1027:1030 Coq.Init.Datatypes <> None constr
+def 1135:1138 <> read
+R1144:1146 Verimz.Memory <> mem def
+binder 1141:1141 <> m:15
+R1156:1163 Verimz.Memory <> mem_addr def
+binder 1150:1153 <> addr:16
+R1170:1172 Coq.Init.Datatypes <> nat ind
+binder 1167:1167 <> s:17
+R1177:1182 Coq.Init.Datatypes <> option ind
+R1185:1188 Coq.Init.Datatypes <> list ind
+R1190:1196 Verimz.Memory <> mem_val def
+R1207:1222 Verimz.Memory <> valid_access_dec thm
+R1224:1224 Verimz.Memory <> m:15 var
+R1226:1229 Verimz.Memory <> addr:16 var
+R1231:1231 Verimz.Memory <> s:17 var
+R1267:1270 Coq.Init.Datatypes <> None constr
+R1242:1249 Verimz.Memory <> read_aux def
+R1251:1251 Verimz.Memory <> m:15 var
+R1253:1256 Verimz.Memory <> addr:16 var
+R1258:1258 Verimz.Memory <> s:17 var
+def 1283:1291 <> write_aux
+R1297:1299 Verimz.Memory <> mem def
+binder 1294:1294 <> m:18
+R1309:1316 Verimz.Memory <> mem_addr def
+binder 1303:1306 <> addr:19
+R1324:1327 Coq.Init.Datatypes <> list ind
+R1329:1335 Verimz.Memory <> mem_val def
+binder 1320:1321 <> lv:20
+R1340:1345 Coq.Init.Datatypes <> option ind
+R1347:1349 Verimz.Memory <> mem def
+R1371:1372 Verimz.Memory <> lv:20 var
+R1368:1368 Verimz.Memory <> m:18 var
+R1362:1365 Verimz.Memory <> addr:19 var
+R1383:1383 Coq.Init.Datatypes <> O constr
+R1387:1390 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1396:1399 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1413:1415 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1417:1420 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1439:1446 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1421:1429 Verimz.Memory <> write_aux:21 def
+R1434:1434 Coq.Init.Datatypes <> O constr
+binder 1416:1416 <> r:25
+R1447:1450 Coq.Init.Datatypes <> Some constr
+R1454:1457 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1458:1458 Verimz.Memory <> r:25 var
+R1465:1465 Coq.Init.Datatypes <> O constr
+R1471:1472 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1477:1480 Coq.Init.Datatypes <> Some constr
+R1482:1482 Verimz.Memory <> m:18 var
+R1488:1488 Coq.Init.Datatypes <> S constr
+R1498:1501 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1517:1519 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1521:1524 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1546:1553 Verimz.Error <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R1525:1533 Verimz.Memory <> write_aux:21 def
+R1544:1545 Verimz.Memory <> lv:20 var
+binder 1520:1520 <> r:26
+R1554:1557 Coq.Init.Datatypes <> Some constr
+R1561:1564 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1565:1565 Verimz.Memory <> r:26 var
+R1583:1586 Coq.Init.Datatypes <> None constr
+def 1705:1709 <> write
+R1715:1717 Verimz.Memory <> mem def
+binder 1712:1712 <> m:27
+R1727:1734 Verimz.Memory <> mem_addr def
+binder 1721:1724 <> addr:28
+R1742:1745 Coq.Init.Datatypes <> list ind
+R1747:1753 Verimz.Memory <> mem_val def
+binder 1738:1739 <> lv:29
+R1758:1763 Coq.Init.Datatypes <> option ind
+R1765:1767 Verimz.Memory <> mem def
+R1777:1792 Verimz.Memory <> valid_access_dec thm
+R1794:1794 Verimz.Memory <> m:27 var
+R1796:1799 Verimz.Memory <> addr:28 var
+R1802:1807 Coq.Init.Datatypes <> length def
+R1809:1810 Verimz.Memory <> lv:29 var
+R1849:1852 Coq.Init.Datatypes <> None constr
+R1822:1830 Verimz.Memory <> write_aux def
+R1832:1832 Verimz.Memory <> m:27 var
+R1834:1837 Verimz.Memory <> addr:28 var
+R1839:1840 Verimz.Memory <> lv:29 var
+def 1969:1982 <> access_overlap
+R1991:1998 Verimz.Memory <> mem_addr def
+binder 1985:1988 <> addr:30
+R2005:2007 Coq.Init.Datatypes <> nat ind
+binder 2002:2002 <> s:31
+R2018:2025 Verimz.Memory <> mem_addr def
+binder 2011:2015 <> addr':32
+R2033:2035 Coq.Init.Datatypes <> nat ind
+binder 2029:2030 <> s':33
+R2074:2077 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2054:2058 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2073:2073 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2049:2053 Verimz.Memory <> addr':32 var
+R2063:2066 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2072:2072 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2059:2062 Verimz.Memory <> addr:30 var
+R2068:2070 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2067:2067 Verimz.Memory <> s:31 var
+R2082:2086 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2103:2103 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2078:2081 Verimz.Memory <> addr:30 var
+R2092:2095 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2102:2102 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2087:2091 Verimz.Memory <> addr':32 var
+R2098:2100 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2096:2097 Verimz.Memory <> s':33 var
+prf 2113:2130 <> access_overlap_dec
+binder 2143:2146 <> addr:34
+binder 2148:2148 <> s:35
+binder 2150:2154 <> addr':36
+binder 2156:2157 <> s':37
+R2162:2163 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2194:2200 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2233:2234 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2164:2177 Verimz.Memory <> access_overlap def
+R2179:2182 Verimz.Memory <> addr:34 var
+R2184:2184 Verimz.Memory <> s:35 var
+R2186:2190 Verimz.Memory <> addr':36 var
+R2192:2193 Verimz.Memory <> s':37 var
+R2201:2202 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2203:2216 Verimz.Memory <> access_overlap def
+R2218:2221 Verimz.Memory <> addr:34 var
+R2223:2223 Verimz.Memory <> s:35 var
+R2225:2229 Verimz.Memory <> addr':36 var
+R2231:2232 Verimz.Memory <> s':37 var
+R2261:2274 Verimz.Memory <> access_overlap def
+R2289:2294 Coq.Arith.Compare_dec <> le_dec thm
+R2307:2310 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2316:2316 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2312:2314 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2333:2338 Coq.Arith.Compare_dec <> le_dec thm
+R2351:2354 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2361:2361 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2357:2359 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2289:2294 Coq.Arith.Compare_dec <> le_dec thm
+R2307:2310 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2316:2316 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2312:2314 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2333:2338 Coq.Arith.Compare_dec <> le_dec thm
+R2351:2354 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2361:2361 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2357:2359 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2333:2338 Coq.Arith.Compare_dec <> le_dec thm
+R2351:2354 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2361:2361 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2357:2359 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+def 2511:2526 <> access_contained
+R2535:2542 Verimz.Memory <> mem_addr def
+binder 2529:2532 <> addr:38
+R2549:2551 Coq.Init.Datatypes <> nat ind
+binder 2546:2546 <> s:39
+R2562:2569 Verimz.Memory <> mem_addr def
+binder 2555:2559 <> addr':40
+R2577:2579 Coq.Init.Datatypes <> nat ind
+binder 2573:2574 <> s':41
+R2584:2587 Coq.Init.Datatypes <> bool ind
+R2594:2594 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2609:2614 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2638:2638 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2600:2604 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2595:2599 Verimz.Memory <> addr':40 var
+R2605:2608 Verimz.Memory <> addr:38 var
+R2623:2627 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2619:2621 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2615:2618 Verimz.Memory <> addr:38 var
+R2622:2622 Verimz.Memory <> s:39 var
+R2633:2635 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2628:2632 Verimz.Memory <> addr':40 var
+R2636:2637 Verimz.Memory <> s':41 var
+sec 2650:2654 <> Facts
+var 2696:2712 Facts read_valid_access
+binder 2727:2727 <> m:42
+binder 2729:2732 <> addr:43
+binder 2734:2734 <> s:44
+binder 2736:2737 <> lv:45
+R2767:2774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2757:2759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2747 Verimz.Memory <> read def
+R2749:2749 Verimz.Memory <> m:42 var
+R2751:2754 Verimz.Memory <> addr:43 var
+R2756:2756 Verimz.Memory <> s:44 var
+R2760:2763 Coq.Init.Datatypes <> Some constr
+R2765:2766 Verimz.Memory <> lv:45 var
+R2775:2786 Verimz.Memory <> valid_access def
+R2788:2788 Verimz.Memory <> m:42 var
+R2790:2793 Verimz.Memory <> addr:43 var
+R2795:2795 Verimz.Memory <> s:44 var
+var 2807:2823 Facts valid_access_read
+binder 2838:2838 <> m:48
+binder 2840:2843 <> addr:49
+binder 2845:2845 <> s:50
+R2873:2880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2852:2863 Verimz.Memory <> valid_access def
+R2865:2865 Verimz.Memory <> m:48 var
+R2867:2870 Verimz.Memory <> addr:49 var
+R2872:2872 Verimz.Memory <> s:50 var
+R2881:2887 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2890:2891 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2888:2889 <> lv:51
+R2905:2907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2892:2895 Verimz.Memory <> read def
+R2897:2897 Verimz.Memory <> m:48 var
+R2899:2902 Verimz.Memory <> addr:49 var
+R2904:2904 Verimz.Memory <> s:50 var
+R2908:2911 Coq.Init.Datatypes <> Some constr
+R2913:2914 Verimz.Memory <> lv:51 var
+var 2926:2934 Facts read_size
+binder 2949:2949 <> m:54
+binder 2951:2954 <> addr:55
+binder 2956:2956 <> s:56
+binder 2958:2959 <> lv:57
+R2989:2996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2979:2981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2966:2969 Verimz.Memory <> read def
+R2971:2971 Verimz.Memory <> m:54 var
+R2973:2976 Verimz.Memory <> addr:55 var
+R2978:2978 Verimz.Memory <> s:56 var
+R2982:2985 Coq.Init.Datatypes <> Some constr
+R2987:2988 Verimz.Memory <> lv:57 var
+R3006:3008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2997:3002 Coq.Init.Datatypes <> length def
+R3004:3005 Verimz.Memory <> lv:57 var
+R3009:3009 Verimz.Memory <> s:56 var
+var 3053:3070 Facts write_valid_access
+binder 3085:3085 <> m:60
+binder 3087:3088 <> m':61
+binder 3090:3093 <> addr:62
+binder 3095:3096 <> lv:63
+R3128:3135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3118:3120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3103:3107 Verimz.Memory <> write def
+R3109:3109 Verimz.Memory <> m:60 var
+R3111:3114 Verimz.Memory <> addr:62 var
+R3116:3117 Verimz.Memory <> lv:63 var
+R3121:3124 Coq.Init.Datatypes <> Some constr
+R3126:3127 Verimz.Memory <> m':61 var
+R3136:3147 Verimz.Memory <> valid_access def
+R3149:3149 Verimz.Memory <> m:60 var
+R3151:3154 Verimz.Memory <> addr:62 var
+R3157:3162 Coq.Init.Datatypes <> length def
+R3164:3165 Verimz.Memory <> lv:63 var
+var 3178:3195 Facts valid_access_write
+binder 3210:3210 <> m:66
+binder 3212:3215 <> addr:67
+binder 3217:3218 <> lv:68
+R3256:3263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3225:3236 Verimz.Memory <> valid_access def
+R3238:3238 Verimz.Memory <> m:66 var
+R3240:3243 Verimz.Memory <> addr:67 var
+R3246:3251 Coq.Init.Datatypes <> length def
+R3253:3254 Verimz.Memory <> lv:68 var
+R3264:3270 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3273:3274 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3271:3272 <> m':69
+R3290:3292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3275:3279 Verimz.Memory <> write def
+R3281:3281 Verimz.Memory <> m:66 var
+R3283:3286 Verimz.Memory <> addr:67 var
+R3288:3289 Verimz.Memory <> lv:68 var
+R3293:3296 Coq.Init.Datatypes <> Some constr
+R3298:3299 Verimz.Memory <> m':69 var
+var 3315:3329 Facts write_read_same
+binder 3344:3344 <> m:72
+binder 3346:3349 <> addr:73
+binder 3351:3352 <> lv:74
+binder 3354:3355 <> m':75
+R3387:3394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3377:3379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3362:3366 Verimz.Memory <> write def
+R3368:3368 Verimz.Memory <> m:72 var
+R3370:3373 Verimz.Memory <> addr:73 var
+R3375:3376 Verimz.Memory <> lv:74 var
+R3380:3383 Coq.Init.Datatypes <> Some constr
+R3385:3386 Verimz.Memory <> m':75 var
+R3419:3421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3395:3398 Verimz.Memory <> read def
+R3400:3401 Verimz.Memory <> m':75 var
+R3403:3406 Verimz.Memory <> addr:73 var
+R3409:3414 Coq.Init.Datatypes <> length def
+R3416:3417 Verimz.Memory <> lv:74 var
+R3422:3425 Coq.Init.Datatypes <> Some constr
+R3427:3428 Verimz.Memory <> lv:74 var
+var 3440:3454 Facts write_read_diff
+binder 3469:3469 <> m:78
+binder 3471:3472 <> m':79
+binder 3474:3477 <> addr:80
+binder 3479:3483 <> addr':81
+binder 3485:3485 <> s:82
+binder 3487:3488 <> lv:83
+binder 3490:3492 <> lv':84
+R3522:3529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3512:3514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3499:3502 Verimz.Memory <> read def
+R3504:3504 Verimz.Memory <> m:78 var
+R3506:3509 Verimz.Memory <> addr:80 var
+R3511:3511 Verimz.Memory <> s:82 var
+R3515:3518 Coq.Init.Datatypes <> Some constr
+R3520:3521 Verimz.Memory <> lv:83 var
+R3557:3564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3547:3549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3530:3534 Verimz.Memory <> write def
+R3536:3536 Verimz.Memory <> m:78 var
+R3538:3542 Verimz.Memory <> addr':81 var
+R3544:3546 Verimz.Memory <> lv':84 var
+R3550:3553 Coq.Init.Datatypes <> Some constr
+R3555:3556 Verimz.Memory <> m':79 var
+R3607:3614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3565:3566 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3567:3580 Verimz.Memory <> access_overlap def
+R3582:3585 Verimz.Memory <> addr:80 var
+R3587:3587 Verimz.Memory <> s:82 var
+R3589:3593 Verimz.Memory <> addr':81 var
+R3596:3601 Coq.Init.Datatypes <> length def
+R3603:3605 Verimz.Memory <> lv':84 var
+R3629:3631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3615:3618 Verimz.Memory <> read def
+R3620:3621 Verimz.Memory <> m':79 var
+R3623:3626 Verimz.Memory <> addr:80 var
+R3628:3628 Verimz.Memory <> s:82 var
+R3632:3635 Coq.Init.Datatypes <> Some constr
+R3637:3638 Verimz.Memory <> lv:83 var
+R3646:3650 Verimz.Memory Facts <> sec

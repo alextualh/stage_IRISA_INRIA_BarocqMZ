@@ -1,0 +1,25 @@
+(lang dune 3.16)
+
+(using coq 0.9)
+
+(name verimz)
+
+(generate_opam_files false)
+
+; (source
+;  (github username/reponame))
+
+; (authors "Author Name")
+
+; (maintainers "Maintainer Name")
+
+; (license LICENSE)
+
+; (documentation https://url/to/documentation)
+
+(package
+ (name verimz)
+ (synopsis "A formal modelisation of TinyMZ")
+ (depends ocaml dune))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

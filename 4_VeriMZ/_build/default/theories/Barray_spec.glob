@@ -1,0 +1,125 @@
+DIGEST e79dd9b6861804499938952d51eeac0f
+FVerimz.Barray_spec
+R24:27 Coq.Bool.Bool <> <> lib
+R29:31 Coq.micromega.Lia <> <> lib
+R33:40 Coq.Arith.PeanoNat <> <> lib
+R42:45 Coq.Lists.List <> <> lib
+R77:84 compcert.lib.Integers <> <> lib
+R118:122 BarocqComp.common.Error <> <> lib
+R124:128 BarocqComp.common.Intop <> <> lib
+R130:135 BarocqComp.common.Barray <> <> lib
+prf 145:161 <> valid_index_logic
+binder 174:174 <> A:1
+R187:191 BarocqComp.common.Barray <> array def
+R193:193 Verimz.Barray_spec <> A:1 var
+binder 184:184 <> a:2
+R200:204 compcert.lib.Integers <> int64 abbrev
+binder 197:197 <> i:3
+R232:237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R225:227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R210:220 BarocqComp.common.Barray <> valid_index def
+R224:224 Verimz.Barray_spec <> i:3 var
+R222:222 Verimz.Barray_spec <> a:2 var
+R228:231 Coq.Init.Datatypes <> true constr
+R250:253 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R269:269 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R238:247 BarocqComp.common.Intop U64 to_nat def
+R249:249 Verimz.Barray_spec <> i:3 var
+R254:266 BarocqComp.common.Barray <> length def
+R268:268 Verimz.Barray_spec <> a:2 var
+R288:298 BarocqComp.common.Barray <> valid_index def
+R319:331 Coq.Bool.Bool <> andb_true_iff thm
+R319:331 Coq.Bool.Bool <> andb_true_iff thm
+R319:331 Coq.Bool.Bool <> andb_true_iff thm
+R359:368 Coq.Arith.PeanoNat Nat ltb_lt thm
+R359:368 Coq.Arith.PeanoNat Nat ltb_lt thm
+prf 401:418 <> valid_index_get_ok
+binder 431:431 <> A:4
+R444:448 BarocqComp.common.Barray <> array def
+R450:450 Verimz.Barray_spec <> A:4 var
+binder 441:441 <> a:5
+R457:461 compcert.lib.Integers <> int64 abbrev
+binder 454:454 <> i:6
+R489:494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R482:484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R467:477 BarocqComp.common.Barray <> valid_index def
+R481:481 Verimz.Barray_spec <> i:6 var
+R479:479 Verimz.Barray_spec <> a:5 var
+R485:488 Coq.Init.Datatypes <> true constr
+R495:501 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R503:504 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 502:502 <> v:7
+R512:514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R505:507 BarocqComp.common.Barray <> get def
+R511:511 Verimz.Barray_spec <> i:6 var
+R509:509 Verimz.Barray_spec <> a:5 var
+R515:516 compcert.common.Errors <> OK constr
+R518:518 Verimz.Barray_spec <> v:7 var
+R545:547 BarocqComp.common.Barray <> get def
+R573:581 Coq.Lists.List <> nth_error def
+R586:595 BarocqComp.common.Intop U64 to_nat def
+R573:581 Coq.Lists.List <> nth_error def
+R586:595 BarocqComp.common.Intop U64 to_nat def
+R655:668 Coq.Lists.List <> nth_error_None thm
+R673:682 BarocqComp.common.Intop U64 to_nat def
+R655:668 Coq.Lists.List <> nth_error_None thm
+R673:682 BarocqComp.common.Intop U64 to_nat def
+R738:754 Verimz.Barray_spec <> valid_index_logic thm
+R738:754 Verimz.Barray_spec <> valid_index_logic thm
+R773:778 BarocqComp.common.Barray <> length def
+prf 805:827 <> set_rec_preserve_length
+binder 841:841 <> A:8
+R854:858 BarocqComp.common.Barray <> array def
+R860:860 Verimz.Barray_spec <> A:8 var
+binder 851:851 <> a:9
+R867:869 Coq.Init.Datatypes <> nat ind
+binder 864:864 <> n:10
+R876:876 Verimz.Barray_spec <> A:8 var
+binder 873:873 <> v:11
+R911:913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R882:894 BarocqComp.common.Barray <> length def
+R897:903 BarocqComp.common.Barray <> set_rec def
+R909:909 Verimz.Barray_spec <> v:11 var
+R907:907 Verimz.Barray_spec <> n:10 var
+R905:905 Verimz.Barray_spec <> a:9 var
+R914:926 BarocqComp.common.Barray <> length def
+R928:928 Verimz.Barray_spec <> a:9 var
+prf 1045:1062 <> valid_index_set_ok
+binder 1075:1075 <> A:12
+R1088:1092 BarocqComp.common.Barray <> array def
+R1094:1094 Verimz.Barray_spec <> A:12 var
+binder 1085:1085 <> a:13
+R1101:1105 compcert.lib.Integers <> int64 abbrev
+binder 1098:1098 <> i:14
+R1112:1112 Verimz.Barray_spec <> A:12 var
+binder 1109:1109 <> v:15
+R1140:1145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1133:1135 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1118:1128 BarocqComp.common.Barray <> valid_index def
+R1132:1132 Verimz.Barray_spec <> i:14 var
+R1130:1130 Verimz.Barray_spec <> a:13 var
+R1136:1139 Coq.Init.Datatypes <> true constr
+R1146:1152 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1155:1159 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1215:1215 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1153:1154 <> a':16
+R1177:1180 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1169:1171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1160:1162 BarocqComp.common.Barray <> set def
+R1168:1168 Verimz.Barray_spec <> v:15 var
+R1166:1166 Verimz.Barray_spec <> i:14 var
+R1164:1164 Verimz.Barray_spec <> a:13 var
+R1172:1173 compcert.common.Errors <> OK constr
+R1175:1176 Verimz.Barray_spec <> a':16 var
+R1197:1199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1181:1193 BarocqComp.common.Barray <> length def
+R1195:1196 Verimz.Barray_spec <> a':16 var
+R1200:1212 BarocqComp.common.Barray <> length def
+R1214:1214 Verimz.Barray_spec <> a:13 var
+R1242:1244 BarocqComp.common.Barray <> set def
+R1268:1274 BarocqComp.common.Barray <> set_rec def
+R1279:1288 BarocqComp.common.Intop U64 to_nat def
+R1268:1274 BarocqComp.common.Barray <> set_rec def
+R1279:1288 BarocqComp.common.Intop U64 to_nat def
+R1331:1353 Verimz.Barray_spec <> set_rec_preserve_length thm
+R1331:1353 Verimz.Barray_spec <> set_rec_preserve_length thm

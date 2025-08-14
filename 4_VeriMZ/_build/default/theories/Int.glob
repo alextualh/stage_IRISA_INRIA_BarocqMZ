@@ -1,0 +1,35 @@
+DIGEST 79072fc3c8b0ef390a670c5689433264
+FVerimz.Int
+R29:36 compcert.lib.Integers <> <> lib
+R54:59 Coq.ZArith.ZArith <> <> lib
+mod 70:84 <> Wordsize_Intptr
+def 100:107 Wordsize_Intptr wordsize
+R115:125 compcert.riscV.Archi <> ptr64 defax
+prf 161:177 Wordsize_Intptr wordsize_not_zero
+R188:191 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R180:187 Verimz.Int Wordsize_Intptr wordsize def
+R215:222 Verimz.Int Wordsize_Intptr wordsize def
+R234:244 compcert.riscV.Archi <> ptr64 defax
+R234:244 compcert.riscV.Archi <> ptr64 defax
+R269:283 Verimz.Int Wordsize_Intptr <> mod
+R304:327 compcert.lib.Integers Wordsize_Ptrofs wordsize def
+mod 339:344 <> Intptr
+R358:361 compcert.lib.Integers Make <> modtype
+R363:377 Verimz.Int Wordsize_Intptr <> modtype
+def 395:409 Intptr unsigned_to_nat
+R418:420 Verimz.Int Intptr int rec
+binder 412:415 <> iptr:1
+R425:432 Coq.ZArith.BinInt Z to_nat def
+R435:449 Verimz.Int Intptr unsigned def
+R451:454 Verimz.Int <> iptr:1 var
+def 472:477 Intptr of_nat
+R483:485 Coq.Init.Datatypes <> nat ind
+binder 480:480 <> n:2
+R491:501 Verimz.Int Intptr repr def
+R504:511 Coq.ZArith.BinInt Z of_nat def
+R513:513 Verimz.Int <> n:2 var
+R522:527 Verimz.Int Intptr <> mod
+R543:566 compcert.lib.Integers Wordsize_Ptrofs wordsize def
+abbrev 580:585 <> intptr
+R590:599 Verimz.Int <> int rec
+R617:627 Verimz.Int <> repr def

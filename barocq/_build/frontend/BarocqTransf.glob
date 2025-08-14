@@ -1,0 +1,317 @@
+DIGEST bbbd7590c5c62a43e599c940174e6a8d
+FBarocqComp.frontend.BarocqTransf
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.Strings.String <> <> lib
+R68:72 BarocqComp.common.Error <> <> lib
+R74:78 BarocqComp.common.Utils <> <> lib
+R80:84 BarocqComp.common.Types <> <> lib
+R86:91 BarocqComp.common.Syntax <> <> lib
+R93:98 BarocqComp.frontend.Barocq <> <> lib
+def 459:473 <> access_list_typ
+R481:484 Coq.Init.Datatypes <> list ind
+R486:503 BarocqComp.frontend.Barocq BarocqTyped access ind
+binder 476:478 <> acs:1
+R508:511 BarocqComp.common.Types <> btyp ind
+R524:526 BarocqComp.frontend.BarocqTransf <> acs:1 var
+R537:539 Coq.Init.Datatypes <> nil constr
+R544:548 BarocqComp.common.Types <> BBool constr
+R577:580 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R581:583 Coq.Init.Datatypes <> nil constr
+R616:640 BarocqComp.frontend.Barocq BarocqTyped AcRecordField constr
+R661:684 BarocqComp.frontend.Barocq BarocqTyped AcArrayIndex constr
+R712:715 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R724:738 BarocqComp.frontend.BarocqTransf <> access_list_typ:2 def
+def 762:784 <> create_deep_access_expr
+R790:805 BarocqComp.frontend.Barocq BarocqTyped expr ind
+binder 787:787 <> e:5
+R810:820 BarocqComp.frontend.Barocq <> expr ind
+R862:877 BarocqComp.frontend.Barocq BarocqTyped expr ind
+binder 859:859 <> e:7
+R886:889 Coq.Init.Datatypes <> list ind
+R891:903 BarocqComp.frontend.Barocq <> access ind
+binder 881:883 <> acs:8
+R923:926 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R945:945 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R912:922 BarocqComp.frontend.Barocq <> expr ind
+R927:930 Coq.Init.Datatypes <> list ind
+R932:944 BarocqComp.frontend.Barocq <> access ind
+R960:960 BarocqComp.frontend.BarocqTransf <> e:7 var
+R973:989 BarocqComp.frontend.Barocq BarocqTyped ETrue constr
+R996:996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1009:1010 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1014:1014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R997:1008 BarocqComp.frontend.Barocq <> ETrue constr
+R1011:1013 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1022:1039 BarocqComp.frontend.Barocq BarocqTyped EFalse constr
+R1046:1046 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1060:1061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1065:1065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1047:1059 BarocqComp.frontend.Barocq <> EFalse constr
+R1062:1064 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1073:1090 BarocqComp.frontend.Barocq BarocqTyped EInt32 constr
+R1095:1100 BarocqComp.common.Types <> BInt32 constr
+R1108:1108 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1126:1127 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1131:1131 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1109:1121 BarocqComp.frontend.Barocq <> EInt32 constr
+R1128:1130 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1139:1156 BarocqComp.frontend.Barocq BarocqTyped EInt64 constr
+R1161:1166 BarocqComp.common.Types <> BInt64 constr
+R1174:1174 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1192:1193 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1197:1197 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1175:1187 BarocqComp.frontend.Barocq <> EInt64 constr
+R1194:1196 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1205:1220 BarocqComp.frontend.Barocq BarocqTyped EVar constr
+R1229:1229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1243:1244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1248:1248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1230:1240 BarocqComp.frontend.Barocq <> EVar constr
+R1245:1247 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1256:1276 BarocqComp.frontend.Barocq BarocqTyped EArrayGet constr
+R1309:1331 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 1302:1304 <> e2':11
+R1350:1352 Coq.Init.Datatypes <> orb def
+R1373:1376 Coq.Init.Datatypes <> negb def
+R1379:1391 BarocqComp.common.Utils <> list_is_empty def
+R1393:1395 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1355:1366 BarocqComp.common.Types <> btyp_is_prim def
+R1500:1522 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 1493:1495 <> e1':12
+R1540:1540 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1565:1566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1570:1570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1541:1556 BarocqComp.frontend.Barocq <> EArrayGet constr
+R1558:1560 BarocqComp.frontend.BarocqTransf <> e1':12 var
+R1562:1564 BarocqComp.frontend.BarocqTransf <> e2':11 var
+R1567:1569 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1414:1435 BarocqComp.frontend.BarocqTransf <> create_deep_access_rec:9 var
+R1457:1460 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1441:1452 BarocqComp.frontend.Barocq <> AcArrayIndex constr
+R1454:1456 BarocqComp.frontend.BarocqTransf <> e2':11 var
+R1461:1463 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1578:1600 BarocqComp.frontend.Barocq BarocqTyped ERecordProj constr
+R1624:1626 Coq.Init.Datatypes <> orb def
+R1647:1650 Coq.Init.Datatypes <> negb def
+R1653:1665 BarocqComp.common.Utils <> list_is_empty def
+R1667:1669 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1629:1640 BarocqComp.common.Types <> btyp_is_prim def
+R1773:1795 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 1766:1768 <> e1':13
+R1813:1813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1838:1839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1843:1843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1814:1831 BarocqComp.frontend.Barocq <> ERecordProj constr
+R1833:1835 BarocqComp.frontend.BarocqTransf <> e1':13 var
+R1840:1842 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1688:1709 BarocqComp.frontend.BarocqTransf <> create_deep_access_rec:9 var
+R1730:1733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1715:1727 BarocqComp.frontend.Barocq <> AcRecordField constr
+R1734:1736 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1851:1867 BarocqComp.frontend.Barocq BarocqTyped ECast constr
+R1897:1919 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 1890:1892 <> e1':14
+R1935:1935 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1955:1956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1960:1960 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1936:1947 BarocqComp.frontend.Barocq <> ECast constr
+R1949:1951 BarocqComp.frontend.BarocqTransf <> e1':14 var
+R1957:1959 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R1968:1987 BarocqComp.frontend.Barocq BarocqTyped EUnaryOp constr
+R2019:2041 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2012:2014 <> e1':15
+R2057:2057 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2080:2081 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2085:2085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2058:2072 BarocqComp.frontend.Barocq <> EUnaryOp constr
+R2077:2079 BarocqComp.frontend.BarocqTransf <> e1':15 var
+R2082:2084 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R2093:2113 BarocqComp.frontend.Barocq BarocqTyped EBinaryOp constr
+R2148:2170 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2141:2143 <> e1':16
+R2197:2219 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2190:2192 <> e2':17
+R2235:2235 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2263:2264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2268:2268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2236:2251 BarocqComp.frontend.Barocq <> EBinaryOp constr
+R2256:2258 BarocqComp.frontend.BarocqTransf <> e1':16 var
+R2260:2262 BarocqComp.frontend.BarocqTransf <> e2':17 var
+R2265:2267 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R2276:2296 BarocqComp.frontend.Barocq BarocqTyped EArraySet constr
+R2331:2353 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2324:2326 <> e1':18
+R2380:2402 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2373:2375 <> e2':19
+R2429:2451 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2422:2424 <> e3':20
+R2467:2467 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2496:2497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2501:2501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2468:2483 BarocqComp.frontend.Barocq <> EArraySet constr
+R2485:2487 BarocqComp.frontend.BarocqTransf <> e1':18 var
+R2489:2491 BarocqComp.frontend.BarocqTransf <> e2':19 var
+R2493:2495 BarocqComp.frontend.BarocqTransf <> e3':20 var
+R2498:2500 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R2509:2533 BarocqComp.frontend.Barocq BarocqTyped ERecordUpdate constr
+R2567:2589 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2560:2562 <> e1':21
+R2616:2638 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2609:2611 <> e2':22
+R2654:2654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2685:2686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2690:2690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2655:2674 BarocqComp.frontend.Barocq <> ERecordUpdate constr
+R2676:2678 BarocqComp.frontend.BarocqTransf <> e1':21 var
+R2682:2684 BarocqComp.frontend.BarocqTransf <> e2':22 var
+R2687:2689 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R2698:2720 BarocqComp.frontend.Barocq BarocqTyped EDeepAccess constr
+R2790:2812 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 2783:2785 <> e1':23
+R2851:2858 Coq.Lists.List <> map def
+binder 2877:2878 <> ac:24
+R2903:2904 BarocqComp.frontend.BarocqTransf <> ac:24 var
+R2927:2951 BarocqComp.frontend.Barocq BarocqTyped AcRecordField constr
+R2960:2972 BarocqComp.frontend.Barocq <> AcRecordField constr
+R2992:3015 BarocqComp.frontend.Barocq BarocqTyped AcArrayIndex constr
+R3054:3076 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3047:3049 <> ei':26
+R3102:3113 BarocqComp.frontend.Barocq <> AcArrayIndex constr
+R3115:3117 BarocqComp.frontend.BarocqTransf <> ei':26 var
+binder 2832:2836 <> acs1':27
+R3177:3179 Coq.Init.Datatypes <> orb def
+R3200:3203 Coq.Init.Datatypes <> negb def
+R3206:3218 BarocqComp.common.Utils <> list_is_empty def
+R3220:3222 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R3182:3193 BarocqComp.common.Types <> btyp_is_prim def
+R3284:3284 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3313:3314 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3318:3318 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3285:3302 BarocqComp.frontend.Barocq <> EDeepAccess constr
+R3304:3306 BarocqComp.frontend.BarocqTransf <> e1':23 var
+R3308:3312 BarocqComp.frontend.BarocqTransf <> acs1':27 var
+R3315:3317 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R3241:3241 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3245:3246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3259:3259 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3242:3244 BarocqComp.frontend.BarocqTransf <> e1':23 var
+R3252:3255 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3247:3251 BarocqComp.frontend.BarocqTransf <> acs1':27 var
+R3256:3258 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R3326:3341 BarocqComp.frontend.Barocq BarocqTyped EApp constr
+R3375:3397 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3368:3370 <> e1':28
+R3426:3433 Coq.Lists.List <> map def
+R3436:3458 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3417:3421 <> args':29
+R3477:3477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3499:3500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3504:3504 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3478:3488 BarocqComp.frontend.Barocq <> EApp constr
+R3490:3492 BarocqComp.frontend.BarocqTransf <> e1':28 var
+R3494:3498 BarocqComp.frontend.BarocqTransf <> args':29 var
+R3501:3503 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R3512:3534 BarocqComp.frontend.Barocq BarocqTyped EIfThenElse constr
+R3569:3591 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3562:3564 <> e1':30
+R3618:3640 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3611:3613 <> e2':31
+R3667:3689 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3660:3662 <> e3':32
+R3705:3705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3736:3737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3741:3741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3706:3723 BarocqComp.frontend.Barocq <> EIfThenElse constr
+R3725:3727 BarocqComp.frontend.BarocqTransf <> e1':30 var
+R3729:3731 BarocqComp.frontend.BarocqTransf <> e2':31 var
+R3733:3735 BarocqComp.frontend.BarocqTransf <> e3':32 var
+R3738:3740 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R3749:3766 BarocqComp.frontend.Barocq BarocqTyped ELetIn constr
+R3800:3822 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3793:3795 <> e1':33
+R3849:3871 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr:6 def
+binder 3842:3844 <> e2':34
+R3887:3887 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3911:3912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3916:3916 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3888:3900 BarocqComp.frontend.Barocq <> ELetIn constr
+R3904:3906 BarocqComp.frontend.BarocqTransf <> e1':33 var
+R3908:3910 BarocqComp.frontend.BarocqTransf <> e2':34 var
+R3913:3915 BarocqComp.frontend.BarocqTransf <> acs:8 var
+R4024:4024 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4030:4031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4035:4035 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4025:4029 BarocqComp.frontend.Barocq <> ETrue constr
+R4032:4034 BarocqComp.frontend.BarocqTransf <> acs:8 var
+binder 835:856 <> create_deep_access_rec:35
+R4058:4079 BarocqComp.frontend.BarocqTransf <> create_deep_access_rec:35 var
+R4083:4085 Coq.Init.Datatypes <> nil constr
+R4081:4081 BarocqComp.frontend.BarocqTransf <> e:5 var
+R4096:4096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4099:4100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4104:4104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4101:4103 Coq.Init.Datatypes <> nil constr
+R4116:4116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4119:4120 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4129:4129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4140:4157 BarocqComp.frontend.Barocq <> EDeepAccess constr
+def 4185:4211 <> create_deep_access_function
+R4217:4236 BarocqComp.frontend.Barocq BarocqTyped function def
+binder 4214:4214 <> f:36
+R4241:4255 BarocqComp.frontend.Barocq <> function def
+R4269:4277 BarocqComp.common.Syntax <> fn_return proj
+R4269:4277 BarocqComp.common.Syntax <> fn_return proj
+R4269:4277 BarocqComp.common.Syntax <> fn_return proj
+R4299:4307 BarocqComp.common.Syntax <> fn_params proj
+R4299:4307 BarocqComp.common.Syntax <> fn_params proj
+R4329:4335 BarocqComp.common.Syntax <> fn_body proj
+R4329:4335 BarocqComp.common.Syntax <> fn_body proj
+R4282:4290 BarocqComp.common.Syntax <> fn_return proj
+R4292:4292 BarocqComp.frontend.BarocqTransf <> f:36 var
+R4312:4320 BarocqComp.common.Syntax <> fn_params proj
+R4322:4322 BarocqComp.frontend.BarocqTransf <> f:36 var
+R4340:4362 BarocqComp.frontend.BarocqTransf <> create_deep_access_expr def
+R4365:4371 BarocqComp.common.Syntax <> fn_body proj
+R4373:4373 BarocqComp.frontend.BarocqTransf <> f:36 var
+def 4394:4419 <> create_deep_access_globdef
+R4427:4445 BarocqComp.frontend.Barocq BarocqTyped globdef ind
+binder 4422:4424 <> def:37
+R4450:4463 BarocqComp.frontend.Barocq <> globdef ind
+R4476:4478 BarocqComp.frontend.BarocqTransf <> def:37 var
+R4489:4507 BarocqComp.frontend.Barocq BarocqTyped DefType constr
+R4521:4527 BarocqComp.frontend.Barocq <> DefType constr
+R4542:4561 BarocqComp.frontend.Barocq BarocqTyped DefConst constr
+R4573:4580 BarocqComp.frontend.Barocq <> DefConst constr
+R4593:4610 BarocqComp.frontend.Barocq BarocqTyped DefFun constr
+R4619:4624 BarocqComp.frontend.Barocq <> DefFun constr
+R4629:4655 BarocqComp.frontend.BarocqTransf <> create_deep_access_function def
+R4664:4683 BarocqComp.frontend.Barocq BarocqTyped DeclType constr
+R4693:4700 BarocqComp.frontend.Barocq <> DeclType constr
+R4711:4731 BarocqComp.frontend.Barocq BarocqTyped DeclConst constr
+R4741:4749 BarocqComp.frontend.Barocq <> DeclConst constr
+R4760:4778 BarocqComp.frontend.Barocq BarocqTyped DeclFun constr
+R4798:4804 BarocqComp.frontend.Barocq <> DeclFun constr
+def 4840:4865 <> create_deep_access_program
+R4874:4892 BarocqComp.frontend.Barocq BarocqTyped program def
+binder 4868:4871 <> prog:39
+R4897:4910 BarocqComp.frontend.Barocq <> program def
+R4917:4924 Coq.Lists.List <> map def
+R4953:4956 BarocqComp.frontend.BarocqTransf <> prog:39 var
+R4926:4951 BarocqComp.frontend.BarocqTransf <> create_deep_access_globdef def
+def 4971:4984 <> transf_program
+R4993:5004 BarocqComp.common.Target <> archi ind
+binder 4987:4990 <> arch:40
+R5014:5027 BarocqComp.frontend.Barocq <> program def
+binder 5008:5011 <> prog:41
+R5032:5034 compcert.common.Errors <> res ind
+R5036:5049 BarocqComp.frontend.Barocq <> program def
+R5056:5060 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5065:5068 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5110:5115 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5069:5099 BarocqComp.frontend.Barocq Typing typecheck_program def
+R5106:5109 BarocqComp.frontend.BarocqTransf <> prog:41 var
+R5101:5104 BarocqComp.frontend.BarocqTransf <> arch:40 var
+binder 5061:5064 <> prog:42
+R5116:5118 BarocqComp.common.Monads MonError ret def
+R5121:5146 BarocqComp.frontend.BarocqTransf <> create_deep_access_program def
+R5148:5151 BarocqComp.frontend.BarocqTransf <> prog:42 var

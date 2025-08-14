@@ -1,0 +1,78 @@
+module Br_sched
+
+import Br_interface
+
+defn sched_yield(ks: kernel) : kernel =
+    let zones = ks.zones in             (* de-wrap *)
+    let current_id = ks.current in
+    let current = zones[current_id] in  (* getting current zone*)
+    let zones = zones[current_id] <- current in
+    let ks = ks.zones <- zones in       (* re-wrap *)
+
+    (* let's go to next zone and compute new deadline *)
+    let ks = ks.current <- ks.next in
+    let ks = ks.deadline <- ks.deadline + ks.next_quantum in
+
+    (* let's compute the next zone as the previous next is now the current one *)
+    let current_index = ks.current in
+    let next_index = (current_index + 1U) % N_ZONES in
+    let ks = ks.next <- next_index in
+    let ks = ks.next_quantum <- QUANTUM_CYC in
+
+    let ms = ks.ms in
+    let ms = write_mtimecmp(ms, ks.deadline) in
+    ks.ms <- ms
+
+
+defn sched_init(ks: kernel) : kernel =
+    let zones = ks.zones in
+    let current_index = ks.current in
+    let current = zones[current_index] in
+    let current = current.intrp_deleg <- 0U in
+    let zones = zones[current_index] <- current in
+    let ks = ks.zones <- zones in
+
+    let ks = ks.current <- 0U in 
+    let ks = ks.deadline <- read_mtime(ks.ms) + QUANTUM_CYC in
+    let zones = ks.zones in
+    let current_index = ks.current in
+    let next_index = (current_index + 1U) % N_ZONES in
+    let ks = ks.next <- next_index in
+    let ks = ks.next_quantum <- QUANTUM_CYC in
+    let ks = ks.mie <- MIE_TIMER in
+    let ms = ks.ms in
+    let ms = write_mtimecmp(ms, ks.deadline) in
+    let ks = ks.ms <- ms in
+    let ms = csr_write(ks.ms, mie, ks.mie) in
+    ks.ms <- ms
+
+
+defn sched_intrp(ks: kernel, zone_id: u32) : kernel =
+    let ks = ks.next <- ks.current in
+    let ks = ks.current <- zone_id in
+    let now = read_mtime(ks.ms) in
+    let ks =
+    if now < ks.deadline then 
+        ks.next_quantum <- (ks.deadline - now)
+    else
+        ks.next_quantum <- 0UL
+    in
+    let ks = ks.deadline <- read_mtime(ks.ms) + QUANTUM_CYC in
+    let ms = ks.ms in
+    let ms = write_mtimecmp(ms, ks.deadline) in
+    ks.ms <- ms
+
+
+defn sched(ks : kernel) : kernel =
+    let ks = 
+    if ks.deadline <= read_mtime(ks.ms) then
+        sched_yield(ks)
+    else
+        ks
+    in let ms =
+    if ks.zones[ks.current].intrp_deleg > 0U then
+        csr_write(ks.ms, mie, MIE_TIMER)
+    else
+        csr_write(ks.ms, mie, ks.mie) 
+    in 
+    ks.ms <- ms

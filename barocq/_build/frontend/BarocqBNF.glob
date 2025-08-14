@@ -1,0 +1,84 @@
+DIGEST 89f9190d2652f42290899dd79da35c2b
+FBarocqComp.frontend.BarocqBNF
+R31:36 BarocqComp.common.Syntax <> <> lib
+def 97:103 <> literal
+R115:128 BarocqComp.common.Syntax <> literal ind
+def 160:163 <> atom
+R175:185 BarocqComp.common.Syntax <> atom ind
+ind 222:225 <> expr
+constr 241:245 <> EAtom
+constr 266:274 <> EArrayGet
+constr 303:311 <> EArraySet
+constr 348:358 <> ERecordProj
+constr 388:400 <> ERecordUpdate
+constr 438:448 <> EDeepAccess
+constr 484:487 <> EApp
+constr 521:531 <> EIfThenElse
+constr 568:573 <> ELetIn
+R253:256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R249:252 BarocqComp.frontend.BarocqBNF <> atom def
+R257:260 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R282:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R278:281 BarocqComp.frontend.BarocqBNF <> atom def
+R290:293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R286:289 BarocqComp.frontend.BarocqBNF <> atom def
+R294:297 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R319:322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R315:318 BarocqComp.frontend.BarocqBNF <> atom def
+R327:330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R323:326 BarocqComp.frontend.BarocqBNF <> atom def
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R331:334 BarocqComp.frontend.BarocqBNF <> atom def
+R339:342 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R366:369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R362:365 BarocqComp.frontend.BarocqBNF <> atom def
+R375:378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R370:374 BarocqComp.common.Syntax <> ident def
+R379:382 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R408:411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R404:407 BarocqComp.frontend.BarocqBNF <> atom def
+R417:420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R412:416 BarocqComp.common.Syntax <> ident def
+R425:428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R421:424 BarocqComp.frontend.BarocqBNF <> atom def
+R429:432 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R456:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R452:455 BarocqComp.frontend.BarocqBNF <> atom def
+R471:474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:463 Coq.Init.Datatypes <> list ind
+R465:470 BarocqComp.common.Syntax <> access ind
+R475:478 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R495:498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R491:494 BarocqComp.frontend.BarocqBNF <> atom def
+R508:511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R499:502 Coq.Init.Datatypes <> list ind
+R504:507 BarocqComp.frontend.BarocqBNF <> atom def
+R512:515 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R539:542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R535:538 BarocqComp.frontend.BarocqBNF <> atom def
+R547:550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R543:546 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R555:558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R551:554 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R559:562 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R582:585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R577:581 BarocqComp.common.Syntax <> ident def
+R590:593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R586:589 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R598:601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R594:597 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+R602:605 BarocqComp.frontend.BarocqBNF <> expr:1 ind
+scheme 222:225 <> expr_rect
+scheme 222:225 <> expr_ind
+scheme 222:225 <> expr_rec
+scheme 222:225 <> expr_sind
+def 641:648 <> function
+R660:674 BarocqComp.common.Syntax <> function rec
+R676:679 BarocqComp.frontend.BarocqBNF <> expr ind
+def 724:730 <> globdef
+R742:755 BarocqComp.common.Syntax <> globdef ind
+R757:763 BarocqComp.frontend.BarocqBNF <> literal def
+R765:772 BarocqComp.frontend.BarocqBNF <> function def
+def 807:813 <> program
+R825:838 BarocqComp.common.Syntax <> program rec
+R840:846 BarocqComp.frontend.BarocqBNF <> globdef def

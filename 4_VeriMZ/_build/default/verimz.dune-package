@@ -1,0 +1,4 @@
+(lang dune 3.19)
+(name verimz)
+(sections (lib .) (bin ../../bin) (doc ../../doc/verimz))
+(files (lib (META dune-package)) (bin (verimz)) (doc (README.md)))

@@ -1,0 +1,629 @@
+DIGEST ad839810b15e14a933ccc3fb2fa32e0f
+FVerimz.Asm
+R27:29 Verimz.Int <> <> lib
+R31:36 Verimz.Memory <> <> lib
+R38:40 Verimz.Pmp <> <> lib
+R42:54 Verimz.Barocqmzutils <> <> lib
+R86:90 compcert.riscV.Archi <> <> lib
+R92:95 compcert.lib.Maps <> <> lib
+R97:103 compcert.common.Memdata <> <> lib
+R105:112 compcert.lib.Integers <> <> lib
+R130:135 Coq.ZArith.ZArith <> <> lib
+R137:142 Coq.PArith.PArith <> <> lib
+R176:180 BarocqComp.common.Error <> <> lib
+R182:187 BarocqComp.common.Barray <> <> lib
+R189:193 BarocqComp.common.Intop <> <> lib
+ind 287:293 <> op_code
+constr 304:309 <> OpUret
+constr 317:323 <> OpOther
+scheme 287:293 <> op_code_rect
+scheme 287:293 <> op_code_ind
+scheme 287:293 <> op_code_rec
+scheme 287:293 <> op_code_sind
+ind 344:352 <> interrupt
+constr 363:382 <> IntrpMachineExternal
+constr 402:421 <> IntrpMachineSoftware
+constr 441:457 <> IntrpMachineTimer
+R386:394 Verimz.Asm <> interrupt:3 ind
+R425:433 Verimz.Asm <> interrupt:3 ind
+R461:469 Verimz.Asm <> interrupt:3 ind
+scheme 344:352 <> interrupt_rect
+scheme 344:352 <> interrupt_ind
+scheme 344:352 <> interrupt_rec
+scheme 344:352 <> interrupt_sind
+ind 513:517 <> ecall
+constr 526:539 <> EcallExcptVect
+constr 573:586 <> EcallIntrpVect
+constr 620:631 <> EcallCsrsMie
+constr 645:656 <> EcallCsrcMie
+R549:552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R543:548 Verimz.Int <> intptr abbrev
+R559:562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R553:558 Verimz.Int <> intptr abbrev
+R563:567 Verimz.Asm <> ecall:5 ind
+R596:599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R590:595 Verimz.Int <> intptr abbrev
+R606:609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R600:605 Verimz.Int <> intptr abbrev
+R610:614 Verimz.Asm <> ecall:5 ind
+R635:639 Verimz.Asm <> ecall:5 ind
+R660:664 Verimz.Asm <> ecall:5 ind
+scheme 513:517 <> ecall_rect
+scheme 513:517 <> ecall_ind
+scheme 513:517 <> ecall_rec
+scheme 513:517 <> ecall_sind
+ind 796:804 <> exception
+constr 815:833 <> ExcInstrAccessFault
+constr 867:884 <> ExcLoadAccessFault
+constr 918:936 <> ExcStoreAccessFault
+constr 970:977 <> ExcEcall
+constr 1006:1020 <> ExcIllegalInstr
+R847:850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R837:846 Verimz.Pmp <> pmp_access ind
+R851:859 Verimz.Asm <> exception:7 ind
+R898:901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R888:897 Verimz.Pmp <> pmp_access ind
+R902:910 Verimz.Asm <> exception:7 ind
+R950:953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R940:949 Verimz.Pmp <> pmp_access ind
+R954:962 Verimz.Asm <> exception:7 ind
+R986:989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R981:985 Verimz.Asm <> ecall ind
+R990:998 Verimz.Asm <> exception:7 ind
+R1031:1034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1024:1030 Verimz.Asm <> op_code ind
+R1035:1043 Verimz.Asm <> exception:7 ind
+scheme 796:804 <> exception_rect
+scheme 796:804 <> exception_ind
+scheme 796:804 <> exception_rec
+scheme 796:804 <> exception_sind
+ind 1060:1063 <> trap
+constr 1074:1085 <> TrpInterrupt
+constr 1113:1124 <> TrpException
+R1098:1101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1089:1097 Verimz.Asm <> interrupt ind
+R1102:1105 Verimz.Asm <> trap:9 ind
+R1137:1140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1128:1136 Verimz.Asm <> exception ind
+R1141:1144 Verimz.Asm <> trap:9 ind
+scheme 1060:1063 <> trap_rect
+scheme 1060:1063 <> trap_ind
+scheme 1060:1063 <> trap_rec
+scheme 1060:1063 <> trap_sind
+def 1162:1175 <> interrupt_code
+R1185:1193 Verimz.Asm <> interrupt ind
+binder 1178:1182 <> intrp:11
+R1198:1203 Verimz.Int <> intptr abbrev
+R1232:1236 Verimz.Asm <> intrp:11 var
+R1249:1268 Verimz.Asm <> IntrpMachineSoftware constr
+R1281:1297 Verimz.Asm <> IntrpMachineTimer constr
+R1310:1329 Verimz.Asm <> IntrpMachineExternal constr
+binder 1216:1221 <> code_n:13
+R1348:1360 Verimz.Int Intptr of_nat def
+R1362:1367 Verimz.Asm <> code_n:13 var
+def 1544:1562 <> interrupt_bit_shift
+R1566:1566 Coq.Numbers.BinNums <> Z ind
+def 1588:1605 <> interrupt_bit_mask
+R1609:1609 Coq.Numbers.BinNums <> Z ind
+R1614:1621 Coq.ZArith.BinInt Z shiftl def
+R1625:1643 Verimz.Asm <> interrupt_bit_shift def
+def 1723:1739 <> interrupt_code_of
+R1746:1754 Verimz.Asm <> interrupt ind
+binder 1742:1742 <> i:14
+R1759:1761 Coq.Init.Datatypes <> nat ind
+R1774:1774 Verimz.Asm <> i:14 var
+R1785:1804 Verimz.Asm <> IntrpMachineSoftware constr
+R1850:1866 Verimz.Asm <> IntrpMachineTimer constr
+R1912:1931 Verimz.Asm <> IntrpMachineExternal constr
+def 2072:2094 <> mk_mcause_for_interrupt
+R2101:2109 Verimz.Asm <> interrupt ind
+binder 2097:2097 <> i:16
+R2114:2116 compcert.lib.Integers <> int abbrev
+R2123:2130 compcert.lib.Integers Int repr def
+R2133:2137 Coq.ZArith.BinInt Z add def
+R2139:2156 Verimz.Asm <> interrupt_bit_mask def
+R2159:2166 Coq.ZArith.BinInt Z of_nat def
+R2169:2185 Verimz.Asm <> interrupt_code_of def
+R2187:2187 Verimz.Asm <> i:16 var
+def 2205:2222 <> mtval_of_interrupt
+R2229:2237 Verimz.Asm <> interrupt ind
+R2242:2244 compcert.lib.Integers <> int abbrev
+R2249:2256 compcert.lib.Integers Int zero def
+def 2271:2284 <> exception_code
+R2292:2300 Verimz.Asm <> exception ind
+binder 2287:2289 <> exc:17
+R2305:2310 Verimz.Int <> intptr abbrev
+R2339:2341 Verimz.Asm <> exc:17 var
+R2354:2372 Verimz.Asm <> ExcInstrAccessFault constr
+R2387:2401 Verimz.Asm <> ExcIllegalInstr constr
+R2416:2433 Verimz.Asm <> ExcLoadAccessFault constr
+R2448:2466 Verimz.Asm <> ExcStoreAccessFault constr
+R2481:2488 Verimz.Asm <> ExcEcall constr
+binder 2323:2328 <> code_n:19
+R2512:2522 Verimz.Int Intptr repr def
+R2524:2529 Verimz.Asm <> code_n:19 var
+def 2545:2559 <> mem_addr_to_int
+R2566:2568 Coq.Init.Datatypes <> nat ind
+binder 2562:2562 <> a:20
+R2573:2575 compcert.lib.Integers <> int abbrev
+R2582:2589 compcert.lib.Integers Int repr def
+R2592:2599 Coq.ZArith.BinInt Z of_nat def
+R2601:2601 Verimz.Asm <> a:20 var
+def 2616:2637 <> op_code_to_int_default
+R2644:2650 Verimz.Asm <> op_code ind
+R2655:2657 compcert.lib.Integers <> int abbrev
+R2662:2669 compcert.lib.Integers Int zero def
+def 2749:2766 <> mtval_of_exception
+R2773:2781 Verimz.Asm <> exception ind
+binder 2769:2769 <> e:21
+R2786:2788 compcert.lib.Integers <> int abbrev
+R2801:2801 Verimz.Asm <> e:21 var
+R2812:2830 Verimz.Asm <> ExcInstrAccessFault constr
+R2841:2858 Verimz.Asm <> ExcLoadAccessFault constr
+R2869:2887 Verimz.Asm <> ExcStoreAccessFault constr
+R2927:2931 Verimz.Pmp <> MLoad constr
+R2943:2957 Verimz.Asm <> mem_addr_to_int def
+R2972:2977 Verimz.Pmp <> MStore constr
+R2989:3003 Verimz.Asm <> mem_addr_to_int def
+R3018:3023 Verimz.Pmp <> MFetch constr
+R3035:3049 Verimz.Asm <> mem_addr_to_int def
+R2927:2931 Verimz.Pmp <> MLoad constr
+R2943:2957 Verimz.Asm <> mem_addr_to_int def
+R2972:2977 Verimz.Pmp <> MStore constr
+R2989:3003 Verimz.Asm <> mem_addr_to_int def
+R3018:3023 Verimz.Pmp <> MFetch constr
+R3035:3049 Verimz.Asm <> mem_addr_to_int def
+R2927:2931 Verimz.Pmp <> MLoad constr
+R2943:2957 Verimz.Asm <> mem_addr_to_int def
+R2972:2977 Verimz.Pmp <> MStore constr
+R2989:3003 Verimz.Asm <> mem_addr_to_int def
+R3018:3023 Verimz.Pmp <> MFetch constr
+R3035:3049 Verimz.Asm <> mem_addr_to_int def
+R3070:3084 Verimz.Asm <> ExcIllegalInstr constr
+R3094:3115 Verimz.Asm <> op_code_to_int_default def
+R3126:3133 Verimz.Asm <> ExcEcall constr
+R3146:3153 compcert.lib.Integers Int zero def
+def 3176:3198 <> mk_mcause_for_exception
+R3205:3213 Verimz.Asm <> exception ind
+binder 3201:3201 <> e:26
+R3218:3220 compcert.lib.Integers <> int abbrev
+R3227:3239 Verimz.Barocqmzutils <> Intptr_to_int def
+R3242:3255 Verimz.Asm <> exception_code def
+R3257:3257 Verimz.Asm <> e:26 var
+def 3300:3313 <> trap_to_mcause
+R3320:3323 Verimz.Asm <> trap ind
+binder 3316:3316 <> t:27
+R3331:3333 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3328:3330 compcert.lib.Integers <> int abbrev
+R3334:3336 compcert.lib.Integers <> int abbrev
+R3349:3349 Verimz.Asm <> t:27 var
+R3360:3371 Verimz.Asm <> TrpInterrupt constr
+R3384:3384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3410:3411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3432:3432 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3385:3407 Verimz.Asm <> mk_mcause_for_interrupt def
+R3412:3429 Verimz.Asm <> mtval_of_interrupt def
+R3438:3449 Verimz.Asm <> TrpException constr
+R3462:3462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3488:3489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3510:3510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3463:3485 Verimz.Asm <> mk_mcause_for_exception def
+R3490:3507 Verimz.Asm <> mtval_of_exception def
+ind 3760:3763 <> ireg
+constr 3772:3773 <> X1
+constr 3786:3787 <> X2
+constr 3800:3801 <> X3
+R3777:3780 Verimz.Asm <> ireg:29 ind
+R3791:3794 Verimz.Asm <> ireg:29 ind
+R3805:3808 Verimz.Asm <> ireg:29 ind
+scheme 3760:3763 <> ireg_rect
+scheme 3760:3763 <> ireg_ind
+scheme 3760:3763 <> ireg_rec
+scheme 3760:3763 <> ireg_sind
+prf 3818:3824 <> ireg_eq
+R3843:3846 Verimz.Asm <> ireg ind
+binder 3838:3838 <> x:31
+binder 3840:3840 <> y:32
+R3850:3850 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3856:3860 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3867:3867 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3852:3854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3851:3851 Verimz.Asm <> x:31 var
+R3855:3855 Verimz.Asm <> y:32 var
+R3862:3865 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3861:3861 Verimz.Asm <> x:31 var
+R3866:3866 Verimz.Asm <> y:32 var
+ind 3916:3919 <> preg
+constr 3928:3929 <> PC
+constr 3942:3943 <> IR
+R3933:3936 Verimz.Asm <> preg:33 ind
+R3951:3954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3947:3950 Verimz.Asm <> ireg ind
+R3955:3958 Verimz.Asm <> preg:33 ind
+scheme 3916:3919 <> preg_rect
+scheme 3916:3919 <> preg_ind
+scheme 3916:3919 <> preg_rec
+scheme 3916:3919 <> preg_sind
+R3962:3988 Verimz.Asm <> IR constr
+prf 3998:4004 <> preg_eq
+R4023:4026 Verimz.Asm <> preg ind
+binder 4018:4018 <> x:35
+binder 4020:4020 <> y:36
+R4030:4030 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4036:4040 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4047:4047 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4032:4034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4031:4031 Verimz.Asm <> x:35 var
+R4035:4035 Verimz.Asm <> y:36 var
+R4042:4045 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4041:4041 Verimz.Asm <> x:35 var
+R4046:4046 Verimz.Asm <> y:36 var
+R4082:4088 Verimz.Asm <> ireg_eq thm
+R4082:4088 Verimz.Asm <> ireg_eq thm
+mod 4104:4109 <> PregEq
+def 4125:4125 PregEq t
+R4130:4133 Verimz.Asm <> preg ind
+def 4149:4150 PregEq eq
+R4155:4161 Verimz.Asm <> preg_eq thm
+R4168:4173 Verimz.Asm PregEq <> mod
+R4195:4198 compcert.lib.Maps EMap <> modtype
+R4200:4205 Verimz.Asm PregEq <> modtype
+mod 4184:4190 <> Pregmap
+def 4258:4263 <> regset
+R4268:4276 Verimz.Asm <> t def
+R4278:4283 Verimz.Int <> intptr abbrev
+def 4298:4302 <> label
+R4307:4314 Coq.Numbers.BinNums <> positive ind
+def 4404:4407 <> genv
+R4412:4418 compcert.lib.Maps PTree t def
+R4420:4425 Verimz.Int <> intptr abbrev
+ind 4656:4666 <> instruction
+constr 4675:4678 <> Iadd
+constr 4722:4725 <> Isub
+constr 4769:4771 <> Ili
+constr 4809:4811 <> Ilb
+constr 4857:4859 <> Isb
+constr 4905:4910 <> Ilabel
+constr 4939:4943 <> Ijump
+constr 4972:4977 <> Iecall
+constr 5006:5010 <> Iuret
+R4686:4689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4682:4685 Verimz.Asm <> ireg ind
+R4694:4697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4690:4693 Verimz.Asm <> ireg ind
+R4702:4705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4698:4701 Verimz.Asm <> ireg ind
+R4706:4716 Verimz.Asm <> instruction:37 ind
+R4733:4736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4729:4732 Verimz.Asm <> ireg ind
+R4741:4744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4737:4740 Verimz.Asm <> ireg ind
+R4749:4752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4745:4748 Verimz.Asm <> ireg ind
+R4753:4763 Verimz.Asm <> instruction:37 ind
+R4779:4782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4775:4778 Verimz.Asm <> ireg ind
+R4789:4792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4783:4788 Verimz.Int <> intptr abbrev
+R4793:4803 Verimz.Asm <> instruction:37 ind
+R4819:4822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4815:4818 Verimz.Asm <> ireg ind
+R4827:4830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4823:4826 Verimz.Asm <> ireg ind
+R4837:4840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4831:4836 Verimz.Int <> intptr abbrev
+R4841:4851 Verimz.Asm <> instruction:37 ind
+R4867:4870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4863:4866 Verimz.Asm <> ireg ind
+R4875:4878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4871:4874 Verimz.Asm <> ireg ind
+R4885:4888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4879:4884 Verimz.Int <> intptr abbrev
+R4889:4899 Verimz.Asm <> instruction:37 ind
+R4919:4922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4914:4918 Verimz.Asm <> label def
+R4923:4933 Verimz.Asm <> instruction:37 ind
+R4952:4955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4947:4951 Verimz.Asm <> label def
+R4956:4966 Verimz.Asm <> instruction:37 ind
+R4986:4989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4981:4985 Verimz.Asm <> ecall ind
+R4990:5000 Verimz.Asm <> instruction:37 ind
+R5014:5024 Verimz.Asm <> instruction:37 ind
+scheme 4656:4666 <> instruction_rect
+scheme 4656:4666 <> instruction_ind
+scheme 4656:4666 <> instruction_rec
+scheme 4656:4666 <> instruction_sind
+def 5039:5042 <> code
+R5047:5050 Coq.Init.Datatypes <> list ind
+R5052:5062 Verimz.Asm <> instruction ind
+rec 5073:5079 <> program
+proj 5099:5107 <> prog_code
+proj 5118:5126 <> prog_genv
+R5110:5113 Verimz.Asm <> code def
+R5129:5132 Verimz.Asm <> genv def
+not 5168:5168 <> ::asm:x_'#'_x
+R5245:5255 Verimz.Asm <> set def
+not 5228:5228 <> ::asm:x_'#'_x_'<-'_x
+sec 5327:5335 <> Semantics
+ind 5791:5797 <> outcome
+constr 5808:5811 <> Next
+constr 5870:5878 <> Exception
+constr 5909:5913 <> Stuck
+R5824:5827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5815:5819 BarocqComp.common.Barray <> array def
+R5821:5823 compcert.lib.Integers <> int abbrev
+R5831:5834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5828:5830 Verimz.Memory <> mem def
+R5852:5855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5835:5840 Coq.Init.Datatypes <> option ind
+R5842:5851 Verimz.Pmp <> pmp_access ind
+R5856:5862 Verimz.Asm <> outcome:42 ind
+R5891:5894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5882:5890 Verimz.Asm <> exception ind
+R5895:5901 Verimz.Asm <> outcome:42 ind
+R5917:5923 Verimz.Asm <> outcome:42 ind
+scheme 5791:5797 <> outcome_rect
+scheme 5791:5797 <> outcome_ind
+scheme 5791:5797 <> outcome_rec
+scheme 5791:5797 <> outcome_sind
+def 5940:5949 <> instr_size
+R5953:5955 Coq.Init.Datatypes <> nat ind
+def 5977:5990 <> addr_of_intptr
+R5999:6004 Verimz.Int <> intptr abbrev
+binder 5993:5996 <> iptr:44
+R6010:6031 Verimz.Int Intptr unsigned_to_nat def
+R6033:6036 Verimz.Asm <> iptr:44 var
+def 6094:6102 <> code_ireg
+R6109:6112 Verimz.Asm <> ireg ind
+binder 6105:6105 <> r:45
+R6117:6119 compcert.lib.Integers <> int abbrev
+R6132:6132 Verimz.Asm <> r:45 var
+R6143:6144 Verimz.Asm <> X1 constr
+R6149:6156 compcert.lib.Integers Int repr def
+R6164:6165 Verimz.Asm <> X2 constr
+R6170:6177 compcert.lib.Integers Int repr def
+R6185:6186 Verimz.Asm <> X3 constr
+R6191:6198 compcert.lib.Integers Int repr def
+def 6220:6228 <> code_preg
+R6235:6238 Verimz.Asm <> preg ind
+binder 6231:6231 <> p:47
+R6243:6247 compcert.lib.Integers <> int64 abbrev
+R6260:6260 Verimz.Asm <> p:47 var
+R6271:6272 Verimz.Asm <> PC constr
+R6280:6289 compcert.lib.Integers Int64 repr def
+R6297:6298 Verimz.Asm <> IR constr
+R6306:6315 compcert.lib.Integers Int64 repr def
+R6318:6327 compcert.lib.Integers Int signed def
+R6330:6338 Verimz.Asm <> code_ireg def
+def 6384:6397 <> get_reg_in_set
+R6404:6408 BarocqComp.common.Barray <> array def
+R6410:6412 compcert.lib.Integers <> int abbrev
+binder 6400:6401 <> rs:49
+R6428:6431 Verimz.Asm <> preg ind
+binder 6416:6425 <> index_preg:50
+R6436:6445 Verimz.Int Intptr int rec
+R6466:6474 Verimz.Asm <> code_preg def
+R6476:6485 Verimz.Asm <> index_preg:50 var
+binder 6456:6460 <> index:51
+R6499:6508 BarocqComp.common.Barray <> get def
+R6514:6522 Verimz.Asm <> code_preg def
+R6524:6525 Verimz.Asm <> PC constr
+R6510:6511 Verimz.Asm <> rs:49 var
+R6537:6538 compcert.common.Errors <> OK constr
+R6553:6565 Verimz.Barocqmzutils <> int_to_Intptr def
+R6581:6585 compcert.common.Errors <> Error constr
+R6592:6602 Verimz.Int Intptr zero def
+def 6717:6730 <> set_reg_in_set
+R6737:6741 BarocqComp.common.Barray <> array def
+R6743:6745 compcert.lib.Integers <> int abbrev
+binder 6733:6734 <> rs:52
+R6761:6764 Verimz.Asm <> preg ind
+binder 6749:6758 <> index_preg:53
+R6777:6779 compcert.lib.Integers <> int abbrev
+binder 6768:6774 <> new_val:54
+R6784:6788 BarocqComp.common.Barray <> array def
+R6790:6792 compcert.lib.Integers <> int abbrev
+R6813:6821 Verimz.Asm <> code_preg def
+R6823:6832 Verimz.Asm <> index_preg:53 var
+binder 6803:6807 <> index:55
+R6846:6855 BarocqComp.common.Barray <> set def
+R6875:6881 Verimz.Asm <> new_val:54 var
+R6861:6869 Verimz.Asm <> code_preg def
+R6871:6872 Verimz.Asm <> PC constr
+R6857:6858 Verimz.Asm <> rs:52 var
+R6892:6893 compcert.common.Errors <> OK constr
+R6918:6922 compcert.common.Errors <> Error constr
+R6929:6930 Verimz.Asm <> rs:52 var
+def 6954:6962 <> nextinstr
+R6969:6973 BarocqComp.common.Barray <> array def
+R6975:6977 compcert.lib.Integers <> int abbrev
+binder 6965:6966 <> rs:56
+R6982:6986 BarocqComp.common.Barray <> array def
+R6988:6990 compcert.lib.Integers <> int abbrev
+R6996:7009 Verimz.Asm <> set_reg_in_set def
+R7011:7012 Verimz.Asm <> rs:56 var
+R7014:7015 Verimz.Asm <> PC constr
+R7018:7030 Verimz.Barocqmzutils <> Intptr_to_int def
+R7033:7042 Verimz.Int Intptr add def
+R7045:7058 Verimz.Asm <> get_reg_in_set def
+R7060:7061 Verimz.Asm <> rs:56 var
+R7063:7064 Verimz.Asm <> PC constr
+R7068:7080 Verimz.Int Intptr of_nat def
+R7082:7091 Verimz.Asm <> instr_size def
+def 7167:7187 <> array_int_to_list_nat
+R7194:7198 BarocqComp.common.Barray <> array def
+R7200:7202 compcert.lib.Integers <> int abbrev
+binder 7190:7190 <> a:57
+R7207:7210 Coq.Init.Datatypes <> list ind
+R7212:7214 Coq.Init.Datatypes <> nat ind
+R7223:7230 Coq.Lists.List <> map def
+R7269:7269 Verimz.Asm <> a:57 var
+binder 7237:7237 <> x:58
+R7242:7249 Coq.ZArith.BinInt Z to_nat def
+R7252:7263 compcert.lib.Integers Int unsigned def
+R7265:7265 Verimz.Asm <> x:58 var
+def 7528:7541 <> pmp_exec_instr
+R7547:7557 Verimz.Asm <> instruction ind
+binder 7544:7544 <> i:59
+R7565:7569 BarocqComp.common.Barray <> array def
+R7571:7573 compcert.lib.Integers <> int abbrev
+binder 7561:7562 <> rs:60
+R7581:7584 Verimz.Asm <> genv def
+binder 7577:7578 <> ge:61
+R7591:7593 Verimz.Memory <> mem def
+binder 7588:7588 <> m:62
+R7611:7615 BarocqComp.common.Barray <> array def
+R7617:7619 compcert.lib.Integers <> int abbrev
+binder 7597:7608 <> pmpcfg_array:63
+R7639:7643 BarocqComp.common.Barray <> array def
+R7645:7647 compcert.lib.Integers <> int abbrev
+binder 7623:7635 <> pmpaddr_array:64
+R7652:7658 Verimz.Asm <> outcome ind
+R7681:7703 Verimz.Pmp <> array_int_to_pmp_config def
+R7706:7726 Verimz.Asm <> array_int_to_list_nat def
+R7728:7739 Verimz.Asm <> pmpcfg_array:63 var
+R7743:7763 Verimz.Asm <> array_int_to_list_nat def
+R7765:7777 Verimz.Asm <> pmpaddr_array:64 var
+binder 7671:7676 <> pmpcfg:65
+R7795:7803 Verimz.Pmp <> pmp_fetch def
+R7805:7810 Verimz.Asm <> pmpcfg:65 var
+R7812:7812 Verimz.Asm <> m:62 var
+R7815:7828 Verimz.Asm <> addr_of_intptr def
+R7831:7844 Verimz.Asm <> get_reg_in_set def
+R7846:7847 Verimz.Asm <> rs:60 var
+R7849:7850 Verimz.Asm <> PC constr
+R7854:7863 Verimz.Asm <> instr_size def
+R7877:7880 Coq.Init.Datatypes <> Some constr
+R7901:7901 Verimz.Asm <> i:59 var
+R7918:7921 Verimz.Asm <> Iadd constr
+R7956:7965 Verimz.Int Intptr add def
+R7968:7981 Verimz.Asm <> get_reg_in_set def
+R7983:7984 Verimz.Asm <> rs:60 var
+R7991:8004 Verimz.Asm <> get_reg_in_set def
+R8006:8007 Verimz.Asm <> rs:60 var
+binder 7951:7951 <> v:67
+R8042:8055 Verimz.Asm <> get_reg_in_set def
+R8057:8058 Verimz.Asm <> rs:60 var
+binder 8032:8036 <> rs_rd:68
+R8079:8082 Verimz.Asm <> Next constr
+R8085:8093 Verimz.Asm <> nextinstr def
+R8096:8109 Verimz.Asm <> set_reg_in_set def
+R8111:8112 Verimz.Asm <> rs:60 var
+R8118:8130 Verimz.Barocqmzutils <> Intptr_to_int def
+R8132:8132 Verimz.Asm <> v:67 var
+R8137:8137 Verimz.Asm <> m:62 var
+R8139:8142 Coq.Init.Datatypes <> None constr
+R8154:8157 Verimz.Asm <> Isub constr
+R8192:8201 Verimz.Int Intptr sub def
+R8204:8217 Verimz.Asm <> get_reg_in_set def
+R8219:8220 Verimz.Asm <> rs:60 var
+R8227:8240 Verimz.Asm <> get_reg_in_set def
+R8242:8243 Verimz.Asm <> rs:60 var
+binder 8187:8187 <> v:69
+R8264:8267 Verimz.Asm <> Next constr
+R8270:8278 Verimz.Asm <> nextinstr def
+R8281:8294 Verimz.Asm <> set_reg_in_set def
+R8296:8297 Verimz.Asm <> rs:60 var
+R8303:8315 Verimz.Barocqmzutils <> Intptr_to_int def
+R8317:8317 Verimz.Asm <> v:69 var
+R8322:8322 Verimz.Asm <> m:62 var
+R8324:8327 Coq.Init.Datatypes <> None constr
+R8339:8341 Verimz.Asm <> Ili constr
+R8351:8354 Verimz.Asm <> Next constr
+R8357:8365 Verimz.Asm <> nextinstr def
+R8368:8381 Verimz.Asm <> set_reg_in_set def
+R8383:8384 Verimz.Asm <> rs:60 var
+R8390:8402 Verimz.Barocqmzutils <> Intptr_to_int def
+R8409:8409 Verimz.Asm <> m:62 var
+R8411:8414 Coq.Init.Datatypes <> None constr
+R8426:8428 Verimz.Asm <> Ilb constr
+R8467:8480 Verimz.Asm <> addr_of_intptr def
+R8483:8492 Verimz.Int Intptr add def
+R8495:8508 Verimz.Asm <> get_reg_in_set def
+R8510:8511 Verimz.Asm <> rs:60 var
+binder 8459:8462 <> addr:70
+R8549:8553 Verimz.Pmp <> MLoad constr
+R8555:8558 Verimz.Asm <> addr:70 var
+binder 8541:8544 <> pmpa:71
+R8584:8591 Verimz.Pmp <> pmp_load def
+R8593:8598 Verimz.Asm <> pmpcfg:65 var
+R8600:8600 Verimz.Asm <> m:62 var
+R8602:8605 Verimz.Asm <> addr:70 var
+R8629:8632 Coq.Init.Datatypes <> Some constr
+R8665:8679 Verimz.Int Intptr sign_ext def
+R8684:8694 Verimz.Int Intptr repr def
+R8697:8706 compcert.common.Memdata <> decode_int def
+binder 8660:8660 <> v:72
+R8815:8818 Verimz.Asm <> Next constr
+R8821:8829 Verimz.Asm <> nextinstr def
+R8832:8845 Verimz.Asm <> set_reg_in_set def
+R8847:8848 Verimz.Asm <> rs:60 var
+R8854:8866 Verimz.Barocqmzutils <> Intptr_to_int def
+R8868:8868 Verimz.Asm <> v:72 var
+R8873:8873 Verimz.Asm <> m:62 var
+R8876:8879 Coq.Init.Datatypes <> Some constr
+R8881:8884 Verimz.Asm <> pmpa:71 var
+R8901:8904 Coq.Init.Datatypes <> None constr
+R8909:8917 Verimz.Asm <> Exception constr
+R8920:8937 Verimz.Asm <> ExcLoadAccessFault constr
+R8939:8942 Verimz.Asm <> pmpa:71 var
+R8971:8973 Verimz.Asm <> Isb constr
+R9012:9025 Verimz.Asm <> addr_of_intptr def
+R9028:9037 Verimz.Int Intptr add def
+R9040:9053 Verimz.Asm <> get_reg_in_set def
+R9055:9056 Verimz.Asm <> rs:60 var
+binder 9004:9007 <> addr:73
+R9092:9101 compcert.common.Memdata <> encode_int def
+R9106:9120 Verimz.Int Intptr unsigned def
+R9123:9136 Verimz.Asm <> get_reg_in_set def
+R9138:9139 Verimz.Asm <> rs:60 var
+binder 9086:9087 <> lv:74
+R9173:9178 Verimz.Pmp <> MStore constr
+R9180:9183 Verimz.Asm <> addr:73 var
+R9185:9186 Verimz.Asm <> lv:74 var
+binder 9165:9168 <> pmpa:75
+R9210:9218 Verimz.Pmp <> pmp_store def
+R9220:9225 Verimz.Asm <> pmpcfg:65 var
+R9227:9227 Verimz.Asm <> m:62 var
+R9229:9232 Verimz.Asm <> addr:73 var
+R9234:9235 Verimz.Asm <> lv:74 var
+R9257:9260 Coq.Init.Datatypes <> Some constr
+R9268:9271 Verimz.Asm <> Next constr
+R9274:9282 Verimz.Asm <> nextinstr def
+R9284:9285 Verimz.Asm <> rs:60 var
+R9292:9295 Coq.Init.Datatypes <> Some constr
+R9297:9300 Verimz.Asm <> pmpa:75 var
+R9317:9320 Coq.Init.Datatypes <> None constr
+R9325:9333 Verimz.Asm <> Exception constr
+R9336:9354 Verimz.Asm <> ExcStoreAccessFault constr
+R9356:9359 Verimz.Asm <> pmpa:75 var
+R9388:9393 Verimz.Asm <> Ilabel constr
+R9402:9405 Verimz.Asm <> Next constr
+R9408:9416 Verimz.Asm <> nextinstr def
+R9418:9419 Verimz.Asm <> rs:60 var
+R9422:9422 Verimz.Asm <> m:62 var
+R9424:9427 Coq.Init.Datatypes <> None constr
+R9439:9443 Verimz.Asm <> Ijump constr
+R9471:9479 compcert.lib.Maps PTree get def
+R9485:9486 Verimz.Asm <> ge:61 var
+R9508:9511 Coq.Init.Datatypes <> Some constr
+R9521:9524 Verimz.Asm <> Next constr
+R9527:9540 Verimz.Asm <> set_reg_in_set def
+R9542:9543 Verimz.Asm <> rs:60 var
+R9545:9546 Verimz.Asm <> PC constr
+R9549:9561 Verimz.Barocqmzutils <> Intptr_to_int def
+R9570:9570 Verimz.Asm <> m:62 var
+R9572:9575 Coq.Init.Datatypes <> None constr
+R9591:9594 Coq.Init.Datatypes <> None constr
+R9599:9603 Verimz.Asm <> Stuck constr
+R9631:9636 Verimz.Asm <> Iecall constr
+R9643:9651 Verimz.Asm <> Exception constr
+R9654:9661 Verimz.Asm <> ExcEcall constr
+R9676:9680 Verimz.Asm <> Iuret constr
+R9685:9693 Verimz.Asm <> Exception constr
+R9696:9710 Verimz.Asm <> ExcIllegalInstr constr
+R9712:9717 Verimz.Asm <> OpUret constr
+R9738:9741 Coq.Init.Datatypes <> None constr
+R9746:9750 Verimz.Asm <> Stuck constr
+R9766:9774 Verimz.Asm Semantics <> sec

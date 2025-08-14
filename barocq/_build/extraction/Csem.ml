@@ -1,0 +1,4 @@
+
+type kind =
+| LV
+| RV

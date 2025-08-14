@@ -1,0 +1,6 @@
+(executable
+ (public_name verimz)
+ (name main)
+ (libraries Verimz)
+ (flags
+  (:standard -w -27-32-33-39)))

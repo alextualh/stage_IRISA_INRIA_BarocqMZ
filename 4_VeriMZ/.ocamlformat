@@ -1,0 +1,12 @@
+profile = default
+version = 0.26.2
+wrap-comments = true
+type-decl = sparse
+let-module = sparse
+module-item-spacing = sparse
+break-cases = fit-or-vertical
+wrap-fun-args = false
+exp-grouping = preserve
+space-around-lists = false
+margin = 80
+doc-comments = before

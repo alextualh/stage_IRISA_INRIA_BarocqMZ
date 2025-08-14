@@ -1,0 +1,89 @@
+DIGEST 8089a39a37498bef179646d8859157f2
+FBarocqComp.backend.ImpBNFgen
+R24:27 Coq.Lists.List <> <> lib
+R61:66 BarocqComp.common.Syntax <> <> lib
+R68:76 BarocqComp.frontend.BarocqBNF <> <> lib
+R78:83 BarocqComp.backend.ImpBNF <> <> lib
+R93:105 Coq.Lists.List ListNotations <> mod
+def 118:128 <> transl_expr
+R134:147 BarocqComp.frontend.BarocqBNF <> expr ind
+binder 131:131 <> e:1
+R152:166 BarocqComp.backend.ImpBNF <> tailcomp ind
+R179:179 BarocqComp.backend.ImpBNFgen <> e:1 var
+R190:194 BarocqComp.frontend.BarocqBNF <> EAtom constr
+R201:206 BarocqComp.backend.ImpBNF <> TcComp constr
+R209:214 BarocqComp.common.Syntax <> CpAtom constr
+R223:231 BarocqComp.frontend.BarocqBNF <> EArrayGet constr
+R242:247 BarocqComp.backend.ImpBNF <> TcComp constr
+R250:259 BarocqComp.common.Syntax <> CpArrayGet constr
+R272:280 BarocqComp.frontend.BarocqBNF <> EArraySet constr
+R294:299 BarocqComp.backend.ImpBNF <> TcComp constr
+R302:311 BarocqComp.common.Syntax <> CpArraySet constr
+R327:337 BarocqComp.frontend.BarocqBNF <> ERecordProj constr
+R346:351 BarocqComp.backend.ImpBNF <> TcComp constr
+R354:365 BarocqComp.common.Syntax <> CpRecordProj constr
+R376:388 BarocqComp.frontend.BarocqBNF <> ERecordUpdate constr
+R401:406 BarocqComp.backend.ImpBNF <> TcComp constr
+R409:422 BarocqComp.common.Syntax <> CpRecordUpdate constr
+R437:447 BarocqComp.frontend.BarocqBNF <> EDeepAccess constr
+R458:463 BarocqComp.backend.ImpBNF <> TcComp constr
+R466:477 BarocqComp.common.Syntax <> CpDeepAccess constr
+R490:493 BarocqComp.frontend.BarocqBNF <> EApp constr
+R505:510 BarocqComp.backend.ImpBNF <> TcComp constr
+R513:518 BarocqComp.common.Syntax <> CpCall constr
+R532:537 BarocqComp.frontend.BarocqBNF <> ELetIn constr
+R556:562 BarocqComp.backend.ImpBNF <> TcBegin constr
+R565:577 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+R582:592 BarocqComp.backend.ImpBNFgen <> transl_expr:2 def
+R600:610 BarocqComp.backend.ImpBNFgen <> transl_expr:2 def
+R620:630 BarocqComp.frontend.BarocqBNF <> EIfThenElse constr
+R649:660 BarocqComp.backend.ImpBNF <> TcIfThenElse constr
+R665:675 BarocqComp.backend.ImpBNFgen <> transl_expr:2 def
+R682:692 BarocqComp.backend.ImpBNFgen <> transl_expr:2 def
+def 717:731 <> transl_function
+R737:754 BarocqComp.frontend.BarocqBNF <> function def
+binder 734:734 <> f:4
+R759:773 BarocqComp.backend.ImpBNF <> function def
+R787:795 BarocqComp.common.Syntax <> fn_return proj
+R787:795 BarocqComp.common.Syntax <> fn_return proj
+R787:795 BarocqComp.common.Syntax <> fn_return proj
+R817:825 BarocqComp.common.Syntax <> fn_params proj
+R817:825 BarocqComp.common.Syntax <> fn_params proj
+R847:853 BarocqComp.common.Syntax <> fn_body proj
+R847:853 BarocqComp.common.Syntax <> fn_body proj
+R800:808 BarocqComp.common.Syntax <> fn_return proj
+R810:810 BarocqComp.backend.ImpBNFgen <> f:4 var
+R830:838 BarocqComp.common.Syntax <> fn_params proj
+R840:840 BarocqComp.backend.ImpBNFgen <> f:4 var
+R858:868 BarocqComp.backend.ImpBNFgen <> transl_expr def
+R871:877 BarocqComp.common.Syntax <> fn_body proj
+R879:879 BarocqComp.backend.ImpBNFgen <> f:4 var
+def 900:913 <> transl_globdef
+R921:937 BarocqComp.frontend.BarocqBNF <> globdef def
+binder 916:918 <> def:5
+R942:955 BarocqComp.backend.ImpBNF <> globdef def
+R968:970 BarocqComp.backend.ImpBNFgen <> def:5 var
+R981:988 BarocqComp.common.Syntax <> DefConst constr
+R1000:1007 BarocqComp.common.Syntax <> DefConst constr
+R1020:1025 BarocqComp.common.Syntax <> DefFun constr
+R1034:1039 BarocqComp.common.Syntax <> DefFun constr
+R1044:1058 BarocqComp.backend.ImpBNFgen <> transl_function def
+R1067:1075 BarocqComp.common.Syntax <> DeclConst constr
+R1085:1093 BarocqComp.common.Syntax <> DeclConst constr
+R1104:1110 BarocqComp.common.Syntax <> DeclFun constr
+R1130:1136 BarocqComp.common.Syntax <> DeclFun constr
+def 1172:1185 <> transl_program
+R1194:1210 BarocqComp.frontend.BarocqBNF <> program def
+binder 1188:1191 <> prog:7
+R1215:1228 BarocqComp.backend.ImpBNF <> program def
+R1242:1250 BarocqComp.common.Syntax <> prog_defs proj
+R1242:1250 BarocqComp.common.Syntax <> prog_defs proj
+R1242:1250 BarocqComp.common.Syntax <> prog_defs proj
+R1301:1310 BarocqComp.common.Syntax <> prog_types proj
+R1301:1310 BarocqComp.common.Syntax <> prog_types proj
+R1255:1262 Coq.Lists.List <> map def
+R1280:1288 BarocqComp.common.Syntax <> prog_defs proj
+R1290:1293 BarocqComp.backend.ImpBNFgen <> prog:7 var
+R1264:1277 BarocqComp.backend.ImpBNFgen <> transl_globdef def
+R1315:1324 BarocqComp.common.Syntax <> prog_types proj
+R1326:1329 BarocqComp.backend.ImpBNFgen <> prog:7 var

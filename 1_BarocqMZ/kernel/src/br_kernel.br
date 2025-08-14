@@ -1,0 +1,18 @@
+module Br_kernel
+
+import Br_interface
+import Br_sched
+
+defn main(ks : kernel) : kernel = 
+	let ms = csr_write_asm_trap_entry(ks.ms, mtvec) in
+	let ks = ks.ms <- ms in
+	let ms = csr_write(ks.ms, mstatus, 0U) in
+	let ks = ks.ms <- ms in
+
+	(* loop to initialize zone ids is performed in C init_kernel_entry.c *)
+	
+	let ks = sched_init(ks) in
+	ks
+
+
+

@@ -1,0 +1,308 @@
+DIGEST 0491d63e266f583098d6b418ae5841d6
+FBarocqComp.common.Intop
+R24:32 Coq.ZArith.BinIntDef <> <> lib
+R64:71 compcert.lib.Integers <> <> lib
+R105:109 BarocqComp.common.Error <> <> lib
+mod 150:152 <> I32
+def 169:171 I32 div
+R179:181 compcert.lib.Integers <> int abbrev
+binder 174:174 <> x:1
+binder 176:176 <> y:2
+R186:188 compcert.common.Errors <> res ind
+R190:192 compcert.lib.Integers <> int abbrev
+R221:231 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R204:209 compcert.lib.Integers Int eq def
+R211:211 BarocqComp.common.Intop <> y:2 var
+R213:220 compcert.lib.Integers Int zero def
+R266:269 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R232:237 compcert.lib.Integers Int eq def
+R239:239 BarocqComp.common.Intop <> x:1 var
+R242:249 compcert.lib.Integers Int repr def
+R251:264 compcert.lib.Integers Int min_signed def
+R270:275 compcert.lib.Integers Int eq def
+R277:277 BarocqComp.common.Intop <> y:2 var
+R279:286 compcert.lib.Integers Int mone def
+R311:313 BarocqComp.common.Monads MonError ret def
+R316:323 compcert.lib.Integers Int divs def
+R325:325 BarocqComp.common.Intop <> x:1 var
+R327:327 BarocqComp.common.Intop <> y:2 var
+R297:300 BarocqComp.common.Monads MonError fail def
+def 345:347 I32 mod
+R355:357 compcert.lib.Integers <> int abbrev
+binder 350:350 <> x:3
+binder 352:352 <> y:4
+R362:364 compcert.common.Errors <> res ind
+R366:368 compcert.lib.Integers <> int abbrev
+R397:407 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R380:385 compcert.lib.Integers Int eq def
+R387:387 BarocqComp.common.Intop <> y:4 var
+R389:396 compcert.lib.Integers Int zero def
+R442:445 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R408:413 compcert.lib.Integers Int eq def
+R415:415 BarocqComp.common.Intop <> x:3 var
+R418:425 compcert.lib.Integers Int repr def
+R427:440 compcert.lib.Integers Int min_signed def
+R446:451 compcert.lib.Integers Int eq def
+R453:453 BarocqComp.common.Intop <> y:4 var
+R455:462 compcert.lib.Integers Int mone def
+R487:489 BarocqComp.common.Monads MonError ret def
+R492:499 compcert.lib.Integers Int mods def
+R501:501 BarocqComp.common.Intop <> x:3 var
+R503:503 BarocqComp.common.Intop <> y:4 var
+R473:476 BarocqComp.common.Monads MonError fail def
+def 521:527 I32 of_bool
+R533:536 Coq.Init.Datatypes <> bool ind
+binder 530:530 <> b:5
+R541:543 compcert.lib.Integers <> int abbrev
+R555:555 BarocqComp.common.Intop <> b:5 var
+R575:582 compcert.lib.Integers Int zero def
+R562:568 compcert.lib.Integers Int one def
+def 599:605 I32 to_bool
+R611:613 compcert.lib.Integers <> int abbrev
+binder 608:608 <> x:6
+R618:621 Coq.Init.Datatypes <> bool ind
+R633:638 compcert.lib.Integers Int eq def
+R640:640 BarocqComp.common.Intop <> x:6 var
+R642:649 compcert.lib.Integers Int zero def
+R667:670 Coq.Init.Datatypes <> true constr
+R656:660 Coq.Init.Datatypes <> false constr
+def 687:692 I32 of_u32
+R698:700 compcert.lib.Integers <> int abbrev
+binder 695:695 <> x:7
+R705:707 compcert.lib.Integers <> int abbrev
+R712:712 BarocqComp.common.Intop <> x:7 var
+def 729:734 I32 of_i64
+R740:744 compcert.lib.Integers <> int64 abbrev
+binder 737:737 <> x:8
+R749:751 compcert.lib.Integers <> int abbrev
+R760:767 compcert.lib.Integers Int repr def
+R770:781 compcert.lib.Integers Int64 signed def
+R783:783 BarocqComp.common.Intop <> x:8 var
+def 801:806 I32 of_u64
+R812:816 compcert.lib.Integers <> int64 abbrev
+binder 809:809 <> x:9
+R821:823 compcert.lib.Integers <> int abbrev
+R832:839 compcert.lib.Integers Int repr def
+R842:855 compcert.lib.Integers Int64 unsigned def
+R857:857 BarocqComp.common.Intop <> x:9 var
+R866:868 BarocqComp.common.Intop I32 <> mod
+mod 879:881 <> U32
+def 898:900 U32 div
+R908:910 compcert.lib.Integers <> int abbrev
+binder 903:903 <> x:10
+binder 905:905 <> y:11
+R915:917 compcert.common.Errors <> res ind
+R919:921 compcert.lib.Integers <> int abbrev
+R933:938 compcert.lib.Integers Int eq def
+R940:940 BarocqComp.common.Intop <> y:11 var
+R942:949 compcert.lib.Integers Int zero def
+R970:972 BarocqComp.common.Monads MonError ret def
+R975:982 compcert.lib.Integers Int divu def
+R984:984 BarocqComp.common.Intop <> x:10 var
+R986:986 BarocqComp.common.Intop <> y:11 var
+R956:959 BarocqComp.common.Monads MonError fail def
+def 1007:1009 U32 mod
+R1017:1019 compcert.lib.Integers <> int abbrev
+binder 1012:1012 <> x:12
+binder 1014:1014 <> y:13
+R1024:1026 compcert.common.Errors <> res ind
+R1028:1030 compcert.lib.Integers <> int abbrev
+R1042:1047 compcert.lib.Integers Int eq def
+R1049:1049 BarocqComp.common.Intop <> y:13 var
+R1051:1058 compcert.lib.Integers Int zero def
+R1079:1081 BarocqComp.common.Monads MonError ret def
+R1084:1091 compcert.lib.Integers Int modu def
+R1093:1093 BarocqComp.common.Intop <> x:12 var
+R1095:1095 BarocqComp.common.Intop <> y:13 var
+R1065:1068 BarocqComp.common.Monads MonError fail def
+def 1113:1119 U32 of_bool
+R1125:1128 Coq.Init.Datatypes <> bool ind
+binder 1122:1122 <> b:14
+R1133:1135 compcert.lib.Integers <> int abbrev
+R1147:1147 BarocqComp.common.Intop <> b:14 var
+R1167:1174 compcert.lib.Integers Int zero def
+R1154:1160 compcert.lib.Integers Int one def
+def 1191:1197 U32 to_bool
+R1203:1205 compcert.lib.Integers <> int abbrev
+binder 1200:1200 <> x:15
+R1210:1213 Coq.Init.Datatypes <> bool ind
+R1225:1230 compcert.lib.Integers Int eq def
+R1232:1232 BarocqComp.common.Intop <> x:15 var
+R1234:1241 compcert.lib.Integers Int zero def
+R1259:1262 Coq.Init.Datatypes <> true constr
+R1248:1252 Coq.Init.Datatypes <> false constr
+def 1279:1284 U32 of_i32
+R1290:1292 compcert.lib.Integers <> int abbrev
+binder 1287:1287 <> x:16
+R1297:1299 compcert.lib.Integers <> int abbrev
+R1304:1304 BarocqComp.common.Intop <> x:16 var
+def 1321:1326 U32 of_i64
+R1332:1336 compcert.lib.Integers <> int64 abbrev
+binder 1329:1329 <> x:17
+R1341:1343 compcert.lib.Integers <> int abbrev
+R1352:1359 compcert.lib.Integers Int repr def
+R1362:1373 compcert.lib.Integers Int64 signed def
+R1375:1375 BarocqComp.common.Intop <> x:17 var
+def 1392:1397 U32 of_u64
+R1403:1407 compcert.lib.Integers <> int64 abbrev
+binder 1400:1400 <> x:18
+R1412:1414 compcert.lib.Integers <> int abbrev
+R1423:1430 compcert.lib.Integers Int repr def
+R1433:1446 compcert.lib.Integers Int64 unsigned def
+R1448:1448 BarocqComp.common.Intop <> x:18 var
+R1457:1459 BarocqComp.common.Intop U32 <> mod
+mod 1470:1472 <> I64
+def 1489:1491 I64 div
+R1499:1503 compcert.lib.Integers <> int64 abbrev
+binder 1494:1494 <> x:19
+binder 1496:1496 <> y:20
+R1508:1510 compcert.common.Errors <> res ind
+R1512:1516 compcert.lib.Integers <> int64 abbrev
+R1549:1559 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R1528:1535 compcert.lib.Integers Int64 eq def
+R1537:1537 BarocqComp.common.Intop <> y:20 var
+R1539:1548 compcert.lib.Integers Int64 zero def
+R1600:1603 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1560:1567 compcert.lib.Integers Int64 eq def
+R1569:1569 BarocqComp.common.Intop <> x:19 var
+R1572:1581 compcert.lib.Integers Int64 repr def
+R1583:1598 compcert.lib.Integers Int64 min_signed def
+R1604:1611 compcert.lib.Integers Int64 eq def
+R1613:1613 BarocqComp.common.Intop <> y:20 var
+R1615:1624 compcert.lib.Integers Int64 mone def
+R1649:1651 BarocqComp.common.Monads MonError ret def
+R1654:1663 compcert.lib.Integers Int64 divs def
+R1665:1665 BarocqComp.common.Intop <> x:19 var
+R1667:1667 BarocqComp.common.Intop <> y:20 var
+R1635:1638 BarocqComp.common.Monads MonError fail def
+def 1685:1687 I64 mod
+R1695:1699 compcert.lib.Integers <> int64 abbrev
+binder 1690:1690 <> x:21
+binder 1692:1692 <> y:22
+R1704:1706 compcert.common.Errors <> res ind
+R1708:1712 compcert.lib.Integers <> int64 abbrev
+R1745:1755 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R1724:1731 compcert.lib.Integers Int64 eq def
+R1733:1733 BarocqComp.common.Intop <> y:22 var
+R1735:1744 compcert.lib.Integers Int64 zero def
+R1796:1799 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1756:1763 compcert.lib.Integers Int64 eq def
+R1765:1765 BarocqComp.common.Intop <> y:22 var
+R1768:1777 compcert.lib.Integers Int64 repr def
+R1779:1794 compcert.lib.Integers Int64 min_signed def
+R1800:1807 compcert.lib.Integers Int64 eq def
+R1809:1809 BarocqComp.common.Intop <> y:22 var
+R1811:1820 compcert.lib.Integers Int64 mone def
+R1845:1847 BarocqComp.common.Monads MonError ret def
+R1850:1859 compcert.lib.Integers Int64 mods def
+R1861:1861 BarocqComp.common.Intop <> x:21 var
+R1863:1863 BarocqComp.common.Intop <> y:22 var
+R1831:1834 BarocqComp.common.Monads MonError fail def
+def 1881:1887 I64 of_bool
+R1893:1896 Coq.Init.Datatypes <> bool ind
+binder 1890:1890 <> b:23
+R1901:1905 compcert.lib.Integers <> int64 abbrev
+R1917:1917 BarocqComp.common.Intop <> b:23 var
+R1939:1948 compcert.lib.Integers Int64 zero def
+R1924:1932 compcert.lib.Integers Int64 one def
+def 1965:1971 I64 to_bool
+R1977:1981 compcert.lib.Integers <> int64 abbrev
+binder 1974:1974 <> x:24
+R1986:1989 Coq.Init.Datatypes <> bool ind
+R2001:2008 compcert.lib.Integers Int64 eq def
+R2010:2010 BarocqComp.common.Intop <> x:24 var
+R2012:2021 compcert.lib.Integers Int64 zero def
+R2039:2042 Coq.Init.Datatypes <> true constr
+R2028:2032 Coq.Init.Datatypes <> false constr
+def 2059:2064 I64 of_u64
+R2070:2074 compcert.lib.Integers <> int64 abbrev
+binder 2067:2067 <> x:25
+R2079:2083 compcert.lib.Integers <> int64 abbrev
+R2088:2088 BarocqComp.common.Intop <> x:25 var
+def 2105:2110 I64 of_i32
+R2116:2118 compcert.lib.Integers <> int abbrev
+binder 2113:2113 <> x:26
+R2123:2127 compcert.lib.Integers <> int64 abbrev
+R2136:2145 compcert.lib.Integers Int64 repr def
+R2148:2157 compcert.lib.Integers Int signed def
+R2159:2159 BarocqComp.common.Intop <> x:26 var
+def 2178:2183 I64 of_u32
+R2189:2191 compcert.lib.Integers <> int abbrev
+binder 2186:2186 <> x:27
+R2196:2200 compcert.lib.Integers <> int64 abbrev
+R2209:2218 compcert.lib.Integers Int64 repr def
+R2221:2232 compcert.lib.Integers Int unsigned def
+R2234:2234 BarocqComp.common.Intop <> x:27 var
+R2243:2245 BarocqComp.common.Intop I64 <> mod
+mod 2256:2258 <> U64
+def 2275:2277 U64 div
+R2285:2289 compcert.lib.Integers <> int64 abbrev
+binder 2280:2280 <> x:28
+binder 2282:2282 <> y:29
+R2294:2296 compcert.common.Errors <> res ind
+R2298:2302 compcert.lib.Integers <> int64 abbrev
+R2314:2321 compcert.lib.Integers Int64 eq def
+R2323:2323 BarocqComp.common.Intop <> y:29 var
+R2325:2334 compcert.lib.Integers Int64 zero def
+R2355:2357 BarocqComp.common.Monads MonError ret def
+R2360:2369 compcert.lib.Integers Int64 divu def
+R2371:2371 BarocqComp.common.Intop <> x:28 var
+R2373:2373 BarocqComp.common.Intop <> y:29 var
+R2341:2344 BarocqComp.common.Monads MonError fail def
+def 2391:2393 U64 mod
+R2401:2405 compcert.lib.Integers <> int64 abbrev
+binder 2396:2396 <> x:30
+binder 2398:2398 <> y:31
+R2410:2412 compcert.common.Errors <> res ind
+R2414:2418 compcert.lib.Integers <> int64 abbrev
+R2430:2437 compcert.lib.Integers Int64 eq def
+R2439:2439 BarocqComp.common.Intop <> y:31 var
+R2441:2450 compcert.lib.Integers Int64 zero def
+R2471:2473 BarocqComp.common.Monads MonError ret def
+R2476:2485 compcert.lib.Integers Int64 modu def
+R2487:2487 BarocqComp.common.Intop <> x:30 var
+R2489:2489 BarocqComp.common.Intop <> y:31 var
+R2457:2460 BarocqComp.common.Monads MonError fail def
+def 2507:2513 U64 of_bool
+R2519:2522 Coq.Init.Datatypes <> bool ind
+binder 2516:2516 <> b:32
+R2527:2531 compcert.lib.Integers <> int64 abbrev
+R2543:2543 BarocqComp.common.Intop <> b:32 var
+R2565:2574 compcert.lib.Integers Int64 zero def
+R2550:2558 compcert.lib.Integers Int64 one def
+def 2591:2597 U64 to_bool
+R2603:2607 compcert.lib.Integers <> int64 abbrev
+binder 2600:2600 <> x:33
+R2612:2615 Coq.Init.Datatypes <> bool ind
+R2627:2634 compcert.lib.Integers Int64 eq def
+R2636:2636 BarocqComp.common.Intop <> x:33 var
+R2638:2647 compcert.lib.Integers Int64 zero def
+R2665:2668 Coq.Init.Datatypes <> true constr
+R2654:2658 Coq.Init.Datatypes <> false constr
+def 2685:2690 U64 of_i64
+R2696:2700 compcert.lib.Integers <> int64 abbrev
+binder 2693:2693 <> x:34
+R2705:2709 compcert.lib.Integers <> int64 abbrev
+R2714:2714 BarocqComp.common.Intop <> x:34 var
+def 2731:2736 U64 of_i32
+R2742:2744 compcert.lib.Integers <> int abbrev
+binder 2739:2739 <> x:35
+R2749:2753 compcert.lib.Integers <> int64 abbrev
+R2762:2771 compcert.lib.Integers Int64 repr def
+R2774:2783 compcert.lib.Integers Int signed def
+R2785:2785 BarocqComp.common.Intop <> x:35 var
+def 2803:2808 U64 of_u32
+R2814:2816 compcert.lib.Integers <> int abbrev
+binder 2811:2811 <> x:36
+R2821:2825 compcert.lib.Integers <> int64 abbrev
+R2834:2843 compcert.lib.Integers Int64 repr def
+R2846:2857 compcert.lib.Integers Int unsigned def
+R2859:2859 BarocqComp.common.Intop <> x:36 var
+def 2877:2882 U64 to_nat
+R2888:2892 compcert.lib.Integers <> int64 abbrev
+binder 2885:2885 <> x:37
+R2897:2899 Coq.Init.Datatypes <> nat ind
+R2908:2915 Coq.ZArith.BinIntDef Z to_nat def
+R2918:2931 compcert.lib.Integers Int64 unsigned def
+R2933:2933 BarocqComp.common.Intop <> x:37 var
+R2942:2944 BarocqComp.common.Intop U64 <> mod

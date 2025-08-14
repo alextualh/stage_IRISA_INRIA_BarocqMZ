@@ -1,0 +1,336 @@
+DIGEST edc0557261c0dac0d590e3e6708934db
+FBarocqComp.common.Maps2
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.Strings.String <> <> lib
+R36:47 Coq.Strings.BinaryString <> <> lib
+R79:82 compcert.lib.Maps <> <> lib
+R84:93 compcert.export.Ctypesdefs <> <> lib
+R127:131 BarocqComp.common.Ident <> <> lib
+R133:137 BarocqComp.common.Error <> <> lib
+R148:160 Coq.Lists.List ListNotations <> mod
+R271:282 compcert.lib.Maps INDEXED_TYPE <> mod
+mod 254:266 <> StringIndexed
+def 301:301 StringIndexed t
+R306:311 Coq.Strings.String <> string ind
+def 328:329 StringIndexed eq
+R334:343 Coq.Strings.String <> string_dec def
+def 362:366 StringIndexed index
+R371:382 BarocqComp.common.Ident <> to_pos def
+prf 394:402 StringIndexed index_inj
+R422:422 BarocqComp.common.Maps2 StringIndexed t def
+binder 417:417 <> x:1
+binder 419:419 <> y:2
+R443:446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R433:435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R426:430 BarocqComp.common.Maps2 StringIndexed index def
+R432:432 BarocqComp.common.Maps2 <> x:1 var
+R436:440 BarocqComp.common.Maps2 StringIndexed index def
+R442:442 BarocqComp.common.Maps2 <> y:2 var
+R448:450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R447:447 BarocqComp.common.Maps2 <> x:1 var
+R451:451 BarocqComp.common.Maps2 <> y:2 var
+R473:497 compcert.export.Ctypesdefs <> ident_of_string_injective thm
+R473:497 compcert.export.Ctypesdefs <> ident_of_string_injective thm
+R512:524 BarocqComp.common.Maps2 StringIndexed <> mod
+R543:546 compcert.lib.Maps IMap <> modtype
+R548:560 BarocqComp.common.Maps2 StringIndexed <> modtype
+mod 535:538 <> SMap
+mod 572:576 <> STree
+R592:596 compcert.lib.Maps ITree <> modtype
+R598:610 BarocqComp.common.Maps2 StringIndexed <> modtype
+def 628:631 STree fold
+binder 634:634 <> A:3
+binder 636:636 <> B:4
+R644:647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R643:643 BarocqComp.common.Maps2 <> B:4 var
+R663:666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R648:662 BarocqComp.common.Maps2 StringIndexed t def
+R668:671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R667:667 BarocqComp.common.Maps2 <> A:3 var
+R672:672 BarocqComp.common.Maps2 <> B:4 var
+binder 640:640 <> f:5
+R679:685 BarocqComp.common.Maps2 STree t def
+R687:687 BarocqComp.common.Maps2 <> A:3 var
+binder 676:676 <> m:6
+R694:694 BarocqComp.common.Maps2 <> B:4 var
+binder 691:691 <> v:7
+R699:699 BarocqComp.common.Maps2 <> B:4 var
+R708:717 compcert.lib.Maps PTree fold def
+R767:767 BarocqComp.common.Maps2 <> v:7 var
+R765:765 BarocqComp.common.Maps2 <> m:6 var
+binder 724:726 <> acc:8
+binder 728:729 <> ki:9
+binder 731:732 <> vi:10
+R737:737 BarocqComp.common.Maps2 <> f:5 var
+R761:762 BarocqComp.common.Maps2 <> vi:10 var
+R744:755 BarocqComp.common.Ident <> of_pos def
+R757:758 BarocqComp.common.Maps2 <> ki:9 var
+R739:741 BarocqComp.common.Maps2 <> acc:8 var
+R775:779 BarocqComp.common.Maps2 STree <> mod
+R793:803 BarocqComp.common.Maps2 <> empty def
+R793:803 BarocqComp.common.Maps2 <> empty def
+modtype 861:868 <> DEC_TYPE
+ax 883:883 DEC_TYPE t
+ax 904:905 DEC_TYPE eq
+R921:921 BarocqComp.common.Maps2 DEC_TYPE t defax
+binder 916:916 <> x:13
+binder 918:918 <> y:14
+R925:925 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R931:935 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R942:942 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R927:929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R926:926 BarocqComp.common.Maps2 <> x:13 var
+R930:930 BarocqComp.common.Maps2 <> y:14 var
+R937:940 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R936:936 BarocqComp.common.Maps2 <> x:13 var
+R941:941 BarocqComp.common.Maps2 <> y:14 var
+R949:956 BarocqComp.common.Maps2 DEC_TYPE <> modtype
+R1003:1010 BarocqComp.common.Maps2 DEC_TYPE <> mod
+mod 992:998 <> MapList
+def 1030:1032 MapList key
+R1037:1039 BarocqComp.common.Maps2 X t defax
+def 1056:1061 MapList key_eq
+R1066:1069 BarocqComp.common.Maps2 X eq defax
+def 1086:1086 MapList t
+binder 1089:1089 <> V:17
+R1108:1111 Coq.Init.Datatypes <> list ind
+R1117:1119 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1114:1116 BarocqComp.common.Maps2 MapList key def
+R1120:1120 BarocqComp.common.Maps2 <> V:17 var
+sec 1135:1139 MapList VALUE
+var 1154:1154 MapList.VALUE V
+def 1175:1177 MapList add
+R1183:1185 BarocqComp.common.Maps2 MapList key def
+binder 1180:1180 <> k:20
+R1192:1192 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1189:1189 <> v:21
+R1199:1199 BarocqComp.common.Maps2 MapList t def
+R1201:1201 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1196:1196 <> l:22
+R1206:1206 BarocqComp.common.Maps2 MapList t def
+R1208:1208 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R1223:1223 BarocqComp.common.Maps2 <> l:22 var
+R1236:1238 Coq.Init.Datatypes <> nil constr
+R1243:1243 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1250:1250 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1244:1244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1246:1247 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1249:1249 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1245:1245 BarocqComp.common.Maps2 <> k:20 var
+R1248:1248 BarocqComp.common.Maps2 <> v:21 var
+R1265:1268 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1258:1258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1260:1261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1264:1264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1286:1291 BarocqComp.common.Maps2 MapList key_eq def
+R1295:1295 BarocqComp.common.Maps2 <> k:20 var
+R1335:1339 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1350:1350 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1328:1328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1330:1331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1334:1334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1340:1342 BarocqComp.common.Maps2 <> add:23 def
+R1346:1346 BarocqComp.common.Maps2 <> v:21 var
+R1344:1344 BarocqComp.common.Maps2 <> k:20 var
+R1308:1311 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1302:1302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1304:1305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1307:1307 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1303:1303 BarocqComp.common.Maps2 <> k:20 var
+R1306:1306 BarocqComp.common.Maps2 <> v:21 var
+def 1373:1376 MapList find
+R1382:1384 BarocqComp.common.Maps2 MapList key def
+binder 1379:1379 <> k:25
+R1391:1391 BarocqComp.common.Maps2 MapList t def
+R1393:1393 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1388:1388 <> l:26
+R1406:1406 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1397:1403 <> default:27
+R1411:1411 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R1426:1426 BarocqComp.common.Maps2 <> l:26 var
+R1439:1441 Coq.Init.Datatypes <> nil constr
+R1446:1452 BarocqComp.common.Maps2 <> default:27 var
+R1466:1469 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1460:1460 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1462:1463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1465:1465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1487:1492 BarocqComp.common.Maps2 MapList key_eq def
+R1496:1496 BarocqComp.common.Maps2 <> k:25 var
+R1518:1521 BarocqComp.common.Maps2 <> find:28 def
+R1528:1534 BarocqComp.common.Maps2 <> default:27 var
+R1523:1523 BarocqComp.common.Maps2 <> k:25 var
+def 1557:1564 MapList find_err
+R1570:1572 BarocqComp.common.Maps2 MapList key def
+binder 1567:1567 <> k:30
+R1579:1579 BarocqComp.common.Maps2 MapList t def
+R1581:1581 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1576:1576 <> l:31
+R1586:1588 compcert.common.Errors <> res ind
+R1590:1590 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R1605:1605 BarocqComp.common.Maps2 <> l:31 var
+R1618:1620 Coq.Init.Datatypes <> nil constr
+R1625:1628 BarocqComp.common.Monads MonError fail def
+R1642:1645 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1636:1636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1638:1639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1641:1641 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1663:1668 BarocqComp.common.Maps2 MapList key_eq def
+R1672:1672 BarocqComp.common.Maps2 <> k:30 var
+R1698:1705 BarocqComp.common.Maps2 <> find_err:32 def
+R1707:1707 BarocqComp.common.Maps2 <> k:30 var
+R1679:1681 BarocqComp.common.Monads MonError ret def
+def 1735:1737 MapList map
+binder 1740:1740 <> A:34
+R1754:1757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1753:1753 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R1758:1758 BarocqComp.common.Maps2 <> A:34 var
+binder 1750:1750 <> f:35
+R1765:1765 BarocqComp.common.Maps2 MapList t def
+R1767:1767 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1762:1762 <> l:36
+R1772:1772 BarocqComp.common.Maps2 MapList t def
+R1774:1774 BarocqComp.common.Maps2 <> A:34 var
+R1783:1785 Coq.Lists.List <> map def
+R1813:1813 BarocqComp.common.Maps2 <> l:36 var
+R1793:1793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1795:1796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1798:1798 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1797:1797 <> v:37
+binder 1794:1794 <> x:38
+binder 1793:1798 <> pat:39
+R1803:1803 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1805:1806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1810:1810 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1804:1804 BarocqComp.common.Maps2 <> x:38 var
+R1807:1807 BarocqComp.common.Maps2 <> f:35 var
+R1809:1809 BarocqComp.common.Maps2 <> v:37 var
+def 1830:1836 MapList map_err
+binder 1839:1839 <> A:40
+R1853:1856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1852:1852 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R1857:1859 compcert.common.Errors <> res ind
+R1861:1861 BarocqComp.common.Maps2 <> A:40 var
+binder 1849:1849 <> f:41
+R1868:1868 BarocqComp.common.Maps2 MapList t def
+R1870:1870 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1865:1865 <> l:42
+R1875:1877 compcert.common.Errors <> res ind
+R1880:1880 BarocqComp.common.Maps2 MapList t def
+R1882:1882 BarocqComp.common.Maps2 <> A:40 var
+R1892:1895 compcert.common.Errors <> mmap def
+R1942:1942 BarocqComp.common.Maps2 <> l:42 var
+R1903:1903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1905:1906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1908:1908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1907:1907 <> v:43
+binder 1904:1904 <> x:44
+binder 1903:1908 <> pat:45
+R1913:1917 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1919:1922 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1926:1929 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1923:1923 BarocqComp.common.Maps2 <> f:41 var
+R1925:1925 BarocqComp.common.Maps2 <> v:43 var
+binder 1918:1918 <> a:46
+R1930:1932 BarocqComp.common.Monads MonError ret def
+R1934:1934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1936:1937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1939:1939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1935:1935 BarocqComp.common.Maps2 <> x:44 var
+R1938:1938 BarocqComp.common.Maps2 <> a:46 var
+def 1957:1959 MapList mem
+R1965:1967 BarocqComp.common.Maps2 MapList key def
+binder 1962:1962 <> k:47
+R1974:1974 BarocqComp.common.Maps2 MapList t def
+R1976:1976 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 1971:1971 <> l:48
+R1981:1984 Coq.Init.Datatypes <> bool ind
+R1999:1999 BarocqComp.common.Maps2 <> l:48 var
+R2012:2014 Coq.Init.Datatypes <> nil constr
+R2019:2023 Coq.Init.Datatypes <> false constr
+R2037:2040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2031:2031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2033:2034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2036:2036 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2058:2063 BarocqComp.common.Maps2 MapList key_eq def
+R2067:2067 BarocqComp.common.Maps2 <> k:47 var
+R2092:2094 BarocqComp.common.Maps2 <> mem:49 def
+R2096:2096 BarocqComp.common.Maps2 <> k:47 var
+R2074:2077 Coq.Init.Datatypes <> true constr
+def 2122:2126 MapList nodup
+R2132:2132 BarocqComp.common.Maps2 MapList t def
+R2134:2134 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 2129:2129 <> l:51
+R2139:2142 Coq.Init.Datatypes <> bool ind
+R2157:2157 BarocqComp.common.Maps2 <> l:51 var
+R2170:2172 Coq.Init.Datatypes <> nil constr
+R2177:2180 Coq.Init.Datatypes <> true constr
+R2194:2197 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2188:2188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2190:2191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2193:2193 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2215:2217 BarocqComp.common.Maps2 MapList mem def
+R2248:2252 BarocqComp.common.Maps2 <> nodup:52 def
+R2229:2233 Coq.Init.Datatypes <> false constr
+def 2278:2282 MapList merge
+R2292:2292 BarocqComp.common.Maps2 MapList t def
+R2294:2294 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 2285:2286 <> l1:54
+binder 2288:2289 <> l2:55
+R2299:2299 BarocqComp.common.Maps2 MapList t def
+R2301:2301 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R2316:2317 BarocqComp.common.Maps2 <> l1:54 var
+R2330:2332 Coq.Init.Datatypes <> nil constr
+R2337:2338 BarocqComp.common.Maps2 <> l2:55 var
+R2354:2357 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2346:2346 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2349:2350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2353:2353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2376:2378 BarocqComp.common.Maps2 MapList mem def
+R2383:2384 BarocqComp.common.Maps2 <> l2:55 var
+R2425:2428 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2417:2417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2420:2421 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2424:2424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2429:2433 BarocqComp.common.Maps2 <> merge:56 def
+R2439:2440 BarocqComp.common.Maps2 <> l2:55 var
+R2391:2395 BarocqComp.common.Maps2 <> merge:56 def
+R2401:2402 BarocqComp.common.Maps2 <> l2:55 var
+def 2465:2473 MapList fold_left
+binder 2476:2476 <> A:58
+R2490:2493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2489:2489 BarocqComp.common.Maps2 <> A:58 var
+R2497:2500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2494:2496 BarocqComp.common.Maps2 MapList key def
+R2502:2505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2501:2501 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R2506:2506 BarocqComp.common.Maps2 <> A:58 var
+binder 2486:2486 <> f:59
+R2513:2513 BarocqComp.common.Maps2 MapList t def
+R2515:2515 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+binder 2510:2510 <> l:60
+R2524:2524 BarocqComp.common.Maps2 <> A:58 var
+binder 2519:2521 <> acc:61
+R2529:2529 BarocqComp.common.Maps2 <> A:58 var
+R2538:2551 Coq.Lists.List <> fold_left def
+R2582:2584 BarocqComp.common.Maps2 <> acc:61 var
+R2580:2580 BarocqComp.common.Maps2 <> l:60 var
+binder 2558:2558 <> a:62
+R2561:2561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2563:2564 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2566:2566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 2565:2565 <> v:63
+binder 2562:2562 <> k:64
+binder 2561:2566 <> pat:65
+R2571:2571 BarocqComp.common.Maps2 <> f:59 var
+R2577:2577 BarocqComp.common.Maps2 <> v:63 var
+R2575:2575 BarocqComp.common.Maps2 <> k:64 var
+R2573:2573 BarocqComp.common.Maps2 <> a:62 var
+def 2601:2605 MapList empty
+R2609:2609 BarocqComp.common.Maps2 MapList t def
+R2611:2611 BarocqComp.common.Maps2 <> MapList.VALUE.V var
+R2616:2618 Coq.Init.Datatypes <> nil constr
+R2628:2632 BarocqComp.common.Maps2 MapList.VALUE <> sec
+R2640:2646 BarocqComp.common.Maps2 MapList <> mod
+R2669:2675 BarocqComp.common.Maps2 MapList <> modtype
+R2677:2689 BarocqComp.common.Maps2 StringIndexed <> modtype
+mod 2657:2664 <> SMapList

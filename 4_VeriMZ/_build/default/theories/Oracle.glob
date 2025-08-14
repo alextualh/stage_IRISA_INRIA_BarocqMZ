@@ -1,0 +1,141 @@
+DIGEST 6ecde97bc4a4a8c3978a52909cd07fd0
+FVerimz.Oracle
+R29:31 Verimz.Int <> <> lib
+R33:39 Verimz.Machine <> <> lib
+R41:46 Verimz.Memory <> <> lib
+R48:50 Verimz.Pmp <> <> lib
+R52:64 Verimz.Barocqmzutils <> <> lib
+R92:95 Coq.Bool.Bool <> <> lib
+R97:100 Coq.Lists.List <> <> lib
+R102:110 Coq.ZArith.BinIntDef <> <> lib
+R142:149 compcert.lib.Integers <> <> lib
+R183:187 BarocqComp.common.Error <> <> lib
+R189:194 BarocqComp.common.Barray <> <> lib
+R196:200 BarocqComp.common.Intop <> <> lib
+R210:222 Coq.Bool.Bool BoolNotations <> mod
+R224:236 Coq.Lists.List ListNotations <> mod
+def 569:579 <> timer_event
+R584:588 compcert.lib.Integers <> int64 abbrev
+ind 602:616 <> interrupt_event
+constr 625:642 <> IevMachineExternal
+constr 666:683 <> IevMachineSoftware
+R646:660 Verimz.Oracle <> interrupt_event:1 ind
+R687:701 Verimz.Oracle <> interrupt_event:1 ind
+scheme 602:616 <> interrupt_event_rect
+scheme 602:616 <> interrupt_event_ind
+scheme 602:616 <> interrupt_event_rec
+scheme 602:616 <> interrupt_event_sind
+ind 715:724 <> zone_event
+constr 733:746 <> ZevTimerUpdate
+constr 780:791 <> ZevInterrupt
+R761:764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R750:760 Verimz.Oracle <> timer_event def
+R765:774 Verimz.Oracle <> zone_event:3 ind
+R810:813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R795:809 Verimz.Oracle <> interrupt_event ind
+R825:828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R814:824 Verimz.Oracle <> timer_event def
+R829:838 Verimz.Oracle <> zone_event:3 ind
+scheme 715:724 <> zone_event_rect
+scheme 715:724 <> zone_event_ind
+scheme 715:724 <> zone_event_rec
+scheme 715:724 <> zone_event_sind
+rec 849:854 <> oracle
+proj 873:879 <> kevents
+proj 902:908 <> zevents
+R882:885 Coq.Init.Datatypes <> list ind
+R887:897 Verimz.Oracle <> timer_event def
+R911:914 Coq.Init.Datatypes <> list ind
+R917:920 Coq.Init.Datatypes <> list ind
+R922:931 Verimz.Oracle <> zone_event ind
+def 1901:1913 <> Intptr_to_int
+R1920:1929 Verimz.Int Intptr int rec
+binder 1916:1916 <> p:8
+R1934:1940 compcert.lib.Integers Int int rec
+R1947:1954 compcert.lib.Integers Int repr def
+R1957:1971 Verimz.Int Intptr unsigned def
+R1973:1973 Verimz.Oracle <> p:8 var
+def 1994:1999 <> hd_res
+binder 2002:2002 <> A:9
+R2017:2020 Coq.Init.Datatypes <> list ind
+R2022:2022 Verimz.Oracle <> A:9 var
+binder 2013:2013 <> l:10
+R2027:2029 compcert.common.Errors <> res ind
+R2031:2031 Verimz.Oracle <> A:9 var
+R2044:2044 Verimz.Oracle <> l:10 var
+R2055:2056 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2064:2068 compcert.common.Errors <> Error constr
+R2070:2072 Coq.Init.Datatypes <> nil constr
+R2079:2080 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2087:2088 compcert.common.Errors <> OK constr
+def 2119:2130 <> call_koracle
+R2138:2143 Verimz.Oracle <> oracle rec
+binder 2133:2135 <> orc:12
+R2148:2150 compcert.common.Errors <> res ind
+R2164:2166 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2153:2163 Verimz.Oracle <> timer_event def
+R2167:2172 Verimz.Oracle <> oracle rec
+R2197:2203 Verimz.Oracle <> kevents proj
+R2205:2207 Verimz.Oracle <> orc:12 var
+binder 2188:2192 <> kevts:13
+R2218:2220 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2223:2226 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2239:2246 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2227:2232 Verimz.Oracle <> hd_res def
+R2234:2238 Verimz.Oracle <> kevts:13 var
+binder 2221:2222 <> hd:14
+R2247:2248 compcert.common.Errors <> OK constr
+R2250:2250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2253:2254 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2289:2289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2251:2252 Verimz.Oracle <> hd:14 var
+R2255:2263 Verimz.Oracle <> mk_oracle constr
+R2266:2267 Coq.Lists.List <> tl def
+R2269:2273 Verimz.Oracle <> kevts:13 var
+R2277:2283 Verimz.Oracle <> zevents proj
+R2285:2287 Verimz.Oracle <> orc:12 var
+def 2308:2319 <> call_zoracle
+R2327:2332 Verimz.Oracle <> oracle rec
+binder 2322:2324 <> orc:15
+R2343:2345 compcert.lib.Integers <> int abbrev
+binder 2336:2340 <> n_int:16
+R2350:2352 compcert.common.Errors <> res ind
+R2365:2367 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2355:2364 Verimz.Oracle <> zone_event ind
+R2368:2373 Verimz.Oracle <> oracle rec
+R2392:2403 Verimz.Barocqmzutils <> int_to_int64 def
+R2405:2409 Verimz.Oracle <> n_int:16 var
+binder 2387:2387 <> n:17
+R2420:2422 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2428:2431 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2451:2458 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2432:2434 BarocqComp.common.Barray <> get def
+R2450:2450 Verimz.Oracle <> n:17 var
+R2437:2443 Verimz.Oracle <> zevents proj
+R2445:2447 Verimz.Oracle <> orc:15 var
+binder 2423:2427 <> zevts:18
+R2459:2461 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2470:2473 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2504:2511 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2474:2476 BarocqComp.common.Barray <> set def
+R2495:2496 Coq.Lists.List <> tl def
+R2498:2502 Verimz.Oracle <> zevts:18 var
+R2492:2492 Verimz.Oracle <> n:17 var
+R2479:2485 Verimz.Oracle <> zevents proj
+R2487:2489 Verimz.Oracle <> orc:15 var
+binder 2462:2469 <> zevents':19
+R2512:2514 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2517:2520 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2533:2540 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R2521:2526 Verimz.Oracle <> hd_res def
+R2528:2532 Verimz.Oracle <> zevts:18 var
+binder 2515:2516 <> hd:20
+R2541:2542 compcert.common.Errors <> OK constr
+R2544:2544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2547:2548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2581:2581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2545:2546 Verimz.Oracle <> hd:20 var
+R2549:2557 Verimz.Oracle <> mk_oracle constr
+R2560:2566 Verimz.Oracle <> kevents proj
+R2568:2570 Verimz.Oracle <> orc:15 var
+R2573:2580 Verimz.Oracle <> zevents':19 var

@@ -1,0 +1,16 @@
+DIGEST 30bfb8774f7bf26e379c92c5de368c9c
+FDuneExtraction.extraction
+R8:17 Coq.extraction.Extraction <> <> lib
+R28:41 Coq.extraction.ExtrOcamlBasic <> <> lib
+R52:64 Coq.extraction.ExtrOcamlZInt <> <> lib
+R75:89 Coq.extraction.ExtrOcamlNatInt <> <> lib
+R1321:1325 compcert.riscV.Archi <> <> lib
+R1327:1329 compcert.riscV.Asm <> <> lib
+R1361:1368 compcert.lib.Integers <> <> lib
+R1742:1747 Verimz.Memory <> <> lib
+R1749:1754 Verimz.Kernel <> <> lib
+R1756:1760 Verimz.Utils <> <> lib
+R1762:1774 Verimz.Barocqmzutils <> <> lib
+R1806:1809 compcert.lib.Maps <> <> lib
+R1827:1832 Coq.ZArith.ZArith <> <> lib
+R1948:1948 Coq.Numbers.BinNums <> Z ind

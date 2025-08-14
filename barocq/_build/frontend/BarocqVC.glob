@@ -1,0 +1,2283 @@
+DIGEST a6e9052c75d9e154fc1ada437f6ccbf7
+FBarocqComp.frontend.BarocqVC
+R133:138 Coq.Strings.String <> <> lib
+R140:143 Coq.Lists.List <> <> lib
+R175:182 compcert.lib.Integers <> <> lib
+R184:187 compcert.lib.Maps <> <> lib
+R221:226 BarocqComp.common.Target <> <> lib
+R228:233 BarocqComp.common.Monads <> <> lib
+R235:239 BarocqComp.common.Error <> <> lib
+R241:246 BarocqComp.common.Barray <> <> lib
+R248:254 BarocqComp.common.Brecord <> <> lib
+R256:260 BarocqComp.common.Types <> <> lib
+R262:267 BarocqComp.frontend.Barocq <> <> lib
+R269:273 BarocqComp.common.Maps2 <> <> lib
+R275:283 BarocqComp.common.MergeSort <> <> lib
+R315:320 compcert.lib.Coqlib <> <> lib
+sec 357:357 <> S
+var  413:413 S A
+var  415:415 S B
+var 436:436 S f
+R441:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R440:440 BarocqComp.frontend.BarocqVC <> S.A var
+R446:449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R445:445 BarocqComp.frontend.BarocqVC <> S.B var
+R450:453 Coq.Init.Datatypes <> bool ind
+def 468:475 <> forall2b
+R483:486 Coq.Init.Datatypes <> list ind
+R488:488 BarocqComp.frontend.BarocqVC <> S.A var
+binder 479:480 <> l1:5
+R496:499 Coq.Init.Datatypes <> list ind
+R501:501 BarocqComp.frontend.BarocqVC <> S.B var
+binder 492:493 <> l2:6
+R518:521 Coq.Init.Datatypes <> bool ind
+R541:542 BarocqComp.frontend.BarocqVC <> l2:6 var
+R536:537 BarocqComp.frontend.BarocqVC <> l1:5 var
+R553:555 Coq.Init.Datatypes <> nil constr
+R559:561 Coq.Init.Datatypes <> nil constr
+R566:569 Coq.Init.Datatypes <> true constr
+R577:578 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R585:586 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R596:596 BarocqComp.frontend.BarocqVC <> S.f var
+R629:633 Coq.Init.Datatypes <> false constr
+R609:616 BarocqComp.frontend.BarocqVC <> forall2b:7 def
+R621:622 BarocqComp.frontend.BarocqVC <> l2:6 var
+R618:619 BarocqComp.frontend.BarocqVC <> l1:5 var
+R648:652 Coq.Init.Datatypes <> false constr
+R666:666 BarocqComp.frontend.BarocqVC S <> sec
+def 1416:1429 <> signedness_eqb
+R1439:1448 BarocqComp.common.Types <> signedness ind
+binder 1432:1433 <> s1:10
+binder 1435:1436 <> s2:11
+R1453:1456 Coq.Init.Datatypes <> bool ind
+R1473:1474 BarocqComp.frontend.BarocqVC <> s2:11 var
+R1468:1469 BarocqComp.frontend.BarocqVC <> s1:10 var
+R1485:1492 BarocqComp.common.Types <> Unsigned constr
+R1496:1503 BarocqComp.common.Types <> Unsigned constr
+R1508:1511 Coq.Init.Datatypes <> true constr
+R1517:1522 BarocqComp.common.Types <> Signed constr
+R1526:1531 BarocqComp.common.Types <> Signed constr
+R1536:1539 Coq.Init.Datatypes <> true constr
+R1554:1558 Coq.Init.Datatypes <> false constr
+def 1577:1583 <> typ_eqb
+R1592:1594 BarocqComp.common.Types <> typ ind
+binder 1586:1587 <> t1:14
+binder 1589:1590 <> t2:15
+R1613:1614 BarocqComp.frontend.BarocqVC <> t2:15 var
+R1608:1609 BarocqComp.frontend.BarocqVC <> t1:14 var
+R1625:1629 BarocqComp.common.Types <> TBool constr
+R1633:1637 BarocqComp.common.Types <> TBool constr
+R1642:1645 Coq.Init.Datatypes <> true constr
+R1651:1656 BarocqComp.common.Types <> TInt32 constr
+R1663:1668 BarocqComp.common.Types <> TInt32 constr
+R1676:1689 BarocqComp.frontend.BarocqVC <> signedness_eqb def
+R1701:1706 BarocqComp.common.Types <> TInt64 constr
+R1713:1718 BarocqComp.common.Types <> TInt64 constr
+R1726:1739 BarocqComp.frontend.BarocqVC <> signedness_eqb def
+R1751:1756 BarocqComp.common.Types <> TArray constr
+R1763:1768 BarocqComp.common.Types <> TArray constr
+R1776:1782 BarocqComp.frontend.BarocqVC <> typ_eqb:16 def
+R1787:1788 BarocqComp.frontend.BarocqVC <> t2:15 var
+R1784:1785 BarocqComp.frontend.BarocqVC <> t1:14 var
+R1794:1800 BarocqComp.common.Types <> TRecord constr
+R1810:1816 BarocqComp.common.Types <> TRecord constr
+R1830:1839 Coq.Strings.String <> eqb def
+R2019:2023 Coq.Init.Datatypes <> false constr
+R1889:1896 BarocqComp.frontend.BarocqVC <> forall2b def
+R1904:1904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1906:1906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1909:1909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1907:1908 <> t1:19
+binder 1905:1905 <> x:20
+binder 1904:1909 <> pat:21
+R1912:1912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1914:1914 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1917:1917 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1915:1916 <> t2:22
+binder 1913:1913 <> y:23
+binder 1912:1917 <> pat:24
+R1925:1934 Coq.Strings.String <> eqb def
+R1936:1936 BarocqComp.frontend.BarocqVC <> x:20 var
+R1938:1938 BarocqComp.frontend.BarocqVC <> y:23 var
+R1964:1968 Coq.Init.Datatypes <> false constr
+R1945:1951 BarocqComp.frontend.BarocqVC <> typ_eqb:16 def
+R1956:1957 BarocqComp.frontend.BarocqVC <> t2:22 var
+R1953:1954 BarocqComp.frontend.BarocqVC <> t1:19 var
+R2029:2032 BarocqComp.common.Types <> TFun constr
+R2042:2045 BarocqComp.common.Types <> TFun constr
+R2059:2065 BarocqComp.frontend.BarocqVC <> typ_eqb:16 def
+R2168:2172 Coq.Init.Datatypes <> false constr
+R2109:2116 BarocqComp.frontend.BarocqVC <> forall2b def
+R2118:2124 BarocqComp.frontend.BarocqVC <> typ_eqb:16 def
+R2178:2181 BarocqComp.common.Types <> TAbs constr
+R2188:2191 BarocqComp.common.Types <> TAbs constr
+R2199:2208 Coq.Strings.String <> eqb def
+R2229:2233 Coq.Init.Datatypes <> false constr
+prf 2249:2267 <> signedness_eqb_true
+binder 2278:2278 <> s:25
+binder 2280:2281 <> s':26
+R2314:2317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2307:2309 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2288:2301 BarocqComp.frontend.BarocqVC <> signedness_eqb def
+R2303:2303 BarocqComp.frontend.BarocqVC <> s:25 var
+R2305:2306 BarocqComp.frontend.BarocqVC <> s':26 var
+R2310:2313 Coq.Init.Datatypes <> true constr
+R2319:2322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2318:2318 BarocqComp.frontend.BarocqVC <> s:25 var
+R2323:2324 BarocqComp.frontend.BarocqVC <> s':26 var
+def 2386:2397 <> typ_eqb_true
+R2406:2408 BarocqComp.common.Types <> typ ind
+binder 2400:2401 <> t1:27
+binder 2403:2404 <> t2:28
+R2445:2448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2438:2440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2425:2431 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R2433:2434 BarocqComp.frontend.BarocqVC <> t1:27 var
+R2436:2437 BarocqComp.frontend.BarocqVC <> t2:28 var
+R2441:2444 Coq.Init.Datatypes <> true constr
+R2451:2453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2449:2450 BarocqComp.frontend.BarocqVC <> t1:27 var
+R2454:2455 BarocqComp.frontend.BarocqVC <> t2:28 var
+R2540:2558 BarocqComp.frontend.BarocqVC <> signedness_eqb_true thm
+R2540:2558 BarocqComp.frontend.BarocqVC <> signedness_eqb_true thm
+R2597:2615 BarocqComp.frontend.BarocqVC <> signedness_eqb_true thm
+R2597:2615 BarocqComp.frontend.BarocqVC <> signedness_eqb_true thm
+R2707:2710 Coq.Strings.String <> ::string_scope:x_'=?'_x not
+R2707:2710 Coq.Strings.String <> ::string_scope:x_'=?'_x not
+R2778:2790 Coq.Strings.String <> eqb_eq thm
+R2778:2790 Coq.Strings.String <> eqb_eq thm
+R2778:2790 Coq.Strings.String <> eqb_eq thm
+R2994:2997 Coq.Strings.String <> ::string_scope:x_'=?'_x not
+R2994:2997 Coq.Strings.String <> ::string_scope:x_'=?'_x not
+R3046:3052 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3046:3052 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3145:3157 Coq.Strings.String <> eqb_eq thm
+R3145:3157 Coq.Strings.String <> eqb_eq thm
+R3145:3157 Coq.Strings.String <> eqb_eq thm
+R3242:3248 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3242:3248 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3409:3415 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3409:3415 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R3573:3585 Coq.Strings.String <> eqb_eq thm
+R3573:3585 Coq.Strings.String <> eqb_eq thm
+R3573:3585 Coq.Strings.String <> eqb_eq thm
+def 3628:3643 <> ident_of_globdef
+R3650:3656 BarocqComp.frontend.Barocq <> globdef ind
+binder 3646:3646 <> g:30
+R3670:3670 BarocqComp.frontend.BarocqVC <> g:30 var
+R3681:3687 BarocqComp.frontend.Barocq <> DefType constr
+R3704:3711 BarocqComp.frontend.Barocq <> DefConst constr
+R3730:3735 BarocqComp.frontend.Barocq <> DefFun constr
+R3752:3759 BarocqComp.frontend.Barocq <> DeclType constr
+R3776:3784 BarocqComp.frontend.Barocq <> DeclConst constr
+R3801:3807 BarocqComp.frontend.Barocq <> DeclFun constr
+def 3842:3849 <> has_prop
+R3854:3860 BarocqComp.frontend.Barocq <> globdef ind
+binder 3852:3852 <> g:32
+R3874:3874 BarocqComp.frontend.BarocqVC <> g:32 var
+R3885:3892 BarocqComp.frontend.Barocq <> DeclType constr
+R3900:3906 BarocqComp.frontend.Barocq <> DefType constr
+R3915:3919 Coq.Init.Datatypes <> false constr
+R3915:3919 Coq.Init.Datatypes <> false constr
+R3931:3934 Coq.Init.Datatypes <> true constr
+sec 3953:3953 <> S
+var 3967:3978 S abs_typ_impl
+R3982:3992 compcert.lib.Maps PMap t def
+R4028:4041 BarocqComp.common.Types <> eval_typ def
+R4043:4054 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+not 4018:4018 S :::'#'_x
+def 4088:4092 <> propt
+R4110:4113 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4141:4141 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4104:4109 Coq.Strings.String <> string ind
+R4125:4127 BarocqComp.common.Types <> typ ind
+binder 4121:4121 <> t:36
+R4133:4136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4130:4131 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R4132:4132 BarocqComp.frontend.BarocqVC <> t:36 var
+def 4158:4169 <> has_property
+R4177:4180 BarocqComp.frontend.Barocq <> genv def
+R4182:4193 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+binder 4172:4173 <> ge:37
+R4201:4205 BarocqComp.frontend.BarocqVC <> propt def
+binder 4197:4197 <> p:38
+R4215:4221 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4230:4232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4222:4222 <> t:39
+R4228:4228 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R4229:4229 BarocqComp.frontend.BarocqVC <> t:39 var
+binder 4225:4225 <> v:40
+R4282:4285 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4265:4267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4233:4240 BarocqComp.frontend.Barocq <> genv_get def
+R4255:4256 BarocqComp.frontend.BarocqVC <> ge:37 var
+R4259:4261 Coq.Init.Datatypes <> fst def
+R4263:4263 BarocqComp.frontend.BarocqVC <> p:38 var
+R4242:4253 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R4268:4269 compcert.common.Errors <> OK constr
+R4272:4274 BarocqComp.frontend.Barocq <> Val constr
+R4278:4278 BarocqComp.frontend.BarocqVC <> t:39 var
+R4280:4280 BarocqComp.frontend.BarocqVC <> v:40 var
+R4287:4289 Coq.Init.Datatypes <> snd def
+R4291:4291 BarocqComp.frontend.BarocqVC <> p:38 var
+R4294:4294 BarocqComp.frontend.BarocqVC <> t:39 var
+R4296:4296 BarocqComp.frontend.BarocqVC <> v:40 var
+def 4447:4463 <> env_preserve_defs
+R4475:4478 BarocqComp.frontend.Barocq <> genv def
+R4480:4491 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+binder 4466:4468 <> ge1:41
+binder 4470:4472 <> ge2:42
+binder 4508:4509 <> k':43
+binder 4511:4512 <> v':44
+R4539:4542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4529:4531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4524:4526 compcert.lib.Maps <> :::x_'!'_x not
+R4527:4528 BarocqComp.frontend.BarocqVC <> k':43 var
+R4521:4523 BarocqComp.frontend.BarocqVC <> ge1:41 var
+R4532:4535 Coq.Init.Datatypes <> Some constr
+R4537:4538 BarocqComp.frontend.BarocqVC <> v':44 var
+R4551:4553 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4546:4548 compcert.lib.Maps <> :::x_'!'_x not
+R4549:4550 BarocqComp.frontend.BarocqVC <> k':43 var
+R4543:4545 BarocqComp.frontend.BarocqVC <> ge2:42 var
+R4554:4557 Coq.Init.Datatypes <> Some constr
+R4559:4560 BarocqComp.frontend.BarocqVC <> v':44 var
+prf 4572:4593 <> env_preserve_defs_refl
+binder 4604:4605 <> ge:45
+R4614:4630 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R4632:4633 BarocqComp.frontend.BarocqVC <> ge:45 var
+R4635:4636 BarocqComp.frontend.BarocqVC <> ge:45 var
+R4659:4675 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+prf 4699:4721 <> env_preserve_defs_trans
+binder 4732:4734 <> ge1:46
+binder 4736:4738 <> ge2:47
+binder 4740:4742 <> ge3:48
+R4776:4785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4751:4767 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R4769:4771 BarocqComp.frontend.BarocqVC <> ge1:46 var
+R4773:4775 BarocqComp.frontend.BarocqVC <> ge2:47 var
+R4811:4820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4786:4802 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R4804:4806 BarocqComp.frontend.BarocqVC <> ge2:47 var
+R4808:4810 BarocqComp.frontend.BarocqVC <> ge3:48 var
+R4821:4837 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R4839:4841 BarocqComp.frontend.BarocqVC <> ge1:46 var
+R4843:4845 BarocqComp.frontend.BarocqVC <> ge3:48 var
+R4868:4884 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+prf 4922:4946 <> genv_update_preserve_defs
+binder 4957:4958 <> ge:49
+binder 4960:4960 <> k:50
+binder 4962:4962 <> v:51
+binder 4964:4966 <> ge':52
+R5015:5024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5006:5008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4975:4985 BarocqComp.frontend.Barocq <> genv_update def
+R5000:5001 BarocqComp.frontend.BarocqVC <> ge:49 var
+R5003:5003 BarocqComp.frontend.BarocqVC <> k:50 var
+R5005:5005 BarocqComp.frontend.BarocqVC <> v:51 var
+R4987:4998 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R5009:5010 compcert.common.Errors <> OK constr
+R5012:5014 BarocqComp.frontend.BarocqVC <> ge':52 var
+R5025:5041 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R5043:5044 BarocqComp.frontend.BarocqVC <> ge:49 var
+R5046:5048 BarocqComp.frontend.BarocqVC <> ge':52 var
+R5071:5087 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R5089:5099 BarocqComp.frontend.Barocq <> genv_update def
+R5120:5127 BarocqComp.frontend.Barocq <> genv_get def
+R5146:5154 BarocqComp.common.Maps2 STree get def
+R5178:5181 compcert.lib.Maps <> :::x_'!'_x not
+R5203:5203 compcert.lib.Maps <> :::x_'!'_x not
+R5182:5200 BarocqComp.common.Maps2 StringIndexed index def
+R5178:5181 compcert.lib.Maps <> :::x_'!'_x not
+R5203:5203 compcert.lib.Maps <> :::x_'!'_x not
+R5182:5200 BarocqComp.common.Maps2 StringIndexed index def
+R5249:5257 BarocqComp.common.Maps2 STree set def
+R5272:5283 compcert.lib.Maps PTree gsspec thm
+R5272:5283 compcert.lib.Maps PTree gsspec thm
+R5272:5283 compcert.lib.Maps PTree gsspec thm
+R5300:5302 compcert.lib.Coqlib <> peq def
+R5308:5326 BarocqComp.common.Maps2 StringIndexed index def
+R5300:5302 compcert.lib.Coqlib <> peq def
+R5308:5326 BarocqComp.common.Maps2 StringIndexed index def
+prf 5368:5396 <> eval_decl_const_preserve_defs
+binder 5407:5408 <> te:53
+binder 5410:5411 <> ge:54
+binder 5413:5415 <> ge':55
+binder 5417:5417 <> x:56
+binder 5419:5419 <> l:57
+binder 5421:5422 <> ty:58
+R5480:5489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5471:5473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5431:5444 BarocqComp.frontend.Barocq <> eval_def_const def
+R5459:5460 BarocqComp.frontend.BarocqVC <> te:53 var
+R5462:5463 BarocqComp.frontend.BarocqVC <> ge:54 var
+R5465:5465 BarocqComp.frontend.BarocqVC <> x:56 var
+R5467:5467 BarocqComp.frontend.BarocqVC <> l:57 var
+R5469:5470 BarocqComp.frontend.BarocqVC <> ty:58 var
+R5446:5457 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R5474:5475 compcert.common.Errors <> OK constr
+R5477:5479 BarocqComp.frontend.BarocqVC <> ge':55 var
+R5490:5506 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R5508:5509 BarocqComp.frontend.BarocqVC <> ge:54 var
+R5511:5513 BarocqComp.frontend.BarocqVC <> ge':55 var
+R5536:5549 BarocqComp.frontend.Barocq <> eval_def_const def
+R5574:5585 BarocqComp.frontend.Barocq <> eval_literal def
+R5587:5598 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R5574:5585 BarocqComp.frontend.Barocq <> eval_literal def
+R5587:5598 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R5667:5684 BarocqComp.common.Typing <> btyp_to_typ def
+R5667:5684 BarocqComp.common.Typing <> btyp_to_typ def
+R5738:5747 BarocqComp.common.Types <> typ_eq_dec def
+R5738:5747 BarocqComp.common.Types <> typ_eq_dec def
+R5785:5809 BarocqComp.frontend.BarocqVC <> genv_update_preserve_defs thm
+R5785:5809 BarocqComp.frontend.BarocqVC <> genv_update_preserve_defs thm
+prf 5834:5859 <> eval_def_fun_preserve_defs
+binder 5870:5873 <> arch:59
+binder 5875:5876 <> te:60
+binder 5878:5879 <> ge:61
+binder 5881:5881 <> x:62
+binder 5883:5883 <> f:63
+binder 5885:5887 <> ge':64
+R5943:5950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5934:5936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5894:5905 BarocqComp.frontend.Barocq <> eval_def_fun def
+R5925:5926 BarocqComp.frontend.BarocqVC <> te:60 var
+R5928:5929 BarocqComp.frontend.BarocqVC <> ge:61 var
+R5931:5931 BarocqComp.frontend.BarocqVC <> x:62 var
+R5933:5933 BarocqComp.frontend.BarocqVC <> f:63 var
+R5912:5923 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R5907:5910 BarocqComp.frontend.BarocqVC <> arch:59 var
+R5937:5938 compcert.common.Errors <> OK constr
+R5940:5942 BarocqComp.frontend.BarocqVC <> ge':64 var
+R5951:5967 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R5969:5970 BarocqComp.frontend.BarocqVC <> ge:61 var
+R5972:5974 BarocqComp.frontend.BarocqVC <> ge':64 var
+R5997:6008 BarocqComp.frontend.Barocq <> eval_def_fun def
+R6037:6051 BarocqComp.frontend.Barocq <> build_fun_value def
+R6078:6093 BarocqComp.common.Syntax <> fn_params proj
+R6099:6114 BarocqComp.common.Syntax <> fn_return proj
+R6120:6133 BarocqComp.common.Syntax <> fn_body proj
+R6058:6069 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6037:6051 BarocqComp.frontend.Barocq <> build_fun_value def
+R6078:6093 BarocqComp.common.Syntax <> fn_params proj
+R6099:6114 BarocqComp.common.Syntax <> fn_return proj
+R6120:6133 BarocqComp.common.Syntax <> fn_body proj
+R6058:6069 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6185:6209 BarocqComp.frontend.BarocqVC <> genv_update_preserve_defs thm
+R6185:6209 BarocqComp.frontend.BarocqVC <> genv_update_preserve_defs thm
+prf 6235:6261 <> eval_prog_rec_preserve_defs
+binder 6276:6279 <> arch:65
+binder 6281:6284 <> prog:66
+binder 6286:6287 <> te:67
+binder 6289:6290 <> ge:68
+binder 6293:6295 <> te':69
+binder 6297:6299 <> ge':70
+R6361:6363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6319:6331 BarocqComp.frontend.Barocq <> eval_prog_rec def
+R6351:6352 BarocqComp.frontend.BarocqVC <> te:67 var
+R6354:6355 BarocqComp.frontend.BarocqVC <> ge:68 var
+R6357:6360 BarocqComp.frontend.BarocqVC <> prog:66 var
+R6338:6349 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6333:6336 BarocqComp.frontend.BarocqVC <> arch:65 var
+R6364:6365 compcert.common.Errors <> OK constr
+R6367:6367 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6371:6372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6376:6376 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6368:6370 BarocqComp.frontend.BarocqVC <> te':69 var
+R6373:6375 BarocqComp.frontend.BarocqVC <> ge':70 var
+binder 6313:6316 <> EVAL:71
+R6386:6402 BarocqComp.frontend.BarocqVC <> env_preserve_defs def
+R6404:6405 BarocqComp.frontend.BarocqVC <> ge:68 var
+R6407:6409 BarocqComp.frontend.BarocqVC <> ge':70 var
+R6478:6499 BarocqComp.frontend.BarocqVC <> env_preserve_defs_refl thm
+R6478:6499 BarocqComp.frontend.BarocqVC <> env_preserve_defs_refl thm
+R6559:6571 BarocqComp.frontend.Barocq <> eval_def_type def
+R6559:6571 BarocqComp.frontend.Barocq <> eval_def_type def
+R6685:6698 BarocqComp.frontend.Barocq <> eval_def_const def
+R6700:6711 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6685:6698 BarocqComp.frontend.Barocq <> eval_def_const def
+R6700:6711 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6830:6858 BarocqComp.frontend.BarocqVC <> eval_decl_const_preserve_defs thm
+R6830:6858 BarocqComp.frontend.BarocqVC <> eval_decl_const_preserve_defs thm
+R6890:6912 BarocqComp.frontend.BarocqVC <> env_preserve_defs_trans thm
+R6890:6912 BarocqComp.frontend.BarocqVC <> env_preserve_defs_trans thm
+R6939:6950 BarocqComp.frontend.Barocq <> eval_def_fun def
+R6957:6968 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R6939:6950 BarocqComp.frontend.Barocq <> eval_def_fun def
+R6957:6968 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7081:7106 BarocqComp.frontend.BarocqVC <> eval_def_fun_preserve_defs thm
+R7081:7106 BarocqComp.frontend.BarocqVC <> eval_def_fun_preserve_defs thm
+R7136:7158 BarocqComp.frontend.BarocqVC <> env_preserve_defs_trans thm
+R7136:7158 BarocqComp.frontend.BarocqVC <> env_preserve_defs_trans thm
+R7196:7210 BarocqComp.frontend.Barocq <> eval_decl_const def
+R7212:7223 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7196:7210 BarocqComp.frontend.Barocq <> eval_decl_const def
+R7212:7223 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7301:7313 BarocqComp.frontend.Barocq <> eval_decl_fun def
+R7315:7326 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7301:7313 BarocqComp.frontend.Barocq <> eval_decl_fun def
+R7315:7326 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+prf 7409:7423 <> genv_update_gss
+binder 7434:7435 <> ge:72
+binder 7437:7439 <> ge':73
+binder 7441:7442 <> id:74
+binder 7444:7444 <> v:75
+R7492:7499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7483:7485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7451:7461 BarocqComp.frontend.Barocq <> genv_update def
+R7476:7477 BarocqComp.frontend.BarocqVC <> ge:72 var
+R7479:7480 BarocqComp.frontend.BarocqVC <> id:74 var
+R7482:7482 BarocqComp.frontend.BarocqVC <> v:75 var
+R7463:7474 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7486:7487 compcert.common.Errors <> OK constr
+R7489:7491 BarocqComp.frontend.BarocqVC <> ge':73 var
+R7530:7532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7503:7506 compcert.lib.Maps <> :::x_'!'_x not
+R7529:7529 compcert.lib.Maps <> :::x_'!'_x not
+R7507:7525 BarocqComp.common.Maps2 StringIndexed index def
+R7527:7528 BarocqComp.frontend.BarocqVC <> id:74 var
+R7500:7502 BarocqComp.frontend.BarocqVC <> ge':73 var
+R7533:7536 Coq.Init.Datatypes <> Some constr
+R7538:7538 BarocqComp.frontend.BarocqVC <> v:75 var
+R7557:7567 BarocqComp.frontend.Barocq <> genv_update def
+R7587:7594 BarocqComp.frontend.Barocq <> genv_get def
+R7611:7619 BarocqComp.common.Maps2 STree get def
+R7641:7644 compcert.lib.Maps <> :::x_'!'_x not
+R7667:7667 compcert.lib.Maps <> :::x_'!'_x not
+R7645:7663 BarocqComp.common.Maps2 StringIndexed index def
+R7641:7644 compcert.lib.Maps <> :::x_'!'_x not
+R7667:7667 compcert.lib.Maps <> :::x_'!'_x not
+R7645:7663 BarocqComp.common.Maps2 StringIndexed index def
+R7717:7725 BarocqComp.common.Maps2 STree set def
+R7750:7758 compcert.lib.Maps PTree gss thm
+R7750:7758 compcert.lib.Maps PTree gss thm
+R7750:7758 compcert.lib.Maps PTree gss thm
+prf 7786:7807 <> genv_get_preserve_defs
+binder 7820:7823 <> arch:76
+binder 7825:7828 <> prog:77
+binder 7830:7831 <> te:78
+binder 7833:7834 <> ge:79
+binder 7837:7839 <> te':80
+binder 7841:7843 <> ge':81
+binder 7845:7845 <> x:82
+binder 7847:7847 <> v:83
+R7907:7909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7865:7877 BarocqComp.frontend.Barocq <> eval_prog_rec def
+R7897:7898 BarocqComp.frontend.BarocqVC <> te:78 var
+R7900:7901 BarocqComp.frontend.BarocqVC <> ge:79 var
+R7903:7906 BarocqComp.frontend.BarocqVC <> prog:77 var
+R7884:7895 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7879:7882 BarocqComp.frontend.BarocqVC <> arch:76 var
+R7910:7911 compcert.common.Errors <> OK constr
+R7913:7913 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7917:7918 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7922:7922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7914:7916 BarocqComp.frontend.BarocqVC <> te':80 var
+R7919:7921 BarocqComp.frontend.BarocqVC <> ge':81 var
+binder 7859:7862 <> EVAL:84
+R7967:7969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7941:7948 BarocqComp.frontend.Barocq <> genv_get def
+R7963:7964 BarocqComp.frontend.BarocqVC <> ge:79 var
+R7966:7966 BarocqComp.frontend.BarocqVC <> x:82 var
+R7950:7961 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R7970:7971 compcert.common.Errors <> OK constr
+R7973:7973 BarocqComp.frontend.BarocqVC <> v:83 var
+binder 7935:7937 <> GET:85
+R8008:8010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7981:7988 BarocqComp.frontend.Barocq <> genv_get def
+R8003:8005 BarocqComp.frontend.BarocqVC <> ge':81 var
+R8007:8007 BarocqComp.frontend.BarocqVC <> x:82 var
+R7990:8001 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R8011:8012 compcert.common.Errors <> OK constr
+R8014:8014 BarocqComp.frontend.BarocqVC <> v:83 var
+R8043:8069 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_defs thm
+R8043:8069 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_defs thm
+R8089:8096 BarocqComp.frontend.Barocq <> genv_get def
+R8113:8121 BarocqComp.common.Maps2 STree get def
+R8149:8167 BarocqComp.common.Maps2 StringIndexed index def
+R8149:8167 BarocqComp.common.Maps2 StringIndexed index def
+R8190:8193 compcert.lib.Maps <> :::x_'!'_x not
+R8215:8215 compcert.lib.Maps <> :::x_'!'_x not
+R8194:8212 BarocqComp.common.Maps2 StringIndexed index def
+R8190:8193 compcert.lib.Maps <> :::x_'!'_x not
+R8215:8215 compcert.lib.Maps <> :::x_'!'_x not
+R8194:8212 BarocqComp.common.Maps2 StringIndexed index def
+prf 8388:8420 <> eval_prog_rec_preserve_properties
+binder 8431:8434 <> arch:86
+binder 8436:8437 <> te:87
+binder 8439:8440 <> ge:88
+binder 8442:8445 <> prog:89
+binder 8447:8449 <> te':90
+binder 8451:8453 <> ge':91
+binder 8455:8459 <> props:92
+R8472:8477 Coq.Lists.List <> Forall ind
+R8497:8501 BarocqComp.frontend.BarocqVC <> props:92 var
+R8480:8491 BarocqComp.frontend.BarocqVC <> has_property def
+R8493:8494 BarocqComp.frontend.BarocqVC <> ge:88 var
+binder 8466:8468 <> ALL:93
+R8567:8574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8551:8553 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8509:8521 BarocqComp.frontend.Barocq <> eval_prog_rec def
+R8541:8542 BarocqComp.frontend.BarocqVC <> te:87 var
+R8544:8545 BarocqComp.frontend.BarocqVC <> ge:88 var
+R8547:8550 BarocqComp.frontend.BarocqVC <> prog:89 var
+R8528:8539 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R8523:8526 BarocqComp.frontend.BarocqVC <> arch:86 var
+R8554:8555 compcert.common.Errors <> OK constr
+R8557:8557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8561:8562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8566:8566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8558:8560 BarocqComp.frontend.BarocqVC <> te':90 var
+R8563:8565 BarocqComp.frontend.BarocqVC <> ge':91 var
+R8575:8580 Coq.Lists.List <> Forall ind
+R8601:8605 BarocqComp.frontend.BarocqVC <> props:92 var
+R8583:8594 BarocqComp.frontend.BarocqVC <> has_property def
+R8596:8598 BarocqComp.frontend.BarocqVC <> ge':91 var
+R8635:8647 Coq.Lists.List <> Forall_forall thm
+R8635:8647 Coq.Lists.List <> Forall_forall thm
+R8635:8647 Coq.Lists.List <> Forall_forall thm
+R8749:8770 BarocqComp.frontend.BarocqVC <> genv_get_preserve_defs thm
+R8749:8770 BarocqComp.frontend.BarocqVC <> genv_get_preserve_defs thm
+prf 8800:8836 <> eval_prog_rec_preserve_app_properties
+binder 8847:8850 <> arch:94
+binder 8853:8854 <> p2:95
+binder 8857:8859 <> te':96
+binder 8861:8864 <> te'':97
+binder 8866:8868 <> ge':98
+binder 8870:8873 <> ge'':99
+binder 8875:8877 <> p1':100
+binder 8879:8881 <> p2':101
+R8917:8924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8888:8893 Coq.Lists.List <> Forall ind
+R8914:8916 BarocqComp.frontend.BarocqVC <> p1':100 var
+R8896:8907 BarocqComp.frontend.BarocqVC <> has_property def
+R8909:8911 BarocqComp.frontend.BarocqVC <> ge':98 var
+R8984:8991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8967:8969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8925:8937 BarocqComp.frontend.Barocq <> eval_prog_rec def
+R8957:8959 BarocqComp.frontend.BarocqVC <> te':96 var
+R8961:8963 BarocqComp.frontend.BarocqVC <> ge':98 var
+R8965:8966 BarocqComp.frontend.BarocqVC <> p2:95 var
+R8944:8955 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R8939:8942 BarocqComp.frontend.BarocqVC <> arch:94 var
+R8970:8971 compcert.common.Errors <> OK constr
+R8973:8973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8978:8978 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8983:8983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8974:8977 BarocqComp.frontend.BarocqVC <> te'':97 var
+R8979:8982 BarocqComp.frontend.BarocqVC <> ge'':99 var
+R9022:9029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8992:8997 Coq.Lists.List <> Forall ind
+R9019:9021 BarocqComp.frontend.BarocqVC <> p2':101 var
+R9000:9011 BarocqComp.frontend.BarocqVC <> has_property def
+R9013:9016 BarocqComp.frontend.BarocqVC <> ge'':99 var
+R9030:9035 Coq.Lists.List <> Forall ind
+R9061:9064 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9058:9060 BarocqComp.frontend.BarocqVC <> p1':100 var
+R9065:9067 BarocqComp.frontend.BarocqVC <> p2':101 var
+R9038:9049 BarocqComp.frontend.BarocqVC <> has_property def
+R9051:9054 BarocqComp.frontend.BarocqVC <> ge'':99 var
+R9098:9107 Coq.Lists.List <> Forall_app thm
+R9098:9107 Coq.Lists.List <> Forall_app thm
+R9098:9107 Coq.Lists.List <> Forall_app thm
+R9128:9160 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R9128:9160 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+def 9238:9249 <> val_of_value
+R9255:9259 BarocqComp.frontend.Barocq <> value ind
+R9261:9272 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+binder 9252:9252 <> v:102
+R9277:9279 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R9307:9307 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R9280:9291 BarocqComp.frontend.Barocq <> typeof_value def
+R9306:9306 BarocqComp.frontend.BarocqVC <> v:102 var
+R9293:9304 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R9320:9320 BarocqComp.frontend.BarocqVC <> v:102 var
+R9331:9333 BarocqComp.frontend.Barocq <> Val constr
+R9344:9344 BarocqComp.frontend.BarocqVC <> v:102 var
+def 9366:9390 <> generate_const_obligation
+R9398:9408 BarocqComp.common.Typing <> tenv def
+binder 9393:9394 <> te:104
+R9414:9418 BarocqComp.common.Types <> ident def
+binder 9412:9412 <> x:105
+R9424:9437 BarocqComp.common.Syntax <> literal ind
+binder 9422:9422 <> l:106
+R9444:9447 BarocqComp.common.Types <> btyp ind
+binder 9441:9442 <> ty:107
+R9471:9473 BarocqComp.common.Types <> typ ind
+binder 9469:9469 <> t:108
+R9480:9483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9477:9478 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R9479:9479 BarocqComp.frontend.BarocqVC <> t:108 var
+binder 9453:9456 <> prop:109
+R9493:9495 compcert.common.Errors <> res ind
+R9507:9511 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9515:9518 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9543:9548 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9519:9536 BarocqComp.common.Typing <> btyp_to_typ def
+R9538:9539 BarocqComp.frontend.BarocqVC <> te:104 var
+R9541:9542 BarocqComp.frontend.BarocqVC <> ty:107 var
+binder 9512:9514 <> ty':110
+R9549:9552 BarocqComp.common.Monads MonError eret abbrev
+R9565:9568 Coq.Init.Datatypes <> unit ind
+binder 9563:9563 <> u:111
+R9586:9597 BarocqComp.frontend.Barocq <> eval_literal def
+R9612:9613 BarocqComp.frontend.BarocqVC <> te:104 var
+R9615:9615 BarocqComp.frontend.BarocqVC <> l:106 var
+R9599:9610 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R9632:9633 compcert.common.Errors <> OK constr
+R9658:9660 BarocqComp.frontend.Barocq <> Val constr
+R9693:9699 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R9704:9706 BarocqComp.frontend.BarocqVC <> ty':110 var
+R9742:9746 Coq.Init.Logic <> False ind
+R9727:9730 BarocqComp.frontend.BarocqVC <> prop:109 var
+R9766:9770 Coq.Init.Logic <> False ind
+def 9794:9801 <> get_prop
+R9806:9810 BarocqComp.common.Types <> ident def
+binder 9804:9804 <> s:113
+R9822:9825 Coq.Init.Datatypes <> list ind
+R9827:9831 BarocqComp.frontend.BarocqVC <> propt def
+binder 9814:9818 <> props:114
+R9845:9849 BarocqComp.frontend.BarocqVC <> props:114 var
+R9860:9862 Coq.Init.Datatypes <> nil constr
+R9867:9870 BarocqComp.common.Monads MonError fail def
+R9882:9883 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9876:9876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9879:9879 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9881:9881 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9897:9906 Coq.Strings.String <> eqb def
+R9908:9908 BarocqComp.frontend.BarocqVC <> s:113 var
+R9985:9988 BarocqComp.common.Monads MonError fail def
+R9942:9945 BarocqComp.common.Monads MonError eret abbrev
+R9947:9947 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9949:9949 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9956:9956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 10008:10019 <> vars_of_expr
+def 10889:10902 <> vars_of_access
+R10029:10035 BarocqComp.common.Maps2 STree t def
+R10037:10040 Coq.Init.Datatypes <> unit ind
+binder 10022:10025 <> vars:116
+R10046:10049 BarocqComp.frontend.Barocq <> expr ind
+binder 10044:10044 <> e:117
+R10911:10917 BarocqComp.common.Maps2 STree t def
+R10919:10922 Coq.Init.Datatypes <> unit ind
+binder 10905:10908 <> vars:118
+R10930:10935 BarocqComp.frontend.Barocq <> access ind
+binder 10926:10928 <> acc:119
+R10055:10061 BarocqComp.common.Maps2 STree t def
+R10063:10066 Coq.Init.Datatypes <> unit ind
+R10940:10946 BarocqComp.common.Maps2 STree t def
+R10948:10951 Coq.Init.Datatypes <> unit ind
+R10079:10079 BarocqComp.frontend.BarocqVC <> e:117 var
+R10090:10094 BarocqComp.frontend.Barocq <> ETrue constr
+R10098:10103 BarocqComp.frontend.Barocq <> EFalse constr
+R10106:10111 BarocqComp.frontend.Barocq <> EInt32 constr
+R10119:10124 BarocqComp.frontend.Barocq <> EInt64 constr
+R10133:10136 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10133:10136 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10133:10136 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10133:10136 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10142:10145 BarocqComp.frontend.Barocq <> EVar constr
+R10153:10161 BarocqComp.common.Maps2 STree set def
+R10169:10172 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10166:10167 Coq.Init.Datatypes <> tt constr
+R10178:10182 BarocqComp.frontend.Barocq <> ECast constr
+R10191:10202 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10209:10209 BarocqComp.frontend.BarocqVC <> e:117 var
+R10204:10207 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10215:10222 BarocqComp.frontend.Barocq <> EUnaryOp constr
+R10231:10242 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10249:10249 BarocqComp.frontend.BarocqVC <> e:117 var
+R10244:10247 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10255:10263 BarocqComp.frontend.Barocq <> EBinaryOp constr
+R10275:10283 BarocqComp.frontend.Barocq <> EArrayGet constr
+R10294:10305 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10308:10319 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10321:10324 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10294:10305 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10308:10319 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10321:10324 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10337:10345 BarocqComp.frontend.Barocq <> EArraySet constr
+R10359:10370 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10373:10384 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10387:10398 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10400:10403 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10420:10430 BarocqComp.frontend.Barocq <> ERecordProj constr
+R10439:10450 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10457:10457 BarocqComp.frontend.BarocqVC <> e:117 var
+R10452:10455 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10463:10475 BarocqComp.frontend.Barocq <> ERecordUpdate constr
+R10488:10499 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10502:10513 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10515:10518 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10531:10541 BarocqComp.frontend.Barocq <> EDeepAccess constr
+R10552:10563 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10606:10606 BarocqComp.frontend.BarocqVC <> e:117 var
+R10566:10579 Coq.Lists.List <> fold_left def
+R10600:10603 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10581:10594 BarocqComp.frontend.BarocqVC <> vars_of_access:121 def
+R10612:10615 BarocqComp.frontend.Barocq <> EApp constr
+R10626:10639 Coq.Lists.List <> fold_left def
+R10657:10668 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10675:10675 BarocqComp.frontend.BarocqVC <> e:117 var
+R10670:10673 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10641:10652 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10682:10692 BarocqComp.frontend.Barocq <> EIfThenElse constr
+R10706:10717 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10720:10731 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10734:10745 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10747:10750 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10767:10772 BarocqComp.frontend.Barocq <> ELetIn constr
+R10837:10848 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10851:10862 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R10864:10867 BarocqComp.frontend.BarocqVC <> vars:116 var
+R10971:10973 BarocqComp.frontend.BarocqVC <> acc:119 var
+R10991:11003 BarocqComp.frontend.Barocq <> AcRecordField constr
+R11010:11013 BarocqComp.frontend.BarocqVC <> vars:118 var
+R11026:11037 BarocqComp.frontend.Barocq <> AcArrayIndex constr
+R11044:11055 BarocqComp.frontend.BarocqVC <> vars_of_expr:120 def
+R11057:11060 BarocqComp.frontend.BarocqVC <> vars:118 var
+def 11090:11096 <> has_var
+R11101:11106 Coq.Strings.String <> string ind
+binder 11099:11099 <> s:124
+R11115:11121 BarocqComp.common.Maps2 STree t def
+R11123:11126 Coq.Init.Datatypes <> unit ind
+binder 11110:11113 <> vars:125
+R11140:11148 BarocqComp.common.Maps2 STree get def
+R11152:11155 BarocqComp.frontend.BarocqVC <> vars:125 var
+R11150:11150 BarocqComp.frontend.BarocqVC <> s:124 var
+R11166:11169 Coq.Init.Datatypes <> None constr
+R11174:11178 Coq.Init.Datatypes <> false constr
+R11184:11187 Coq.Init.Datatypes <> Some constr
+R11194:11197 Coq.Init.Datatypes <> true constr
+def 11219:11245 <> generate_def_fun_obligation
+R11253:11257 BarocqComp.common.Target <> archi ind
+binder 11248:11251 <> arch:126
+R11264:11274 BarocqComp.common.Typing <> tenv def
+binder 11261:11262 <> te:127
+R11288:11297 BarocqComp.common.Maps2 SMapList t def
+R11299:11302 BarocqComp.common.Types <> btyp ind
+binder 11279:11284 <> params:128
+R11313:11316 BarocqComp.common.Types <> btyp ind
+binder 11306:11309 <> tret:129
+R11324:11327 BarocqComp.frontend.Barocq <> expr ind
+binder 11320:11320 <> e:130
+R11341:11344 Coq.Init.Datatypes <> list ind
+R11346:11350 BarocqComp.frontend.BarocqVC <> propt def
+binder 11331:11337 <> checked:131
+R11374:11376 BarocqComp.common.Types <> typ ind
+binder 11372:11372 <> t:132
+R11383:11386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11380:11381 BarocqComp.frontend.BarocqVC S :::'#'_x not
+R11382:11382 BarocqComp.frontend.BarocqVC <> t:132 var
+binder 11356:11359 <> prop:133
+R11396:11398 compcert.common.Errors <> res ind
+R11413:11427 BarocqComp.common.MergeSort <> nodup def
+R11452:11459 Coq.Lists.List <> map def
+R11465:11470 BarocqComp.frontend.BarocqVC <> params:128 var
+R11461:11463 Coq.Init.Datatypes <> fst def
+R11440:11449 Coq.Strings.String <> eqb def
+R11429:11438 Coq.Strings.String <> leb def
+R11917:11920 BarocqComp.common.Monads MonError fail def
+R11484:11488 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11494:11497 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11524:11531 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11498:11515 BarocqComp.common.Typing <> btyp_to_typ def
+R11517:11518 BarocqComp.frontend.BarocqVC <> te:127 var
+R11520:11523 BarocqComp.frontend.BarocqVC <> tret:129 var
+binder 11489:11493 <> tret':134
+R11532:11536 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11544:11547 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11595:11602 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11548:11563 BarocqComp.common.Maps2 SMapList map_err def
+R11589:11594 BarocqComp.frontend.BarocqVC <> params:128 var
+R11566:11583 BarocqComp.common.Typing <> btyp_to_typ def
+R11585:11586 BarocqComp.frontend.BarocqVC <> te:127 var
+binder 11537:11543 <> params':135
+R11619:11630 BarocqComp.frontend.BarocqVC <> vars_of_expr def
+R11632:11642 BarocqComp.common.Maps2 STree empty def
+R11644:11644 BarocqComp.frontend.BarocqVC <> e:130 var
+binder 11607:11610 <> vars:136
+R11675:11685 Coq.Lists.List <> filter def
+R11718:11724 BarocqComp.frontend.BarocqVC <> checked:131 var
+R11693:11693 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11695:11695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11697:11697 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 11694:11694 <> k:137
+binder 11693:11697 <> pat:138
+R11702:11708 BarocqComp.frontend.BarocqVC <> has_var def
+R11710:11710 BarocqComp.frontend.BarocqVC <> k:137 var
+R11712:11715 BarocqComp.frontend.BarocqVC <> vars:136 var
+binder 11657:11670 <> needed_checked:139
+binder 11749:11750 <> ge:140
+R11800:11811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11761:11766 Coq.Lists.List <> Forall ind
+R11786:11799 BarocqComp.frontend.BarocqVC <> needed_checked:139 var
+R11769:11780 BarocqComp.frontend.BarocqVC <> has_property def
+R11782:11783 BarocqComp.frontend.BarocqVC <> ge:140 var
+R11822:11833 BarocqComp.frontend.Barocq <> build_funval def
+R11853:11854 BarocqComp.frontend.BarocqVC <> te:127 var
+R11856:11857 BarocqComp.frontend.BarocqVC <> ge:140 var
+R11859:11865 BarocqComp.frontend.BarocqVC <> params':135 var
+R11867:11871 BarocqComp.frontend.BarocqVC <> tret':134 var
+R11873:11873 BarocqComp.frontend.BarocqVC <> e:130 var
+R11840:11851 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R11835:11838 BarocqComp.frontend.BarocqVC <> arch:126 var
+binder 11816:11816 <> v:141
+R11887:11890 BarocqComp.frontend.BarocqVC <> prop:133 var
+R11894:11894 BarocqComp.frontend.BarocqVC <> v:141 var
+binder 11737:11737 <> o:142
+R11903:11906 BarocqComp.common.Monads MonError eret abbrev
+R11908:11908 BarocqComp.frontend.BarocqVC <> o:142 var
+def 11935:11944 <> is_checked
+R11949:11960 BarocqComp.common.Syntax <> ident def
+binder 11947:11947 <> x:143
+R11972:11975 Coq.Init.Datatypes <> list ind
+R11977:11981 BarocqComp.frontend.BarocqVC <> propt def
+binder 11964:11970 <> checked:144
+R11989:12000 Coq.Lists.List <> existsb def
+R12034:12040 BarocqComp.frontend.BarocqVC <> checked:144 var
+binder 12007:12007 <> p:145
+R12012:12021 Coq.Strings.String <> string_dec def
+R12023:12023 BarocqComp.frontend.BarocqVC <> x:143 var
+R12026:12028 Coq.Init.Datatypes <> fst def
+R12030:12030 BarocqComp.frontend.BarocqVC <> p:145 var
+def 12055:12084 <> generate_decl_const_obligation
+R12091:12101 BarocqComp.common.Typing <> tenv def
+binder 12087:12088 <> te:146
+R12113:12116 Coq.Init.Datatypes <> list ind
+R12118:12122 BarocqComp.frontend.BarocqVC <> propt def
+binder 12105:12111 <> checked:147
+R12128:12139 BarocqComp.common.Syntax <> ident def
+binder 12126:12126 <> x:148
+R12146:12149 BarocqComp.common.Types <> btyp ind
+binder 12143:12144 <> bt:149
+R12154:12156 compcert.common.Errors <> res ind
+R12168:12172 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12175:12178 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12203:12243 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12179:12196 BarocqComp.common.Typing <> btyp_to_typ def
+R12198:12199 BarocqComp.frontend.BarocqVC <> te:146 var
+R12201:12202 BarocqComp.frontend.BarocqVC <> bt:149 var
+binder 12173:12174 <> ty:150
+binder 12260:12261 <> ge:151
+R12296:12299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12264:12269 Coq.Lists.List <> Forall ind
+R12289:12295 BarocqComp.frontend.BarocqVC <> checked:147 var
+R12272:12283 BarocqComp.frontend.BarocqVC <> has_property def
+R12285:12286 BarocqComp.frontend.BarocqVC <> ge:151 var
+R12300:12311 BarocqComp.frontend.BarocqVC <> has_property def
+R12313:12314 BarocqComp.frontend.BarocqVC <> ge:151 var
+R12316:12316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12318:12319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12342:12342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12317:12317 BarocqComp.frontend.BarocqVC <> x:148 var
+binder 12324:12326 <> ty':152
+binder 12328:12328 <> v:153
+R12336:12339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12333:12335 BarocqComp.frontend.BarocqVC <> ty':152 var
+R12340:12341 BarocqComp.frontend.BarocqVC <> ty:150 var
+binder 12248:12248 <> P:154
+R12349:12352 BarocqComp.common.Monads MonError eret abbrev
+R12354:12354 BarocqComp.frontend.BarocqVC <> P:154 var
+def 12369:12396 <> generate_decl_fun_obligation
+R12403:12413 BarocqComp.common.Typing <> tenv def
+binder 12399:12400 <> te:155
+R12425:12428 Coq.Init.Datatypes <> list ind
+R12430:12434 BarocqComp.frontend.BarocqVC <> propt def
+binder 12417:12423 <> checked:156
+R12440:12451 BarocqComp.common.Syntax <> ident def
+binder 12438:12438 <> x:157
+R12464:12467 Coq.Init.Datatypes <> list ind
+R12487:12489 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12470:12486 BarocqComp.common.Syntax <> param_attr ind
+R12490:12493 BarocqComp.common.Types <> btyp ind
+binder 12455:12460 <> params:158
+R12507:12510 BarocqComp.common.Types <> btyp ind
+binder 12500:12503 <> tret:159
+R12515:12517 compcert.common.Errors <> res ind
+R12529:12533 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12540:12543 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12589:12594 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12544:12547 compcert.common.Errors <> mmap def
+R12574:12576 Coq.Lists.List <> map def
+R12582:12587 BarocqComp.frontend.BarocqVC <> params:158 var
+R12578:12580 Coq.Init.Datatypes <> snd def
+R12550:12567 BarocqComp.common.Typing <> btyp_to_typ def
+R12569:12570 BarocqComp.frontend.BarocqVC <> te:155 var
+binder 12534:12539 <> tparam:160
+R12595:12599 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12605:12608 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12635:12640 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12609:12626 BarocqComp.common.Typing <> btyp_to_typ def
+R12628:12629 BarocqComp.frontend.BarocqVC <> te:155 var
+R12631:12634 BarocqComp.frontend.BarocqVC <> tret:159 var
+binder 12600:12604 <> tret':161
+binder 12657:12658 <> ge:162
+R12693:12696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12661:12666 Coq.Lists.List <> Forall ind
+R12686:12692 BarocqComp.frontend.BarocqVC <> checked:156 var
+R12669:12680 BarocqComp.frontend.BarocqVC <> has_property def
+R12682:12683 BarocqComp.frontend.BarocqVC <> ge:162 var
+R12697:12708 BarocqComp.frontend.BarocqVC <> has_property def
+R12710:12711 BarocqComp.frontend.BarocqVC <> ge:162 var
+R12713:12713 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12715:12716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12753:12753 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12714:12714 BarocqComp.frontend.BarocqVC <> x:157 var
+binder 12721:12723 <> ty':163
+binder 12725:12725 <> v:164
+R12733:12735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12730:12732 BarocqComp.frontend.BarocqVC <> ty':163 var
+R12736:12739 BarocqComp.common.Types <> TFun constr
+R12741:12746 BarocqComp.frontend.BarocqVC <> tparam:160 var
+R12748:12752 BarocqComp.frontend.BarocqVC <> tret':161 var
+binder 12645:12645 <> P:165
+R12760:12763 BarocqComp.common.Monads MonError eret abbrev
+R12765:12765 BarocqComp.frontend.BarocqVC <> P:165 var
+def 12780:12794 <> tenv_update_opt
+R12801:12811 BarocqComp.common.Typing <> tenv def
+binder 12797:12798 <> te:166
+R12818:12829 BarocqComp.common.Syntax <> ident def
+binder 12815:12815 <> x:167
+R12842:12851 BarocqComp.common.Maps2 SMapList t def
+R12853:12855 BarocqComp.common.Types <> typ ind
+binder 12833:12838 <> fields:168
+R12873:12891 BarocqComp.common.Maps2 StringIndexed index def
+R12893:12893 BarocqComp.frontend.BarocqVC <> x:167 var
+binder 12867:12868 <> id:169
+R12906:12914 compcert.lib.Maps PTree get def
+R12919:12920 BarocqComp.frontend.BarocqVC <> te:166 var
+R12916:12917 BarocqComp.frontend.BarocqVC <> id:169 var
+R12931:12934 Coq.Init.Datatypes <> None constr
+R12939:12942 BarocqComp.common.Monads MonError eret abbrev
+R12945:12953 compcert.lib.Maps PTree set def
+R12965:12966 BarocqComp.frontend.BarocqVC <> te:166 var
+R12958:12963 BarocqComp.frontend.BarocqVC <> fields:168 var
+R12955:12956 BarocqComp.frontend.BarocqVC <> id:169 var
+R12973:12976 Coq.Init.Datatypes <> Some constr
+R12983:12986 BarocqComp.common.Monads MonError fail def
+def 13007:13025 <> obligation_def_type
+R13032:13042 BarocqComp.common.Typing <> tenv def
+binder 13028:13029 <> te:170
+R13048:13059 BarocqComp.common.Syntax <> ident def
+binder 13046:13046 <> x:171
+R13072:13081 BarocqComp.common.Maps2 SMapList t def
+R13083:13086 BarocqComp.common.Types <> btyp ind
+binder 13063:13068 <> fields:172
+R13091:13093 compcert.common.Errors <> res ind
+R13095:13105 BarocqComp.common.Typing <> tenv def
+R13112:13116 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13124:13127 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13156:13161 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13128:13145 BarocqComp.frontend.Barocq <> fields_btyp_to_typ def
+R13147:13148 BarocqComp.frontend.BarocqVC <> te:170 var
+R13150:13155 BarocqComp.frontend.BarocqVC <> fields:172 var
+binder 13117:13123 <> fields':173
+R13162:13176 BarocqComp.frontend.BarocqVC <> tenv_update_opt def
+R13178:13179 BarocqComp.frontend.BarocqVC <> te:170 var
+R13181:13181 BarocqComp.frontend.BarocqVC <> x:171 var
+R13183:13189 BarocqComp.frontend.BarocqVC <> fields':173 var
+def 13203:13222 <> generate_obligations
+R13230:13234 BarocqComp.common.Target <> archi ind
+binder 13225:13228 <> arch:174
+R13242:13252 BarocqComp.common.Typing <> tenv def
+binder 13239:13240 <> te:175
+R13268:13271 Coq.Init.Datatypes <> list ind
+R13273:13277 BarocqComp.frontend.BarocqVC <> propt def
+binder 13258:13264 <> checked:176
+R13286:13289 Coq.Init.Datatypes <> list ind
+binder 13281:13282 <> vc:177
+R13300:13306 BarocqComp.frontend.Barocq <> program def
+binder 13298:13298 <> p:178
+R13318:13321 Coq.Init.Datatypes <> list ind
+R13323:13327 BarocqComp.frontend.BarocqVC <> propt def
+binder 13310:13314 <> props:179
+R13332:13334 compcert.common.Errors <> res ind
+R13337:13340 Coq.Init.Datatypes <> list ind
+R13361:13361 BarocqComp.frontend.BarocqVC <> p:178 var
+R13374:13376 Coq.Init.Datatypes <> nil constr
+R13387:13391 BarocqComp.frontend.BarocqVC <> props:179 var
+R13413:13415 Coq.Init.Datatypes <> nil constr
+R13420:13423 BarocqComp.common.Monads MonError eret abbrev
+R13425:13426 BarocqComp.frontend.BarocqVC <> vc:177 var
+R13450:13453 BarocqComp.common.Monads MonError fail def
+R13479:13482 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13523:13529 BarocqComp.frontend.Barocq <> DefType constr
+R13544:13548 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13552:13555 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13587:13590 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13556:13574 BarocqComp.frontend.BarocqVC <> obligation_def_type def
+R13576:13577 BarocqComp.frontend.BarocqVC <> te:175 var
+binder 13549:13551 <> te':184
+R13591:13610 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R13639:13643 BarocqComp.frontend.BarocqVC <> props:179 var
+R13630:13631 BarocqComp.frontend.BarocqVC <> vc:177 var
+R13622:13628 BarocqComp.frontend.BarocqVC <> checked:176 var
+R13618:13620 BarocqComp.frontend.BarocqVC <> te':184 var
+R13612:13615 BarocqComp.frontend.BarocqVC <> arch:174 var
+R13655:13662 BarocqComp.frontend.Barocq <> DefConst constr
+R13689:13694 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13696:13696 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13703:13707 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13724:13739 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13708:13715 BarocqComp.frontend.BarocqVC <> get_prop def
+R13719:13723 BarocqComp.frontend.BarocqVC <> props:179 var
+binder 13695:13695 <> p:185
+binder 13697:13702 <> props':186
+R13740:13745 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13747:13751 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13789:13804 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13752:13776 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R13778:13779 BarocqComp.frontend.BarocqVC <> te:175 var
+R13788:13788 BarocqComp.frontend.BarocqVC <> p:185 var
+binder 13746:13746 <> o:187
+R13805:13824 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R13867:13872 BarocqComp.frontend.BarocqVC <> props':186 var
+R13854:13855 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13853:13853 BarocqComp.frontend.BarocqVC <> o:187 var
+R13856:13857 BarocqComp.frontend.BarocqVC <> vc:177 var
+R13841:13842 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13836:13836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13838:13838 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13840:13840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13839:13839 BarocqComp.frontend.BarocqVC <> p:185 var
+R13843:13849 BarocqComp.frontend.BarocqVC <> checked:176 var
+R13832:13833 BarocqComp.frontend.BarocqVC <> te:175 var
+R13826:13829 BarocqComp.frontend.BarocqVC <> arch:174 var
+R13884:13889 BarocqComp.frontend.Barocq <> DefFun constr
+R13910:13915 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13917:13917 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13924:13928 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13945:13960 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R13929:13936 BarocqComp.frontend.BarocqVC <> get_prop def
+R13940:13944 BarocqComp.frontend.BarocqVC <> props:179 var
+binder 13916:13916 <> p:188
+binder 13918:13923 <> props':189
+R13961:13966 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13968:13973 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14080:14095 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13974:14000 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R14002:14005 BarocqComp.frontend.BarocqVC <> arch:174 var
+R14007:14008 BarocqComp.frontend.BarocqVC <> te:175 var
+R14011:14026 BarocqComp.common.Syntax <> fn_params proj
+R14032:14047 BarocqComp.common.Syntax <> fn_return proj
+R14053:14066 BarocqComp.common.Syntax <> fn_body proj
+R14071:14077 BarocqComp.frontend.BarocqVC <> checked:176 var
+R14079:14079 BarocqComp.frontend.BarocqVC <> p:188 var
+binder 13967:13967 <> o:190
+R14096:14115 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R14158:14163 BarocqComp.frontend.BarocqVC <> props':189 var
+R14145:14146 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14144:14144 BarocqComp.frontend.BarocqVC <> o:190 var
+R14147:14148 BarocqComp.frontend.BarocqVC <> vc:177 var
+R14132:14133 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14127:14127 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14129:14129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14131:14131 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14130:14130 BarocqComp.frontend.BarocqVC <> p:188 var
+R14134:14140 BarocqComp.frontend.BarocqVC <> checked:176 var
+R14123:14124 BarocqComp.frontend.BarocqVC <> te:175 var
+R14117:14120 BarocqComp.frontend.BarocqVC <> arch:174 var
+R14175:14182 BarocqComp.frontend.Barocq <> DeclType constr
+R14192:14211 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R14239:14243 BarocqComp.frontend.BarocqVC <> props:179 var
+R14230:14231 BarocqComp.frontend.BarocqVC <> vc:177 var
+R14222:14228 BarocqComp.frontend.BarocqVC <> checked:176 var
+R14219:14220 BarocqComp.frontend.BarocqVC <> te:175 var
+R14213:14216 BarocqComp.frontend.BarocqVC <> arch:174 var
+R14255:14263 BarocqComp.frontend.Barocq <> DeclConst constr
+R14285:14289 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14291:14294 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14341:14356 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14295:14324 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R14326:14327 BarocqComp.frontend.BarocqVC <> te:175 var
+R14329:14335 BarocqComp.frontend.BarocqVC <> checked:176 var
+binder 14290:14290 <> o:191
+R14357:14376 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R14409:14413 BarocqComp.frontend.BarocqVC <> props:179 var
+R14397:14398 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14396:14396 BarocqComp.frontend.BarocqVC <> o:191 var
+R14399:14400 BarocqComp.frontend.BarocqVC <> vc:177 var
+R14387:14393 BarocqComp.frontend.BarocqVC <> checked:176 var
+R14384:14385 BarocqComp.frontend.BarocqVC <> te:175 var
+R14378:14381 BarocqComp.frontend.BarocqVC <> arch:174 var
+R14425:14431 BarocqComp.frontend.Barocq <> DeclFun constr
+R14462:14466 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14468:14471 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14525:14540 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14472:14499 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R14501:14502 BarocqComp.frontend.BarocqVC <> te:175 var
+R14504:14510 BarocqComp.frontend.BarocqVC <> checked:176 var
+binder 14467:14467 <> o:192
+R14541:14560 BarocqComp.frontend.BarocqVC <> generate_obligations:180 def
+R14593:14597 BarocqComp.frontend.BarocqVC <> props:179 var
+R14581:14582 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14580:14580 BarocqComp.frontend.BarocqVC <> o:192 var
+R14583:14584 BarocqComp.frontend.BarocqVC <> vc:177 var
+R14571:14577 BarocqComp.frontend.BarocqVC <> checked:176 var
+R14568:14569 BarocqComp.frontend.BarocqVC <> te:175 var
+R14562:14565 BarocqComp.frontend.BarocqVC <> arch:174 var
+prf 14628:14639 <> get_prop_inv
+binder 14650:14650 <> s:193
+binder 14652:14652 <> p:194
+binder 14654:14658 <> props:195
+binder 14660:14665 <> props':196
+R14705:14713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14688:14690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14672:14679 BarocqComp.frontend.BarocqVC <> get_prop def
+R14681:14681 BarocqComp.frontend.BarocqVC <> s:193 var
+R14683:14687 BarocqComp.frontend.BarocqVC <> props:195 var
+R14691:14692 compcert.common.Errors <> OK constr
+R14694:14694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14696:14697 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14704:14704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14695:14695 BarocqComp.frontend.BarocqVC <> p:194 var
+R14698:14703 BarocqComp.frontend.BarocqVC <> props':196 var
+R14719:14721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14714:14718 BarocqComp.frontend.BarocqVC <> props:195 var
+R14727:14730 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14722:14722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14724:14724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14726:14726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14723:14723 BarocqComp.frontend.BarocqVC <> s:193 var
+R14725:14725 BarocqComp.frontend.BarocqVC <> p:194 var
+R14731:14736 BarocqComp.frontend.BarocqVC <> props':196 var
+R14755:14762 BarocqComp.frontend.BarocqVC <> get_prop def
+R14836:14845 Coq.Strings.String <> eqb def
+R14836:14845 Coq.Strings.String <> eqb def
+R14871:14883 Coq.Strings.String <> eqb_eq thm
+R14871:14883 Coq.Strings.String <> eqb_eq thm
+R14871:14883 Coq.Strings.String <> eqb_eq thm
+def 14949:14958 <> wf_checked
+R14969:14972 Coq.Init.Datatypes <> list ind
+R14974:14978 BarocqComp.frontend.BarocqVC <> propt def
+binder 14961:14965 <> props:197
+R14987:14993 BarocqComp.frontend.Barocq <> program def
+binder 14982:14985 <> prog:198
+binder 15008:15008 <> s:199
+binder 15010:15010 <> p:200
+R15027:15030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15013:15014 Coq.Lists.List <> In def
+R15022:15026 BarocqComp.frontend.BarocqVC <> props:197 var
+R15016:15016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15018:15018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15020:15020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15017:15017 BarocqComp.frontend.BarocqVC <> s:199 var
+R15019:15019 BarocqComp.frontend.BarocqVC <> p:200 var
+R15081:15085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15031:15032 Coq.Lists.List <> In def
+R15037:15039 Coq.Lists.List <> map def
+R15059:15064 Coq.Lists.List <> filter def
+R15075:15078 BarocqComp.frontend.BarocqVC <> prog:198 var
+R15066:15073 BarocqComp.frontend.BarocqVC <> has_prop def
+R15041:15056 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R15034:15034 BarocqComp.frontend.BarocqVC <> s:199 var
+R15086:15090 Coq.Init.Logic <> False ind
+def 15105:15113 <> incr_genv
+R15124:15127 BarocqComp.frontend.Barocq <> genv def
+R15129:15140 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+binder 15116:15117 <> ge:201
+binder 15119:15121 <> ge':202
+R15149:15155 BarocqComp.frontend.Barocq <> program def
+binder 15144:15147 <> prog:203
+R15163:15163 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15227:15237 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 15171:15171 <> x:204
+binder 15173:15173 <> v:205
+R15199:15202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15190:15192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15176:15184 BarocqComp.common.Maps2 STree get def
+R15188:15189 BarocqComp.frontend.BarocqVC <> ge:201 var
+R15186:15186 BarocqComp.frontend.BarocqVC <> x:204 var
+R15193:15196 Coq.Init.Datatypes <> Some constr
+R15198:15198 BarocqComp.frontend.BarocqVC <> v:205 var
+R15218:15220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15203:15211 BarocqComp.common.Maps2 STree get def
+R15215:15217 BarocqComp.frontend.BarocqVC <> ge':202 var
+R15213:15213 BarocqComp.frontend.BarocqVC <> x:204 var
+R15221:15224 Coq.Init.Datatypes <> Some constr
+R15226:15226 BarocqComp.frontend.BarocqVC <> v:205 var
+binder 15245:15245 <> x:206
+R15304:15313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15254:15255 Coq.Lists.List <> In def
+R15260:15262 Coq.Lists.List <> map def
+R15282:15287 Coq.Lists.List <> filter def
+R15298:15301 BarocqComp.frontend.BarocqVC <> prog:203 var
+R15289:15296 BarocqComp.frontend.BarocqVC <> has_prop def
+R15264:15279 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R15257:15257 BarocqComp.frontend.BarocqVC <> x:206 var
+R15329:15331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15314:15322 BarocqComp.common.Maps2 STree get def
+R15326:15328 BarocqComp.frontend.BarocqVC <> ge':202 var
+R15324:15324 BarocqComp.frontend.BarocqVC <> x:206 var
+R15332:15335 Coq.Init.Datatypes <> None constr
+prf 15345:15363 <> incr_genv_def_const
+binder 15374:15374 <> x:207
+binder 15376:15376 <> l:208
+binder 15378:15379 <> ty:209
+binder 15381:15384 <> prog:210
+binder 15386:15388 <> ge0:211
+binder 15390:15391 <> ge:212
+R15440:15447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15398:15406 BarocqComp.frontend.BarocqVC <> incr_genv def
+R15408:15410 BarocqComp.frontend.BarocqVC <> ge0:211 var
+R15412:15413 BarocqComp.frontend.BarocqVC <> ge:212 var
+R15431:15434 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15416:15423 BarocqComp.frontend.Barocq <> DefConst constr
+R15425:15425 BarocqComp.frontend.BarocqVC <> x:207 var
+R15427:15427 BarocqComp.frontend.BarocqVC <> l:208 var
+R15429:15430 BarocqComp.frontend.BarocqVC <> ty:209 var
+R15435:15438 BarocqComp.frontend.BarocqVC <> prog:210 var
+R15474:15476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15448:15455 BarocqComp.frontend.Barocq <> genv_get def
+R15470:15471 BarocqComp.frontend.BarocqVC <> ge:212 var
+R15473:15473 BarocqComp.frontend.BarocqVC <> x:207 var
+R15457:15468 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R15477:15480 BarocqComp.common.Monads MonError fail def
+R15499:15507 BarocqComp.frontend.BarocqVC <> incr_genv def
+R15543:15550 BarocqComp.frontend.Barocq <> genv_get def
+prf 15608:15623 <> has_property_set
+binder 15634:15634 <> x:213
+binder 15636:15637 <> ty:214
+binder 15639:15639 <> v:215
+binder 15641:15641 <> p:216
+binder 15643:15644 <> ge:217
+R15657:15664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15651:15651 BarocqComp.frontend.BarocqVC <> p:216 var
+R15653:15654 BarocqComp.frontend.BarocqVC <> ty:214 var
+R15656:15656 BarocqComp.frontend.BarocqVC <> v:215 var
+R15665:15676 BarocqComp.frontend.BarocqVC <> has_property def
+R15679:15687 BarocqComp.common.Maps2 STree set def
+R15715:15716 BarocqComp.frontend.BarocqVC <> ge:217 var
+R15692:15694 BarocqComp.frontend.Barocq <> Val constr
+R15709:15710 BarocqComp.frontend.BarocqVC <> ty:214 var
+R15712:15712 BarocqComp.frontend.BarocqVC <> v:215 var
+R15696:15707 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R15689:15689 BarocqComp.frontend.BarocqVC <> x:213 var
+R15719:15719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15721:15722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15724:15724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15720:15720 BarocqComp.frontend.BarocqVC <> x:213 var
+R15723:15723 BarocqComp.frontend.BarocqVC <> p:216 var
+R15743:15754 BarocqComp.frontend.BarocqVC <> has_property def
+R15776:15783 BarocqComp.frontend.Barocq <> genv_get def
+R15795:15803 BarocqComp.common.Maps2 STree get def
+R15824:15832 BarocqComp.common.Maps2 STree set def
+R15845:15853 compcert.lib.Maps PTree gss thm
+R15845:15853 compcert.lib.Maps PTree gss thm
+R15845:15853 compcert.lib.Maps PTree gss thm
+prf 15907:15937 <> generate_const_obligation_sound
+binder 15950:15951 <> te:218
+binder 15953:15953 <> x:219
+binder 15955:15955 <> l:220
+binder 15957:15958 <> ty:221
+binder 15960:15960 <> p:222
+binder 15963:15963 <> P:223
+binder 15971:15972 <> ge:224
+R16027:16029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15990:16014 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R16016:16017 BarocqComp.frontend.BarocqVC <> te:218 var
+R16019:16019 BarocqComp.frontend.BarocqVC <> x:219 var
+R16021:16021 BarocqComp.frontend.BarocqVC <> l:220 var
+R16023:16024 BarocqComp.frontend.BarocqVC <> ty:221 var
+R16026:16026 BarocqComp.frontend.BarocqVC <> p:222 var
+R16030:16031 compcert.common.Errors <> OK constr
+R16033:16033 BarocqComp.frontend.BarocqVC <> P:223 var
+binder 15984:15986 <> GEN:225
+R16078:16080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16052:16059 BarocqComp.frontend.Barocq <> genv_get def
+R16074:16075 BarocqComp.frontend.BarocqVC <> ge:224 var
+R16077:16077 BarocqComp.frontend.BarocqVC <> x:219 var
+R16061:16072 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R16081:16084 BarocqComp.common.Monads MonError fail def
+binder 16046:16048 <> GET:226
+R16104:16104 BarocqComp.frontend.BarocqVC <> P:223 var
+binder 16097:16100 <> HOLD:227
+R16112:16118 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16122:16129 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16119:16121 <> ge':228
+R16179:16190 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16170:16172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16130:16143 BarocqComp.frontend.Barocq <> eval_def_const def
+R16158:16159 BarocqComp.frontend.BarocqVC <> te:218 var
+R16161:16162 BarocqComp.frontend.BarocqVC <> ge:224 var
+R16164:16164 BarocqComp.frontend.BarocqVC <> x:219 var
+R16166:16166 BarocqComp.frontend.BarocqVC <> l:220 var
+R16168:16169 BarocqComp.frontend.BarocqVC <> ty:221 var
+R16145:16156 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R16173:16174 compcert.common.Errors <> OK constr
+R16176:16178 BarocqComp.frontend.BarocqVC <> ge':228 var
+R16191:16202 BarocqComp.frontend.BarocqVC <> has_property def
+R16204:16206 BarocqComp.frontend.BarocqVC <> ge':228 var
+R16208:16208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16210:16210 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16212:16212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16209:16209 BarocqComp.frontend.BarocqVC <> x:219 var
+R16211:16211 BarocqComp.frontend.BarocqVC <> p:222 var
+R16231:16255 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R16267:16280 BarocqComp.frontend.Barocq <> eval_def_const def
+R16305:16322 BarocqComp.common.Typing <> btyp_to_typ def
+R16305:16322 BarocqComp.common.Typing <> btyp_to_typ def
+R16394:16395 Coq.Init.Datatypes <> tt constr
+R16394:16395 Coq.Init.Datatypes <> tt constr
+R16411:16422 BarocqComp.frontend.Barocq <> eval_literal def
+R16424:16435 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R16411:16422 BarocqComp.frontend.Barocq <> eval_literal def
+R16424:16435 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R16495:16501 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R16495:16501 BarocqComp.frontend.BarocqVC <> typ_eqb def
+R16543:16554 BarocqComp.frontend.BarocqVC <> typ_eqb_true def
+R16543:16554 BarocqComp.frontend.BarocqVC <> typ_eqb_true def
+R16582:16591 BarocqComp.common.Types <> typ_eq_dec def
+R16582:16591 BarocqComp.common.Types <> typ_eq_dec def
+R16624:16634 BarocqComp.frontend.Barocq <> genv_update def
+R16701:16716 BarocqComp.frontend.BarocqVC <> has_property_set thm
+R16701:16716 BarocqComp.frontend.BarocqVC <> has_property_set thm
+prf 16753:16771 <> wf_checked_DefConst
+binder 16782:16788 <> checked:229
+binder 16790:16790 <> x:230
+binder 16792:16792 <> l:231
+binder 16794:16795 <> ty:232
+binder 16797:16800 <> prog:233
+binder 16802:16802 <> p:234
+R16848:16855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16810:16814 Coq.Lists.List <> NoDup ind
+R16818:16820 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16846:16846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16817:16817 BarocqComp.frontend.BarocqVC <> x:230 var
+R16821:16823 Coq.Lists.List <> map def
+R16842:16845 BarocqComp.frontend.BarocqVC <> prog:233 var
+R16825:16840 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R16900:16907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16856:16865 BarocqComp.frontend.BarocqVC <> wf_checked def
+R16867:16873 BarocqComp.frontend.BarocqVC <> checked:229 var
+R16891:16894 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16876:16883 BarocqComp.frontend.Barocq <> DefConst constr
+R16885:16885 BarocqComp.frontend.BarocqVC <> x:230 var
+R16887:16887 BarocqComp.frontend.BarocqVC <> l:231 var
+R16889:16890 BarocqComp.frontend.BarocqVC <> ty:232 var
+R16895:16898 BarocqComp.frontend.BarocqVC <> prog:233 var
+R16908:16917 BarocqComp.frontend.BarocqVC <> wf_checked def
+R16926:16929 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16920:16920 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16922:16923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16925:16925 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16921:16921 BarocqComp.frontend.BarocqVC <> x:230 var
+R16924:16924 BarocqComp.frontend.BarocqVC <> p:234 var
+R16930:16936 BarocqComp.frontend.BarocqVC <> checked:229 var
+R16939:16942 BarocqComp.frontend.BarocqVC <> prog:233 var
+R16961:16970 BarocqComp.frontend.BarocqVC <> wf_checked def
+R17059:17068 Coq.Lists.List <> in_map_iff thm
+R17059:17068 Coq.Lists.List <> in_map_iff thm
+R17059:17068 Coq.Lists.List <> in_map_iff thm
+R17081:17090 Coq.Lists.List <> in_map_iff thm
+R17081:17090 Coq.Lists.List <> in_map_iff thm
+R17081:17090 Coq.Lists.List <> in_map_iff thm
+R17142:17150 Coq.Lists.List <> filter_In thm
+R17142:17150 Coq.Lists.List <> filter_In thm
+R17142:17150 Coq.Lists.List <> filter_In thm
+prf 17248:17265 <> incr_genv_DefConst
+binder 17276:17277 <> ge:235
+binder 17279:17281 <> ge':236
+binder 17283:17283 <> x:237
+binder 17285:17285 <> l:238
+binder 17287:17288 <> ty:239
+binder 17290:17293 <> prog:240
+R17342:17349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17300:17308 BarocqComp.frontend.BarocqVC <> incr_genv def
+R17310:17311 BarocqComp.frontend.BarocqVC <> ge:235 var
+R17313:17315 BarocqComp.frontend.BarocqVC <> ge':236 var
+R17333:17336 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17318:17325 BarocqComp.frontend.Barocq <> DefConst constr
+R17327:17327 BarocqComp.frontend.BarocqVC <> x:237 var
+R17329:17329 BarocqComp.frontend.BarocqVC <> l:238 var
+R17331:17332 BarocqComp.frontend.BarocqVC <> ty:239 var
+R17337:17340 BarocqComp.frontend.BarocqVC <> prog:240 var
+R17350:17358 BarocqComp.frontend.BarocqVC <> incr_genv def
+R17360:17361 BarocqComp.frontend.BarocqVC <> ge:235 var
+R17363:17365 BarocqComp.frontend.BarocqVC <> ge':236 var
+R17367:17370 BarocqComp.frontend.BarocqVC <> prog:240 var
+R17389:17397 BarocqComp.frontend.BarocqVC <> incr_genv def
+prf 17497:17512 <> incr_genv_DefFun
+binder 17523:17524 <> ge:241
+binder 17526:17528 <> ge':242
+binder 17530:17530 <> x:243
+binder 17532:17532 <> f:244
+binder 17534:17537 <> prog:245
+R17581:17588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17544:17552 BarocqComp.frontend.BarocqVC <> incr_genv def
+R17554:17555 BarocqComp.frontend.BarocqVC <> ge:241 var
+R17557:17559 BarocqComp.frontend.BarocqVC <> ge':242 var
+R17572:17575 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17562:17567 BarocqComp.frontend.Barocq <> DefFun constr
+R17569:17569 BarocqComp.frontend.BarocqVC <> x:243 var
+R17571:17571 BarocqComp.frontend.BarocqVC <> f:244 var
+R17576:17579 BarocqComp.frontend.BarocqVC <> prog:245 var
+R17589:17597 BarocqComp.frontend.BarocqVC <> incr_genv def
+R17599:17600 BarocqComp.frontend.BarocqVC <> ge:241 var
+R17602:17604 BarocqComp.frontend.BarocqVC <> ge':242 var
+R17606:17609 BarocqComp.frontend.BarocqVC <> prog:245 var
+R17628:17636 BarocqComp.frontend.BarocqVC <> incr_genv def
+prf 17736:17749 <> SMapList_NoDup
+binder 17761:17761 <> V:246
+R17774:17783 BarocqComp.common.Maps2 SMapList t def
+R17785:17785 BarocqComp.frontend.BarocqVC <> V:246 var
+binder 17771:17771 <> l:247
+R17810:17818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17793:17797 Coq.Lists.List <> NoDup ind
+R17800:17802 Coq.Lists.List <> map def
+R17808:17808 BarocqComp.frontend.BarocqVC <> l:247 var
+R17804:17806 Coq.Init.Datatypes <> fst def
+R17835:17837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17819:17832 BarocqComp.common.Maps2 SMapList nodup def
+R17834:17834 BarocqComp.frontend.BarocqVC <> l:247 var
+R17838:17841 Coq.Init.Datatypes <> true constr
+R17932:17943 BarocqComp.common.Maps2 SMapList mem def
+R17932:17943 BarocqComp.common.Maps2 SMapList mem def
+R18104:18118 BarocqComp.common.Maps2 SMapList key_eq def
+R18104:18118 BarocqComp.common.Maps2 SMapList key_eq def
+prf 18188:18209 <> ascii_compare_lt_trans
+binder 18220:18220 <> x:248
+binder 18222:18222 <> y:249
+binder 18224:18224 <> z:250
+R18253:18260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18248:18250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18231:18243 Coq.Strings.Ascii <> compare def
+R18245:18245 BarocqComp.frontend.BarocqVC <> x:248 var
+R18247:18247 BarocqComp.frontend.BarocqVC <> y:249 var
+R18251:18252 Coq.Init.Datatypes <> Lt constr
+R18283:18290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18278:18280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18261:18273 Coq.Strings.Ascii <> compare def
+R18275:18275 BarocqComp.frontend.BarocqVC <> y:249 var
+R18277:18277 BarocqComp.frontend.BarocqVC <> z:250 var
+R18281:18282 Coq.Init.Datatypes <> Lt constr
+R18308:18310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18291:18303 Coq.Strings.Ascii <> compare def
+R18305:18305 BarocqComp.frontend.BarocqVC <> x:248 var
+R18307:18307 BarocqComp.frontend.BarocqVC <> z:250 var
+R18311:18312 Coq.Init.Datatypes <> Lt constr
+R18331:18343 Coq.Strings.Ascii <> compare def
+R18366:18381 Coq.NArith.BinNat N compare_lt_iff thm
+R18366:18381 Coq.NArith.BinNat N compare_lt_iff thm
+R18366:18381 Coq.NArith.BinNat N compare_lt_iff thm
+prf 18411:18426 <> String_leb_trans
+R18444:18449 Coq.Strings.String <> string ind
+binder 18438:18438 <> x:251
+binder 18440:18440 <> y:252
+binder 18442:18442 <> z:253
+R18471:18474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18464:18466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18458:18462 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R18457:18457 BarocqComp.frontend.BarocqVC <> x:251 var
+R18463:18463 BarocqComp.frontend.BarocqVC <> y:252 var
+R18467:18470 Coq.Init.Datatypes <> true constr
+R18489:18493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18482:18484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18476:18480 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R18475:18475 BarocqComp.frontend.BarocqVC <> y:252 var
+R18481:18481 BarocqComp.frontend.BarocqVC <> z:253 var
+R18485:18488 Coq.Init.Datatypes <> true constr
+R18501:18503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18495:18499 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R18494:18494 BarocqComp.frontend.BarocqVC <> x:251 var
+R18500:18500 BarocqComp.frontend.BarocqVC <> z:253 var
+R18504:18507 Coq.Init.Datatypes <> true constr
+R18526:18535 Coq.Strings.String <> leb def
+R18561:18564 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18608:18611 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18655:18657 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18561:18564 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18608:18611 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18608:18611 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18655:18657 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18655:18657 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18655:18657 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18655:18657 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18713:18726 Coq.Strings.String <> compare_eq_iff thm
+R18713:18726 Coq.Strings.String <> compare_eq_iff thm
+R18746:18759 Coq.Strings.String <> compare_eq_iff thm
+R18746:18759 Coq.Strings.String <> compare_eq_iff thm
+R18796:18810 Coq.Strings.String <> compare_antisym thm
+R18796:18810 Coq.Strings.String <> compare_antisym thm
+R18873:18886 Coq.Strings.String <> compare_eq_iff thm
+R18873:18886 Coq.Strings.String <> compare_eq_iff thm
+R18929:18942 Coq.Strings.String <> compare_eq_iff thm
+R18929:18942 Coq.Strings.String <> compare_eq_iff thm
+R18993:18995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18988:18991 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18996:18997 Coq.Init.Datatypes <> Lt constr
+R18993:18995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18988:18991 Coq.Strings.String <> ::string_scope:x_'?='_x not
+R18996:18997 Coq.Init.Datatypes <> Lt constr
+R19282:19294 Coq.Strings.Ascii <> compare def
+R19282:19294 Coq.Strings.Ascii <> compare def
+R19383:19402 Coq.Strings.Ascii <> compare_eq_iff thm
+R19383:19402 Coq.Strings.Ascii <> compare_eq_iff thm
+R19450:19462 Coq.Strings.Ascii <> compare def
+R19450:19462 Coq.Strings.Ascii <> compare def
+R19561:19573 Coq.Strings.Ascii <> compare def
+R19561:19573 Coq.Strings.Ascii <> compare def
+R19643:19662 Coq.Strings.Ascii <> compare_eq_iff thm
+R19643:19662 Coq.Strings.Ascii <> compare_eq_iff thm
+R19745:19766 BarocqComp.frontend.BarocqVC <> ascii_compare_lt_trans thm
+R19745:19766 BarocqComp.frontend.BarocqVC <> ascii_compare_lt_trans thm
+R19745:19766 BarocqComp.frontend.BarocqVC <> ascii_compare_lt_trans thm
+R19745:19766 BarocqComp.frontend.BarocqVC <> ascii_compare_lt_trans thm
+R19745:19766 BarocqComp.frontend.BarocqVC <> ascii_compare_lt_trans thm
+prf 19818:19824 <> eqb_leb
+binder 19835:19835 <> x:254
+binder 19837:19837 <> y:255
+R19844:19844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19851:19854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19846:19849 Coq.Strings.String <> ::string_scope:x_'=?'_x not
+R19845:19845 BarocqComp.frontend.BarocqVC <> x:254 var
+R19850:19850 BarocqComp.frontend.BarocqVC <> y:255 var
+R19855:19855 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19863:19868 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19876:19876 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R19857:19861 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R19856:19856 BarocqComp.frontend.BarocqVC <> x:254 var
+R19862:19862 BarocqComp.frontend.BarocqVC <> y:255 var
+R19870:19874 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R19869:19869 BarocqComp.frontend.BarocqVC <> y:255 var
+R19875:19875 BarocqComp.frontend.BarocqVC <> x:254 var
+R19910:19920 Coq.Strings.String <> leb_antisym thm
+R19910:19920 Coq.Strings.String <> leb_antisym thm
+R19942:19956 Coq.Strings.String <> eqb_spec thm
+R19942:19956 Coq.Strings.String <> eqb_spec thm
+R19999:20007 Coq.Strings.String <> leb_total thm
+R19999:20007 Coq.Strings.String <> leb_total thm
+R20086:20089 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R20086:20089 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R20134:20137 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+R20134:20137 Coq.Strings.String <> ::string_scope:x_'<=?'_x not
+prf 20209:20216 <> nodup_eq
+binder 20228:20228 <> V:256
+R20240:20249 BarocqComp.common.Maps2 SMapList t def
+R20251:20251 BarocqComp.frontend.BarocqVC <> V:256 var
+binder 20238:20238 <> l:257
+R20316:20323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20309:20311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20260:20274 BarocqComp.common.MergeSort <> nodup def
+R20299:20301 Coq.Lists.List <> map def
+R20307:20307 BarocqComp.frontend.BarocqVC <> l:257 var
+R20303:20305 Coq.Init.Datatypes <> fst def
+R20287:20296 Coq.Strings.String <> eqb def
+R20276:20285 Coq.Strings.String <> leb def
+R20312:20315 Coq.Init.Datatypes <> true constr
+R20340:20342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20324:20337 BarocqComp.common.Maps2 SMapList nodup def
+R20339:20339 BarocqComp.frontend.BarocqVC <> l:257 var
+R20343:20346 Coq.Init.Datatypes <> true constr
+R20372:20385 BarocqComp.frontend.BarocqVC <> SMapList_NoDup thm
+R20372:20385 BarocqComp.frontend.BarocqVC <> SMapList_NoDup thm
+R20396:20416 BarocqComp.common.MergeSort <> nodup_NoDup thm
+R20396:20416 BarocqComp.common.MergeSort <> nodup_NoDup thm
+R20440:20448 Coq.Strings.String <> leb_total thm
+R20440:20448 Coq.Strings.String <> leb_total thm
+R20470:20476 BarocqComp.frontend.BarocqVC <> eqb_leb thm
+R20470:20476 BarocqComp.frontend.BarocqVC <> eqb_leb thm
+R20489:20506 Coq.Strings.String <> leb_antisym thm
+R20489:20506 Coq.Strings.String <> leb_antisym thm
+R20520:20545 Coq.Classes.RelationClasses <> Transitive class
+R20571:20586 BarocqComp.frontend.BarocqVC <> String_leb_trans thm
+R20571:20586 BarocqComp.frontend.BarocqVC <> String_leb_trans thm
+prf 20750:20782 <> generate_def_fun_obligation_sound
+binder 20795:20798 <> arch:258
+binder 20800:20801 <> te:259
+binder 20803:20803 <> x:260
+binder 20805:20805 <> f:261
+binder 20807:20813 <> checked:262
+binder 20815:20816 <> ge:263
+binder 20818:20818 <> p:264
+binder 20820:20820 <> o:265
+R20944:20946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20838:20864 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R20866:20869 BarocqComp.frontend.BarocqVC <> arch:258 var
+R20871:20872 BarocqComp.frontend.BarocqVC <> te:259 var
+R20875:20890 BarocqComp.common.Syntax <> fn_params proj
+R20892:20892 BarocqComp.frontend.BarocqVC <> f:261 var
+R20896:20911 BarocqComp.common.Syntax <> fn_return proj
+R20913:20913 BarocqComp.frontend.BarocqVC <> f:261 var
+R20917:20930 BarocqComp.common.Syntax <> fn_body proj
+R20932:20932 BarocqComp.frontend.BarocqVC <> f:261 var
+R20935:20941 BarocqComp.frontend.BarocqVC <> checked:262 var
+R20943:20943 BarocqComp.frontend.BarocqVC <> p:264 var
+R20947:20948 compcert.common.Errors <> OK constr
+R20950:20950 BarocqComp.frontend.BarocqVC <> o:265 var
+binder 20832:20834 <> GEN:266
+R20995:20997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20969:20976 BarocqComp.frontend.Barocq <> genv_get def
+R20991:20992 BarocqComp.frontend.BarocqVC <> ge:263 var
+R20994:20994 BarocqComp.frontend.BarocqVC <> x:260 var
+R20978:20989 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R20998:21001 BarocqComp.common.Monads MonError fail def
+binder 20963:20965 <> GET:267
+R21020:21025 Coq.Lists.List <> Forall ind
+R21045:21051 BarocqComp.frontend.BarocqVC <> checked:262 var
+R21028:21039 BarocqComp.frontend.BarocqVC <> has_property def
+R21041:21042 BarocqComp.frontend.BarocqVC <> ge:263 var
+binder 21014:21016 <> ALL:268
+R21070:21070 BarocqComp.frontend.BarocqVC <> o:265 var
+binder 21064:21066 <> HAS:269
+R21081:21087 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21091:21098 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21088:21090 <> ge':270
+R21148:21159 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21139:21141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21099:21110 BarocqComp.frontend.Barocq <> eval_def_fun def
+R21130:21131 BarocqComp.frontend.BarocqVC <> te:259 var
+R21133:21134 BarocqComp.frontend.BarocqVC <> ge:263 var
+R21136:21136 BarocqComp.frontend.BarocqVC <> x:260 var
+R21138:21138 BarocqComp.frontend.BarocqVC <> f:261 var
+R21117:21128 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R21112:21115 BarocqComp.frontend.BarocqVC <> arch:258 var
+R21142:21143 compcert.common.Errors <> OK constr
+R21145:21147 BarocqComp.frontend.BarocqVC <> ge':270 var
+R21160:21171 BarocqComp.frontend.BarocqVC <> has_property def
+R21173:21175 BarocqComp.frontend.BarocqVC <> ge':270 var
+R21177:21177 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21179:21179 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21181:21181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21178:21178 BarocqComp.frontend.BarocqVC <> x:260 var
+R21180:21180 BarocqComp.frontend.BarocqVC <> p:264 var
+R21200:21226 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R21238:21249 BarocqComp.frontend.Barocq <> eval_def_fun def
+R21261:21275 BarocqComp.frontend.Barocq <> build_fun_value def
+R21301:21315 BarocqComp.common.MergeSort <> nodup def
+R21317:21322 Coq.Strings.String <> string ind
+R21324:21333 Coq.Strings.String <> leb def
+R21335:21344 Coq.Strings.String <> eqb def
+R21358:21360 Coq.Lists.List <> map def
+R21363:21366 Coq.Init.Datatypes <> prod ind
+R21381:21384 BarocqComp.common.Types <> btyp ind
+R21368:21379 BarocqComp.common.Maps2 SMapList key def
+R21387:21398 BarocqComp.common.Maps2 SMapList key def
+R21415:21417 Coq.Init.Datatypes <> fst def
+R21419:21430 BarocqComp.common.Maps2 SMapList key def
+R21432:21435 BarocqComp.common.Types <> btyp ind
+R21453:21468 BarocqComp.common.Syntax <> fn_params proj
+R21470:21473 BarocqComp.frontend.Barocq <> expr ind
+R21301:21315 BarocqComp.common.MergeSort <> nodup def
+R21317:21322 Coq.Strings.String <> string ind
+R21324:21333 Coq.Strings.String <> leb def
+R21335:21344 Coq.Strings.String <> eqb def
+R21358:21360 Coq.Lists.List <> map def
+R21363:21366 Coq.Init.Datatypes <> prod ind
+R21381:21384 BarocqComp.common.Types <> btyp ind
+R21368:21379 BarocqComp.common.Maps2 SMapList key def
+R21387:21398 BarocqComp.common.Maps2 SMapList key def
+R21415:21417 Coq.Init.Datatypes <> fst def
+R21419:21430 BarocqComp.common.Maps2 SMapList key def
+R21432:21435 BarocqComp.common.Types <> btyp ind
+R21453:21468 BarocqComp.common.Syntax <> fn_params proj
+R21470:21473 BarocqComp.frontend.Barocq <> expr ind
+R21516:21523 BarocqComp.frontend.BarocqVC <> nodup_eq thm
+R21516:21523 BarocqComp.frontend.BarocqVC <> nodup_eq thm
+R21558:21575 BarocqComp.common.Typing <> btyp_to_typ def
+R21581:21596 BarocqComp.common.Syntax <> fn_return proj
+R21558:21575 BarocqComp.common.Typing <> btyp_to_typ def
+R21581:21596 BarocqComp.common.Syntax <> fn_return proj
+R21658:21673 BarocqComp.common.Maps2 SMapList map_err def
+R21700:21715 BarocqComp.common.Syntax <> fn_params proj
+R21676:21693 BarocqComp.common.Typing <> btyp_to_typ def
+R21658:21673 BarocqComp.common.Maps2 SMapList map_err def
+R21700:21715 BarocqComp.common.Syntax <> fn_params proj
+R21676:21693 BarocqComp.common.Typing <> btyp_to_typ def
+R21783:21793 BarocqComp.frontend.Barocq <> genv_update def
+R21860:21875 BarocqComp.frontend.BarocqVC <> has_property_set thm
+R21860:21875 BarocqComp.frontend.BarocqVC <> has_property_set thm
+R21907:21919 Coq.Lists.List <> Forall_forall thm
+R21907:21919 Coq.Lists.List <> Forall_forall thm
+R21907:21919 Coq.Lists.List <> Forall_forall thm
+R21942:21950 Coq.Lists.List <> filter_In thm
+R21942:21950 Coq.Lists.List <> filter_In thm
+R21942:21950 Coq.Lists.List <> filter_In thm
+R21982:21994 Coq.Lists.List <> Forall_forall thm
+R21982:21994 Coq.Lists.List <> Forall_forall thm
+R21982:21994 Coq.Lists.List <> Forall_forall thm
+prf 22022:22057 <> generate_decl_const_obligation_sound
+binder 22070:22071 <> te:271
+binder 22073:22073 <> x:272
+binder 22075:22076 <> bt:273
+binder 22078:22084 <> checked:274
+binder 22086:22087 <> ge:275
+binder 22089:22089 <> P:276
+R22154:22156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22107:22136 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R22139:22140 BarocqComp.frontend.BarocqVC <> te:271 var
+R22142:22148 BarocqComp.frontend.BarocqVC <> checked:274 var
+R22150:22150 BarocqComp.frontend.BarocqVC <> x:272 var
+R22152:22153 BarocqComp.frontend.BarocqVC <> bt:273 var
+R22157:22158 compcert.common.Errors <> OK constr
+R22160:22160 BarocqComp.frontend.BarocqVC <> P:276 var
+binder 22101:22103 <> GEN:277
+R22179:22184 Coq.Lists.List <> Forall ind
+R22204:22210 BarocqComp.frontend.BarocqVC <> checked:274 var
+R22187:22198 BarocqComp.frontend.BarocqVC <> has_property def
+R22200:22201 BarocqComp.frontend.BarocqVC <> ge:275 var
+binder 22173:22175 <> ALL:278
+R22229:22229 BarocqComp.frontend.BarocqVC <> P:276 var
+binder 22223:22226 <> HOLD:279
+R22240:22246 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22250:22257 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22247:22249 <> ge':280
+R22298:22300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22258:22272 BarocqComp.frontend.Barocq <> eval_decl_const def
+R22288:22289 BarocqComp.frontend.BarocqVC <> te:271 var
+R22291:22292 BarocqComp.frontend.BarocqVC <> ge:275 var
+R22294:22294 BarocqComp.frontend.BarocqVC <> x:272 var
+R22296:22297 BarocqComp.frontend.BarocqVC <> bt:273 var
+R22274:22285 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R22301:22302 compcert.common.Errors <> OK constr
+R22304:22306 BarocqComp.frontend.BarocqVC <> ge':280 var
+R22325:22354 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R22366:22380 BarocqComp.frontend.Barocq <> eval_decl_const def
+R22405:22422 BarocqComp.common.Typing <> btyp_to_typ def
+R22405:22422 BarocqComp.common.Typing <> btyp_to_typ def
+R22622:22631 BarocqComp.common.Types <> typ_eq_dec def
+R22622:22631 BarocqComp.common.Types <> typ_eq_dec def
+prf 22700:22733 <> generate_decl_fun_obligation_sound
+binder 22746:22747 <> te:281
+binder 22749:22749 <> x:282
+binder 22751:22757 <> tparams:283
+binder 22759:22762 <> tret:284
+binder 22764:22770 <> checked:285
+binder 22772:22773 <> ge:286
+binder 22775:22775 <> P:287
+R22848:22851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22793:22820 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R22823:22824 BarocqComp.frontend.BarocqVC <> te:281 var
+R22826:22832 BarocqComp.frontend.BarocqVC <> checked:285 var
+R22834:22834 BarocqComp.frontend.BarocqVC <> x:282 var
+R22836:22842 BarocqComp.frontend.BarocqVC <> tparams:283 var
+R22844:22847 BarocqComp.frontend.BarocqVC <> tret:284 var
+R22852:22853 compcert.common.Errors <> OK constr
+R22855:22855 BarocqComp.frontend.BarocqVC <> P:287 var
+binder 22787:22789 <> GEN:288
+R22874:22879 Coq.Lists.List <> Forall ind
+R22899:22905 BarocqComp.frontend.BarocqVC <> checked:285 var
+R22882:22893 BarocqComp.frontend.BarocqVC <> has_property def
+R22895:22896 BarocqComp.frontend.BarocqVC <> ge:286 var
+binder 22868:22870 <> ALL:289
+R22924:22924 BarocqComp.frontend.BarocqVC <> P:287 var
+binder 22918:22921 <> HOLD:290
+R22935:22941 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22945:22952 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22942:22944 <> ge':291
+R23001:23003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22953:22965 BarocqComp.frontend.Barocq <> eval_decl_fun def
+R22981:22982 BarocqComp.frontend.BarocqVC <> te:281 var
+R22984:22985 BarocqComp.frontend.BarocqVC <> ge:286 var
+R22987:22987 BarocqComp.frontend.BarocqVC <> x:282 var
+R22989:22995 BarocqComp.frontend.BarocqVC <> tparams:283 var
+R22997:23000 BarocqComp.frontend.BarocqVC <> tret:284 var
+R22967:22978 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R23004:23005 compcert.common.Errors <> OK constr
+R23007:23009 BarocqComp.frontend.BarocqVC <> ge':291 var
+R23028:23055 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R23067:23079 BarocqComp.frontend.Barocq <> eval_decl_fun def
+R23104:23107 compcert.common.Errors <> mmap def
+R23134:23136 Coq.Lists.List <> map def
+R23138:23140 Coq.Init.Datatypes <> snd def
+R23110:23127 BarocqComp.common.Typing <> btyp_to_typ def
+R23104:23107 compcert.common.Errors <> mmap def
+R23134:23136 Coq.Lists.List <> map def
+R23138:23140 Coq.Init.Datatypes <> snd def
+R23110:23127 BarocqComp.common.Typing <> btyp_to_typ def
+R23183:23200 BarocqComp.common.Typing <> btyp_to_typ def
+R23183:23200 BarocqComp.common.Typing <> btyp_to_typ def
+R23266:23269 BarocqComp.common.Monads MonError bind def
+R23279:23289 compcert.common.Errors <> bind def
+R23416:23434 BarocqComp.frontend.Barocq <> typeof_value def
+R23449:23458 BarocqComp.common.Types <> typ_eq_dec def
+R23461:23464 BarocqComp.common.Types <> TFun constr
+R23472:23475 BarocqComp.common.Types <> TFun constr
+R23449:23458 BarocqComp.common.Types <> typ_eq_dec def
+R23461:23464 BarocqComp.common.Types <> TFun constr
+R23472:23475 BarocqComp.common.Types <> TFun constr
+def 23545:23551 <> has_def
+R23556:23562 BarocqComp.frontend.Barocq <> globdef ind
+binder 23554:23554 <> g:292
+R23576:23576 BarocqComp.frontend.BarocqVC <> g:292 var
+R23587:23594 BarocqComp.frontend.Barocq <> DefConst constr
+R23604:23609 BarocqComp.frontend.Barocq <> DefFun constr
+R23618:23621 Coq.Init.Datatypes <> true constr
+R23618:23621 Coq.Init.Datatypes <> true constr
+R23632:23636 Coq.Init.Datatypes <> false constr
+def 23657:23662 <> wf_env
+R23669:23672 BarocqComp.frontend.Barocq <> genv def
+R23674:23685 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+binder 23665:23666 <> ge:294
+R23695:23701 BarocqComp.frontend.Barocq <> program def
+binder 23689:23692 <> prog:295
+binder 23716:23716 <> d:296
+R23728:23731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23719:23720 Coq.Lists.List <> In def
+R23724:23727 BarocqComp.frontend.BarocqVC <> prog:295 var
+R23722:23722 BarocqComp.frontend.BarocqVC <> d:296 var
+R23748:23751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23741:23743 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23732:23738 BarocqComp.frontend.BarocqVC <> has_def def
+R23740:23740 BarocqComp.frontend.BarocqVC <> d:296 var
+R23744:23747 Coq.Init.Datatypes <> true constr
+R23797:23799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23752:23759 BarocqComp.frontend.Barocq <> genv_get def
+R23774:23775 BarocqComp.frontend.BarocqVC <> ge:294 var
+R23778:23793 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R23795:23795 BarocqComp.frontend.BarocqVC <> d:296 var
+R23761:23772 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R23800:23803 BarocqComp.common.Monads MonError fail def
+prf 23813:23823 <> wf_env_tail
+binder 23834:23835 <> ge:297
+binder 23837:23837 <> d:298
+binder 23839:23842 <> prog:299
+R23870:23877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23849:23854 BarocqComp.frontend.BarocqVC <> wf_env def
+R23856:23857 BarocqComp.frontend.BarocqVC <> ge:297 var
+R23861:23864 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23860:23860 BarocqComp.frontend.BarocqVC <> d:298 var
+R23865:23868 BarocqComp.frontend.BarocqVC <> prog:299 var
+R23878:23883 BarocqComp.frontend.BarocqVC <> wf_env def
+R23885:23886 BarocqComp.frontend.BarocqVC <> ge:297 var
+R23888:23891 BarocqComp.frontend.BarocqVC <> prog:299 var
+R23910:23915 BarocqComp.frontend.BarocqVC <> wf_env def
+prf 23970:23980 <> genv_gsspec
+binder 23991:23991 <> x:300
+binder 23993:23993 <> v:301
+binder 23995:23996 <> ge:302
+binder 23998:23998 <> y:303
+R24047:24055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24005:24012 BarocqComp.frontend.Barocq <> genv_get def
+R24028:24036 BarocqComp.common.Maps2 STree set def
+R24042:24043 BarocqComp.frontend.BarocqVC <> ge:302 var
+R24040:24040 BarocqComp.frontend.BarocqVC <> v:301 var
+R24038:24038 BarocqComp.frontend.BarocqVC <> x:300 var
+R24046:24046 BarocqComp.frontend.BarocqVC <> y:303 var
+R24014:24025 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R24059:24068 Coq.Strings.String <> string_dec def
+R24070:24070 BarocqComp.frontend.BarocqVC <> x:300 var
+R24072:24072 BarocqComp.frontend.BarocqVC <> y:303 var
+R24095:24102 BarocqComp.frontend.Barocq <> genv_get def
+R24117:24118 BarocqComp.frontend.BarocqVC <> ge:302 var
+R24120:24120 BarocqComp.frontend.BarocqVC <> y:303 var
+R24104:24115 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R24085:24086 compcert.common.Errors <> OK constr
+R24088:24088 BarocqComp.frontend.BarocqVC <> v:301 var
+R24139:24146 BarocqComp.frontend.Barocq <> genv_get def
+R24149:24157 BarocqComp.common.Maps2 STree get def
+R24159:24167 BarocqComp.common.Maps2 STree set def
+R24190:24201 compcert.lib.Maps PTree gsspec thm
+R24190:24201 compcert.lib.Maps PTree gsspec thm
+R24190:24201 compcert.lib.Maps PTree gsspec thm
+R24216:24225 Coq.Strings.String <> string_dec def
+R24216:24225 Coq.Strings.String <> string_dec def
+R24258:24260 compcert.lib.Coqlib <> peq def
+R24263:24281 BarocqComp.common.Maps2 StringIndexed index def
+R24287:24305 BarocqComp.common.Maps2 StringIndexed index def
+R24258:24260 compcert.lib.Coqlib <> peq def
+R24263:24281 BarocqComp.common.Maps2 StringIndexed index def
+R24287:24305 BarocqComp.common.Maps2 StringIndexed index def
+R24358:24360 compcert.lib.Coqlib <> peq def
+R24363:24381 BarocqComp.common.Maps2 StringIndexed index def
+R24387:24405 BarocqComp.common.Maps2 StringIndexed index def
+R24358:24360 compcert.lib.Coqlib <> peq def
+R24363:24381 BarocqComp.common.Maps2 StringIndexed index def
+R24387:24405 BarocqComp.common.Maps2 StringIndexed index def
+R24446:24481 compcert.export.Ctypesdefs <> ident_of_string_injective thm
+R24446:24481 compcert.export.Ctypesdefs <> ident_of_string_injective thm
+prf 24517:24531 <> wf_env_DefConst
+binder 24544:24545 <> te:304
+binder 24547:24548 <> ge:305
+binder 24550:24552 <> ge':306
+binder 24554:24554 <> x:307
+binder 24556:24556 <> l:308
+binder 24558:24559 <> ty:309
+binder 24561:24564 <> prog:310
+R24582:24586 Coq.Lists.List <> NoDup ind
+R24589:24591 Coq.Lists.List <> map def
+R24626:24629 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24611:24618 BarocqComp.frontend.Barocq <> DefConst constr
+R24620:24620 BarocqComp.frontend.BarocqVC <> x:307 var
+R24622:24622 BarocqComp.frontend.BarocqVC <> l:308 var
+R24624:24625 BarocqComp.frontend.BarocqVC <> ty:309 var
+R24630:24633 BarocqComp.frontend.BarocqVC <> prog:310 var
+R24593:24608 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+binder 24576:24578 <> DUP:311
+R24653:24658 BarocqComp.frontend.BarocqVC <> wf_env def
+R24660:24661 BarocqComp.frontend.BarocqVC <> ge:305 var
+R24679:24682 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24664:24671 BarocqComp.frontend.Barocq <> DefConst constr
+R24673:24673 BarocqComp.frontend.BarocqVC <> x:307 var
+R24675:24675 BarocqComp.frontend.BarocqVC <> l:308 var
+R24677:24678 BarocqComp.frontend.BarocqVC <> ty:309 var
+R24683:24686 BarocqComp.frontend.BarocqVC <> prog:310 var
+binder 24648:24649 <> WF:312
+R24747:24749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24707:24720 BarocqComp.frontend.Barocq <> eval_def_const def
+R24735:24736 BarocqComp.frontend.BarocqVC <> te:304 var
+R24738:24739 BarocqComp.frontend.BarocqVC <> ge:305 var
+R24741:24741 BarocqComp.frontend.BarocqVC <> x:307 var
+R24743:24743 BarocqComp.frontend.BarocqVC <> l:308 var
+R24745:24746 BarocqComp.frontend.BarocqVC <> ty:309 var
+R24722:24733 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R24750:24751 compcert.common.Errors <> OK constr
+R24753:24755 BarocqComp.frontend.BarocqVC <> ge':306 var
+binder 24700:24703 <> EVAL:313
+R24763:24768 BarocqComp.frontend.BarocqVC <> wf_env def
+R24770:24772 BarocqComp.frontend.BarocqVC <> ge':306 var
+R24774:24777 BarocqComp.frontend.BarocqVC <> prog:310 var
+R24796:24809 BarocqComp.frontend.Barocq <> eval_def_const def
+R24834:24845 BarocqComp.frontend.Barocq <> eval_literal def
+R24847:24858 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R24834:24845 BarocqComp.frontend.Barocq <> eval_literal def
+R24847:24858 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R24935:24952 BarocqComp.common.Typing <> btyp_to_typ def
+R24935:24952 BarocqComp.common.Typing <> btyp_to_typ def
+R25009:25018 BarocqComp.common.Types <> typ_eq_dec def
+R25009:25018 BarocqComp.common.Types <> typ_eq_dec def
+R25054:25059 BarocqComp.frontend.BarocqVC <> wf_env def
+R25086:25096 BarocqComp.frontend.Barocq <> genv_update def
+R25119:25126 BarocqComp.frontend.Barocq <> genv_get def
+R25128:25139 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R25119:25126 BarocqComp.frontend.Barocq <> genv_get def
+R25128:25139 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R25196:25206 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R25196:25206 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R25196:25206 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R25221:25230 Coq.Strings.String <> string_dec def
+R25235:25250 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R25221:25230 Coq.Strings.String <> string_dec def
+R25235:25250 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R25324:25333 Coq.Lists.List <> in_map_iff thm
+R25324:25333 Coq.Lists.List <> in_map_iff thm
+R25324:25333 Coq.Lists.List <> in_map_iff thm
+prf 25407:25419 <> wf_env_DefFun
+binder 25432:25435 <> arch:314
+binder 25437:25438 <> te:315
+binder 25440:25441 <> ge:316
+binder 25443:25445 <> ge':317
+binder 25447:25447 <> x:318
+binder 25449:25449 <> f:319
+binder 25451:25454 <> prog:320
+R25472:25476 Coq.Lists.List <> NoDup ind
+R25479:25481 Coq.Lists.List <> map def
+R25511:25514 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25501:25506 BarocqComp.frontend.Barocq <> DefFun constr
+R25508:25508 BarocqComp.frontend.BarocqVC <> x:318 var
+R25510:25510 BarocqComp.frontend.BarocqVC <> f:319 var
+R25515:25518 BarocqComp.frontend.BarocqVC <> prog:320 var
+R25483:25498 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+binder 25466:25468 <> DUP:321
+R25538:25543 BarocqComp.frontend.BarocqVC <> wf_env def
+R25545:25546 BarocqComp.frontend.BarocqVC <> ge:316 var
+R25559:25562 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25549:25554 BarocqComp.frontend.Barocq <> DefFun constr
+R25556:25556 BarocqComp.frontend.BarocqVC <> x:318 var
+R25558:25558 BarocqComp.frontend.BarocqVC <> f:319 var
+R25563:25566 BarocqComp.frontend.BarocqVC <> prog:320 var
+binder 25533:25534 <> WF:322
+R25627:25629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25587:25598 BarocqComp.frontend.Barocq <> eval_def_fun def
+R25618:25619 BarocqComp.frontend.BarocqVC <> te:315 var
+R25621:25622 BarocqComp.frontend.BarocqVC <> ge:316 var
+R25624:25624 BarocqComp.frontend.BarocqVC <> x:318 var
+R25626:25626 BarocqComp.frontend.BarocqVC <> f:319 var
+R25605:25616 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R25600:25603 BarocqComp.frontend.BarocqVC <> arch:314 var
+R25630:25631 compcert.common.Errors <> OK constr
+R25633:25635 BarocqComp.frontend.BarocqVC <> ge':317 var
+binder 25580:25583 <> EVAL:323
+R25643:25648 BarocqComp.frontend.BarocqVC <> wf_env def
+R25650:25652 BarocqComp.frontend.BarocqVC <> ge':317 var
+R25654:25657 BarocqComp.frontend.BarocqVC <> prog:320 var
+R25676:25687 BarocqComp.frontend.Barocq <> eval_def_fun def
+R25709:25723 BarocqComp.frontend.Barocq <> build_fun_value def
+R25746:25759 BarocqComp.common.Maps2 SMapList nodup def
+R25762:25777 BarocqComp.common.Syntax <> fn_params proj
+R25746:25759 BarocqComp.common.Maps2 SMapList nodup def
+R25762:25777 BarocqComp.common.Syntax <> fn_params proj
+R25814:25831 BarocqComp.common.Typing <> btyp_to_typ def
+R25837:25852 BarocqComp.common.Syntax <> fn_return proj
+R25814:25831 BarocqComp.common.Typing <> btyp_to_typ def
+R25837:25852 BarocqComp.common.Syntax <> fn_return proj
+R25906:25921 BarocqComp.common.Maps2 SMapList map_err def
+R25948:25963 BarocqComp.common.Syntax <> fn_params proj
+R25924:25941 BarocqComp.common.Typing <> btyp_to_typ def
+R25906:25921 BarocqComp.common.Maps2 SMapList map_err def
+R25948:25963 BarocqComp.common.Syntax <> fn_params proj
+R25924:25941 BarocqComp.common.Typing <> btyp_to_typ def
+R26014:26019 BarocqComp.frontend.BarocqVC <> wf_env def
+R26046:26056 BarocqComp.frontend.Barocq <> genv_update def
+R26079:26086 BarocqComp.frontend.Barocq <> genv_get def
+R26088:26099 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R26079:26086 BarocqComp.frontend.Barocq <> genv_get def
+R26088:26099 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R26156:26166 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R26156:26166 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R26156:26166 BarocqComp.frontend.BarocqVC <> genv_gsspec thm
+R26181:26190 Coq.Strings.String <> string_dec def
+R26195:26210 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R26181:26190 Coq.Strings.String <> string_dec def
+R26195:26210 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+R26284:26293 Coq.Lists.List <> in_map_iff thm
+R26284:26293 Coq.Lists.List <> in_map_iff thm
+R26284:26293 Coq.Lists.List <> in_map_iff thm
+prf 30654:30678 <> generate_obligations_incl
+binder 30691:30694 <> arch:324
+binder 30696:30699 <> prog:325
+binder 30701:30702 <> te:326
+binder 30704:30710 <> checked:327
+binder 30712:30716 <> props:328
+binder 30718:30719 <> ol:329
+binder 30721:30722 <> vc:330
+R30791:30793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30740:30759 BarocqComp.frontend.BarocqVC <> generate_obligations def
+R30761:30764 BarocqComp.frontend.BarocqVC <> arch:324 var
+R30767:30768 BarocqComp.frontend.BarocqVC <> te:326 var
+R30770:30776 BarocqComp.frontend.BarocqVC <> checked:327 var
+R30778:30779 BarocqComp.frontend.BarocqVC <> vc:330 var
+R30781:30784 BarocqComp.frontend.BarocqVC <> prog:325 var
+R30786:30790 BarocqComp.frontend.BarocqVC <> props:328 var
+R30794:30795 compcert.common.Errors <> OK constr
+R30797:30798 BarocqComp.frontend.BarocqVC <> ol:329 var
+binder 30734:30736 <> GEN:331
+binder 30818:30818 <> x:332
+R30828:30831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30821:30822 Coq.Lists.List <> In def
+R30826:30827 BarocqComp.frontend.BarocqVC <> vc:330 var
+R30824:30824 BarocqComp.frontend.BarocqVC <> x:332 var
+R30832:30833 Coq.Lists.List <> In def
+R30837:30838 BarocqComp.frontend.BarocqVC <> ol:329 var
+R30835:30835 BarocqComp.frontend.BarocqVC <> x:332 var
+R30985:31003 BarocqComp.frontend.BarocqVC <> obligation_def_type def
+R30985:31003 BarocqComp.frontend.BarocqVC <> obligation_def_type def
+R31109:31116 BarocqComp.frontend.BarocqVC <> get_prop def
+R31109:31116 BarocqComp.frontend.BarocqVC <> get_prop def
+R31217:31228 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R31217:31228 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R31266:31290 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R31266:31290 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R31414:31421 BarocqComp.frontend.BarocqVC <> get_prop def
+R31414:31421 BarocqComp.frontend.BarocqVC <> get_prop def
+R31522:31533 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R31522:31533 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R31571:31597 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R31608:31623 BarocqComp.common.Syntax <> fn_params proj
+R31629:31644 BarocqComp.common.Syntax <> fn_return proj
+R31650:31663 BarocqComp.common.Syntax <> fn_body proj
+R31571:31597 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R31608:31623 BarocqComp.common.Syntax <> fn_params proj
+R31629:31644 BarocqComp.common.Syntax <> fn_return proj
+R31650:31663 BarocqComp.common.Syntax <> fn_body proj
+R31821:31850 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R31821:31850 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R31984:32011 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R31984:32011 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+prf 32145:32166 <> obligation_def_type_eq
+binder 32177:32178 <> te:333
+binder 32180:32182 <> tid:334
+binder 32184:32189 <> fields:335
+R32230:32232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32197:32215 BarocqComp.frontend.BarocqVC <> obligation_def_type def
+R32217:32218 BarocqComp.frontend.BarocqVC <> te:333 var
+R32220:32222 BarocqComp.frontend.BarocqVC <> tid:334 var
+R32224:32229 BarocqComp.frontend.BarocqVC <> fields:335 var
+R32233:32245 BarocqComp.frontend.Barocq <> eval_def_type def
+R32247:32248 BarocqComp.frontend.BarocqVC <> te:333 var
+R32250:32252 BarocqComp.frontend.BarocqVC <> tid:334 var
+R32254:32259 BarocqComp.frontend.BarocqVC <> fields:335 var
+R32278:32296 BarocqComp.frontend.BarocqVC <> obligation_def_type def
+R32298:32310 BarocqComp.frontend.Barocq <> eval_def_type def
+R32333:32350 BarocqComp.frontend.Barocq <> fields_btyp_to_typ def
+R32333:32350 BarocqComp.frontend.Barocq <> fields_btyp_to_typ def
+R32397:32411 BarocqComp.frontend.BarocqVC <> tenv_update_opt def
+R32414:32431 BarocqComp.common.Typing <> tenv_update def
+R32443:32457 BarocqComp.common.Typing <> tenv_get def
+R32467:32475 BarocqComp.common.Maps2 STree get def
+R32492:32495 compcert.lib.Maps <> :::x_'!'_x not
+R32519:32519 compcert.lib.Maps <> :::x_'!'_x not
+R32496:32514 BarocqComp.common.Maps2 StringIndexed index def
+R32492:32495 compcert.lib.Maps <> :::x_'!'_x not
+R32519:32519 compcert.lib.Maps <> :::x_'!'_x not
+R32496:32514 BarocqComp.common.Maps2 StringIndexed index def
+prf 32550:32575 <> generate_obligations_sound
+binder 32588:32591 <> arch:336
+binder 32593:32596 <> prog:337
+binder 32598:32599 <> te:338
+binder 32601:32607 <> checked:339
+binder 32609:32613 <> props:340
+binder 32615:32616 <> ol:341
+binder 32618:32619 <> vc:342
+R32636:32640 Coq.Lists.List <> NoDup ind
+R32643:32645 Coq.Lists.List <> map def
+R32664:32667 BarocqComp.frontend.BarocqVC <> prog:337 var
+R32647:32662 BarocqComp.frontend.BarocqVC <> ident_of_globdef def
+binder 32631:32632 <> ND:343
+R32738:32740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32687:32706 BarocqComp.frontend.BarocqVC <> generate_obligations def
+R32708:32711 BarocqComp.frontend.BarocqVC <> arch:336 var
+R32714:32715 BarocqComp.frontend.BarocqVC <> te:338 var
+R32717:32723 BarocqComp.frontend.BarocqVC <> checked:339 var
+R32725:32726 BarocqComp.frontend.BarocqVC <> vc:342 var
+R32728:32731 BarocqComp.frontend.BarocqVC <> prog:337 var
+R32733:32737 BarocqComp.frontend.BarocqVC <> props:340 var
+R32741:32742 compcert.common.Errors <> OK constr
+R32744:32745 BarocqComp.frontend.BarocqVC <> ol:341 var
+binder 32681:32683 <> GEN:344
+R32764:32769 Coq.Lists.List <> Forall ind
+R32784:32785 BarocqComp.frontend.BarocqVC <> ol:341 var
+binder 32776:32776 <> p:345
+R32781:32781 BarocqComp.frontend.BarocqVC <> p:345 var
+binder 32758:32760 <> OBL:346
+binder 32801:32802 <> ge:347
+R32823:32830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32809:32814 BarocqComp.frontend.BarocqVC <> wf_env def
+R32816:32817 BarocqComp.frontend.BarocqVC <> ge:347 var
+R32819:32822 BarocqComp.frontend.BarocqVC <> prog:337 var
+R32863:32870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32831:32836 Coq.Lists.List <> Forall ind
+R32856:32862 BarocqComp.frontend.BarocqVC <> checked:339 var
+R32839:32850 BarocqComp.frontend.BarocqVC <> has_property def
+R32852:32853 BarocqComp.frontend.BarocqVC <> ge:347 var
+R32871:32877 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32885:32886 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32878:32880 <> te':348
+binder 32882:32884 <> ge':349
+R32944:32969 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32929:32931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32887:32899 BarocqComp.frontend.Barocq <> eval_prog_rec def
+R32919:32920 BarocqComp.frontend.BarocqVC <> te:338 var
+R32922:32923 BarocqComp.frontend.BarocqVC <> ge:347 var
+R32925:32928 BarocqComp.frontend.BarocqVC <> prog:337 var
+R32906:32917 BarocqComp.frontend.BarocqVC <> S.abs_typ_impl var
+R32901:32904 BarocqComp.frontend.BarocqVC <> arch:336 var
+R32932:32933 compcert.common.Errors <> OK constr
+R32935:32935 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32939:32939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32943:32943 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32936:32938 BarocqComp.frontend.BarocqVC <> te':348 var
+R32940:32942 BarocqComp.frontend.BarocqVC <> ge':349 var
+R32970:32975 Coq.Lists.List <> Forall ind
+R32996:33000 BarocqComp.frontend.BarocqVC <> props:340 var
+R32978:32989 BarocqComp.frontend.BarocqVC <> has_property def
+R32991:32993 BarocqComp.frontend.BarocqVC <> ge':349 var
+R33196:33217 BarocqComp.frontend.BarocqVC <> obligation_def_type_eq thm
+R33196:33217 BarocqComp.frontend.BarocqVC <> obligation_def_type_eq thm
+R33196:33217 BarocqComp.frontend.BarocqVC <> obligation_def_type_eq thm
+R33243:33255 BarocqComp.frontend.Barocq <> eval_def_type def
+R33243:33255 BarocqComp.frontend.Barocq <> eval_def_type def
+R33378:33388 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R33378:33388 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R33432:33439 BarocqComp.frontend.BarocqVC <> get_prop def
+R33432:33439 BarocqComp.frontend.BarocqVC <> get_prop def
+R33540:33551 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R33540:33551 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R33576:33600 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R33576:33600 BarocqComp.frontend.BarocqVC <> generate_const_obligation def
+R33678:33708 BarocqComp.frontend.BarocqVC <> generate_const_obligation_sound thm
+R33678:33708 BarocqComp.frontend.BarocqVC <> generate_const_obligation_sound thm
+R33765:33770 BarocqComp.frontend.BarocqVC <> wf_env def
+R33796:33803 BarocqComp.frontend.Barocq <> DefConst constr
+R33796:33803 BarocqComp.frontend.Barocq <> DefConst constr
+R33880:33904 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R33880:33904 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R33943:33955 Coq.Lists.List <> Forall_forall thm
+R33943:33955 Coq.Lists.List <> Forall_forall thm
+R33943:33955 Coq.Lists.List <> Forall_forall thm
+R34271:34272 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34266:34266 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34268:34268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34270:34270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34273:34275 Coq.Init.Datatypes <> nil constr
+R34217:34249 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R34271:34272 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34266:34266 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34268:34268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34270:34270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34273:34275 Coq.Init.Datatypes <> nil constr
+R34217:34249 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R34378:34392 BarocqComp.frontend.BarocqVC <> wf_env_DefConst thm
+R34378:34392 BarocqComp.frontend.BarocqVC <> wf_env_DefConst thm
+R34488:34488 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34504:34506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34489:34496 BarocqComp.frontend.Barocq <> DefConst constr
+R34507:34509 Coq.Init.Datatypes <> nil constr
+R34440:34472 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R34488:34488 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34504:34506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34489:34496 BarocqComp.frontend.Barocq <> DefConst constr
+R34507:34509 Coq.Init.Datatypes <> nil constr
+R34440:34472 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R34619:34626 BarocqComp.frontend.BarocqVC <> get_prop def
+R34619:34626 BarocqComp.frontend.BarocqVC <> get_prop def
+R34727:34738 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R34727:34738 BarocqComp.frontend.BarocqVC <> get_prop_inv thm
+R34763:34789 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R34801:34816 BarocqComp.common.Syntax <> fn_params proj
+R34822:34837 BarocqComp.common.Syntax <> fn_return proj
+R34843:34856 BarocqComp.common.Syntax <> fn_body proj
+R34763:34789 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation def
+R34801:34816 BarocqComp.common.Syntax <> fn_params proj
+R34822:34837 BarocqComp.common.Syntax <> fn_return proj
+R34843:34856 BarocqComp.common.Syntax <> fn_body proj
+R34935:34967 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation_sound thm
+R34935:34967 BarocqComp.frontend.BarocqVC <> generate_def_fun_obligation_sound thm
+R35027:35032 BarocqComp.frontend.BarocqVC <> wf_env def
+R35058:35063 BarocqComp.frontend.Barocq <> DefFun constr
+R35058:35063 BarocqComp.frontend.Barocq <> DefFun constr
+R35142:35166 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R35142:35166 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R35204:35216 Coq.Lists.List <> Forall_forall thm
+R35204:35216 Coq.Lists.List <> Forall_forall thm
+R35204:35216 Coq.Lists.List <> Forall_forall thm
+R35524:35525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35519:35519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35521:35521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35523:35523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35526:35528 Coq.Init.Datatypes <> nil constr
+R35470:35502 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R35524:35525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35519:35519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35521:35521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35523:35523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35526:35528 Coq.Init.Datatypes <> nil constr
+R35470:35502 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R35631:35643 BarocqComp.frontend.BarocqVC <> wf_env_DefFun thm
+R35631:35643 BarocqComp.frontend.BarocqVC <> wf_env_DefFun thm
+R35739:35739 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35750:35752 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35740:35745 BarocqComp.frontend.Barocq <> DefFun constr
+R35753:35755 Coq.Init.Datatypes <> nil constr
+R35691:35723 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R35739:35739 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35750:35752 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35740:35745 BarocqComp.frontend.Barocq <> DefFun constr
+R35753:35755 Coq.Init.Datatypes <> nil constr
+R35691:35723 BarocqComp.frontend.BarocqVC <> eval_prog_rec_preserve_properties thm
+R35880:35890 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R35880:35890 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R35929:35958 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R35929:35958 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation def
+R36022:36057 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation_sound thm
+R36022:36057 BarocqComp.frontend.BarocqVC <> generate_decl_const_obligation_sound thm
+R36127:36151 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R36127:36151 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R36189:36201 Coq.Lists.List <> Forall_forall thm
+R36189:36201 Coq.Lists.List <> Forall_forall thm
+R36189:36201 Coq.Lists.List <> Forall_forall thm
+R36383:36393 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R36383:36393 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R36433:36460 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R36433:36460 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation def
+R36534:36567 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation_sound thm
+R36534:36567 BarocqComp.frontend.BarocqVC <> generate_decl_fun_obligation_sound thm
+R36647:36671 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R36647:36671 BarocqComp.frontend.BarocqVC <> generate_obligations_incl thm
+R36709:36721 Coq.Lists.List <> Forall_forall thm
+R36709:36721 Coq.Lists.List <> Forall_forall thm
+R36709:36721 Coq.Lists.List <> Forall_forall thm
+R36903:36913 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R36903:36913 BarocqComp.frontend.BarocqVC <> wf_env_tail thm
+R36933:36933 BarocqComp.frontend.BarocqVC S <> sec

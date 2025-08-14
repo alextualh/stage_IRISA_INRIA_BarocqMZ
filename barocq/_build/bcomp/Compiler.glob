@@ -1,0 +1,131 @@
+DIGEST 23f8a0d99edea9bab66cfe6b0861b757
+FBarocqComp.bcomp.Compiler
+R31:35 BarocqComp.common.Error <> <> lib
+R37:41 BarocqComp.common.Utils <> <> lib
+R43:48 BarocqComp.frontend.Barocq <> <> lib
+R50:61 BarocqComp.frontend.BarocqBNFgen <> <> lib
+R95:103 BarocqComp.backend.ImpBNFgen <> <> lib
+R105:114 BarocqComp.backend.ImpABNFgen <> <> lib
+R116:119 BarocqComp.backend.Imp1 <> <> lib
+R121:127 BarocqComp.backend.Imp1gen <> <> lib
+R129:135 BarocqComp.backend.Imp2gen <> <> lib
+R137:147 BarocqComp.backend.ClightCegen <> <> lib
+def 162:168 <> compile
+R183:186 Coq.Init.Datatypes <> bool ind
+binder 171:180 <> show_debug:1
+R196:207 BarocqComp.common.Target <> archi ind
+binder 190:193 <> arch:2
+R217:230 BarocqComp.frontend.Barocq <> program def
+binder 211:214 <> prog:3
+R235:237 compcert.common.Errors <> res ind
+R239:254 compcert.cfrontend.ClightCe <> program def
+R261:265 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R270:273 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R309:314 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R274:298 BarocqComp.frontend.BarocqBNFgen <> norm_program def
+R300:303 BarocqComp.bcomp.Compiler <> arch:2 var
+R305:308 BarocqComp.bcomp.Compiler <> prog:3 var
+binder 266:269 <> bbnf:4
+R327:350 BarocqComp.backend.ImpBNFgen <> transl_program def
+R352:355 BarocqComp.bcomp.Compiler <> bbnf:4 var
+binder 319:322 <> ibnf:5
+R362:366 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R372:375 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R404:409 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R376:398 BarocqComp.backend.ImpABNFgen <> norm_program def
+R400:403 BarocqComp.bcomp.Compiler <> ibnf:5 var
+binder 367:371 <> iabnf:6
+R422:443 BarocqComp.backend.Imp1gen <> transl_program def
+R445:449 BarocqComp.bcomp.Compiler <> iabnf:6 var
+binder 414:417 <> imp1:7
+R456:460 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R471:474 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R513:518 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R475:502 BarocqComp.backend.Imp1 Imp1Typing typecheck_program def
+R509:512 BarocqComp.bcomp.Compiler <> imp1:7 var
+R504:507 BarocqComp.bcomp.Compiler <> arch:2 var
+binder 461:470 <> imp1_typed:8
+R519:523 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R534:537 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R588:593 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R538:565 BarocqComp.backend.Imp1gen <> gen_aliasing_program defax
+R567:576 BarocqComp.bcomp.Compiler <> show_debug:1 var
+R578:587 BarocqComp.bcomp.Compiler <> imp1_typed:8 var
+binder 524:533 <> imp1_alias:9
+R594:598 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R609:612 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R654:659 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R613:642 BarocqComp.backend.Imp1gen <> check_program_aliasing defax
+R644:653 BarocqComp.bcomp.Compiler <> imp1_alias:9 var
+binder 599:608 <> imp1_typed:10
+R672:693 BarocqComp.backend.Imp2gen <> transl_program def
+R695:704 BarocqComp.bcomp.Compiler <> imp1_typed:10 var
+binder 664:667 <> imp2:11
+R711:715 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R722:725 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R757:762 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R726:751 BarocqComp.backend.ClightCegen <> transl_program def
+R753:756 BarocqComp.bcomp.Compiler <> imp2:11 var
+binder 716:721 <> clight:12
+R763:766 BarocqComp.common.Monads MonError eret abbrev
+R768:773 BarocqComp.bcomp.Compiler <> clight:12 var
+def 788:802 <> compile_to_imp1
+R811:822 BarocqComp.common.Target <> archi ind
+binder 805:808 <> arch:13
+R832:845 BarocqComp.frontend.Barocq <> program def
+binder 826:829 <> prog:14
+R850:852 compcert.common.Errors <> res ind
+R854:865 BarocqComp.backend.Imp1 <> program def
+R872:876 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R881:884 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R920:925 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R885:909 BarocqComp.frontend.BarocqBNFgen <> norm_program def
+R911:914 BarocqComp.bcomp.Compiler <> arch:13 var
+R916:919 BarocqComp.bcomp.Compiler <> prog:14 var
+binder 877:880 <> bbnf:15
+R938:961 BarocqComp.backend.ImpBNFgen <> transl_program def
+R963:966 BarocqComp.bcomp.Compiler <> bbnf:15 var
+binder 930:933 <> ibnf:16
+R973:977 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R983:986 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1015:1020 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R987:1009 BarocqComp.backend.ImpABNFgen <> norm_program def
+R1011:1014 BarocqComp.bcomp.Compiler <> ibnf:16 var
+binder 978:982 <> iabnf:17
+R1033:1054 BarocqComp.backend.Imp1gen <> transl_program def
+R1056:1060 BarocqComp.bcomp.Compiler <> iabnf:17 var
+binder 1025:1028 <> imp1:18
+R1067:1070 BarocqComp.common.Monads MonError eret abbrev
+R1072:1075 BarocqComp.bcomp.Compiler <> imp1:18 var
+def 1090:1107 <> aliascheck_program
+R1122:1125 Coq.Init.Datatypes <> bool ind
+binder 1110:1119 <> show_debug:19
+R1135:1146 BarocqComp.common.Target <> archi ind
+binder 1129:1132 <> arch:20
+R1156:1169 BarocqComp.frontend.Barocq <> program def
+binder 1150:1153 <> prog:21
+R1174:1176 compcert.common.Errors <> res ind
+R1178:1194 BarocqComp.backend.Imp1 Imp1Typed program def
+R1201:1205 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1210:1213 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1239:1244 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1214:1228 BarocqComp.bcomp.Compiler <> compile_to_imp1 def
+R1230:1233 BarocqComp.bcomp.Compiler <> arch:20 var
+R1235:1238 BarocqComp.bcomp.Compiler <> prog:21 var
+binder 1206:1209 <> imp1:22
+R1245:1249 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1260:1263 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1302:1307 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1264:1291 BarocqComp.backend.Imp1 Imp1Typing typecheck_program def
+R1298:1301 BarocqComp.bcomp.Compiler <> imp1:22 var
+R1293:1296 BarocqComp.bcomp.Compiler <> arch:20 var
+binder 1250:1259 <> imp1_typed:23
+R1308:1312 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1323:1326 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1377:1382 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1327:1354 BarocqComp.backend.Imp1gen <> gen_aliasing_program defax
+R1356:1365 BarocqComp.bcomp.Compiler <> show_debug:19 var
+R1367:1376 BarocqComp.bcomp.Compiler <> imp1_typed:23 var
+binder 1313:1322 <> imp1_alias:24
+R1383:1412 BarocqComp.backend.Imp1gen <> check_program_aliasing defax
+R1414:1423 BarocqComp.bcomp.Compiler <> imp1_alias:24 var

@@ -1,0 +1,866 @@
+DIGEST 920cfb879d965c8c2600b43dad31dc62
+FBarocqComp.common.Typing
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.Strings.String <> <> lib
+R68:72 BarocqComp.common.Error <> <> lib
+R74:78 BarocqComp.common.Maps2 <> <> lib
+R80:84 BarocqComp.common.Utils <> <> lib
+R86:90 BarocqComp.common.Types <> <> lib
+R92:97 BarocqComp.common.Syntax <> <> lib
+R99:104 BarocqComp.common.Barray <> <> lib
+R114:126 Coq.Lists.List ListNotations <> mod
+R136:147 BarocqComp.common.Syntax Typed <> mod
+def 244:247 <> renv
+R259:265 BarocqComp.common.Maps2 STree t def
+R268:277 BarocqComp.common.Maps2 SMapList t def
+R279:282 BarocqComp.common.Types <> btyp ind
+def 298:305 <> renv_get
+R312:315 BarocqComp.common.Typing <> renv def
+binder 308:309 <> re:1
+R322:326 BarocqComp.common.Syntax <> ident def
+binder 319:319 <> x:2
+R331:333 compcert.common.Errors <> res ind
+R336:345 BarocqComp.common.Maps2 SMapList t def
+R347:350 BarocqComp.common.Types <> btyp ind
+R358:367 BarocqComp.common.Monads MonError err_of_opt def
+R370:378 BarocqComp.common.Maps2 STree get def
+R382:383 BarocqComp.common.Typing <> re:1 var
+R380:380 BarocqComp.common.Typing <> x:2 var
+def 399:409 <> renv_update
+R416:419 BarocqComp.common.Typing <> renv def
+binder 412:413 <> re:3
+R426:430 BarocqComp.common.Syntax <> ident def
+binder 423:423 <> x:4
+R442:451 BarocqComp.common.Maps2 SMapList t def
+R453:456 BarocqComp.common.Types <> btyp ind
+binder 434:439 <> fields:5
+R461:463 compcert.common.Errors <> res ind
+R465:468 BarocqComp.common.Typing <> renv def
+R481:488 BarocqComp.common.Typing <> renv_get def
+R490:491 BarocqComp.common.Typing <> re:3 var
+R493:493 BarocqComp.common.Typing <> x:4 var
+R504:505 compcert.common.Errors <> OK constr
+R512:515 BarocqComp.common.Monads MonError fail def
+R521:525 compcert.common.Errors <> Error constr
+R532:534 BarocqComp.common.Monads MonError ret def
+R537:545 BarocqComp.common.Maps2 STree set def
+R556:557 BarocqComp.common.Typing <> re:3 var
+R549:554 BarocqComp.common.Typing <> fields:5 var
+R547:547 BarocqComp.common.Typing <> x:4 var
+def 626:629 <> tenv
+R641:647 BarocqComp.common.Maps2 STree t def
+R650:659 BarocqComp.common.Maps2 SMapList t def
+R661:663 BarocqComp.common.Types <> typ ind
+def 679:686 <> tenv_get
+R693:696 BarocqComp.common.Typing <> tenv def
+binder 689:690 <> te:6
+R703:707 BarocqComp.common.Syntax <> ident def
+binder 700:700 <> x:7
+R712:714 compcert.common.Errors <> res ind
+R717:726 BarocqComp.common.Maps2 SMapList t def
+R728:730 BarocqComp.common.Types <> typ ind
+R738:747 BarocqComp.common.Monads MonError err_of_opt def
+R750:758 BarocqComp.common.Maps2 STree get def
+R762:763 BarocqComp.common.Typing <> te:6 var
+R760:760 BarocqComp.common.Typing <> x:7 var
+def 834:844 <> tenv_update
+R851:854 BarocqComp.common.Typing <> tenv def
+binder 847:848 <> te:8
+R861:865 BarocqComp.common.Syntax <> ident def
+binder 858:858 <> x:9
+R877:886 BarocqComp.common.Maps2 SMapList t def
+R888:890 BarocqComp.common.Types <> typ ind
+binder 869:874 <> fields:10
+R895:897 compcert.common.Errors <> res ind
+R899:902 BarocqComp.common.Typing <> tenv def
+R915:922 BarocqComp.common.Typing <> tenv_get def
+R924:925 BarocqComp.common.Typing <> te:8 var
+R927:927 BarocqComp.common.Typing <> x:9 var
+R938:939 compcert.common.Errors <> OK constr
+R946:949 BarocqComp.common.Monads MonError fail def
+R955:959 compcert.common.Errors <> Error constr
+R966:968 BarocqComp.common.Monads MonError ret def
+R971:979 BarocqComp.common.Maps2 STree set def
+R990:991 BarocqComp.common.Typing <> te:8 var
+R983:988 BarocqComp.common.Typing <> fields:10 var
+R981:981 BarocqComp.common.Typing <> x:9 var
+def 1011:1021 <> btyp_to_typ
+R1028:1031 BarocqComp.common.Typing <> tenv def
+binder 1024:1025 <> te:11
+R1039:1042 BarocqComp.common.Types <> btyp ind
+binder 1035:1036 <> ty:12
+R1047:1049 compcert.common.Errors <> res ind
+R1051:1053 BarocqComp.common.Types <> typ ind
+R1066:1067 BarocqComp.common.Typing <> ty:12 var
+R1078:1082 BarocqComp.common.Types <> BBool constr
+R1087:1089 BarocqComp.common.Monads MonError ret def
+R1091:1095 BarocqComp.common.Types <> TBool constr
+R1101:1106 BarocqComp.common.Types <> BInt32 constr
+R1113:1115 BarocqComp.common.Monads MonError ret def
+R1118:1123 BarocqComp.common.Types <> TInt32 constr
+R1132:1137 BarocqComp.common.Types <> BInt64 constr
+R1144:1146 BarocqComp.common.Monads MonError ret def
+R1149:1154 BarocqComp.common.Types <> TInt64 constr
+R1163:1168 BarocqComp.common.Types <> BArray constr
+R1182:1186 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1190:1193 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1211:1221 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1194:1204 BarocqComp.common.Typing <> btyp_to_typ:13 def
+R1206:1207 BarocqComp.common.Typing <> te:11 var
+binder 1187:1189 <> ta':15
+R1222:1224 BarocqComp.common.Monads MonError ret def
+R1227:1232 BarocqComp.common.Types <> TArray constr
+R1234:1236 BarocqComp.common.Typing <> ta':15 var
+R1243:1249 BarocqComp.common.Types <> BRecord constr
+R1263:1267 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1274:1277 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1292:1301 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1278:1285 BarocqComp.common.Typing <> tenv_get def
+R1287:1288 BarocqComp.common.Typing <> te:11 var
+binder 1268:1273 <> fields:16
+R1302:1304 BarocqComp.common.Monads MonError ret def
+R1307:1313 BarocqComp.common.Types <> TRecord constr
+R1318:1323 BarocqComp.common.Typing <> fields:16 var
+R1330:1333 BarocqComp.common.Types <> BFun constr
+R1357:1361 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1370:1373 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1403:1412 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1374:1377 compcert.common.Errors <> mmap def
+R1380:1390 BarocqComp.common.Typing <> btyp_to_typ:13 def
+R1392:1393 BarocqComp.common.Typing <> te:11 var
+binder 1362:1369 <> tparams':17
+R1413:1417 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1423:1426 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1446:1455 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1427:1437 BarocqComp.common.Typing <> btyp_to_typ:13 def
+R1439:1440 BarocqComp.common.Typing <> te:11 var
+binder 1418:1422 <> tret':18
+R1456:1458 BarocqComp.common.Monads MonError ret def
+R1461:1464 BarocqComp.common.Types <> TFun constr
+R1466:1473 BarocqComp.common.Typing <> tparams':17 var
+R1475:1479 BarocqComp.common.Typing <> tret':18 var
+R1486:1489 BarocqComp.common.Types <> BAbs constr
+R1496:1498 BarocqComp.common.Monads MonError ret def
+R1501:1504 BarocqComp.common.Types <> TAbs constr
+def 1528:1540 <> typof_literal
+R1546:1552 BarocqComp.common.Syntax Typed literal ind
+binder 1543:1543 <> l:19
+R1557:1560 BarocqComp.common.Types <> btyp ind
+R1573:1573 BarocqComp.common.Typing <> l:19 var
+R1584:1588 BarocqComp.common.Syntax Typed LTrue constr
+R1603:1608 BarocqComp.common.Syntax Typed LFalse constr
+R1623:1628 BarocqComp.common.Syntax Typed LInt32 constr
+R1645:1650 BarocqComp.common.Syntax Typed LInt64 constr
+R1667:1672 BarocqComp.common.Syntax Typed LArray constr
+R1689:1695 BarocqComp.common.Syntax Typed LRecord constr
+def 1727:1736 <> typof_atom
+R1742:1745 BarocqComp.common.Syntax Typed atom ind
+binder 1739:1739 <> a:21
+R1750:1753 BarocqComp.common.Types <> btyp ind
+R1766:1766 BarocqComp.common.Typing <> a:21 var
+R1777:1781 BarocqComp.common.Syntax Typed ATrue constr
+R1790:1795 BarocqComp.common.Syntax Typed AFalse constr
+R1804:1809 BarocqComp.common.Syntax Typed AInt32 constr
+R1820:1825 BarocqComp.common.Syntax Typed AInt64 constr
+R1836:1839 BarocqComp.common.Syntax Typed AVar constr
+R1850:1854 BarocqComp.common.Syntax Typed ACast constr
+R1865:1872 BarocqComp.common.Syntax Typed AUnaryOp constr
+R1885:1893 BarocqComp.common.Syntax Typed ABinaryOp constr
+def 1929:1938 <> typof_comp
+R1944:1947 BarocqComp.common.Syntax Typed comp ind
+binder 1941:1941 <> c:23
+R1952:1955 BarocqComp.common.Types <> btyp ind
+R1968:1968 BarocqComp.common.Typing <> c:23 var
+R1979:1984 BarocqComp.common.Syntax Typed CpAtom constr
+R1995:2004 BarocqComp.common.Syntax Typed CpArrayGet constr
+R2017:2026 BarocqComp.common.Syntax Typed CpArraySet constr
+R2041:2052 BarocqComp.common.Syntax Typed CpRecordProj constr
+R2065:2078 BarocqComp.common.Syntax Typed CpRecordUpdate constr
+R2093:2104 BarocqComp.common.Syntax Typed CpDeepAccess constr
+R2117:2122 BarocqComp.common.Syntax Typed CpCall constr
+def 2156:2163 <> gcontext
+R2175:2181 BarocqComp.common.Maps2 STree t def
+R2183:2186 BarocqComp.common.Types <> btyp ind
+def 2201:2208 <> lcontext
+R2220:2226 BarocqComp.common.Maps2 STree t def
+R2228:2231 BarocqComp.common.Types <> btyp ind
+def 2246:2257 <> gcontext_get
+R2264:2271 BarocqComp.common.Typing <> gcontext def
+binder 2260:2261 <> gx:25
+R2278:2282 BarocqComp.common.Syntax <> ident def
+binder 2275:2275 <> x:26
+R2287:2289 compcert.common.Errors <> res ind
+R2291:2294 BarocqComp.common.Types <> btyp ind
+R2307:2315 BarocqComp.common.Maps2 STree get def
+R2319:2320 BarocqComp.common.Typing <> gx:25 var
+R2317:2317 BarocqComp.common.Typing <> x:26 var
+R2331:2334 Coq.Init.Datatypes <> Some constr
+R2341:2343 BarocqComp.common.Monads MonError ret def
+R2351:2354 Coq.Init.Datatypes <> None constr
+R2359:2366 BarocqComp.common.Monads MonError failwith def
+def 2429:2443 <> gcontext_update
+R2450:2457 BarocqComp.common.Typing <> gcontext def
+binder 2446:2447 <> gx:27
+R2464:2468 BarocqComp.common.Syntax <> ident def
+binder 2461:2461 <> x:28
+R2476:2479 BarocqComp.common.Types <> btyp ind
+binder 2472:2473 <> ty:29
+R2484:2486 compcert.common.Errors <> res ind
+R2488:2495 BarocqComp.common.Typing <> gcontext def
+R2508:2519 BarocqComp.common.Typing <> gcontext_get def
+R2521:2522 BarocqComp.common.Typing <> gx:27 var
+R2524:2524 BarocqComp.common.Typing <> x:28 var
+R2535:2536 compcert.common.Errors <> OK constr
+R2543:2550 BarocqComp.common.Monads MonError failwith def
+R2612:2616 compcert.common.Errors <> Error constr
+R2623:2625 BarocqComp.common.Monads MonError ret def
+R2628:2636 BarocqComp.common.Maps2 STree set def
+R2643:2644 BarocqComp.common.Typing <> gx:27 var
+R2640:2641 BarocqComp.common.Typing <> ty:29 var
+R2638:2638 BarocqComp.common.Typing <> x:28 var
+def 2666:2677 <> lcontext_get
+R2684:2691 BarocqComp.common.Typing <> lcontext def
+binder 2680:2681 <> lx:30
+R2698:2702 BarocqComp.common.Syntax <> ident def
+binder 2695:2695 <> x:31
+R2707:2709 compcert.common.Errors <> res ind
+R2711:2714 BarocqComp.common.Types <> btyp ind
+R2727:2735 BarocqComp.common.Maps2 STree get def
+R2739:2740 BarocqComp.common.Typing <> lx:30 var
+R2737:2737 BarocqComp.common.Typing <> x:31 var
+R2751:2754 Coq.Init.Datatypes <> Some constr
+R2761:2763 BarocqComp.common.Monads MonError ret def
+R2771:2774 Coq.Init.Datatypes <> None constr
+R2779:2786 BarocqComp.common.Monads MonError failwith def
+def 2849:2863 <> lcontext_update
+R2870:2877 BarocqComp.common.Typing <> lcontext def
+binder 2866:2867 <> lx:32
+R2884:2888 BarocqComp.common.Syntax <> ident def
+binder 2881:2881 <> x:33
+R2896:2899 BarocqComp.common.Types <> btyp ind
+binder 2892:2893 <> ty:34
+R2904:2906 compcert.common.Errors <> res ind
+R2908:2915 BarocqComp.common.Typing <> lcontext def
+R2928:2939 BarocqComp.common.Typing <> lcontext_get def
+R2941:2942 BarocqComp.common.Typing <> lx:32 var
+R2944:2944 BarocqComp.common.Typing <> x:33 var
+R2955:2956 compcert.common.Errors <> OK constr
+R2972:2982 BarocqComp.common.Types <> btyp_eq_dec def
+R2984:2985 BarocqComp.common.Typing <> ty:34 var
+R3037:3044 BarocqComp.common.Monads MonError failwith def
+R2994:2996 BarocqComp.common.Monads MonError ret def
+R2999:3007 BarocqComp.common.Maps2 STree set def
+R3014:3015 BarocqComp.common.Typing <> lx:32 var
+R3011:3012 BarocqComp.common.Typing <> ty:34 var
+R3009:3009 BarocqComp.common.Typing <> x:33 var
+R3117:3121 compcert.common.Errors <> Error constr
+R3128:3130 BarocqComp.common.Monads MonError ret def
+R3133:3141 BarocqComp.common.Maps2 STree set def
+R3148:3149 BarocqComp.common.Typing <> lx:32 var
+R3145:3146 BarocqComp.common.Typing <> ty:34 var
+R3143:3143 BarocqComp.common.Typing <> x:33 var
+def 3171:3179 <> typof_var
+R3186:3193 BarocqComp.common.Typing <> gcontext def
+binder 3182:3183 <> gx:35
+R3201:3208 BarocqComp.common.Typing <> lcontext def
+binder 3197:3198 <> lx:36
+R3215:3219 BarocqComp.common.Syntax <> ident def
+binder 3212:3212 <> x:37
+R3224:3226 compcert.common.Errors <> res ind
+R3228:3231 BarocqComp.common.Types <> btyp ind
+R3245:3256 BarocqComp.common.Typing <> lcontext_get def
+R3258:3259 BarocqComp.common.Typing <> lx:36 var
+R3261:3261 BarocqComp.common.Typing <> x:37 var
+R3273:3274 compcert.common.Errors <> OK constr
+R3282:3284 BarocqComp.common.Monads MonError ret def
+R3293:3297 compcert.common.Errors <> Error constr
+R3310:3319 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R3321:3324 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R3342:3345 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R3382:3391 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R3325:3336 BarocqComp.common.Typing <> gcontext_get def
+R3338:3339 BarocqComp.common.Typing <> gx:35 var
+R3341:3341 BarocqComp.common.Typing <> x:37 var
+binder 3320:3320 <> t:38
+R3392:3394 BarocqComp.common.Monads MonError ret def
+R3396:3396 BarocqComp.common.Typing <> t:38 var
+def 3417:3430 <> typecheck_cast
+R3439:3442 BarocqComp.common.Types <> btyp ind
+binder 3433:3436 <> from:39
+R3450:3453 BarocqComp.common.Types <> btyp ind
+binder 3446:3447 <> to:40
+R3458:3460 compcert.common.Errors <> res ind
+R3462:3465 BarocqComp.common.Types <> btyp ind
+R3478:3481 BarocqComp.common.Typing <> from:39 var
+R3492:3496 BarocqComp.common.Types <> BBool constr
+R3500:3505 BarocqComp.common.Types <> BInt32 constr
+R3511:3516 BarocqComp.common.Types <> BInt64 constr
+R3533:3534 BarocqComp.common.Typing <> to:40 var
+R3547:3551 BarocqComp.common.Types <> BBool constr
+R3555:3560 BarocqComp.common.Types <> BInt32 constr
+R3566:3571 BarocqComp.common.Types <> BInt64 constr
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3596:3599 BarocqComp.common.Monads MonError fail def
+R3533:3534 BarocqComp.common.Typing <> to:40 var
+R3547:3551 BarocqComp.common.Types <> BBool constr
+R3555:3560 BarocqComp.common.Types <> BInt32 constr
+R3566:3571 BarocqComp.common.Types <> BInt64 constr
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3596:3599 BarocqComp.common.Monads MonError fail def
+R3533:3534 BarocqComp.common.Typing <> to:40 var
+R3547:3551 BarocqComp.common.Types <> BBool constr
+R3555:3560 BarocqComp.common.Types <> BInt32 constr
+R3566:3571 BarocqComp.common.Types <> BInt64 constr
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3578:3580 BarocqComp.common.Monads MonError ret def
+R3582:3583 BarocqComp.common.Typing <> to:40 var
+R3596:3599 BarocqComp.common.Monads MonError fail def
+R3618:3621 BarocqComp.common.Monads MonError fail def
+def 3642:3659 <> typecheck_unary_op
+R3666:3673 BarocqComp.common.Syntax <> unary_op ind
+binder 3662:3663 <> op:45
+R3681:3684 BarocqComp.common.Types <> btyp ind
+binder 3677:3678 <> ty:46
+R3689:3691 compcert.common.Errors <> res ind
+R3693:3696 BarocqComp.common.Types <> btyp ind
+R3713:3714 BarocqComp.common.Typing <> ty:46 var
+R3709:3710 BarocqComp.common.Typing <> op:45 var
+R3725:3734 BarocqComp.common.Syntax <> UopNotbool constr
+R3737:3741 BarocqComp.common.Types <> BBool constr
+R3747:3755 BarocqComp.common.Syntax <> UopNotint constr
+R3758:3763 BarocqComp.common.Types <> BInt32 constr
+R3771:3779 BarocqComp.common.Syntax <> UopNotint constr
+R3782:3787 BarocqComp.common.Types <> BInt64 constr
+R3795:3800 BarocqComp.common.Syntax <> UopNeg constr
+R3803:3808 BarocqComp.common.Types <> BInt32 constr
+R3816:3821 BarocqComp.common.Syntax <> UopNeg constr
+R3824:3829 BarocqComp.common.Types <> BInt64 constr
+R3837:3843 BarocqComp.common.Syntax <> UopPlus constr
+R3846:3851 BarocqComp.common.Types <> BInt32 constr
+R3859:3865 BarocqComp.common.Syntax <> UopPlus constr
+R3868:3873 BarocqComp.common.Types <> BInt64 constr
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3880:3882 BarocqComp.common.Monads MonError ret def
+R3884:3885 BarocqComp.common.Typing <> ty:46 var
+R3899:3906 BarocqComp.common.Monads MonError failwith def
+def 3970:3988 <> typecheck_binary_op
+R3995:4003 BarocqComp.common.Syntax <> binary_op ind
+binder 3991:3992 <> op:49
+R4016:4019 BarocqComp.common.Types <> btyp ind
+binder 4007:4009 <> ty1:50
+binder 4011:4013 <> ty2:51
+R4024:4026 compcert.common.Errors <> res ind
+R4028:4031 BarocqComp.common.Types <> btyp ind
+R4044:4045 BarocqComp.common.Typing <> op:49 var
+R4056:4065 BarocqComp.common.Syntax <> BopAndbool constr
+R4071:4079 BarocqComp.common.Syntax <> BopOrbool constr
+R4085:4094 BarocqComp.common.Syntax <> BopXorbool constr
+R4116:4118 BarocqComp.common.Typing <> ty2:51 var
+R4111:4113 BarocqComp.common.Typing <> ty1:50 var
+R4133:4137 BarocqComp.common.Types <> BBool constr
+R4140:4144 BarocqComp.common.Types <> BBool constr
+R4149:4151 BarocqComp.common.Monads MonError ret def
+R4153:4155 BarocqComp.common.Typing <> ty1:50 var
+R4173:4180 BarocqComp.common.Monads MonError failwith def
+R4116:4118 BarocqComp.common.Typing <> ty2:51 var
+R4111:4113 BarocqComp.common.Typing <> ty1:50 var
+R4133:4137 BarocqComp.common.Types <> BBool constr
+R4140:4144 BarocqComp.common.Types <> BBool constr
+R4149:4151 BarocqComp.common.Monads MonError ret def
+R4153:4155 BarocqComp.common.Typing <> ty1:50 var
+R4173:4180 BarocqComp.common.Monads MonError failwith def
+R4116:4118 BarocqComp.common.Typing <> ty2:51 var
+R4111:4113 BarocqComp.common.Typing <> ty1:50 var
+R4133:4137 BarocqComp.common.Types <> BBool constr
+R4140:4144 BarocqComp.common.Types <> BBool constr
+R4149:4151 BarocqComp.common.Monads MonError ret def
+R4153:4155 BarocqComp.common.Typing <> ty1:50 var
+R4173:4180 BarocqComp.common.Monads MonError failwith def
+R4240:4244 BarocqComp.common.Syntax <> BopEq constr
+R4250:4255 BarocqComp.common.Syntax <> BopNeq constr
+R4277:4279 BarocqComp.common.Typing <> ty2:51 var
+R4272:4274 BarocqComp.common.Typing <> ty1:50 var
+R4294:4298 BarocqComp.common.Types <> BBool constr
+R4301:4305 BarocqComp.common.Types <> BBool constr
+R4310:4312 BarocqComp.common.Monads MonError ret def
+R4314:4316 BarocqComp.common.Typing <> ty1:50 var
+R4326:4331 BarocqComp.common.Types <> BInt32 constr
+R4337:4342 BarocqComp.common.Types <> BInt32 constr
+R4355:4360 BarocqComp.common.Types <> BInt64 constr
+R4366:4371 BarocqComp.common.Types <> BInt64 constr
+R4392:4408 BarocqComp.common.Types <> signedness_eq_dec thm
+R4446:4453 BarocqComp.common.Monads MonError failwith def
+R4421:4423 BarocqComp.common.Monads MonError ret def
+R4425:4429 BarocqComp.common.Types <> BBool constr
+R4392:4408 BarocqComp.common.Types <> signedness_eq_dec thm
+R4446:4453 BarocqComp.common.Monads MonError failwith def
+R4421:4423 BarocqComp.common.Monads MonError ret def
+R4425:4429 BarocqComp.common.Types <> BBool constr
+R4539:4546 BarocqComp.common.Monads MonError failwith def
+R4277:4279 BarocqComp.common.Typing <> ty2:51 var
+R4272:4274 BarocqComp.common.Typing <> ty1:50 var
+R4294:4298 BarocqComp.common.Types <> BBool constr
+R4301:4305 BarocqComp.common.Types <> BBool constr
+R4310:4312 BarocqComp.common.Monads MonError ret def
+R4314:4316 BarocqComp.common.Typing <> ty1:50 var
+R4326:4331 BarocqComp.common.Types <> BInt32 constr
+R4337:4342 BarocqComp.common.Types <> BInt32 constr
+R4355:4360 BarocqComp.common.Types <> BInt64 constr
+R4366:4371 BarocqComp.common.Types <> BInt64 constr
+R4392:4408 BarocqComp.common.Types <> signedness_eq_dec thm
+R4446:4453 BarocqComp.common.Monads MonError failwith def
+R4421:4423 BarocqComp.common.Monads MonError ret def
+R4425:4429 BarocqComp.common.Types <> BBool constr
+R4392:4408 BarocqComp.common.Types <> signedness_eq_dec thm
+R4446:4453 BarocqComp.common.Monads MonError failwith def
+R4421:4423 BarocqComp.common.Monads MonError ret def
+R4425:4429 BarocqComp.common.Types <> BBool constr
+R4539:4546 BarocqComp.common.Monads MonError failwith def
+R4606:4610 BarocqComp.common.Syntax <> BopLt constr
+R4616:4620 BarocqComp.common.Syntax <> BopLe constr
+R4627:4631 BarocqComp.common.Syntax <> BopGt constr
+R4637:4641 BarocqComp.common.Syntax <> BopGe constr
+R4663:4665 BarocqComp.common.Typing <> ty2:51 var
+R4658:4660 BarocqComp.common.Typing <> ty1:50 var
+R4680:4685 BarocqComp.common.Types <> BInt32 constr
+R4691:4696 BarocqComp.common.Types <> BInt32 constr
+R4709:4714 BarocqComp.common.Types <> BInt64 constr
+R4720:4725 BarocqComp.common.Types <> BInt64 constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4891:4898 BarocqComp.common.Monads MonError failwith def
+R4663:4665 BarocqComp.common.Typing <> ty2:51 var
+R4658:4660 BarocqComp.common.Typing <> ty1:50 var
+R4680:4685 BarocqComp.common.Types <> BInt32 constr
+R4691:4696 BarocqComp.common.Types <> BInt32 constr
+R4709:4714 BarocqComp.common.Types <> BInt64 constr
+R4720:4725 BarocqComp.common.Types <> BInt64 constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4891:4898 BarocqComp.common.Monads MonError failwith def
+R4663:4665 BarocqComp.common.Typing <> ty2:51 var
+R4658:4660 BarocqComp.common.Typing <> ty1:50 var
+R4680:4685 BarocqComp.common.Types <> BInt32 constr
+R4691:4696 BarocqComp.common.Types <> BInt32 constr
+R4709:4714 BarocqComp.common.Types <> BInt64 constr
+R4720:4725 BarocqComp.common.Types <> BInt64 constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4891:4898 BarocqComp.common.Monads MonError failwith def
+R4663:4665 BarocqComp.common.Typing <> ty2:51 var
+R4658:4660 BarocqComp.common.Typing <> ty1:50 var
+R4680:4685 BarocqComp.common.Types <> BInt32 constr
+R4691:4696 BarocqComp.common.Types <> BInt32 constr
+R4709:4714 BarocqComp.common.Types <> BInt64 constr
+R4720:4725 BarocqComp.common.Types <> BInt64 constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4746:4762 BarocqComp.common.Types <> signedness_eq_dec thm
+R4800:4807 BarocqComp.common.Monads MonError failwith def
+R4775:4777 BarocqComp.common.Monads MonError ret def
+R4779:4783 BarocqComp.common.Types <> BBool constr
+R4891:4898 BarocqComp.common.Monads MonError failwith def
+R4980:4982 BarocqComp.common.Typing <> ty2:51 var
+R4975:4977 BarocqComp.common.Typing <> ty1:50 var
+R4997:5002 BarocqComp.common.Types <> BInt32 constr
+R5008:5013 BarocqComp.common.Types <> BInt32 constr
+R5026:5031 BarocqComp.common.Types <> BInt64 constr
+R5037:5042 BarocqComp.common.Types <> BInt64 constr
+R5063:5079 BarocqComp.common.Types <> signedness_eq_dec thm
+R5115:5122 BarocqComp.common.Monads MonError failwith def
+R5092:5094 BarocqComp.common.Monads MonError ret def
+R5096:5098 BarocqComp.common.Typing <> ty1:50 var
+R5063:5079 BarocqComp.common.Types <> signedness_eq_dec thm
+R5115:5122 BarocqComp.common.Monads MonError failwith def
+R5092:5094 BarocqComp.common.Monads MonError ret def
+R5096:5098 BarocqComp.common.Typing <> ty1:50 var
+R5206:5213 BarocqComp.common.Monads MonError failwith def
+def 5288:5306 <> typecheck_array_get
+R5315:5326 BarocqComp.common.Target <> archi ind
+binder 5309:5312 <> arch:73
+R5339:5342 BarocqComp.common.Types <> btyp ind
+binder 5330:5332 <> ty1:74
+binder 5334:5336 <> ty2:75
+R5347:5349 compcert.common.Errors <> res ind
+R5351:5354 BarocqComp.common.Types <> btyp ind
+R5371:5373 BarocqComp.common.Typing <> ty1:74 var
+R5384:5389 BarocqComp.common.Types <> BArray constr
+R5406:5416 BarocqComp.common.Types <> btyp_eq_dec def
+R5418:5420 BarocqComp.common.Typing <> ty2:75 var
+R5423:5436 BarocqComp.common.Types <> arr_index_btyp def
+R5438:5441 BarocqComp.common.Typing <> arch:73 var
+R5467:5474 BarocqComp.common.Monads MonError failwith def
+R5449:5451 BarocqComp.common.Monads MonError ret def
+R5541:5548 BarocqComp.common.Monads MonError failwith def
+def 5620:5638 <> typecheck_array_set
+R5647:5658 BarocqComp.common.Target <> archi ind
+binder 5641:5644 <> arch:77
+R5675:5678 BarocqComp.common.Types <> btyp ind
+binder 5662:5664 <> ty1:78
+binder 5666:5668 <> ty2:79
+binder 5670:5672 <> ty3:80
+R5683:5685 compcert.common.Errors <> res ind
+R5687:5690 BarocqComp.common.Types <> btyp ind
+R5703:5705 BarocqComp.common.Typing <> ty1:78 var
+R5716:5721 BarocqComp.common.Types <> BArray constr
+R5738:5748 BarocqComp.common.Types <> btyp_eq_dec def
+R5750:5752 BarocqComp.common.Typing <> ty2:79 var
+R5755:5768 BarocqComp.common.Types <> arr_index_btyp def
+R5770:5773 BarocqComp.common.Typing <> arch:77 var
+R5901:5908 BarocqComp.common.Monads MonError failwith def
+R5792:5802 BarocqComp.common.Types <> btyp_eq_dec def
+R5807:5809 BarocqComp.common.Typing <> ty3:80 var
+R5837:5844 BarocqComp.common.Monads MonError failwith def
+R5816:5818 BarocqComp.common.Monads MonError ret def
+R5820:5822 BarocqComp.common.Typing <> ty1:78 var
+R5975:5982 BarocqComp.common.Monads MonError failwith def
+def 6053:6073 <> typecheck_record_proj
+R6080:6083 BarocqComp.common.Typing <> renv def
+binder 6076:6077 <> re:82
+R6091:6094 BarocqComp.common.Types <> btyp ind
+binder 6087:6088 <> ty:83
+R6101:6105 BarocqComp.common.Syntax <> ident def
+binder 6098:6098 <> x:84
+R6110:6112 compcert.common.Errors <> res ind
+R6114:6117 BarocqComp.common.Types <> btyp ind
+R6130:6131 BarocqComp.common.Typing <> ty:83 var
+R6142:6148 BarocqComp.common.Types <> BRecord constr
+R6161:6170 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6177:6180 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6194:6205 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6257:6272 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6181:6188 BarocqComp.common.Typing <> renv_get def
+R6190:6191 BarocqComp.common.Typing <> re:82 var
+binder 6171:6176 <> fields:86
+R6273:6284 BarocqComp.common.Types <> btypof_field def
+R6286:6286 BarocqComp.common.Typing <> x:84 var
+R6288:6293 BarocqComp.common.Typing <> fields:86 var
+R6304:6311 BarocqComp.common.Monads MonError failwith def
+def 6385:6407 <> typecheck_record_update
+R6414:6417 BarocqComp.common.Typing <> renv def
+binder 6410:6411 <> re:87
+R6430:6433 BarocqComp.common.Types <> btyp ind
+binder 6421:6423 <> ty1:88
+binder 6425:6427 <> ty2:89
+R6440:6444 BarocqComp.common.Syntax <> ident def
+binder 6437:6437 <> x:90
+R6449:6451 compcert.common.Errors <> res ind
+R6453:6456 BarocqComp.common.Types <> btyp ind
+R6469:6471 BarocqComp.common.Typing <> ty1:88 var
+R6482:6488 BarocqComp.common.Types <> BRecord constr
+R6501:6510 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6517:6520 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6534:6545 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6597:6612 BarocqComp.common.Monads MonError ::error_monad_scope:'let/catch'_x_':='_x_'/>'_x_'in'_x not
+R6521:6528 BarocqComp.common.Typing <> renv_get def
+R6530:6531 BarocqComp.common.Typing <> re:87 var
+binder 6511:6516 <> fields:92
+R6613:6617 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6620:6623 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6645:6654 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6624:6635 BarocqComp.common.Types <> btypof_field def
+R6637:6637 BarocqComp.common.Typing <> x:90 var
+R6639:6644 BarocqComp.common.Typing <> fields:92 var
+binder 6618:6619 <> tx:93
+R6658:6668 BarocqComp.common.Types <> btyp_eq_dec def
+R6670:6671 BarocqComp.common.Typing <> tx:93 var
+R6673:6675 BarocqComp.common.Typing <> ty2:89 var
+R6701:6708 BarocqComp.common.Monads MonError failwith def
+R6682:6684 BarocqComp.common.Monads MonError ret def
+R6686:6688 BarocqComp.common.Typing <> ty1:88 var
+R6767:6774 BarocqComp.common.Monads MonError failwith def
+ind 6851:6861 <> access_btyp
+constr 6879:6896 <> AbtypAcRecordField
+constr 6927:6943 <> AbtypAcArrayIndex
+R6905:6908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6900:6904 BarocqComp.common.Syntax <> ident def
+R6909:6919 BarocqComp.common.Typing <> access_btyp:94 ind
+R6951:6954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6947:6950 BarocqComp.common.Types <> btyp ind
+R6955:6965 BarocqComp.common.Typing <> access_btyp:94 ind
+scheme 6851:6861 <> access_btyp_rect
+scheme 6851:6861 <> access_btyp_ind
+scheme 6851:6861 <> access_btyp_rec
+scheme 6851:6861 <> access_btyp_sind
+def 6980:6995 <> typecheck_access
+R7004:7015 BarocqComp.common.Target <> archi ind
+binder 6998:7001 <> arch:96
+R7023:7026 BarocqComp.common.Typing <> renv def
+binder 7019:7020 <> re:97
+R7034:7041 BarocqComp.common.Typing <> gcontext def
+binder 7030:7031 <> gx:98
+R7049:7056 BarocqComp.common.Typing <> lcontext def
+binder 7045:7046 <> lx:99
+R7064:7067 BarocqComp.common.Types <> btyp ind
+binder 7060:7061 <> ty:100
+R7076:7079 Coq.Init.Datatypes <> list ind
+R7081:7091 BarocqComp.common.Typing <> access_btyp ind
+binder 7071:7073 <> acs:101
+R7096:7098 compcert.common.Errors <> res ind
+R7105:7107 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7101:7104 BarocqComp.common.Types <> btyp ind
+R7108:7111 Coq.Init.Datatypes <> list ind
+R7113:7116 BarocqComp.common.Types <> btyp ind
+R7133:7135 BarocqComp.common.Typing <> acs:101 var
+R7148:7150 Coq.Init.Datatypes <> nil constr
+R7155:7157 BarocqComp.common.Monads MonError ret def
+R7159:7159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7162:7163 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7167:7167 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7160:7161 BarocqComp.common.Typing <> ty:100 var
+R7164:7166 Coq.Init.Datatypes <> nil constr
+R7177:7180 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7221:7238 BarocqComp.common.Typing <> AbtypAcRecordField constr
+R7257:7261 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7265:7268 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7298:7313 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7269:7289 BarocqComp.common.Typing <> typecheck_record_proj def
+R7291:7292 BarocqComp.common.Typing <> re:97 var
+R7294:7295 BarocqComp.common.Typing <> ty:100 var
+binder 7262:7264 <> ty':105
+R7314:7319 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7321:7322 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7325:7329 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7369:7384 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7330:7345 BarocqComp.common.Typing <> typecheck_access:102 def
+R7361:7363 BarocqComp.common.Typing <> ty':105 var
+R7358:7359 BarocqComp.common.Typing <> lx:99 var
+R7355:7356 BarocqComp.common.Typing <> gx:98 var
+R7352:7353 BarocqComp.common.Typing <> re:97 var
+R7347:7350 BarocqComp.common.Typing <> arch:96 var
+binder 7320:7320 <> r:106
+binder 7323:7324 <> lr:107
+R7385:7387 BarocqComp.common.Monads MonError ret def
+R7389:7389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7391:7392 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7402:7402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7390:7390 BarocqComp.common.Typing <> r:106 var
+R7396:7399 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7393:7395 BarocqComp.common.Typing <> ty':105 var
+R7400:7401 BarocqComp.common.Typing <> lr:107 var
+R7414:7430 BarocqComp.common.Typing <> AbtypAcArrayIndex constr
+R7450:7454 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7458:7461 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7492:7507 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7462:7480 BarocqComp.common.Typing <> typecheck_array_get def
+R7482:7485 BarocqComp.common.Typing <> arch:96 var
+R7487:7488 BarocqComp.common.Typing <> ty:100 var
+binder 7455:7457 <> ty':108
+R7508:7513 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7515:7516 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7519:7523 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7563:7578 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7524:7539 BarocqComp.common.Typing <> typecheck_access:102 def
+R7555:7557 BarocqComp.common.Typing <> ty':108 var
+R7552:7553 BarocqComp.common.Typing <> lx:99 var
+R7549:7550 BarocqComp.common.Typing <> gx:98 var
+R7546:7547 BarocqComp.common.Typing <> re:97 var
+R7541:7544 BarocqComp.common.Typing <> arch:96 var
+binder 7514:7514 <> r:109
+binder 7517:7518 <> lr:110
+R7579:7581 BarocqComp.common.Monads MonError ret def
+R7583:7583 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7585:7586 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7596:7596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7584:7584 BarocqComp.common.Typing <> r:109 var
+R7590:7593 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7587:7589 BarocqComp.common.Typing <> ty':108 var
+R7594:7595 BarocqComp.common.Typing <> lr:110 var
+def 7629:7646 <> typecheck_call_rec
+R7664:7667 Coq.Init.Datatypes <> list ind
+R7669:7672 BarocqComp.common.Types <> btyp ind
+binder 7649:7655 <> tparams:111
+binder 7657:7661 <> targs:112
+R7682:7685 BarocqComp.common.Types <> btyp ind
+binder 7676:7679 <> tret:113
+R7690:7692 compcert.common.Errors <> res ind
+R7694:7697 BarocqComp.common.Types <> btyp ind
+R7719:7723 BarocqComp.common.Typing <> targs:112 var
+R7710:7716 BarocqComp.common.Typing <> tparams:111 var
+R7734:7736 Coq.Init.Datatypes <> nil constr
+R7739:7741 Coq.Init.Datatypes <> nil constr
+R7746:7748 BarocqComp.common.Monads MonError ret def
+R7750:7753 BarocqComp.common.Typing <> tret:113 var
+R7762:7765 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7779:7782 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7802:7812 BarocqComp.common.Types <> btyp_eq_dec def
+R7895:7902 BarocqComp.common.Monads MonError failwith def
+R7835:7852 BarocqComp.common.Typing <> typecheck_call_rec:114 def
+R7870:7873 BarocqComp.common.Typing <> tret:113 var
+R7965:7972 BarocqComp.common.Monads MonError failwith def
+def 8048:8061 <> typecheck_call
+R8068:8071 BarocqComp.common.Types <> btyp ind
+binder 8064:8065 <> ty:117
+R8082:8085 Coq.Init.Datatypes <> list ind
+R8087:8090 BarocqComp.common.Types <> btyp ind
+binder 8075:8079 <> targs:118
+R8095:8097 compcert.common.Errors <> res ind
+R8099:8102 BarocqComp.common.Types <> btyp ind
+R8115:8116 BarocqComp.common.Typing <> ty:117 var
+R8127:8130 BarocqComp.common.Types <> BFun constr
+R8148:8165 BarocqComp.common.Typing <> typecheck_call_rec def
+R8175:8179 BarocqComp.common.Typing <> targs:118 var
+R8195:8202 BarocqComp.common.Monads MonError failwith def
+def 8269:8287 <> typecheck_array_lit
+R8293:8297 BarocqComp.common.Barray <> array def
+R8299:8305 BarocqComp.common.Syntax Typed literal ind
+binder 8290:8290 <> a:120
+R8310:8312 compcert.common.Errors <> res ind
+R8314:8317 BarocqComp.common.Types <> btyp ind
+R8330:8330 BarocqComp.common.Typing <> a:120 var
+R8341:8343 Coq.Init.Datatypes <> nil constr
+R8348:8355 BarocqComp.common.Monads MonError failwith def
+R8404:8407 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8408:8410 Coq.Init.Datatypes <> nil constr
+R8415:8417 BarocqComp.common.Monads MonError ret def
+R8420:8432 BarocqComp.common.Typing <> typof_literal def
+R8442:8445 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8458:8462 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8464:8467 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8490:8499 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8468:8486 BarocqComp.common.Typing <> typecheck_array_lit:121 def
+binder 8463:8463 <> t:123
+R8503:8513 BarocqComp.common.Types <> btyp_eq_dec def
+R8516:8528 BarocqComp.common.Typing <> typof_literal def
+R8533:8533 BarocqComp.common.Typing <> t:123 var
+R8557:8564 BarocqComp.common.Monads MonError failwith def
+R8540:8542 BarocqComp.common.Monads MonError ret def
+R8544:8544 BarocqComp.common.Typing <> t:123 var
+def 8627:8646 <> typecheck_struct_lit
+R8653:8662 BarocqComp.common.Maps2 SMapList t def
+R8664:8670 BarocqComp.common.Syntax Typed literal ind
+binder 8649:8650 <> l1:124
+R8678:8687 BarocqComp.common.Maps2 SMapList t def
+R8689:8692 BarocqComp.common.Types <> btyp ind
+binder 8674:8675 <> l2:125
+R8697:8700 Coq.Init.Datatypes <> bool ind
+R8717:8718 BarocqComp.common.Typing <> l2:125 var
+R8713:8714 BarocqComp.common.Typing <> l1:124 var
+R8729:8731 Coq.Init.Datatypes <> nil constr
+R8734:8736 Coq.Init.Datatypes <> nil constr
+R8741:8744 Coq.Init.Datatypes <> true constr
+R8758:8761 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8750:8750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8753:8754 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8757:8757 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8776:8779 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8767:8767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8770:8771 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8775:8775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8804:8816 BarocqComp.common.Typing <> typof_literal def
+R8818:8819 BarocqComp.common.Typing <> l1:124 var
+binder 8797:8799 <> tx1:129
+R8833:8843 BarocqComp.common.Types <> btyp_eq_dec def
+R8845:8847 BarocqComp.common.Typing <> tx1:129 var
+R8898:8902 Coq.Init.Datatypes <> false constr
+R8858:8877 BarocqComp.common.Typing <> typecheck_struct_lit:126 def
+R8916:8920 Coq.Init.Datatypes <> false constr
+def 8939:8955 <> typecheck_literal
+R8962:8965 BarocqComp.common.Typing <> renv def
+binder 8958:8959 <> re:130
+R8972:8985 BarocqComp.common.Syntax <> literal ind
+binder 8969:8969 <> l:131
+R8990:8992 compcert.common.Errors <> res ind
+R8994:9000 BarocqComp.common.Syntax Typed literal ind
+R9013:9013 BarocqComp.common.Typing <> l:131 var
+R9024:9035 BarocqComp.common.Syntax <> LTrue constr
+R9040:9042 BarocqComp.common.Monads MonError ret def
+R9045:9049 BarocqComp.common.Syntax Typed LTrue constr
+R9051:9055 BarocqComp.common.Types <> BBool constr
+R9062:9074 BarocqComp.common.Syntax <> LFalse constr
+R9079:9081 BarocqComp.common.Monads MonError ret def
+R9084:9089 BarocqComp.common.Syntax Typed LFalse constr
+R9091:9095 BarocqComp.common.Types <> BBool constr
+R9102:9114 BarocqComp.common.Syntax <> LInt32 constr
+R9123:9125 BarocqComp.common.Monads MonError ret def
+R9128:9133 BarocqComp.common.Syntax Typed LInt32 constr
+R9138:9143 BarocqComp.common.Types <> BInt32 constr
+R9153:9165 BarocqComp.common.Syntax <> LInt64 constr
+R9174:9176 BarocqComp.common.Monads MonError ret def
+R9179:9184 BarocqComp.common.Syntax Typed LInt64 constr
+R9189:9194 BarocqComp.common.Types <> BInt64 constr
+R9204:9216 BarocqComp.common.Syntax <> LArray constr
+R9229:9233 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9236:9239 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9269:9278 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9240:9243 compcert.common.Errors <> mmap def
+R9246:9262 BarocqComp.common.Typing <> typecheck_literal:132 def
+R9264:9265 BarocqComp.common.Typing <> re:130 var
+binder 9234:9235 <> a':134
+R9279:9283 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9285:9288 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9311:9320 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9289:9307 BarocqComp.common.Typing <> typecheck_array_lit def
+R9309:9310 BarocqComp.common.Typing <> a':134 var
+binder 9284:9284 <> t:135
+R9321:9323 BarocqComp.common.Monads MonError ret def
+R9326:9331 BarocqComp.common.Syntax Typed LArray constr
+R9333:9334 BarocqComp.common.Typing <> a':134 var
+R9337:9342 BarocqComp.common.Types <> BArray constr
+R9344:9344 BarocqComp.common.Typing <> t:135 var
+R9352:9365 BarocqComp.common.Syntax <> LRecord constr
+R9381:9385 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9389:9392 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9435:9444 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9393:9408 BarocqComp.common.Maps2 SMapList map_err def
+R9411:9427 BarocqComp.common.Typing <> typecheck_literal:132 def
+R9429:9430 BarocqComp.common.Typing <> re:130 var
+binder 9386:9388 <> rc':136
+R9445:9449 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9451:9454 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9468:9477 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9455:9462 BarocqComp.common.Typing <> renv_get def
+R9464:9465 BarocqComp.common.Typing <> re:130 var
+binder 9450:9450 <> t:137
+R9481:9500 BarocqComp.common.Typing <> typecheck_struct_lit def
+R9502:9504 BarocqComp.common.Typing <> rc':136 var
+R9506:9506 BarocqComp.common.Typing <> t:137 var
+R9554:9561 BarocqComp.common.Monads MonError failwith def
+R9513:9515 BarocqComp.common.Monads MonError ret def
+R9518:9524 BarocqComp.common.Syntax Typed LRecord constr
+R9526:9528 BarocqComp.common.Typing <> rc':136 var
+R9531:9537 BarocqComp.common.Types <> BRecord constr

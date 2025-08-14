@@ -1,0 +1,32 @@
+DIGEST c82692b7d3e1b3cb0a7f4bf342cdd36e
+FVerimz.Barocqmzutils
+R27:29 Verimz.Int <> <> lib
+R31:33 Verimz.Pmp <> <> lib
+def 48:60 <> int_to_Intptr
+R66:68 compcert.lib.Integers <> int abbrev
+binder 62:62 <> x:1
+R73:82 Verimz.Int Intptr int rec
+R91:101 Verimz.Int Intptr repr def
+R104:115 compcert.lib.Integers Int unsigned def
+R117:117 Verimz.Barocqmzutils <> x:1 var
+def 133:145 <> Intptr_to_int
+R152:161 Verimz.Int Intptr int rec
+binder 148:148 <> p:2
+R166:172 compcert.lib.Integers Int int rec
+R179:186 compcert.lib.Integers Int repr def
+R189:203 Verimz.Int Intptr unsigned def
+R205:205 Verimz.Barocqmzutils <> p:2 var
+def 221:232 <> int_to_int64
+R239:241 compcert.lib.Integers <> int abbrev
+binder 235:235 <> i:3
+R246:250 compcert.lib.Integers <> int64 abbrev
+R257:266 compcert.lib.Integers Int64 repr def
+R269:278 compcert.lib.Integers Int signed def
+R280:280 Verimz.Barocqmzutils <> i:3 var
+def 296:310 <> Intptr_to_int64
+R317:326 Verimz.Int Intptr int rec
+binder 313:313 <> i:4
+R331:335 compcert.lib.Integers <> int64 abbrev
+R342:351 compcert.lib.Integers Int64 repr def
+R354:368 Verimz.Int Intptr unsigned def
+R370:370 Verimz.Barocqmzutils <> i:4 var

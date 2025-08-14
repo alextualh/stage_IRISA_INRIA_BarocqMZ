@@ -1,0 +1,121 @@
+DIGEST 11716cb8a720ed7d750e93e11e134095
+FBarocqComp.common.Brecord
+R24:29 Coq.PArith.PArith <> <> lib
+R31:34 Coq.Lists.List <> <> lib
+R36:41 Coq.Strings.String <> <> lib
+R75:79 BarocqComp.common.Error <> <> lib
+R81:85 BarocqComp.common.Maps2 <> <> lib
+R87:91 BarocqComp.common.Ident <> <> lib
+def 106:108 <> key
+R120:126 BarocqComp.common.Ident <> t def
+ind 140:144 <> field
+constr 177:181 <> Field
+R150:152 BarocqComp.common.Brecord <> key def
+binder 147:147 <> k:1
+binder 156:156 <> A:2
+R196:196 BarocqComp.common.Brecord <> A:2 var
+binder 193:193 <> a:5
+R200:204 BarocqComp.common.Brecord <> field:3 ind
+R208:208 BarocqComp.common.Brecord <> A:2 var
+R206:206 BarocqComp.common.Brecord <> k:1 var
+scheme 140:144 <> field_rect
+scheme 140:144 <> field_ind
+scheme 140:144 <> field_rec
+scheme 140:144 <> field_sind
+R222:226 BarocqComp.common.Brecord <> Field constr
+R222:226 BarocqComp.common.Brecord <> Field constr
+def 247:259 <> type_of_field
+R265:267 BarocqComp.common.Brecord <> key def
+binder 262:262 <> k:6
+R279:288 BarocqComp.common.Maps2 SMapList t def
+binder 271:276 <> fields:7
+R308:320 BarocqComp.common.Maps2 SMapList find def
+R331:334 Coq.Init.Datatypes <> unit ind
+R324:329 BarocqComp.common.Brecord <> fields:7 var
+R322:322 BarocqComp.common.Brecord <> k:6 var
+def 349:354 <> record
+R365:374 BarocqComp.common.Maps2 SMapList t def
+binder 357:362 <> fields:8
+R394:403 Coq.Lists.List <> fold_right def
+R461:466 BarocqComp.common.Brecord <> fields:8 var
+R456:459 Coq.Init.Datatypes <> unit ind
+binder 410:411 <> kt:9
+binder 413:415 <> acc:10
+R420:423 Coq.Init.Datatypes <> prod ind
+R451:453 BarocqComp.common.Brecord <> acc:10 var
+R426:430 BarocqComp.common.Brecord <> field ind
+R433:435 Coq.Init.Datatypes <> fst def
+R437:438 BarocqComp.common.Brecord <> kt:9 var
+R442:444 Coq.Init.Datatypes <> snd def
+R446:447 BarocqComp.common.Brecord <> kt:9 var
+def 479:482 <> proj
+R493:502 BarocqComp.common.Maps2 SMapList t def
+binder 485:490 <> fields:11
+R515:520 BarocqComp.common.Brecord <> record def
+R522:527 BarocqComp.common.Brecord <> fields:11 var
+binder 511:512 <> rc:12
+R534:536 BarocqComp.common.Brecord <> key def
+binder 531:531 <> k:13
+R557:559 compcert.common.Errors <> res ind
+R562:574 BarocqComp.common.Brecord <> type_of_field def
+R576:576 BarocqComp.common.Brecord <> k:13 var
+R578:583 BarocqComp.common.Brecord <> fields:11 var
+R638:641 BarocqComp.common.Monads MonError fail def
+R638:641 BarocqComp.common.Monads MonError fail def
+R705:717 BarocqComp.common.Brecord <> type_of_field def
+R727:739 BarocqComp.common.Maps2 SMapList find def
+R752:766 BarocqComp.common.Maps2 SMapList key_eq def
+R752:766 BarocqComp.common.Maps2 SMapList key_eq def
+R800:802 BarocqComp.common.Monads MonError ret def
+R800:802 BarocqComp.common.Monads MonError ret def
+def 857:862 <> update
+R873:882 BarocqComp.common.Maps2 SMapList t def
+binder 865:870 <> fields:15
+R895:900 BarocqComp.common.Brecord <> record def
+R902:907 BarocqComp.common.Brecord <> fields:15 var
+binder 891:892 <> rc:16
+R914:916 BarocqComp.common.Brecord <> key def
+binder 911:911 <> k:17
+R923:935 BarocqComp.common.Brecord <> type_of_field def
+R937:937 BarocqComp.common.Brecord <> k:17 var
+R939:944 BarocqComp.common.Brecord <> fields:15 var
+binder 920:920 <> v:18
+R965:967 compcert.common.Errors <> res ind
+R970:975 BarocqComp.common.Brecord <> record def
+R977:982 BarocqComp.common.Brecord <> fields:15 var
+R1037:1040 BarocqComp.common.Monads MonError fail def
+R1037:1040 BarocqComp.common.Monads MonError fail def
+R1111:1123 BarocqComp.common.Brecord <> type_of_field def
+R1138:1150 BarocqComp.common.Maps2 SMapList find def
+R1184:1198 BarocqComp.common.Maps2 SMapList key_eq def
+R1184:1198 BarocqComp.common.Maps2 SMapList key_eq def
+R1245:1247 BarocqComp.common.Monads MonError ret def
+R1249:1249 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1259:1260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1262:1262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1250:1254 BarocqComp.common.Brecord <> Field constr
+R1245:1247 BarocqComp.common.Monads MonError ret def
+R1249:1249 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1259:1260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1262:1262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1250:1254 BarocqComp.common.Brecord <> Field constr
+R1332:1334 BarocqComp.common.Monads MonError ret def
+R1336:1336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1346:1347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1350:1350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1337:1341 BarocqComp.common.Brecord <> Field constr
+R1332:1334 BarocqComp.common.Monads MonError ret def
+R1336:1336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1346:1347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1350:1350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1337:1341 BarocqComp.common.Brecord <> Field constr
+R1369:1373 compcert.common.Errors <> Error constr
+R1369:1373 compcert.common.Errors <> Error constr
+R1443:1448 BarocqComp.common.Brecord <> record def
+R1443:1448 BarocqComp.common.Brecord <> record def
+R1518:1520 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1509:1513 BarocqComp.common.Brecord <> field ind
+R1518:1520 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1509:1513 BarocqComp.common.Brecord <> field ind
+R1621:1624 Coq.Init.Datatypes <> unit ind
+R1621:1624 Coq.Init.Datatypes <> unit ind

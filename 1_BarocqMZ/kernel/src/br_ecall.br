@@ -1,0 +1,279 @@
+module Br_ecall
+
+import Br_interface
+
+defn N_ECALLS : u32 = 6U
+defn ECL_EXCPT_VECT : u32 = 0U
+defn ECL_INTRP_VECT : u32 = 1U
+defn ECL_CSRS_MIE : u32 = 2U
+defn ECL_CSRC_MIE : u32 = 3U
+defn ECL_SEND : u32 = 4U
+defn ECL_RECV : u32 = 5U
+
+defn A0 : u32 = 10U
+defn A1 : u32 = 11U
+defn A2 : u32 = 12U
+defn A3 : u32 = 13U
+defn A4 : u32 = 14U
+defn A5 : u32 = 15U
+defn A7 : u32 = 17U
+
+defn N_EXCEPTIONS : u32 = 12U
+defn N_INTERRUPTS : u32 = 12U
+
+
+
+defn ecall_excpt_vect(caller_id : u32, ks : kernel) : kernel =
+    let zones = ks.zones in
+    let caller = zones[caller_id] in
+
+    let regs = caller.regs in
+    let code = regs[A0] in
+    let handler = regs[A1] in
+    let caller = 
+    if code < N_EXCEPTIONS then
+        let excpt_handlers = caller.excpt_handlers in
+        let excpt_handlers = excpt_handlers[code] <- handler in
+        caller.excpt_handlers <- excpt_handlers
+    else
+        caller
+    in 
+    let zones = zones[caller_id] <- caller in
+    ks.zones <- zones
+
+
+
+(* complicate function ecall_intrp_VECT (10 line C --> 60 in barocq, multiple functionnal issues) *)
+defn ecall_intrp_vect_step_2(intrp_handler_zone_fielf_id : u32, caller_field_id: u32, code : u32, handler : u32, ks : kernel) : kernel = 
+    let intrp_handlers = ks.intrp_handlers in 
+    let intrp_handler = intrp_handlers[code] in
+    let intrp_handler2 =
+    if (code < N_INTERRUPTS) && (intrp_handler_zone_fielf_id == caller_field_id) then
+        intrp_handler.handler <- handler
+    else 
+        intrp_handler
+    in
+    let intrp_handlers = intrp_handlers[code] <- intrp_handler2 in
+    let ks2 = ks.intrp_handlers <- intrp_handlers in
+    ks2
+
+
+defn ecall_intrp_vect(caller_id: u32, ks : kernel) : kernel = 
+    let zones = ks.zones in 
+    let caller = zones[caller_id] in
+    let regs = caller.regs in
+    
+    let code = regs[A0] in
+    let handler = regs[A1] in
+    
+    let caller_field_id = caller.id in
+    let zones = zones[caller_id] <- caller in
+    let ks1 = ks.zones <- zones in
+
+    let intrp_handlers = ks1.intrp_handlers in 
+    let intrp_handler = intrp_handlers[code] in
+    let intrp_handler_zone_index = intrp_handler.zone in    (*action : read*)
+    let intrp_handlers = intrp_handlers[code] <- intrp_handler in
+    let ks2 = ks1.intrp_handlers <- intrp_handlers in
+
+    let zones = ks2.zones in
+    let intrp_handler_zone = zones[intrp_handler_zone_index] in
+    let intrp_handler_zone_fielf_id = intrp_handler_zone.id in
+    let zones = zones[intrp_handler_zone_index] <- intrp_handler_zone in
+    let ks3 = ks2.zones <- zones in
+
+    let ks4 = ecall_intrp_vect_step_2(intrp_handler_zone_fielf_id, caller_field_id, code, handler, ks3) in
+
+    let zones = ks4.zones in 
+    let caller = zones[caller_id] in
+    let caller =
+    if (code < N_INTERRUPTS) && (intrp_handler_zone_fielf_id == caller_field_id) then
+        caller.uie <- caller.uie | (1U << code) 
+    else 
+        caller
+    in
+    let ustatus = caller.ustatus in
+    let zones = zones[caller_id] <- caller in
+    let ks4 = ks4.zones <- zones in
+    if  (code < N_INTERRUPTS) && 
+        (intrp_handler_zone_fielf_id == caller_field_id) &&
+        (ustatus & USTATUS_IE > 0U) then
+        ks4.mie <- ks4.mie | (1U << code)
+    else
+        ks4
+
+
+(* the c functions ecall_csrC_mie AND ecall_csrS_mie can only be writen in two part as it modified to different things : caller zone and the kernel state *)
+defn ecall_csrs_mie_CALLER(caller_id: u32, ks : kernel) : kernel =  
+    let zones = ks.zones in
+    let caller = zones[caller_id] in
+    let caller = caller.ustatus <- caller.ustatus | USTATUS_IE in
+    let zones = zones[caller_id] <- caller in
+    ks.zones <- zones
+
+defn ecall_csrs_mie_KERNEL(caller_id : u32, ks : kernel) : kernel =  
+    let caller = ks.zones[caller_id] in 
+    ks.mie <- ks.mie | caller.uie
+
+
+
+defn ecall_csrc_mie_CALLER(caller_id: u32, ks : kernel) : kernel =  
+    let zones = ks.zones in
+    let caller = zones[caller_id] in
+    let caller = caller.ustatus <- and_with_bitwise(caller.ustatus, USTATUS_IE) in
+    let zones = zones[caller_id] <- caller in
+    ks.zones <- zones
+
+defn ecall_csrc_mie_KERNEL(caller_id : u32, ks : kernel) : kernel =   
+    let caller = ks.zones[caller_id] in 
+    ks.mie <- and_with_bitwise(ks.mie, caller.uie)
+
+
+
+defn ecall_send(caller_id : u32, ks : kernel) : kernel =
+    (* de-wrap/re-wrap of caller *)
+    let zones = ks.zones in
+    let caller = zones[caller_id] in
+    let regs = caller.regs in
+    let receiver = regs[A0] in
+    let regs = regs[A0] <- 0U in
+    
+    let regsA1 = regs[A1] in
+    let regsA2 = regs[A2] in
+    let regsA3 = regs[A3] in
+    let regsA4 = regs[A4] in
+
+    let caller = caller.regs <- regs in
+    let zones = zones[caller_id] <- caller in
+    let ks = ks.zones <- zones in
+    (* de-wrap/re-wrap of caller *)
+    if receiver >= N_ZONES then
+        ks
+    else
+        let inboxes = ks.inboxes in
+        let index = receiver * N_ZONES + caller_id in 
+        let inbox = inboxes[index] in
+        let full = inbox.full in
+        let msgs = inbox.msgs in
+        let msgs =
+        if full > 0U then 
+            msgs
+        else
+            let full = 1U in
+            let msgs = msgs[0U] <- regsA1 in
+            let msgs = msgs[1U] <- regsA2 in
+            let msgs = msgs[2U] <- regsA3 in
+            msgs[3U] <- regsA4
+        in
+        let inbox = inbox.msgs <- msgs in
+        let inbox = inbox.full <- full in
+        let inboxes = inboxes[index] <- inbox in
+        let ks = ks.inboxes <- inboxes in
+        
+        (* SAME : de-wrap/re-wrap of caller to modify it *)
+        let zones = ks.zones in
+        let caller = zones[caller_id] in
+        let regs = caller.regs in
+        let regs = regs[A0] <- 1U in
+        let caller = caller.regs <- regs in
+        let zones = zones[caller_id] <- caller in
+        let ks = ks.zones <- zones in
+        ks
+
+
+
+defn ecall_recv(caller_id : u32, ks : kernel) : kernel =
+    (* de-wrap/re-wrap of caller *)
+    let zones = ks.zones in
+    let caller = zones[caller_id] in
+    let regs = caller.regs in
+    let sender = regs[A0] in 
+    let regs = regs[A0] <- 0U in
+    let caller = caller.regs <- regs in
+    let zones = zones[caller_id] <- caller in
+    let ks = ks.zones <- zones in
+    (* de-wrap/re-wrap of caller *)
+    if sender >= N_ZONES then
+        ks
+    else
+        let inboxes = ks.inboxes in
+        let index = caller_id * N_ZONES + sender in 
+        let inbox = inboxes[index] in 
+        let full = inbox.full in
+        let msgs = inbox.msgs in
+
+        let zones = ks.zones in
+        let caller = zones[caller_id] in
+        let regs = caller.regs in
+        let regs =
+        if full <= 0U then 
+            regs
+        else
+            let full = 0U in
+            let regs = regs[A1] <- msgs[0U] in
+            let regs = regs[A2] <- msgs[1U] in
+            let regs = regs[A3] <- msgs[2U] in
+            regs[A4] <- msgs[3U]
+        in
+        let regs = regs[A0] <- 1U in
+        let caller = caller.regs <- regs in
+        let zones = zones[caller_id] <- caller in
+        let ks = ks.zones <- zones in
+
+        let inbox = inbox.msgs <- msgs in
+        let inbox = inbox.full <- full in
+        let inboxes = inboxes[index] <- inbox in
+        let ks = ks.inboxes <- inboxes in
+        ks
+
+
+
+defn get_current_regA7(ks : kernel) : u32 =
+    let id = ks.current in
+    let zones = ks.zones in
+    let caller = zones[id] in
+    caller.regs[A7]
+
+defn handle_ecall_wrapped(mcause : u32, mtval : u32, ks1 : kernel) : kernel =
+    let index = ks1.current in
+    let ks2 = ecall_csrs_mie_KERNEL(index, ks1) in
+    let regA7 = get_current_regA7(ks2) in
+    let ecall_id = regA7 in
+    if ecall_id < N_ECALLS then
+        if ecall_id == ECL_EXCPT_VECT then
+            let ks22 = ecall_excpt_vect(index, ks2) in
+            ks22
+        else if ecall_id == ECL_INTRP_VECT then
+            let ks22 = ecall_intrp_vect(index, ks2) in
+            ks22
+        else if ecall_id == ECL_CSRS_MIE then
+            let ks22 = ecall_csrs_mie_CALLER(index, ks2) in
+            let ks222 = ecall_csrs_mie_KERNEL(index, ks22) in
+            ks222
+        else if ecall_id == ECL_CSRC_MIE then
+            let ks22 = ecall_csrc_mie_CALLER(index, ks2) in
+            let ks222 = ecall_csrc_mie_KERNEL(index, ks22) in
+            ks222
+        else if ecall_id == ECL_SEND then
+            let ks22 = ecall_send(index, ks2) in
+            ks22
+        else if ecall_id == ECL_RECV then
+            let ks22 = ecall_recv(index, ks2) in
+            ks22
+        else
+            ks2
+    else
+        ks2
+
+
+
+defn handle_ecall(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    let id = ks.current in
+    let zones = ks.zones in
+    let caller = zones[id] in
+    let regs = caller.regs in
+    let regs = regs[PC] <- regs[PC] + 4U in
+    let caller = caller.regs <- regs in
+    let zones = zones[id] <- caller in
+    let ks1 = ks.zones <- zones in
+    handle_ecall_wrapped(mcause, mtval, ks1)

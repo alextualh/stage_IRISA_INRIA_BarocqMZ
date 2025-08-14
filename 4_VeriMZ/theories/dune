@@ -1,0 +1,16 @@
+(coq.theory
+ (name Verimz)
+ (modules
+  Error
+  Kernel
+  Machine
+  Memory
+  Oracle
+  Pmp
+  Barocqmzutils
+  Utils
+  Asm
+  Int
+  Barocqmz
+  Barray_spec)
+ (theories compcert Flocq BarocqComp RecordUpdate))

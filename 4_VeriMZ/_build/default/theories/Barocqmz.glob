@@ -1,0 +1,2687 @@
+DIGEST a4267720d89bc9fe7c209fb13f1ded1d
+FVerimz.Barocqmz
+R24:27 Coq.Bool.Bool <> <> lib
+R29:32 Coq.Lists.List <> <> lib
+R34:42 Coq.ZArith.BinIntDef <> <> lib
+R74:81 compcert.lib.Integers <> <> lib
+R117:128 RecordUpdate.RecordUpdate <> <> lib
+R162:166 BarocqComp.common.Error <> <> lib
+R168:173 BarocqComp.common.Barray <> <> lib
+R175:179 BarocqComp.common.Intop <> <> lib
+R189:201 Coq.Bool.Bool BoolNotations <> mod
+R203:215 Coq.Lists.List ListNotations <> mod
+rec 310:320 <> truc_bidule
+proj 344:360 <> truc_bidule_dummy
+R363:365 compcert.lib.Integers <> int abbrev
+rec 378:395 <> Br_interface_inbox
+proj 426:448 <> br_interface_inbox_full
+proj 458:480 <> br_interface_inbox_msgs
+R451:453 compcert.lib.Integers <> int abbrev
+R483:487 BarocqComp.common.Barray <> array def
+R489:491 compcert.lib.Integers <> int abbrev
+rec 504:520 <> Br_interface_zone
+proj 550:569 <> br_interface_zone_id
+proj 579:600 <> br_interface_zone_regs
+proj 616:639 <> br_interface_zone_pmpcfg
+proj 655:679 <> br_interface_zone_pmpaddr
+proj 695:719 <> br_interface_zone_ustatus
+proj 729:750 <> br_interface_zone_uepc
+proj 760:780 <> br_interface_zone_uie
+proj 790:813 <> br_interface_zone_ucause
+proj 823:845 <> br_interface_zone_utval
+proj 855:886 <> br_interface_zone_excpt_handlers
+proj 902:930 <> br_interface_zone_intrp_deleg
+R572:574 compcert.lib.Integers <> int abbrev
+R603:607 BarocqComp.common.Barray <> array def
+R609:611 compcert.lib.Integers <> int abbrev
+R642:646 BarocqComp.common.Barray <> array def
+R648:650 compcert.lib.Integers <> int abbrev
+R682:686 BarocqComp.common.Barray <> array def
+R688:690 compcert.lib.Integers <> int abbrev
+R722:724 compcert.lib.Integers <> int abbrev
+R753:755 compcert.lib.Integers <> int abbrev
+R783:785 compcert.lib.Integers <> int abbrev
+R816:818 compcert.lib.Integers <> int abbrev
+R848:850 compcert.lib.Integers <> int abbrev
+R889:893 BarocqComp.common.Barray <> array def
+R895:897 compcert.lib.Integers <> int abbrev
+R933:935 compcert.lib.Integers <> int abbrev
+rec 948:973 <> Br_interface_intrp_handler
+proj 1012:1042 <> br_interface_intrp_handler_zone
+proj 1052:1085 <> br_interface_intrp_handler_handler
+R1045:1047 compcert.lib.Integers <> int abbrev
+R1088:1090 compcert.lib.Integers <> int abbrev
+R1123:1129 Verimz.Machine <> <> lib
+R1131:1143 Verimz.Barocqmzutils <> <> lib
+def 1200:1217 <> Br_interface_state
+R1222:1228 Verimz.Machine <> machine rec
+rec 1239:1257 <> Br_interface_kernel
+proj 1289:1315 <> br_interface_kernel_current
+proj 1325:1352 <> br_interface_kernel_deadline
+proj 1364:1387 <> br_interface_kernel_next
+proj 1397:1428 <> br_interface_kernel_next_quantum
+proj 1440:1462 <> br_interface_kernel_mie
+proj 1472:1496 <> br_interface_kernel_zones
+proj 1526:1559 <> br_interface_kernel_intrp_handlers
+proj 1598:1624 <> br_interface_kernel_inboxes
+proj 1655:1676 <> br_interface_kernel_ms
+R1318:1320 compcert.lib.Integers <> int abbrev
+R1355:1359 compcert.lib.Integers <> int64 abbrev
+R1390:1392 compcert.lib.Integers <> int abbrev
+R1431:1435 compcert.lib.Integers <> int64 abbrev
+R1465:1467 compcert.lib.Integers <> int abbrev
+R1499:1503 BarocqComp.common.Barray <> array def
+R1505:1521 Verimz.Barocqmz <> Br_interface_zone rec
+R1562:1566 BarocqComp.common.Barray <> array def
+R1568:1593 Verimz.Barocqmz <> Br_interface_intrp_handler rec
+R1627:1631 BarocqComp.common.Barray <> array def
+R1633:1650 Verimz.Barocqmz <> Br_interface_inbox rec
+R1679:1696 Verimz.Barocqmz <> Br_interface_state def
+inst 1711:1732 <> eta_Br_interface_inbox
+R1736:1743 RecordUpdate.RecordSet <> Settable class
+R1745:1762 Verimz.Barocqmz <> Br_interface_inbox rec
+R1769:1778 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1800:1801 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1825:1826 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1850:1850 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1827:1849 Verimz.Barocqmz <> br_interface_inbox_msgs proj
+R1802:1824 Verimz.Barocqmz <> br_interface_inbox_full proj
+R1779:1799 Verimz.Barocqmz <> mk_Br_interface_inbox constr
+R1779:1799 Verimz.Barocqmz <> mk_Br_interface_inbox constr
+inst 1863:1883 <> eta_Br_interface_zone
+R1887:1894 RecordUpdate.RecordSet <> Settable class
+R1896:1912 Verimz.Barocqmz <> Br_interface_zone rec
+R1919:1928 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1949:1950 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1971:1972 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R1995:1996 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2021:2022 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2048:2049 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2075:2076 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2099:2100 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2122:2123 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2148:2149 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2173:2174 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2207:2208 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2238:2238 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2209:2237 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R2175:2206 Verimz.Barocqmz <> br_interface_zone_excpt_handlers proj
+R2150:2172 Verimz.Barocqmz <> br_interface_zone_utval proj
+R2124:2147 Verimz.Barocqmz <> br_interface_zone_ucause proj
+R2101:2121 Verimz.Barocqmz <> br_interface_zone_uie proj
+R2077:2098 Verimz.Barocqmz <> br_interface_zone_uepc proj
+R2050:2074 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R2023:2047 Verimz.Barocqmz <> br_interface_zone_pmpaddr proj
+R1997:2020 Verimz.Barocqmz <> br_interface_zone_pmpcfg proj
+R1973:1994 Verimz.Barocqmz <> br_interface_zone_regs proj
+R1951:1970 Verimz.Barocqmz <> br_interface_zone_id proj
+R1929:1948 Verimz.Barocqmz <> mk_Br_interface_zone constr
+R1929:1948 Verimz.Barocqmz <> mk_Br_interface_zone constr
+inst 2251:2280 <> eta_Br_interface_intrp_handler
+R2284:2291 RecordUpdate.RecordSet <> Settable class
+R2293:2318 Verimz.Barocqmz <> Br_interface_intrp_handler rec
+R2325:2334 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2364:2365 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2397:2398 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2433:2433 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2399:2432 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R2366:2396 Verimz.Barocqmz <> br_interface_intrp_handler_zone proj
+R2335:2363 Verimz.Barocqmz <> mk_Br_interface_intrp_handler constr
+R2335:2363 Verimz.Barocqmz <> mk_Br_interface_intrp_handler constr
+inst 2446:2468 <> eta_Br_interface_kernel
+R2472:2479 RecordUpdate.RecordSet <> Settable class
+R2481:2499 Verimz.Barocqmz <> Br_interface_kernel rec
+R2506:2515 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2538:2539 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2567:2568 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2597:2598 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2623:2624 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2657:2658 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2682:2683 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2709:2710 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2745:2746 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2774:2775 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2798:2798 RecordUpdate.RecordSet <> :::'settable!'_x_'<'_x_';'_'..'_';'_x_'>' not
+R2776:2797 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R2747:2773 Verimz.Barocqmz <> br_interface_kernel_inboxes proj
+R2711:2744 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R2684:2708 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R2659:2681 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R2625:2656 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R2599:2622 Verimz.Barocqmz <> br_interface_kernel_next proj
+R2569:2596 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R2540:2566 Verimz.Barocqmz <> br_interface_kernel_current proj
+R2516:2537 Verimz.Barocqmz <> mk_Br_interface_kernel constr
+R2516:2537 Verimz.Barocqmz <> mk_Br_interface_kernel constr
+ax 3009:3032 <> Br_interface_QUANTUM_CYC
+R3036:3040 compcert.lib.Integers <> int64 abbrev
+ax 3054:3073 <> Br_interface_N_ZONES
+R3077:3079 compcert.lib.Integers <> int abbrev
+def 3170:3192 <> Br_interface_read_mtime
+R3197:3206 Verimz.Machine <> read_mtime def
+def 3346:3372 <> Br_interface_write_mtimecmp
+R3377:3390 Verimz.Machine <> write_mtimecmp def
+def 3514:3550 <> Br_interface_csr_write_asm_trap_entry
+R3558:3575 Verimz.Barocqmz <> Br_interface_state def
+binder 3553:3554 <> ms:35
+R3584:3586 compcert.lib.Integers <> int abbrev
+binder 3579:3581 <> val:36
+R3591:3593 compcert.common.Errors <> res ind
+R3595:3612 Verimz.Barocqmz <> Br_interface_state def
+R3619:3621 BarocqComp.common.Monads MonError ret def
+R3624:3632 Verimz.Machine <> write_mie def
+R3634:3635 Verimz.Barocqmz <> ms:35 var
+R3638:3650 Verimz.Barocqmzutils <> int_to_Intptr def
+R3652:3654 Verimz.Barocqmz <> val:36 var
+def 3992:4013 <> Br_interface_csr_write
+R4021:4038 Verimz.Barocqmz <> Br_interface_state def
+binder 4016:4017 <> ms:37
+R4047:4049 compcert.lib.Integers <> int abbrev
+binder 4042:4044 <> reg:38
+R4058:4060 compcert.lib.Integers <> int abbrev
+binder 4053:4055 <> val:39
+R4065:4067 compcert.common.Errors <> res ind
+R4069:4086 Verimz.Barocqmz <> Br_interface_state def
+R4093:4095 BarocqComp.common.Monads MonError ret def
+R4098:4106 Verimz.Machine <> write_mie def
+R4108:4109 Verimz.Barocqmz <> ms:37 var
+R4112:4124 Verimz.Barocqmzutils <> int_to_Intptr def
+R4126:4128 Verimz.Barocqmz <> val:39 var
+def 4205:4229 <> Br_interface_MCAUSE_INTRP
+R4241:4243 compcert.lib.Integers <> int abbrev
+binder 4232:4237 <> mcause:40
+R4248:4250 compcert.common.Errors <> res ind
+R4252:4254 compcert.lib.Integers <> int abbrev
+R4261:4262 compcert.common.Errors <> OK constr
+R4265:4272 compcert.lib.Integers Int shru def
+R4275:4281 compcert.lib.Integers Int shl def
+R4283:4288 Verimz.Barocqmz <> mcause:40 var
+R4291:4298 compcert.lib.Integers Int repr def
+R4305:4312 compcert.lib.Integers Int repr def
+def 4395:4416 <> Br_interface_binary_or
+R4423:4425 compcert.lib.Integers <> int abbrev
+binder 4419:4419 <> a:41
+R4433:4435 compcert.lib.Integers <> int abbrev
+binder 4429:4429 <> b:42
+R4440:4442 compcert.common.Errors <> res ind
+R4444:4446 compcert.lib.Integers <> int abbrev
+R4453:4454 compcert.common.Errors <> OK constr
+R4457:4462 compcert.lib.Integers Int or def
+R4464:4464 Verimz.Barocqmz <> a:41 var
+R4466:4466 Verimz.Barocqmz <> b:42 var
+def 4482:4504 <> Br_interface_USTATUS_IE
+R4508:4510 compcert.lib.Integers <> int abbrev
+R4515:4522 compcert.lib.Integers Int repr def
+def 4541:4564 <> Br_interface_USTATUS_PIE
+R4568:4570 compcert.lib.Integers <> int abbrev
+R4575:4582 compcert.lib.Integers Int repr def
+def 4602:4623 <> Br_interface_MIE_TIMER
+R4627:4629 compcert.lib.Integers <> int abbrev
+R4634:4641 compcert.lib.Integers Int repr def
+def 4662:4677 <> Br_interface_mie
+R4681:4683 compcert.lib.Integers <> int abbrev
+R4688:4695 compcert.lib.Integers Int repr def
+def 4716:4733 <> Br_interface_mtvec
+R4737:4739 compcert.lib.Integers <> int abbrev
+R4744:4751 compcert.lib.Integers Int repr def
+def 4772:4791 <> Br_interface_mstatus
+R4795:4797 compcert.lib.Integers <> int abbrev
+R4802:4809 compcert.lib.Integers Int repr def
+def 4830:4844 <> Br_interface_PC
+R4848:4850 compcert.lib.Integers <> int abbrev
+R4855:4862 compcert.lib.Integers Int repr def
+def 5313:5341 <> Br_interface_and_with_bitwise
+R5351:5353 compcert.lib.Integers <> int abbrev
+binder 5344:5348 <> p_mie:43
+R5364:5366 compcert.lib.Integers <> int abbrev
+binder 5357:5361 <> p_uie:44
+R5371:5373 compcert.lib.Integers <> int abbrev
+R5397:5403 compcert.lib.Integers Int not def
+R5405:5409 Verimz.Barocqmz <> p_uie:44 var
+binder 5384:5392 <> u_bitwise:45
+R5432:5438 compcert.lib.Integers Int and def
+R5440:5444 Verimz.Barocqmz <> p_mie:43 var
+R5446:5454 Verimz.Barocqmz <> u_bitwise:45 var
+binder 5420:5427 <> u_result:46
+R5461:5468 Verimz.Barocqmz <> u_result:46 var
+def 5483:5502 <> Br_sched_sched_yield
+R5511:5529 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 5505:5508 <> p_ks:47
+R5534:5536 compcert.common.Errors <> res ind
+R5538:5556 Verimz.Barocqmz <> Br_interface_kernel rec
+R5584:5608 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R5578:5581 Verimz.Barocqmz <> p_ks:47 var
+binder 5567:5573 <> u_zones:48
+R5642:5668 Verimz.Barocqmz <> br_interface_kernel_current proj
+R5636:5639 Verimz.Barocqmz <> p_ks:47 var
+binder 5620:5631 <> u_current_id:49
+R5676:5680 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5690:5693 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5738:5743 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5694:5703 BarocqComp.common.Barray <> get def
+R5714:5723 BarocqComp.common.Intop U64 of_u32 def
+R5725:5736 Verimz.Barocqmz <> u_current_id:49 var
+R5705:5711 Verimz.Barocqmz <> u_zones:48 var
+binder 5681:5689 <> u_current:50
+R5744:5748 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5756:5759 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5814:5819 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5760:5769 BarocqComp.common.Barray <> set def
+R5805:5813 Verimz.Barocqmz <> u_current:50 var
+R5780:5789 BarocqComp.common.Intop U64 of_u32 def
+R5791:5802 Verimz.Barocqmz <> u_current_id:49 var
+R5771:5777 Verimz.Barocqmz <> u_zones:48 var
+binder 5749:5755 <> u_zones:51
+R5836:5839 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5865:5868 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5876:5878 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5840:5864 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R5869:5875 Verimz.Barocqmz <> u_zones:51 var
+R5832:5835 Verimz.Barocqmz <> p_ks:47 var
+binder 5824:5827 <> u_ks:52
+R5901:5904 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5932:5935 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5967:5969 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5905:5931 Verimz.Barocqmz <> br_interface_kernel_current proj
+R5942:5965 Verimz.Barocqmz <> br_interface_kernel_next proj
+R5936:5939 Verimz.Barocqmz <> u_ks:52 var
+R5897:5900 Verimz.Barocqmz <> u_ks:52 var
+binder 5889:5892 <> u_ks:53
+R5992:5995 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6024:6027 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6117:6119 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R5996:6023 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R6028:6036 compcert.lib.Integers Int64 add def
+R6045:6072 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R6039:6042 Verimz.Barocqmz <> u_ks:53 var
+R6083:6114 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R6077:6080 Verimz.Barocqmz <> u_ks:53 var
+R5988:5991 Verimz.Barocqmz <> u_ks:53 var
+binder 5980:5983 <> u_ks:54
+R6155:6181 Verimz.Barocqmz <> br_interface_kernel_current proj
+R6149:6152 Verimz.Barocqmz <> u_ks:54 var
+binder 6130:6144 <> u_current_index:55
+R6189:6193 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6206:6209 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6279:6284 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6210:6216 BarocqComp.common.Intop U32 mod def
+R6219:6225 compcert.lib.Integers Int add def
+R6227:6241 Verimz.Barocqmz <> u_current_index:55 var
+R6244:6251 compcert.lib.Integers Int repr def
+R6259:6278 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+binder 6194:6205 <> u_next_index:56
+R6301:6304 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6329:6332 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6345:6347 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6305:6328 Verimz.Barocqmz <> br_interface_kernel_next proj
+R6333:6344 Verimz.Barocqmz <> u_next_index:56 var
+R6297:6300 Verimz.Barocqmz <> u_ks:54 var
+binder 6289:6292 <> u_ks:57
+R6370:6373 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6406:6409 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6434:6436 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6374:6405 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R6410:6433 Verimz.Barocqmz <> Br_interface_QUANTUM_CYC defax
+R6366:6369 Verimz.Barocqmz <> u_ks:57 var
+binder 6358:6361 <> u_ks:58
+R6461:6482 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R6455:6458 Verimz.Barocqmz <> u_ks:58 var
+binder 6447:6450 <> u_ms:59
+R6502:6528 Verimz.Barocqmz <> Br_interface_write_mtimecmp def
+R6530:6533 Verimz.Barocqmz <> u_ms:59 var
+R6542:6569 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R6536:6539 Verimz.Barocqmz <> u_ks:58 var
+binder 6494:6497 <> u_ms:60
+R6578:6580 BarocqComp.common.Monads MonError ret def
+R6587:6590 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6613:6616 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6621:6623 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6591:6612 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R6617:6620 Verimz.Barocqmz <> u_ms:60 var
+R6583:6586 Verimz.Barocqmz <> u_ks:58 var
+def 6639:6657 <> Br_sched_sched_init
+R6666:6684 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 6660:6663 <> p_ks:61
+R6689:6691 compcert.common.Errors <> res ind
+R6693:6711 Verimz.Barocqmz <> Br_interface_kernel rec
+R6739:6763 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R6733:6736 Verimz.Barocqmz <> p_ks:61 var
+binder 6722:6728 <> u_zones:62
+R6800:6826 Verimz.Barocqmz <> br_interface_kernel_current proj
+R6794:6797 Verimz.Barocqmz <> p_ks:61 var
+binder 6775:6789 <> u_current_index:63
+R6834:6838 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6848:6851 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6899:6904 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6852:6861 BarocqComp.common.Barray <> get def
+R6872:6881 BarocqComp.common.Intop U64 of_u32 def
+R6883:6897 Verimz.Barocqmz <> u_current_index:63 var
+R6863:6869 Verimz.Barocqmz <> u_zones:62 var
+binder 6839:6847 <> u_current:64
+R6931:6934 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6964:6967 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6980:6982 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R6935:6963 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R6968:6975 compcert.lib.Integers Int repr def
+R6922:6930 Verimz.Barocqmz <> u_current:64 var
+binder 6909:6917 <> u_current:65
+R6989:6993 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7001:7004 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7062:7067 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7005:7014 BarocqComp.common.Barray <> set def
+R7053:7061 Verimz.Barocqmz <> u_current:65 var
+R7025:7034 BarocqComp.common.Intop U64 of_u32 def
+R7036:7050 Verimz.Barocqmz <> u_current_index:63 var
+R7016:7022 Verimz.Barocqmz <> u_zones:62 var
+binder 6994:7000 <> u_zones:66
+R7084:7087 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7113:7116 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7124:7126 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7088:7112 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R7117:7123 Verimz.Barocqmz <> u_zones:66 var
+R7080:7083 Verimz.Barocqmz <> p_ks:61 var
+binder 7072:7075 <> u_ks:67
+R7149:7152 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7180:7183 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7196:7198 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7153:7179 Verimz.Barocqmz <> br_interface_kernel_current proj
+R7184:7191 compcert.lib.Integers Int repr def
+R7145:7148 Verimz.Barocqmz <> u_ks:67 var
+binder 7137:7140 <> u_ks:68
+R7205:7209 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7214:7221 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7381:7388 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7232:7254 Verimz.Barocqmz <> Br_interface_read_mtime def
+R7263:7284 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R7257:7260 Verimz.Barocqmz <> u_ks:68 var
+binder 7226:7227 <> b0:69
+R7295:7297 BarocqComp.common.Monads MonError ret def
+R7304:7307 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7336:7339 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7377:7379 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7308:7335 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R7340:7348 compcert.lib.Integers Int64 add def
+R7350:7351 Verimz.Barocqmz <> b0:69 var
+R7353:7376 Verimz.Barocqmz <> Br_interface_QUANTUM_CYC defax
+R7300:7303 Verimz.Barocqmz <> u_ks:68 var
+binder 7210:7213 <> u_ks:70
+R7410:7434 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R7404:7407 Verimz.Barocqmz <> u_ks:70 var
+binder 7393:7399 <> u_zones:71
+R7471:7497 Verimz.Barocqmz <> br_interface_kernel_current proj
+R7465:7468 Verimz.Barocqmz <> u_ks:70 var
+binder 7446:7460 <> u_current_index:72
+R7505:7509 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7522:7525 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7595:7600 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7526:7532 BarocqComp.common.Intop U32 mod def
+R7535:7541 compcert.lib.Integers Int add def
+R7543:7557 Verimz.Barocqmz <> u_current_index:72 var
+R7560:7567 compcert.lib.Integers Int repr def
+R7575:7594 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+binder 7510:7521 <> u_next_index:73
+R7617:7620 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7645:7648 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7661:7663 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7621:7644 Verimz.Barocqmz <> br_interface_kernel_next proj
+R7649:7660 Verimz.Barocqmz <> u_next_index:73 var
+R7613:7616 Verimz.Barocqmz <> u_ks:70 var
+binder 7605:7608 <> u_ks:74
+R7686:7689 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7722:7725 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7750:7752 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7690:7721 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R7726:7749 Verimz.Barocqmz <> Br_interface_QUANTUM_CYC defax
+R7682:7685 Verimz.Barocqmz <> u_ks:74 var
+binder 7674:7677 <> u_ks:75
+R7775:7778 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7802:7805 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7828:7830 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7779:7801 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R7806:7827 Verimz.Barocqmz <> Br_interface_MIE_TIMER def
+R7771:7774 Verimz.Barocqmz <> u_ks:75 var
+binder 7763:7766 <> u_ks:76
+R7855:7876 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R7849:7852 Verimz.Barocqmz <> u_ks:76 var
+binder 7841:7844 <> u_ms:77
+R7896:7922 Verimz.Barocqmz <> Br_interface_write_mtimecmp def
+R7924:7927 Verimz.Barocqmz <> u_ms:77 var
+R7936:7963 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R7930:7933 Verimz.Barocqmz <> u_ks:76 var
+binder 7888:7891 <> u_ms:78
+R7988:7991 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8014:8017 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8022:8024 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R7992:8013 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8018:8021 Verimz.Barocqmz <> u_ms:78 var
+R7984:7987 Verimz.Barocqmz <> u_ks:76 var
+binder 7976:7979 <> u_ks:79
+R8031:8035 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8040:8043 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8148:8153 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8044:8065 Verimz.Barocqmz <> Br_interface_csr_write def
+R8074:8095 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8068:8071 Verimz.Barocqmz <> u_ks:79 var
+R8099:8114 Verimz.Barocqmz <> Br_interface_mie def
+R8123:8145 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R8117:8120 Verimz.Barocqmz <> u_ks:79 var
+binder 8036:8039 <> u_ms:80
+R8154:8156 BarocqComp.common.Monads MonError ret def
+R8163:8166 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8189:8192 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8197:8199 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8167:8188 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8193:8196 Verimz.Barocqmz <> u_ms:80 var
+R8159:8162 Verimz.Barocqmz <> u_ks:79 var
+def 8215:8234 <> Br_sched_sched_intrp
+R8243:8261 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 8237:8240 <> p_ks:81
+R8276:8278 compcert.lib.Integers <> int abbrev
+binder 8265:8273 <> p_zone_id:82
+R8283:8285 compcert.common.Errors <> res ind
+R8287:8305 Verimz.Barocqmz <> Br_interface_kernel rec
+R8328:8331 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8356:8359 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8394:8396 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8332:8355 Verimz.Barocqmz <> br_interface_kernel_next proj
+R8366:8392 Verimz.Barocqmz <> br_interface_kernel_current proj
+R8360:8363 Verimz.Barocqmz <> p_ks:81 var
+R8324:8327 Verimz.Barocqmz <> p_ks:81 var
+binder 8316:8319 <> u_ks:83
+R8419:8422 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8450:8453 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8463:8465 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8423:8449 Verimz.Barocqmz <> br_interface_kernel_current proj
+R8454:8462 Verimz.Barocqmz <> p_zone_id:82 var
+R8415:8418 Verimz.Barocqmz <> u_ks:83 var
+binder 8407:8410 <> u_ks:84
+R8485:8507 Verimz.Barocqmz <> Br_interface_read_mtime def
+R8516:8537 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8510:8513 Verimz.Barocqmz <> u_ks:84 var
+binder 8476:8480 <> u_now:85
+R8566:8574 compcert.lib.Integers Int64 ltu def
+R8576:8580 Verimz.Barocqmz <> u_now:85 var
+R8589:8616 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R8583:8586 Verimz.Barocqmz <> u_ks:84 var
+R8752:8755 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8788:8791 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8806:8808 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8756:8787 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R8792:8801 compcert.lib.Integers Int64 repr def
+R8748:8751 Verimz.Barocqmz <> u_ks:84 var
+R8636:8639 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8672:8675 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8729:8731 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8640:8671 Verimz.Barocqmz <> br_interface_kernel_next_quantum proj
+R8676:8684 compcert.lib.Integers Int64 sub def
+R8693:8720 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R8687:8690 Verimz.Barocqmz <> u_ks:84 var
+R8724:8728 Verimz.Barocqmz <> u_now:85 var
+R8632:8635 Verimz.Barocqmz <> u_ks:84 var
+binder 8550:8553 <> u_ks:86
+R8817:8821 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8826:8833 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8993:9000 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8844:8866 Verimz.Barocqmz <> Br_interface_read_mtime def
+R8875:8896 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8869:8872 Verimz.Barocqmz <> u_ks:86 var
+binder 8838:8839 <> b0:87
+R8907:8909 BarocqComp.common.Monads MonError ret def
+R8916:8919 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8948:8951 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8989:8991 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8920:8947 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R8952:8960 compcert.lib.Integers Int64 add def
+R8962:8963 Verimz.Barocqmz <> b0:87 var
+R8965:8988 Verimz.Barocqmz <> Br_interface_QUANTUM_CYC defax
+R8912:8915 Verimz.Barocqmz <> u_ks:86 var
+binder 8822:8825 <> u_ks:88
+R9019:9040 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9013:9016 Verimz.Barocqmz <> u_ks:88 var
+binder 9005:9008 <> u_ms:89
+R9060:9086 Verimz.Barocqmz <> Br_interface_write_mtimecmp def
+R9088:9091 Verimz.Barocqmz <> u_ms:89 var
+R9100:9127 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R9094:9097 Verimz.Barocqmz <> u_ks:88 var
+binder 9052:9055 <> u_ms:90
+R9136:9138 BarocqComp.common.Monads MonError ret def
+R9145:9148 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9171:9174 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9179:9181 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9149:9170 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9175:9178 Verimz.Barocqmz <> u_ms:90 var
+R9141:9144 Verimz.Barocqmz <> u_ks:88 var
+def 9197:9210 <> Br_sched_sched
+R9219:9237 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 9213:9216 <> p_ks:91
+R9242:9244 compcert.common.Errors <> res ind
+R9246:9264 Verimz.Barocqmz <> Br_interface_kernel rec
+R9271:9275 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9280:9285 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9480:9487 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9296:9318 Verimz.Barocqmz <> Br_interface_read_mtime def
+R9327:9348 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9321:9324 Verimz.Barocqmz <> p_ks:91 var
+binder 9290:9291 <> b0:92
+R9363:9372 compcert.lib.Integers Int64 cmpu def
+R9374:9376 compcert.lib.Integers <> Cle constr
+R9385:9412 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R9379:9382 Verimz.Barocqmz <> p_ks:91 var
+R9416:9417 Verimz.Barocqmz <> b0:92 var
+R9472:9474 BarocqComp.common.Monads MonError ret def
+R9476:9479 Verimz.Barocqmz <> p_ks:91 var
+R9431:9450 Verimz.Barocqmz <> Br_sched_sched_yield def
+R9452:9455 Verimz.Barocqmz <> p_ks:91 var
+binder 9276:9279 <> u_ks:93
+R9488:9492 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9497:9504 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9914:9921 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9505:9509 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9512:9515 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9611:9618 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9516:9525 BarocqComp.common.Barray <> get def
+R9563:9572 BarocqComp.common.Intop U64 of_u32 def
+R9581:9607 Verimz.Barocqmz <> br_interface_kernel_current proj
+R9575:9578 Verimz.Barocqmz <> u_ks:93 var
+R9534:9558 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R9528:9531 Verimz.Barocqmz <> u_ks:93 var
+binder 9510:9511 <> b1:94
+R9623:9630 compcert.lib.Integers Int cmpu def
+R9632:9634 compcert.lib.Integers <> Cgt constr
+R9641:9669 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R9637:9638 Verimz.Barocqmz <> b1:94 var
+R9674:9681 compcert.lib.Integers Int repr def
+R9810:9831 Verimz.Barocqmz <> Br_interface_csr_write def
+R9840:9861 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9834:9837 Verimz.Barocqmz <> u_ks:93 var
+R9865:9880 Verimz.Barocqmz <> Br_interface_mie def
+R9889:9911 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R9883:9886 Verimz.Barocqmz <> u_ks:93 var
+R9700:9721 Verimz.Barocqmz <> Br_interface_csr_write def
+R9730:9751 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9724:9727 Verimz.Barocqmz <> u_ks:93 var
+R9755:9770 Verimz.Barocqmz <> Br_interface_mie def
+R9772:9793 Verimz.Barocqmz <> Br_interface_MIE_TIMER def
+binder 9493:9496 <> u_ms:95
+R9922:9924 BarocqComp.common.Monads MonError ret def
+R9931:9934 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9957:9960 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9965:9967 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R9935:9956 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R9961:9964 Verimz.Barocqmz <> u_ms:95 var
+R9927:9930 Verimz.Barocqmz <> u_ks:93 var
+def 9983:9999 <> Br_ecall_N_ECALLS
+R10003:10005 compcert.lib.Integers <> int abbrev
+R10010:10017 compcert.lib.Integers Int repr def
+def 10036:10058 <> Br_ecall_ECL_EXCPT_VECT
+R10062:10064 compcert.lib.Integers <> int abbrev
+R10069:10076 compcert.lib.Integers Int repr def
+def 10095:10117 <> Br_ecall_ECL_INTRP_VECT
+R10121:10123 compcert.lib.Integers <> int abbrev
+R10128:10135 compcert.lib.Integers Int repr def
+def 10154:10174 <> Br_ecall_ECL_CSRS_MIE
+R10178:10180 compcert.lib.Integers <> int abbrev
+R10185:10192 compcert.lib.Integers Int repr def
+def 10211:10231 <> Br_ecall_ECL_CSRC_MIE
+R10235:10237 compcert.lib.Integers <> int abbrev
+R10242:10249 compcert.lib.Integers Int repr def
+def 10268:10284 <> Br_ecall_ECL_SEND
+R10288:10290 compcert.lib.Integers <> int abbrev
+R10295:10302 compcert.lib.Integers Int repr def
+def 10321:10337 <> Br_ecall_ECL_RECV
+R10341:10343 compcert.lib.Integers <> int abbrev
+R10348:10355 compcert.lib.Integers Int repr def
+def 10374:10384 <> Br_ecall_A0
+R10388:10390 compcert.lib.Integers <> int abbrev
+R10395:10402 compcert.lib.Integers Int repr def
+def 10422:10432 <> Br_ecall_A1
+R10436:10438 compcert.lib.Integers <> int abbrev
+R10443:10450 compcert.lib.Integers Int repr def
+def 10470:10480 <> Br_ecall_A2
+R10484:10486 compcert.lib.Integers <> int abbrev
+R10491:10498 compcert.lib.Integers Int repr def
+def 10518:10528 <> Br_ecall_A3
+R10532:10534 compcert.lib.Integers <> int abbrev
+R10539:10546 compcert.lib.Integers Int repr def
+def 10566:10576 <> Br_ecall_A4
+R10580:10582 compcert.lib.Integers <> int abbrev
+R10587:10594 compcert.lib.Integers Int repr def
+def 10614:10624 <> Br_ecall_A5
+R10628:10630 compcert.lib.Integers <> int abbrev
+R10635:10642 compcert.lib.Integers Int repr def
+def 10662:10672 <> Br_ecall_A7
+R10676:10678 compcert.lib.Integers <> int abbrev
+R10683:10690 compcert.lib.Integers Int repr def
+def 10710:10730 <> Br_ecall_N_EXCEPTIONS
+R10734:10736 compcert.lib.Integers <> int abbrev
+R10741:10748 compcert.lib.Integers Int repr def
+def 10768:10788 <> Br_ecall_N_INTERRUPTS
+R10792:10794 compcert.lib.Integers <> int abbrev
+R10799:10806 compcert.lib.Integers Int repr def
+def 10826:10850 <> Br_ecall_ecall_excpt_vect
+R10866:10868 compcert.lib.Integers <> int abbrev
+binder 10853:10863 <> p_caller_id:96
+R10878:10896 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 10872:10875 <> p_ks:97
+R10901:10903 compcert.common.Errors <> res ind
+R10905:10923 Verimz.Barocqmz <> Br_interface_kernel rec
+R10951:10975 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R10945:10948 Verimz.Barocqmz <> p_ks:97 var
+binder 10934:10940 <> u_zones:98
+R10983:10987 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10996:10999 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11043:11048 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11000:11009 BarocqComp.common.Barray <> get def
+R11020:11029 BarocqComp.common.Intop U64 of_u32 def
+R11031:11041 Verimz.Barocqmz <> p_caller_id:96 var
+R11011:11017 Verimz.Barocqmz <> u_zones:98 var
+binder 10988:10995 <> u_caller:99
+R11073:11094 Verimz.Barocqmz <> br_interface_zone_regs proj
+R11063:11070 Verimz.Barocqmz <> u_caller:99 var
+binder 11053:11058 <> u_regs:100
+R11102:11106 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11113:11116 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11159:11164 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11117:11126 BarocqComp.common.Barray <> get def
+R11136:11145 BarocqComp.common.Intop U64 of_u32 def
+R11147:11157 Verimz.Barocqmz <> Br_ecall_A0 def
+R11128:11133 Verimz.Barocqmz <> u_regs:100 var
+binder 11107:11112 <> u_code:101
+R11165:11169 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11179:11182 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11225:11230 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11183:11192 BarocqComp.common.Barray <> get def
+R11202:11211 BarocqComp.common.Intop U64 of_u32 def
+R11213:11223 Verimz.Barocqmz <> Br_ecall_A1 def
+R11194:11199 Verimz.Barocqmz <> u_regs:100 var
+binder 11170:11178 <> u_handler:102
+R11231:11235 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11244:11251 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11575:11582 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11256:11262 compcert.lib.Integers Int ltu def
+R11264:11269 Verimz.Barocqmz <> u_code:101 var
+R11271:11291 Verimz.Barocqmz <> Br_ecall_N_EXCEPTIONS def
+R11563:11565 BarocqComp.common.Monads MonError ret def
+R11567:11574 Verimz.Barocqmz <> u_caller:99 var
+R11339:11370 Verimz.Barocqmz <> br_interface_zone_excpt_handlers proj
+R11329:11336 Verimz.Barocqmz <> u_caller:99 var
+binder 11309:11324 <> u_excpt_handlers:103
+R11382:11386 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11403:11406 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11464:11473 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11407:11416 BarocqComp.common.Barray <> set def
+R11455:11463 Verimz.Barocqmz <> u_handler:102 var
+R11436:11445 BarocqComp.common.Intop U64 of_u32 def
+R11447:11452 Verimz.Barocqmz <> u_code:101 var
+R11418:11433 Verimz.Barocqmz <> u_excpt_handlers:103 var
+binder 11387:11402 <> u_excpt_handlers:104
+R11474:11476 BarocqComp.common.Monads MonError ret def
+R11487:11490 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11523:11526 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11543:11545 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11491:11522 Verimz.Barocqmz <> br_interface_zone_excpt_handlers proj
+R11527:11542 Verimz.Barocqmz <> u_excpt_handlers:104 var
+R11479:11486 Verimz.Barocqmz <> u_caller:99 var
+binder 11236:11243 <> u_caller:105
+R11583:11587 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11595:11598 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11651:11656 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11599:11608 BarocqComp.common.Barray <> set def
+R11643:11650 Verimz.Barocqmz <> u_caller:105 var
+R11619:11628 BarocqComp.common.Intop U64 of_u32 def
+R11630:11640 Verimz.Barocqmz <> p_caller_id:96 var
+R11610:11616 Verimz.Barocqmz <> u_zones:98 var
+binder 11588:11594 <> u_zones:106
+R11657:11659 BarocqComp.common.Monads MonError ret def
+R11666:11669 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11695:11698 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11706:11708 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R11670:11694 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R11699:11705 Verimz.Barocqmz <> u_zones:106 var
+R11662:11665 Verimz.Barocqmz <> p_ks:97 var
+def 11724:11755 <> Br_ecall_ecall_intrp_vect_step_2
+R11789:11791 compcert.lib.Integers <> int abbrev
+binder 11758:11786 <> p_intrp_handler_zone_fielf_id:107
+R11814:11816 compcert.lib.Integers <> int abbrev
+binder 11795:11811 <> p_caller_field_id:108
+R11828:11830 compcert.lib.Integers <> int abbrev
+binder 11820:11825 <> p_code:109
+R11845:11847 compcert.lib.Integers <> int abbrev
+binder 11834:11842 <> p_handler:110
+R11857:11875 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 11851:11854 <> p_ks:111
+R11880:11882 compcert.common.Errors <> res ind
+R11884:11902 Verimz.Barocqmz <> Br_interface_kernel rec
+R11939:11972 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R11933:11936 Verimz.Barocqmz <> p_ks:111 var
+binder 11913:11928 <> u_intrp_handlers:112
+R11980:11984 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12000:12003 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12051:12056 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12004:12013 BarocqComp.common.Barray <> get def
+R12033:12042 BarocqComp.common.Intop U64 of_u32 def
+R12044:12049 Verimz.Barocqmz <> p_code:109 var
+R12015:12030 Verimz.Barocqmz <> u_intrp_handlers:112 var
+binder 11985:11999 <> u_intrp_handler:113
+R12089:12089 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12126:12131 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12186:12186 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12090:12096 compcert.lib.Integers Int ltu def
+R12098:12103 Verimz.Barocqmz <> p_code:109 var
+R12105:12125 Verimz.Barocqmz <> Br_ecall_N_INTERRUPTS def
+R12132:12137 compcert.lib.Integers Int eq def
+R12139:12167 Verimz.Barocqmz <> p_intrp_handler_zone_fielf_id:107 var
+R12169:12185 Verimz.Barocqmz <> p_caller_field_id:108 var
+R12285:12299 Verimz.Barocqmz <> u_intrp_handler:113 var
+R12215:12218 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12253:12256 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12266:12268 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12219:12252 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R12257:12265 Verimz.Barocqmz <> p_handler:110 var
+R12200:12214 Verimz.Barocqmz <> u_intrp_handler:113 var
+binder 12061:12076 <> u_intrp_handler2:114
+R12308:12312 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12329:12332 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12397:12402 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12333:12342 BarocqComp.common.Barray <> set def
+R12381:12396 Verimz.Barocqmz <> u_intrp_handler2:114 var
+R12362:12371 BarocqComp.common.Intop U64 of_u32 def
+R12373:12378 Verimz.Barocqmz <> p_code:109 var
+R12344:12359 Verimz.Barocqmz <> u_intrp_handlers:112 var
+binder 12313:12328 <> u_intrp_handlers:115
+R12420:12423 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12458:12461 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12478:12480 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R12424:12457 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R12462:12477 Verimz.Barocqmz <> u_intrp_handlers:115 var
+R12416:12419 Verimz.Barocqmz <> p_ks:111 var
+binder 12407:12411 <> u_ks2:116
+R12487:12489 BarocqComp.common.Monads MonError ret def
+R12491:12495 Verimz.Barocqmz <> u_ks2:116 var
+def 12510:12534 <> Br_ecall_ecall_intrp_vect
+R12550:12552 compcert.lib.Integers <> int abbrev
+binder 12537:12547 <> p_caller_id:117
+R12562:12580 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 12556:12559 <> p_ks:118
+R12585:12587 compcert.common.Errors <> res ind
+R12589:12607 Verimz.Barocqmz <> Br_interface_kernel rec
+R12635:12659 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R12629:12632 Verimz.Barocqmz <> p_ks:118 var
+binder 12618:12624 <> u_zones:119
+R12667:12671 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12680:12683 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12727:12732 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12684:12693 BarocqComp.common.Barray <> get def
+R12704:12713 BarocqComp.common.Intop U64 of_u32 def
+R12715:12725 Verimz.Barocqmz <> p_caller_id:117 var
+R12695:12701 Verimz.Barocqmz <> u_zones:119 var
+binder 12672:12679 <> u_caller:120
+R12757:12778 Verimz.Barocqmz <> br_interface_zone_regs proj
+R12747:12754 Verimz.Barocqmz <> u_caller:120 var
+binder 12737:12742 <> u_regs:121
+R12786:12790 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12797:12800 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12843:12848 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12801:12810 BarocqComp.common.Barray <> get def
+R12820:12829 BarocqComp.common.Intop U64 of_u32 def
+R12831:12841 Verimz.Barocqmz <> Br_ecall_A0 def
+R12812:12817 Verimz.Barocqmz <> u_regs:121 var
+binder 12791:12796 <> u_code:122
+R12849:12853 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12863:12866 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12909:12914 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12867:12876 BarocqComp.common.Barray <> get def
+R12886:12895 BarocqComp.common.Intop U64 of_u32 def
+R12897:12907 Verimz.Barocqmz <> Br_ecall_A1 def
+R12878:12883 Verimz.Barocqmz <> u_regs:121 var
+binder 12854:12862 <> u_handler:123
+R12950:12969 Verimz.Barocqmz <> br_interface_zone_id proj
+R12940:12947 Verimz.Barocqmz <> u_caller:120 var
+binder 12919:12935 <> u_caller_field_id:124
+R12977:12981 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12989:12992 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13045:13050 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R12993:13002 BarocqComp.common.Barray <> set def
+R13037:13044 Verimz.Barocqmz <> u_caller:120 var
+R13013:13022 BarocqComp.common.Intop U64 of_u32 def
+R13024:13034 Verimz.Barocqmz <> p_caller_id:117 var
+R13004:13010 Verimz.Barocqmz <> u_zones:119 var
+binder 12982:12988 <> u_zones:125
+R13068:13071 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13097:13100 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13108:13110 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13072:13096 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R13101:13107 Verimz.Barocqmz <> u_zones:125 var
+R13064:13067 Verimz.Barocqmz <> p_ks:118 var
+binder 13055:13059 <> u_ks1:126
+R13148:13181 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R13141:13145 Verimz.Barocqmz <> u_ks1:126 var
+binder 13121:13136 <> u_intrp_handlers:127
+R13189:13193 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13209:13212 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13260:13265 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13213:13222 BarocqComp.common.Barray <> get def
+R13242:13251 BarocqComp.common.Intop U64 of_u32 def
+R13253:13258 Verimz.Barocqmz <> u_code:122 var
+R13224:13239 Verimz.Barocqmz <> u_intrp_handlers:127 var
+binder 13194:13208 <> u_intrp_handler:128
+R13317:13347 Verimz.Barocqmz <> br_interface_intrp_handler_zone proj
+R13300:13314 Verimz.Barocqmz <> u_intrp_handler:128 var
+binder 13270:13295 <> u_intrp_handler_zone_index:129
+R13355:13359 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13376:13379 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13443:13448 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13380:13389 BarocqComp.common.Barray <> set def
+R13428:13442 Verimz.Barocqmz <> u_intrp_handler:128 var
+R13409:13418 BarocqComp.common.Intop U64 of_u32 def
+R13420:13425 Verimz.Barocqmz <> u_code:122 var
+R13391:13406 Verimz.Barocqmz <> u_intrp_handlers:127 var
+binder 13360:13375 <> u_intrp_handlers:130
+R13467:13470 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13505:13508 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13525:13527 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13471:13504 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R13509:13524 Verimz.Barocqmz <> u_intrp_handlers:130 var
+R13462:13466 Verimz.Barocqmz <> u_ks1:126 var
+binder 13453:13457 <> u_ks2:131
+R13556:13580 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R13549:13553 Verimz.Barocqmz <> u_ks2:131 var
+binder 13538:13544 <> u_zones:132
+R13588:13592 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13613:13616 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13675:13680 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13617:13626 BarocqComp.common.Barray <> get def
+R13637:13646 BarocqComp.common.Intop U64 of_u32 def
+R13648:13673 Verimz.Barocqmz <> u_intrp_handler_zone_index:129 var
+R13628:13634 Verimz.Barocqmz <> u_zones:132 var
+binder 13593:13612 <> u_intrp_handler_zone:133
+R13740:13759 Verimz.Barocqmz <> br_interface_zone_id proj
+R13718:13737 Verimz.Barocqmz <> u_intrp_handler_zone:133 var
+binder 13685:13713 <> u_intrp_handler_zone_fielf_id:134
+R13767:13771 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13779:13782 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13862:13867 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13783:13792 BarocqComp.common.Barray <> set def
+R13842:13861 Verimz.Barocqmz <> u_intrp_handler_zone:133 var
+R13803:13812 BarocqComp.common.Intop U64 of_u32 def
+R13814:13839 Verimz.Barocqmz <> u_intrp_handler_zone_index:129 var
+R13794:13800 Verimz.Barocqmz <> u_zones:132 var
+binder 13772:13778 <> u_zones:135
+R13886:13889 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13915:13918 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13926:13928 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R13890:13914 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R13919:13925 Verimz.Barocqmz <> u_zones:135 var
+R13881:13885 Verimz.Barocqmz <> u_ks2:131 var
+binder 13872:13876 <> u_ks3:136
+R13935:13939 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13945:13948 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14052:14057 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13949:13980 Verimz.Barocqmz <> Br_ecall_ecall_intrp_vect_step_2 def
+R13982:14010 Verimz.Barocqmz <> u_intrp_handler_zone_fielf_id:134 var
+R14012:14028 Verimz.Barocqmz <> u_caller_field_id:124 var
+R14030:14035 Verimz.Barocqmz <> u_code:122 var
+R14037:14045 Verimz.Barocqmz <> u_handler:123 var
+R14047:14051 Verimz.Barocqmz <> u_ks3:136 var
+binder 13940:13944 <> u_ks4:137
+R14080:14104 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R14073:14077 Verimz.Barocqmz <> u_ks4:137 var
+binder 14062:14068 <> u_zones:138
+R14112:14116 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14125:14128 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14172:14177 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14129:14138 BarocqComp.common.Barray <> get def
+R14149:14158 BarocqComp.common.Intop U64 of_u32 def
+R14160:14170 Verimz.Barocqmz <> p_caller_id:117 var
+R14140:14146 Verimz.Barocqmz <> u_zones:138 var
+binder 14117:14124 <> u_caller:139
+R14202:14202 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14239:14244 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14299:14299 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14203:14209 compcert.lib.Integers Int ltu def
+R14211:14216 Verimz.Barocqmz <> u_code:122 var
+R14218:14238 Verimz.Barocqmz <> Br_ecall_N_INTERRUPTS def
+R14245:14250 compcert.lib.Integers Int eq def
+R14252:14280 Verimz.Barocqmz <> u_intrp_handler_zone_fielf_id:134 var
+R14282:14298 Verimz.Barocqmz <> u_caller_field_id:124 var
+R14442:14449 Verimz.Barocqmz <> u_caller:139 var
+R14321:14324 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14346:14349 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14423:14425 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14325:14345 Verimz.Barocqmz <> br_interface_zone_uie proj
+R14350:14355 compcert.lib.Integers Int or def
+R14368:14388 Verimz.Barocqmz <> br_interface_zone_uie proj
+R14358:14365 Verimz.Barocqmz <> u_caller:139 var
+R14393:14399 compcert.lib.Integers Int shl def
+R14402:14409 compcert.lib.Integers Int repr def
+R14416:14421 Verimz.Barocqmz <> u_code:122 var
+R14313:14320 Verimz.Barocqmz <> u_caller:139 var
+binder 14182:14189 <> u_caller:140
+R14485:14509 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R14475:14482 Verimz.Barocqmz <> u_caller:140 var
+binder 14462:14470 <> u_ustatus:141
+R14517:14521 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14529:14532 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14585:14590 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R14533:14542 BarocqComp.common.Barray <> set def
+R14577:14584 Verimz.Barocqmz <> u_caller:140 var
+R14553:14562 BarocqComp.common.Intop U64 of_u32 def
+R14564:14574 Verimz.Barocqmz <> p_caller_id:117 var
+R14544:14550 Verimz.Barocqmz <> u_zones:138 var
+binder 14522:14528 <> u_zones:142
+R14609:14612 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14638:14641 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14649:14651 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14613:14637 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R14642:14648 Verimz.Barocqmz <> u_zones:142 var
+R14604:14608 Verimz.Barocqmz <> u_ks4:137 var
+binder 14595:14599 <> u_ks4:143
+R14662:14662 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14761:14766 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14838:14838 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14663:14663 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14700:14705 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14760:14760 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R14664:14670 compcert.lib.Integers Int ltu def
+R14672:14677 Verimz.Barocqmz <> u_code:122 var
+R14679:14699 Verimz.Barocqmz <> Br_ecall_N_INTERRUPTS def
+R14706:14711 compcert.lib.Integers Int eq def
+R14713:14741 Verimz.Barocqmz <> u_intrp_handler_zone_fielf_id:134 var
+R14743:14759 Verimz.Barocqmz <> u_caller_field_id:124 var
+R14767:14774 compcert.lib.Integers Int cmpu def
+R14776:14778 compcert.lib.Integers <> Cgt constr
+R14781:14787 compcert.lib.Integers Int and def
+R14789:14797 Verimz.Barocqmz <> u_ustatus:141 var
+R14799:14821 Verimz.Barocqmz <> Br_interface_USTATUS_IE def
+R14825:14832 compcert.lib.Integers Int repr def
+R14979:14981 BarocqComp.common.Monads MonError ret def
+R14983:14987 Verimz.Barocqmz <> u_ks4:143 var
+R14850:14852 BarocqComp.common.Monads MonError ret def
+R14860:14863 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14887:14890 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14963:14965 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R14864:14886 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R14891:14896 compcert.lib.Integers Int or def
+R14906:14928 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R14899:14903 Verimz.Barocqmz <> u_ks4:143 var
+R14933:14939 compcert.lib.Integers Int shl def
+R14942:14949 compcert.lib.Integers Int repr def
+R14956:14961 Verimz.Barocqmz <> u_code:122 var
+R14855:14859 Verimz.Barocqmz <> u_ks4:143 var
+def 15002:15031 <> Br_ecall_ecall_csrs_mie_CALLER
+R15047:15049 compcert.lib.Integers <> int abbrev
+binder 15034:15044 <> p_caller_id:144
+R15059:15077 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 15053:15056 <> p_ks:145
+R15082:15084 compcert.common.Errors <> res ind
+R15086:15104 Verimz.Barocqmz <> Br_interface_kernel rec
+R15132:15156 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R15126:15129 Verimz.Barocqmz <> p_ks:145 var
+binder 15115:15121 <> u_zones:146
+R15164:15168 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15177:15180 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15224:15229 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15181:15190 BarocqComp.common.Barray <> get def
+R15201:15210 BarocqComp.common.Intop U64 of_u32 def
+R15212:15222 Verimz.Barocqmz <> p_caller_id:144 var
+R15192:15198 Verimz.Barocqmz <> u_zones:146 var
+binder 15169:15176 <> u_caller:147
+R15254:15257 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15283:15286 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15356:15358 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15258:15282 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R15287:15292 compcert.lib.Integers Int or def
+R15305:15329 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R15295:15302 Verimz.Barocqmz <> u_caller:147 var
+R15333:15355 Verimz.Barocqmz <> Br_interface_USTATUS_IE def
+R15246:15253 Verimz.Barocqmz <> u_caller:147 var
+binder 15234:15241 <> u_caller:148
+R15365:15369 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15377:15380 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15433:15438 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15381:15390 BarocqComp.common.Barray <> set def
+R15425:15432 Verimz.Barocqmz <> u_caller:148 var
+R15401:15410 BarocqComp.common.Intop U64 of_u32 def
+R15412:15422 Verimz.Barocqmz <> p_caller_id:144 var
+R15392:15398 Verimz.Barocqmz <> u_zones:146 var
+binder 15370:15376 <> u_zones:149
+R15439:15441 BarocqComp.common.Monads MonError ret def
+R15448:15451 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15477:15480 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15488:15490 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15452:15476 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R15481:15487 Verimz.Barocqmz <> u_zones:149 var
+R15444:15447 Verimz.Barocqmz <> p_ks:145 var
+def 15506:15535 <> Br_ecall_ecall_csrs_mie_KERNEL
+R15551:15553 compcert.lib.Integers <> int abbrev
+binder 15538:15548 <> p_caller_id:150
+R15563:15581 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 15557:15560 <> p_ks:151
+R15586:15588 compcert.common.Errors <> res ind
+R15590:15608 Verimz.Barocqmz <> Br_interface_kernel rec
+R15615:15619 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15628:15631 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15702:15707 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R15632:15641 BarocqComp.common.Barray <> get def
+R15679:15688 BarocqComp.common.Intop U64 of_u32 def
+R15690:15700 Verimz.Barocqmz <> p_caller_id:150 var
+R15650:15674 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R15644:15647 Verimz.Barocqmz <> p_ks:151 var
+binder 15620:15627 <> u_caller:152
+R15708:15710 BarocqComp.common.Monads MonError ret def
+R15717:15720 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15744:15747 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15822:15824 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R15721:15743 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R15748:15753 compcert.lib.Integers Int or def
+R15762:15784 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R15756:15759 Verimz.Barocqmz <> p_ks:151 var
+R15799:15819 Verimz.Barocqmz <> br_interface_zone_uie proj
+R15789:15796 Verimz.Barocqmz <> u_caller:152 var
+R15713:15716 Verimz.Barocqmz <> p_ks:151 var
+def 15840:15869 <> Br_ecall_ecall_csrc_mie_CALLER
+R15885:15887 compcert.lib.Integers <> int abbrev
+binder 15872:15882 <> p_caller_id:153
+R15897:15915 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 15891:15894 <> p_ks:154
+R15920:15922 compcert.common.Errors <> res ind
+R15924:15942 Verimz.Barocqmz <> Br_interface_kernel rec
+R15970:15994 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R15964:15967 Verimz.Barocqmz <> p_ks:154 var
+binder 15953:15959 <> u_zones:155
+R16002:16006 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16015:16018 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16062:16067 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16019:16028 BarocqComp.common.Barray <> get def
+R16039:16048 BarocqComp.common.Intop U64 of_u32 def
+R16050:16060 Verimz.Barocqmz <> p_caller_id:153 var
+R16030:16036 Verimz.Barocqmz <> u_zones:155 var
+binder 16007:16014 <> u_caller:156
+R16098:16126 Verimz.Barocqmz <> Br_interface_and_with_bitwise def
+R16139:16163 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R16129:16136 Verimz.Barocqmz <> u_caller:156 var
+R16167:16189 Verimz.Barocqmz <> Br_interface_USTATUS_IE def
+binder 16092:16093 <> b0:157
+R16206:16209 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16235:16238 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16241:16243 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16210:16234 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R16239:16240 Verimz.Barocqmz <> b0:157 var
+R16198:16205 Verimz.Barocqmz <> u_caller:156 var
+binder 16072:16079 <> u_caller:158
+R16252:16256 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16264:16267 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16320:16325 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16268:16277 BarocqComp.common.Barray <> set def
+R16312:16319 Verimz.Barocqmz <> u_caller:158 var
+R16288:16297 BarocqComp.common.Intop U64 of_u32 def
+R16299:16309 Verimz.Barocqmz <> p_caller_id:153 var
+R16279:16285 Verimz.Barocqmz <> u_zones:155 var
+binder 16257:16263 <> u_zones:159
+R16326:16328 BarocqComp.common.Monads MonError ret def
+R16335:16338 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16364:16367 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16375:16377 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16339:16363 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R16368:16374 Verimz.Barocqmz <> u_zones:159 var
+R16331:16334 Verimz.Barocqmz <> p_ks:154 var
+def 16393:16422 <> Br_ecall_ecall_csrc_mie_KERNEL
+R16438:16440 compcert.lib.Integers <> int abbrev
+binder 16425:16435 <> p_caller_id:160
+R16450:16468 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 16444:16447 <> p_ks:161
+R16473:16475 compcert.common.Errors <> res ind
+R16477:16495 Verimz.Barocqmz <> Br_interface_kernel rec
+R16502:16506 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16515:16518 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16589:16594 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16519:16528 BarocqComp.common.Barray <> get def
+R16566:16575 BarocqComp.common.Intop U64 of_u32 def
+R16577:16587 Verimz.Barocqmz <> p_caller_id:160 var
+R16537:16561 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R16531:16534 Verimz.Barocqmz <> p_ks:161 var
+binder 16507:16514 <> u_caller:162
+R16605:16633 Verimz.Barocqmz <> Br_interface_and_with_bitwise def
+R16642:16664 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R16636:16639 Verimz.Barocqmz <> p_ks:161 var
+R16679:16699 Verimz.Barocqmz <> br_interface_zone_uie proj
+R16669:16676 Verimz.Barocqmz <> u_caller:162 var
+binder 16599:16600 <> b0:163
+R16708:16710 BarocqComp.common.Monads MonError ret def
+R16717:16720 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16744:16747 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16750:16752 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R16721:16743 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R16748:16749 Verimz.Barocqmz <> b0:163 var
+R16713:16716 Verimz.Barocqmz <> p_ks:161 var
+def 16768:16786 <> Br_ecall_ecall_send
+R16802:16804 compcert.lib.Integers <> int abbrev
+binder 16789:16799 <> p_caller_id:164
+R16814:16832 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 16808:16811 <> p_ks:165
+R16837:16839 compcert.common.Errors <> res ind
+R16841:16859 Verimz.Barocqmz <> Br_interface_kernel rec
+R16887:16911 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R16881:16884 Verimz.Barocqmz <> p_ks:165 var
+binder 16870:16876 <> u_zones:166
+R16919:16923 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16932:16935 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16979:16984 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R16936:16945 BarocqComp.common.Barray <> get def
+R16956:16965 BarocqComp.common.Intop U64 of_u32 def
+R16967:16977 Verimz.Barocqmz <> p_caller_id:164 var
+R16947:16953 Verimz.Barocqmz <> u_zones:166 var
+binder 16924:16931 <> u_caller:167
+R17009:17030 Verimz.Barocqmz <> br_interface_zone_regs proj
+R16999:17006 Verimz.Barocqmz <> u_caller:167 var
+binder 16989:16994 <> u_regs:168
+R17038:17042 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17053:17056 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17099:17104 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17057:17066 BarocqComp.common.Barray <> get def
+R17076:17085 BarocqComp.common.Intop U64 of_u32 def
+R17087:17097 Verimz.Barocqmz <> Br_ecall_A0 def
+R17068:17073 Verimz.Barocqmz <> u_regs:168 var
+binder 17043:17052 <> u_receiver:169
+R17105:17109 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17116:17119 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17177:17182 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17120:17129 BarocqComp.common.Barray <> set def
+R17164:17171 compcert.lib.Integers Int repr def
+R17139:17148 BarocqComp.common.Intop U64 of_u32 def
+R17150:17160 Verimz.Barocqmz <> Br_ecall_A0 def
+R17131:17136 Verimz.Barocqmz <> u_regs:168 var
+binder 17110:17115 <> u_regs:170
+R17183:17187 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17196:17199 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17242:17247 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17200:17209 BarocqComp.common.Barray <> get def
+R17219:17228 BarocqComp.common.Intop U64 of_u32 def
+R17230:17240 Verimz.Barocqmz <> Br_ecall_A1 def
+R17211:17216 Verimz.Barocqmz <> u_regs:170 var
+binder 17188:17195 <> u_regsA1:171
+R17248:17252 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17261:17264 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17307:17312 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17265:17274 BarocqComp.common.Barray <> get def
+R17284:17293 BarocqComp.common.Intop U64 of_u32 def
+R17295:17305 Verimz.Barocqmz <> Br_ecall_A2 def
+R17276:17281 Verimz.Barocqmz <> u_regs:170 var
+binder 17253:17260 <> u_regsA2:172
+R17313:17317 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17326:17329 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17372:17377 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17330:17339 BarocqComp.common.Barray <> get def
+R17349:17358 BarocqComp.common.Intop U64 of_u32 def
+R17360:17370 Verimz.Barocqmz <> Br_ecall_A3 def
+R17341:17346 Verimz.Barocqmz <> u_regs:170 var
+binder 17318:17325 <> u_regsA3:173
+R17378:17382 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17391:17394 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17437:17442 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17395:17404 BarocqComp.common.Barray <> get def
+R17414:17423 BarocqComp.common.Intop U64 of_u32 def
+R17425:17435 Verimz.Barocqmz <> Br_ecall_A4 def
+R17406:17411 Verimz.Barocqmz <> u_regs:170 var
+binder 17383:17390 <> u_regsA4:174
+R17467:17470 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17493:17496 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17503:17505 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17471:17492 Verimz.Barocqmz <> br_interface_zone_regs proj
+R17497:17502 Verimz.Barocqmz <> u_regs:170 var
+R17459:17466 Verimz.Barocqmz <> u_caller:167 var
+binder 17447:17454 <> u_caller:175
+R17512:17516 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17524:17527 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17580:17585 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17528:17537 BarocqComp.common.Barray <> set def
+R17572:17579 Verimz.Barocqmz <> u_caller:175 var
+R17548:17557 BarocqComp.common.Intop U64 of_u32 def
+R17559:17569 Verimz.Barocqmz <> p_caller_id:164 var
+R17539:17545 Verimz.Barocqmz <> u_zones:166 var
+binder 17517:17523 <> u_zones:176
+R17602:17605 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17631:17634 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17642:17644 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R17606:17630 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R17635:17641 Verimz.Barocqmz <> u_zones:176 var
+R17598:17601 Verimz.Barocqmz <> p_ks:165 var
+binder 17590:17593 <> u_ks:177
+R17655:17662 compcert.lib.Integers Int cmpu def
+R17664:17666 compcert.lib.Integers <> Cge constr
+R17668:17677 Verimz.Barocqmz <> u_receiver:169 var
+R17679:17698 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+R17753:17779 Verimz.Barocqmz <> br_interface_kernel_inboxes proj
+R17747:17750 Verimz.Barocqmz <> u_ks:177 var
+binder 17734:17742 <> u_inboxes:178
+R17804:17810 compcert.lib.Integers Int add def
+R17813:17819 compcert.lib.Integers Int mul def
+R17821:17830 Verimz.Barocqmz <> u_receiver:169 var
+R17832:17851 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+R17854:17864 Verimz.Barocqmz <> p_caller_id:164 var
+binder 17793:17799 <> u_index:179
+R17873:17877 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17885:17888 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17930:17937 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R17889:17898 BarocqComp.common.Barray <> get def
+R17911:17920 BarocqComp.common.Intop U64 of_u32 def
+R17922:17928 Verimz.Barocqmz <> u_index:179 var
+R17900:17908 Verimz.Barocqmz <> u_inboxes:178 var
+binder 17878:17884 <> u_inbox:180
+R17961:17983 Verimz.Barocqmz <> br_interface_inbox_full proj
+R17952:17958 Verimz.Barocqmz <> u_inbox:180 var
+binder 17942:17947 <> u_full:181
+R18016:18038 Verimz.Barocqmz <> br_interface_inbox_msgs proj
+R18007:18013 Verimz.Barocqmz <> u_inbox:180 var
+binder 17997:18002 <> u_msgs:182
+R18048:18052 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18059:18068 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18487:18498 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18073:18080 compcert.lib.Integers Int cmpu def
+R18082:18084 compcert.lib.Integers <> Cgt constr
+R18086:18091 Verimz.Barocqmz <> u_full:181 var
+R18094:18101 compcert.lib.Integers Int repr def
+R18166:18173 compcert.lib.Integers Int repr def
+binder 18156:18161 <> u_full:183
+R18190:18194 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18201:18204 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18259:18270 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18205:18214 BarocqComp.common.Barray <> set def
+R18251:18258 Verimz.Barocqmz <> u_regsA1:171 var
+R18224:18233 BarocqComp.common.Intop U64 of_u32 def
+R18236:18243 compcert.lib.Integers Int repr def
+R18216:18221 Verimz.Barocqmz <> u_msgs:182 var
+binder 18195:18200 <> u_msgs:184
+R18271:18275 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18282:18285 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18340:18351 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18286:18295 BarocqComp.common.Barray <> set def
+R18332:18339 Verimz.Barocqmz <> u_regsA2:172 var
+R18305:18314 BarocqComp.common.Intop U64 of_u32 def
+R18317:18324 compcert.lib.Integers Int repr def
+R18297:18302 Verimz.Barocqmz <> u_msgs:184 var
+binder 18276:18281 <> u_msgs:185
+R18352:18356 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18363:18366 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18421:18432 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18367:18376 BarocqComp.common.Barray <> set def
+R18413:18420 Verimz.Barocqmz <> u_regsA3:173 var
+R18386:18395 BarocqComp.common.Intop U64 of_u32 def
+R18398:18405 compcert.lib.Integers Int repr def
+R18378:18383 Verimz.Barocqmz <> u_msgs:185 var
+binder 18357:18362 <> u_msgs:186
+R18433:18442 BarocqComp.common.Barray <> set def
+R18479:18486 Verimz.Barocqmz <> u_regsA4:174 var
+R18452:18461 BarocqComp.common.Intop U64 of_u32 def
+R18464:18471 compcert.lib.Integers Int repr def
+R18444:18449 Verimz.Barocqmz <> u_msgs:186 var
+R18122:18124 BarocqComp.common.Monads MonError ret def
+R18126:18131 Verimz.Barocqmz <> u_msgs:182 var
+binder 18053:18058 <> u_msgs:187
+R18521:18524 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18548:18551 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18558:18560 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18525:18547 Verimz.Barocqmz <> br_interface_inbox_msgs proj
+R18552:18557 Verimz.Barocqmz <> u_msgs:187 var
+R18514:18520 Verimz.Barocqmz <> u_inbox:180 var
+binder 18503:18509 <> u_inbox:188
+R18591:18594 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18618:18621 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18628:18630 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18595:18617 Verimz.Barocqmz <> br_interface_inbox_full proj
+R18622:18627 Verimz.Barocqmz <> u_full:181 var
+R18584:18590 Verimz.Barocqmz <> u_inbox:188 var
+binder 18573:18579 <> u_inbox:189
+R18639:18643 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18653:18656 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18706:18713 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18657:18666 BarocqComp.common.Barray <> set def
+R18699:18705 Verimz.Barocqmz <> u_inbox:189 var
+R18679:18688 BarocqComp.common.Intop U64 of_u32 def
+R18690:18696 Verimz.Barocqmz <> u_index:179 var
+R18668:18676 Verimz.Barocqmz <> u_inboxes:178 var
+binder 18644:18652 <> u_inboxes:190
+R18730:18733 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18761:18764 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18774:18776 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R18734:18760 Verimz.Barocqmz <> br_interface_kernel_inboxes proj
+R18765:18773 Verimz.Barocqmz <> u_inboxes:190 var
+R18726:18729 Verimz.Barocqmz <> u_ks:177 var
+binder 18718:18721 <> u_ks:191
+R18806:18830 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R18800:18803 Verimz.Barocqmz <> u_ks:191 var
+binder 18789:18795 <> u_zones:192
+R18840:18844 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18853:18856 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18900:18907 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18857:18866 BarocqComp.common.Barray <> get def
+R18877:18886 BarocqComp.common.Intop U64 of_u32 def
+R18888:18898 Verimz.Barocqmz <> p_caller_id:164 var
+R18868:18874 Verimz.Barocqmz <> u_zones:192 var
+binder 18845:18852 <> u_caller:193
+R18932:18953 Verimz.Barocqmz <> br_interface_zone_regs proj
+R18922:18929 Verimz.Barocqmz <> u_caller:193 var
+binder 18912:18917 <> u_regs:194
+R18963:18967 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18974:18977 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19035:19042 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R18978:18987 BarocqComp.common.Barray <> set def
+R19022:19029 compcert.lib.Integers Int repr def
+R18997:19006 BarocqComp.common.Intop U64 of_u32 def
+R19008:19018 Verimz.Barocqmz <> Br_ecall_A0 def
+R18989:18994 Verimz.Barocqmz <> u_regs:194 var
+binder 18968:18973 <> u_regs:195
+R19067:19070 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19093:19096 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19103:19105 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19071:19092 Verimz.Barocqmz <> br_interface_zone_regs proj
+R19097:19102 Verimz.Barocqmz <> u_regs:195 var
+R19059:19066 Verimz.Barocqmz <> u_caller:193 var
+binder 19047:19054 <> u_caller:196
+R19114:19118 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19126:19129 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19182:19189 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19130:19139 BarocqComp.common.Barray <> set def
+R19174:19181 Verimz.Barocqmz <> u_caller:196 var
+R19150:19159 BarocqComp.common.Intop U64 of_u32 def
+R19161:19171 Verimz.Barocqmz <> p_caller_id:164 var
+R19141:19147 Verimz.Barocqmz <> u_zones:192 var
+binder 19119:19125 <> u_zones:197
+R19206:19209 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19235:19238 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19246:19248 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19210:19234 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R19239:19245 Verimz.Barocqmz <> u_zones:197 var
+R19202:19205 Verimz.Barocqmz <> u_ks:191 var
+binder 19194:19197 <> u_ks:198
+R19257:19259 BarocqComp.common.Monads MonError ret def
+R19261:19264 Verimz.Barocqmz <> u_ks:198 var
+R17710:17712 BarocqComp.common.Monads MonError ret def
+R17714:17717 Verimz.Barocqmz <> u_ks:177 var
+def 19279:19297 <> Br_ecall_ecall_recv
+R19313:19315 compcert.lib.Integers <> int abbrev
+binder 19300:19310 <> p_caller_id:199
+R19325:19343 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 19319:19322 <> p_ks:200
+R19348:19350 compcert.common.Errors <> res ind
+R19352:19370 Verimz.Barocqmz <> Br_interface_kernel rec
+R19398:19422 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R19392:19395 Verimz.Barocqmz <> p_ks:200 var
+binder 19381:19387 <> u_zones:201
+R19430:19434 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19443:19446 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19490:19495 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19447:19456 BarocqComp.common.Barray <> get def
+R19467:19476 BarocqComp.common.Intop U64 of_u32 def
+R19478:19488 Verimz.Barocqmz <> p_caller_id:199 var
+R19458:19464 Verimz.Barocqmz <> u_zones:201 var
+binder 19435:19442 <> u_caller:202
+R19520:19541 Verimz.Barocqmz <> br_interface_zone_regs proj
+R19510:19517 Verimz.Barocqmz <> u_caller:202 var
+binder 19500:19505 <> u_regs:203
+R19549:19553 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19562:19565 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19608:19613 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19566:19575 BarocqComp.common.Barray <> get def
+R19585:19594 BarocqComp.common.Intop U64 of_u32 def
+R19596:19606 Verimz.Barocqmz <> Br_ecall_A0 def
+R19577:19582 Verimz.Barocqmz <> u_regs:203 var
+binder 19554:19561 <> u_sender:204
+R19614:19618 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19625:19628 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19686:19691 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19629:19638 BarocqComp.common.Barray <> set def
+R19673:19680 compcert.lib.Integers Int repr def
+R19648:19657 BarocqComp.common.Intop U64 of_u32 def
+R19659:19669 Verimz.Barocqmz <> Br_ecall_A0 def
+R19640:19645 Verimz.Barocqmz <> u_regs:203 var
+binder 19619:19624 <> u_regs:205
+R19716:19719 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19742:19745 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19752:19754 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19720:19741 Verimz.Barocqmz <> br_interface_zone_regs proj
+R19746:19751 Verimz.Barocqmz <> u_regs:205 var
+R19708:19715 Verimz.Barocqmz <> u_caller:202 var
+binder 19696:19703 <> u_caller:206
+R19761:19765 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19773:19776 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19829:19834 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R19777:19786 BarocqComp.common.Barray <> set def
+R19821:19828 Verimz.Barocqmz <> u_caller:206 var
+R19797:19806 BarocqComp.common.Intop U64 of_u32 def
+R19808:19818 Verimz.Barocqmz <> p_caller_id:199 var
+R19788:19794 Verimz.Barocqmz <> u_zones:201 var
+binder 19766:19772 <> u_zones:207
+R19851:19854 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19880:19883 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19891:19893 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R19855:19879 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R19884:19890 Verimz.Barocqmz <> u_zones:207 var
+R19847:19850 Verimz.Barocqmz <> p_ks:200 var
+binder 19839:19842 <> u_ks:208
+R19904:19911 compcert.lib.Integers Int cmpu def
+R19913:19915 compcert.lib.Integers <> Cge constr
+R19917:19924 Verimz.Barocqmz <> u_sender:204 var
+R19926:19945 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+R20000:20026 Verimz.Barocqmz <> br_interface_kernel_inboxes proj
+R19994:19997 Verimz.Barocqmz <> u_ks:208 var
+binder 19981:19989 <> u_inboxes:209
+R20051:20057 compcert.lib.Integers Int add def
+R20060:20066 compcert.lib.Integers Int mul def
+R20068:20078 Verimz.Barocqmz <> p_caller_id:199 var
+R20080:20099 Verimz.Barocqmz <> Br_interface_N_ZONES defax
+R20102:20109 Verimz.Barocqmz <> u_sender:204 var
+binder 20040:20046 <> u_index:210
+R20118:20122 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20130:20133 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20175:20182 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20134:20143 BarocqComp.common.Barray <> get def
+R20156:20165 BarocqComp.common.Intop U64 of_u32 def
+R20167:20173 Verimz.Barocqmz <> u_index:210 var
+R20145:20153 Verimz.Barocqmz <> u_inboxes:209 var
+binder 20123:20129 <> u_inbox:211
+R20206:20228 Verimz.Barocqmz <> br_interface_inbox_full proj
+R20197:20203 Verimz.Barocqmz <> u_inbox:211 var
+binder 20187:20192 <> u_full:212
+R20261:20283 Verimz.Barocqmz <> br_interface_inbox_msgs proj
+R20252:20258 Verimz.Barocqmz <> u_inbox:211 var
+binder 20242:20247 <> u_msgs:213
+R20314:20338 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R20308:20311 Verimz.Barocqmz <> u_ks:208 var
+binder 20297:20303 <> u_zones:214
+R20348:20352 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20361:20364 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20408:20415 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20365:20374 BarocqComp.common.Barray <> get def
+R20385:20394 BarocqComp.common.Intop U64 of_u32 def
+R20396:20406 Verimz.Barocqmz <> p_caller_id:199 var
+R20376:20382 Verimz.Barocqmz <> u_zones:214 var
+binder 20353:20360 <> u_caller:215
+R20440:20461 Verimz.Barocqmz <> br_interface_zone_regs proj
+R20430:20437 Verimz.Barocqmz <> u_caller:215 var
+binder 20420:20425 <> u_regs:216
+R20471:20475 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20482:20491 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21206:21217 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20496:20503 compcert.lib.Integers Int cmpu def
+R20505:20507 compcert.lib.Integers <> Cle constr
+R20509:20514 Verimz.Barocqmz <> u_full:212 var
+R20517:20524 compcert.lib.Integers Int repr def
+R20589:20596 compcert.lib.Integers Int repr def
+binder 20579:20584 <> u_full:217
+R20613:20617 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20624:20637 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20753:20772 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20638:20642 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20645:20648 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20694:20707 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20649:20658 BarocqComp.common.Barray <> get def
+R20668:20677 BarocqComp.common.Intop U64 of_u32 def
+R20680:20687 compcert.lib.Integers Int repr def
+R20660:20665 Verimz.Barocqmz <> u_msgs:213 var
+binder 20643:20644 <> b0:218
+R20708:20717 BarocqComp.common.Barray <> set def
+R20751:20752 Verimz.Barocqmz <> b0:218 var
+R20727:20736 BarocqComp.common.Intop U64 of_u32 def
+R20738:20748 Verimz.Barocqmz <> Br_ecall_A1 def
+R20719:20724 Verimz.Barocqmz <> u_regs:216 var
+binder 20618:20623 <> u_regs:219
+R20773:20777 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20784:20797 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20913:20932 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20798:20802 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20805:20808 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20854:20867 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20809:20818 BarocqComp.common.Barray <> get def
+R20828:20837 BarocqComp.common.Intop U64 of_u32 def
+R20840:20847 compcert.lib.Integers Int repr def
+R20820:20825 Verimz.Barocqmz <> u_msgs:213 var
+binder 20803:20804 <> b1:220
+R20868:20877 BarocqComp.common.Barray <> set def
+R20911:20912 Verimz.Barocqmz <> b1:220 var
+R20887:20896 BarocqComp.common.Intop U64 of_u32 def
+R20898:20908 Verimz.Barocqmz <> Br_ecall_A2 def
+R20879:20884 Verimz.Barocqmz <> u_regs:219 var
+binder 20778:20783 <> u_regs:221
+R20933:20937 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20944:20957 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21073:21092 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20958:20962 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20965:20968 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21014:21027 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R20969:20978 BarocqComp.common.Barray <> get def
+R20988:20997 BarocqComp.common.Intop U64 of_u32 def
+R21000:21007 compcert.lib.Integers Int repr def
+R20980:20985 Verimz.Barocqmz <> u_msgs:213 var
+binder 20963:20964 <> b2:222
+R21028:21037 BarocqComp.common.Barray <> set def
+R21071:21072 Verimz.Barocqmz <> b2:222 var
+R21047:21056 BarocqComp.common.Intop U64 of_u32 def
+R21058:21068 Verimz.Barocqmz <> Br_ecall_A3 def
+R21039:21044 Verimz.Barocqmz <> u_regs:221 var
+binder 20938:20943 <> u_regs:223
+R21093:21097 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21100:21103 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21149:21160 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21104:21113 BarocqComp.common.Barray <> get def
+R21123:21132 BarocqComp.common.Intop U64 of_u32 def
+R21135:21142 compcert.lib.Integers Int repr def
+R21115:21120 Verimz.Barocqmz <> u_msgs:213 var
+binder 21098:21099 <> b3:224
+R21161:21170 BarocqComp.common.Barray <> set def
+R21204:21205 Verimz.Barocqmz <> b3:224 var
+R21180:21189 BarocqComp.common.Intop U64 of_u32 def
+R21191:21201 Verimz.Barocqmz <> Br_ecall_A4 def
+R21172:21177 Verimz.Barocqmz <> u_regs:223 var
+R20545:20547 BarocqComp.common.Monads MonError ret def
+R20549:20554 Verimz.Barocqmz <> u_regs:216 var
+binder 20476:20481 <> u_regs:225
+R21218:21222 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21229:21232 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21290:21297 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21233:21242 BarocqComp.common.Barray <> set def
+R21277:21284 compcert.lib.Integers Int repr def
+R21252:21261 BarocqComp.common.Intop U64 of_u32 def
+R21263:21273 Verimz.Barocqmz <> Br_ecall_A0 def
+R21244:21249 Verimz.Barocqmz <> u_regs:225 var
+binder 21223:21228 <> u_regs:226
+R21322:21325 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21348:21351 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21358:21360 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21326:21347 Verimz.Barocqmz <> br_interface_zone_regs proj
+R21352:21357 Verimz.Barocqmz <> u_regs:226 var
+R21314:21321 Verimz.Barocqmz <> u_caller:215 var
+binder 21302:21309 <> u_caller:227
+R21369:21373 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21381:21384 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21437:21444 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21385:21394 BarocqComp.common.Barray <> set def
+R21429:21436 Verimz.Barocqmz <> u_caller:227 var
+R21405:21414 BarocqComp.common.Intop U64 of_u32 def
+R21416:21426 Verimz.Barocqmz <> p_caller_id:199 var
+R21396:21402 Verimz.Barocqmz <> u_zones:214 var
+binder 21374:21380 <> u_zones:228
+R21461:21464 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21490:21493 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21501:21503 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21465:21489 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R21494:21500 Verimz.Barocqmz <> u_zones:228 var
+R21457:21460 Verimz.Barocqmz <> u_ks:208 var
+binder 21449:21452 <> u_ks:229
+R21534:21537 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21561:21564 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21571:21573 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21538:21560 Verimz.Barocqmz <> br_interface_inbox_msgs proj
+R21565:21570 Verimz.Barocqmz <> u_msgs:213 var
+R21527:21533 Verimz.Barocqmz <> u_inbox:211 var
+binder 21516:21522 <> u_inbox:230
+R21604:21607 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21631:21634 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21641:21643 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21608:21630 Verimz.Barocqmz <> br_interface_inbox_full proj
+R21635:21640 Verimz.Barocqmz <> u_full:212 var
+R21597:21603 Verimz.Barocqmz <> u_inbox:230 var
+binder 21586:21592 <> u_inbox:231
+R21652:21656 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21666:21669 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21719:21726 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R21670:21679 BarocqComp.common.Barray <> set def
+R21712:21718 Verimz.Barocqmz <> u_inbox:231 var
+R21692:21701 BarocqComp.common.Intop U64 of_u32 def
+R21703:21709 Verimz.Barocqmz <> u_index:210 var
+R21681:21689 Verimz.Barocqmz <> u_inboxes:209 var
+binder 21657:21665 <> u_inboxes:232
+R21743:21746 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21774:21777 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21787:21789 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R21747:21773 Verimz.Barocqmz <> br_interface_kernel_inboxes proj
+R21778:21786 Verimz.Barocqmz <> u_inboxes:232 var
+R21739:21742 Verimz.Barocqmz <> u_ks:229 var
+binder 21731:21734 <> u_ks:233
+R21798:21800 BarocqComp.common.Monads MonError ret def
+R21802:21805 Verimz.Barocqmz <> u_ks:233 var
+R19957:19959 BarocqComp.common.Monads MonError ret def
+R19961:19964 Verimz.Barocqmz <> u_ks:208 var
+def 21820:21845 <> Br_ecall_get_current_regA7
+R21854:21872 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 21848:21851 <> p_ks:234
+R21877:21879 compcert.common.Errors <> res ind
+R21881:21883 compcert.lib.Integers <> int abbrev
+R21908:21934 Verimz.Barocqmz <> br_interface_kernel_current proj
+R21902:21905 Verimz.Barocqmz <> p_ks:234 var
+binder 21894:21897 <> u_id:235
+R21963:21987 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R21957:21960 Verimz.Barocqmz <> p_ks:234 var
+binder 21946:21952 <> u_zones:236
+R21995:21999 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22008:22011 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22048:22053 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22012:22021 BarocqComp.common.Barray <> get def
+R22032:22041 BarocqComp.common.Intop U64 of_u32 def
+R22043:22046 Verimz.Barocqmz <> u_id:235 var
+R22023:22029 Verimz.Barocqmz <> u_zones:236 var
+binder 22000:22007 <> u_caller:237
+R22054:22063 BarocqComp.common.Barray <> get def
+R22102:22111 BarocqComp.common.Intop U64 of_u32 def
+R22113:22123 Verimz.Barocqmz <> Br_ecall_A7 def
+R22076:22097 Verimz.Barocqmz <> br_interface_zone_regs proj
+R22066:22073 Verimz.Barocqmz <> u_caller:237 var
+def 22139:22167 <> Br_ecall_handle_ecall_wrapped
+R22180:22182 compcert.lib.Integers <> int abbrev
+binder 22170:22177 <> p_mcause:238
+R22195:22197 compcert.lib.Integers <> int abbrev
+binder 22186:22192 <> p_mtval:239
+R22208:22226 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 22201:22205 <> p_ks1:240
+R22231:22233 compcert.common.Errors <> res ind
+R22235:22253 Verimz.Barocqmz <> Br_interface_kernel rec
+R22282:22308 Verimz.Barocqmz <> br_interface_kernel_current proj
+R22275:22279 Verimz.Barocqmz <> p_ks1:240 var
+binder 22264:22270 <> u_index:241
+R22316:22320 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22326:22329 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22374:22379 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22330:22359 Verimz.Barocqmz <> Br_ecall_ecall_csrs_mie_KERNEL def
+R22361:22367 Verimz.Barocqmz <> u_index:241 var
+R22369:22373 Verimz.Barocqmz <> p_ks1:240 var
+binder 22321:22325 <> u_ks2:242
+R22380:22384 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22392:22395 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22428:22433 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22396:22421 Verimz.Barocqmz <> Br_ecall_get_current_regA7 def
+R22423:22427 Verimz.Barocqmz <> u_ks2:242 var
+binder 22385:22391 <> u_regA7:243
+R22452:22458 Verimz.Barocqmz <> u_regA7:243 var
+binder 22438:22447 <> u_ecall_id:244
+R22469:22475 compcert.lib.Integers Int ltu def
+R22477:22486 Verimz.Barocqmz <> u_ecall_id:244 var
+R22488:22504 Verimz.Barocqmz <> Br_ecall_N_ECALLS def
+R23521:23523 BarocqComp.common.Monads MonError ret def
+R23525:23529 Verimz.Barocqmz <> u_ks2:242 var
+R22520:22525 compcert.lib.Integers Int eq def
+R22527:22536 Verimz.Barocqmz <> u_ecall_id:244 var
+R22538:22560 Verimz.Barocqmz <> Br_ecall_ECL_EXCPT_VECT def
+R22662:22667 compcert.lib.Integers Int eq def
+R22669:22678 Verimz.Barocqmz <> u_ecall_id:244 var
+R22680:22702 Verimz.Barocqmz <> Br_ecall_ECL_INTRP_VECT def
+R22804:22809 compcert.lib.Integers Int eq def
+R22811:22820 Verimz.Barocqmz <> u_ecall_id:244 var
+R22822:22842 Verimz.Barocqmz <> Br_ecall_ECL_CSRS_MIE def
+R23021:23026 compcert.lib.Integers Int eq def
+R23028:23037 Verimz.Barocqmz <> u_ecall_id:244 var
+R23039:23059 Verimz.Barocqmz <> Br_ecall_ECL_CSRC_MIE def
+R23238:23243 compcert.lib.Integers Int eq def
+R23245:23254 Verimz.Barocqmz <> u_ecall_id:244 var
+R23256:23272 Verimz.Barocqmz <> Br_ecall_ECL_SEND def
+R23368:23373 compcert.lib.Integers Int eq def
+R23375:23384 Verimz.Barocqmz <> u_ecall_id:244 var
+R23386:23402 Verimz.Barocqmz <> Br_ecall_ECL_RECV def
+R23500:23502 BarocqComp.common.Monads MonError ret def
+R23504:23508 Verimz.Barocqmz <> u_ks2:242 var
+R23416:23420 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23427:23430 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23464:23473 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23431:23449 Verimz.Barocqmz <> Br_ecall_ecall_recv def
+R23451:23457 Verimz.Barocqmz <> u_index:241 var
+R23459:23463 Verimz.Barocqmz <> u_ks2:242 var
+binder 23421:23426 <> u_ks22:245
+R23474:23476 BarocqComp.common.Monads MonError ret def
+R23478:23483 Verimz.Barocqmz <> u_ks22:245 var
+R23286:23290 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23297:23300 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23334:23343 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23301:23319 Verimz.Barocqmz <> Br_ecall_ecall_send def
+R23321:23327 Verimz.Barocqmz <> u_index:241 var
+R23329:23333 Verimz.Barocqmz <> u_ks2:242 var
+binder 23291:23296 <> u_ks22:246
+R23344:23346 BarocqComp.common.Monads MonError ret def
+R23348:23353 Verimz.Barocqmz <> u_ks22:246 var
+R23073:23077 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23084:23087 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23132:23141 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23088:23117 Verimz.Barocqmz <> Br_ecall_ecall_csrc_mie_CALLER def
+R23119:23125 Verimz.Barocqmz <> u_index:241 var
+R23127:23131 Verimz.Barocqmz <> u_ks2:242 var
+binder 23078:23083 <> u_ks22:247
+R23142:23146 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23154:23157 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23203:23212 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23158:23187 Verimz.Barocqmz <> Br_ecall_ecall_csrc_mie_KERNEL def
+R23189:23195 Verimz.Barocqmz <> u_index:241 var
+R23197:23202 Verimz.Barocqmz <> u_ks22:247 var
+binder 23147:23153 <> u_ks222:248
+R23213:23215 BarocqComp.common.Monads MonError ret def
+R23217:23223 Verimz.Barocqmz <> u_ks222:248 var
+R22856:22860 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22867:22870 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22915:22924 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22871:22900 Verimz.Barocqmz <> Br_ecall_ecall_csrs_mie_CALLER def
+R22902:22908 Verimz.Barocqmz <> u_index:241 var
+R22910:22914 Verimz.Barocqmz <> u_ks2:242 var
+binder 22861:22866 <> u_ks22:249
+R22925:22929 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22937:22940 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22986:22995 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22941:22970 Verimz.Barocqmz <> Br_ecall_ecall_csrs_mie_KERNEL def
+R22972:22978 Verimz.Barocqmz <> u_index:241 var
+R22980:22985 Verimz.Barocqmz <> u_ks22:249 var
+binder 22930:22936 <> u_ks222:250
+R22996:22998 BarocqComp.common.Monads MonError ret def
+R23000:23006 Verimz.Barocqmz <> u_ks222:250 var
+R22716:22720 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22727:22730 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22770:22779 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22731:22755 Verimz.Barocqmz <> Br_ecall_ecall_intrp_vect def
+R22757:22763 Verimz.Barocqmz <> u_index:241 var
+R22765:22769 Verimz.Barocqmz <> u_ks2:242 var
+binder 22721:22726 <> u_ks22:251
+R22780:22782 BarocqComp.common.Monads MonError ret def
+R22784:22789 Verimz.Barocqmz <> u_ks22:251 var
+R22574:22578 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22585:22588 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22628:22637 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R22589:22613 Verimz.Barocqmz <> Br_ecall_ecall_excpt_vect def
+R22615:22621 Verimz.Barocqmz <> u_index:241 var
+R22623:22627 Verimz.Barocqmz <> u_ks2:242 var
+binder 22579:22584 <> u_ks22:252
+R22638:22640 BarocqComp.common.Monads MonError ret def
+R22642:22647 Verimz.Barocqmz <> u_ks22:252 var
+def 23544:23564 <> Br_ecall_handle_ecall
+R23577:23579 compcert.lib.Integers <> int abbrev
+binder 23567:23574 <> p_mcause:253
+R23592:23594 compcert.lib.Integers <> int abbrev
+binder 23583:23589 <> p_mtval:254
+R23604:23622 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 23598:23601 <> p_ks:255
+R23627:23629 compcert.common.Errors <> res ind
+R23631:23649 Verimz.Barocqmz <> Br_interface_kernel rec
+R23674:23700 Verimz.Barocqmz <> br_interface_kernel_current proj
+R23668:23671 Verimz.Barocqmz <> p_ks:255 var
+binder 23660:23663 <> u_id:256
+R23729:23753 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R23723:23726 Verimz.Barocqmz <> p_ks:255 var
+binder 23712:23718 <> u_zones:257
+R23761:23765 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23774:23777 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23814:23819 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23778:23787 BarocqComp.common.Barray <> get def
+R23798:23807 BarocqComp.common.Intop U64 of_u32 def
+R23809:23812 Verimz.Barocqmz <> u_id:256 var
+R23789:23795 Verimz.Barocqmz <> u_zones:257 var
+binder 23766:23773 <> u_caller:258
+R23844:23865 Verimz.Barocqmz <> br_interface_zone_regs proj
+R23834:23841 Verimz.Barocqmz <> u_caller:258 var
+binder 23824:23829 <> u_regs:259
+R23873:23877 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23884:23891 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24031:24038 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23892:23896 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23899:23902 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23949:23956 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R23903:23912 BarocqComp.common.Barray <> get def
+R23922:23931 BarocqComp.common.Intop U64 of_u32 def
+R23933:23947 Verimz.Barocqmz <> Br_interface_PC def
+R23914:23919 Verimz.Barocqmz <> u_regs:259 var
+binder 23897:23898 <> b0:260
+R23957:23966 BarocqComp.common.Barray <> set def
+R24005:24011 compcert.lib.Integers Int add def
+R24013:24014 Verimz.Barocqmz <> b0:260 var
+R24017:24024 compcert.lib.Integers Int repr def
+R23976:23985 BarocqComp.common.Intop U64 of_u32 def
+R23987:24001 Verimz.Barocqmz <> Br_interface_PC def
+R23968:23973 Verimz.Barocqmz <> u_regs:259 var
+binder 23878:23883 <> u_regs:261
+R24063:24066 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24089:24092 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24099:24101 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24067:24088 Verimz.Barocqmz <> br_interface_zone_regs proj
+R24093:24098 Verimz.Barocqmz <> u_regs:261 var
+R24055:24062 Verimz.Barocqmz <> u_caller:258 var
+binder 24043:24050 <> u_caller:262
+R24108:24112 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24120:24123 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24169:24174 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24124:24133 BarocqComp.common.Barray <> set def
+R24161:24168 Verimz.Barocqmz <> u_caller:262 var
+R24144:24153 BarocqComp.common.Intop U64 of_u32 def
+R24155:24158 Verimz.Barocqmz <> u_id:256 var
+R24135:24141 Verimz.Barocqmz <> u_zones:257 var
+binder 24113:24119 <> u_zones:263
+R24192:24195 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24221:24224 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24232:24234 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R24196:24220 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R24225:24231 Verimz.Barocqmz <> u_zones:263 var
+R24188:24191 Verimz.Barocqmz <> p_ks:255 var
+binder 24179:24183 <> u_ks1:264
+R24241:24269 Verimz.Barocqmz <> Br_ecall_handle_ecall_wrapped def
+R24271:24278 Verimz.Barocqmz <> p_mcause:253 var
+R24280:24286 Verimz.Barocqmz <> p_mtval:254 var
+R24288:24292 Verimz.Barocqmz <> u_ks1:264 var
+def 24307:24333 <> Br_trap_EXCPT_ILLEGAL_INSTR
+R24337:24339 compcert.lib.Integers <> int abbrev
+R24344:24351 compcert.lib.Integers Int repr def
+def 24370:24394 <> Br_trap_EXCPT_ECALL_UMODE
+R24398:24400 compcert.lib.Integers <> int abbrev
+R24405:24412 compcert.lib.Integers Int repr def
+def 24431:24455 <> Br_trap_EXCPT_ECALL_SMODE
+R24459:24461 compcert.lib.Integers <> int abbrev
+R24466:24473 compcert.lib.Integers Int repr def
+def 24492:24516 <> Br_trap_EXCPT_ECALL_MMODE
+R24520:24522 compcert.lib.Integers <> int abbrev
+R24527:24534 compcert.lib.Integers Int repr def
+def 24554:24580 <> Br_trap_INTRP_MACHINE_TIMER
+R24584:24586 compcert.lib.Integers <> int abbrev
+R24591:24598 compcert.lib.Integers Int repr def
+def 24617:24631 <> Br_trap_OP_URET
+R24635:24637 compcert.lib.Integers <> int abbrev
+R24642:24649 compcert.lib.Integers Int repr def
+def 24674:24703 <> Br_trap_set_ks_mie_and_bitwise
+R24712:24730 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 24706:24709 <> p_ks:265
+R24735:24737 compcert.common.Errors <> res ind
+R24739:24757 Verimz.Barocqmz <> Br_interface_kernel rec
+R24785:24811 Verimz.Barocqmz <> br_interface_kernel_current proj
+R24779:24782 Verimz.Barocqmz <> p_ks:265 var
+binder 24768:24774 <> u_index:266
+R24840:24864 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R24834:24837 Verimz.Barocqmz <> p_ks:265 var
+binder 24823:24829 <> u_zones:267
+R24872:24876 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24883:24886 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24926:24931 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R24887:24896 BarocqComp.common.Barray <> get def
+R24907:24916 BarocqComp.common.Intop U64 of_u32 def
+R24918:24924 Verimz.Barocqmz <> u_index:266 var
+R24898:24904 Verimz.Barocqmz <> u_zones:267 var
+binder 24877:24882 <> u_zone:268
+R24953:24973 Verimz.Barocqmz <> br_interface_zone_uie proj
+R24945:24950 Verimz.Barocqmz <> u_zone:268 var
+binder 24936:24940 <> u_uie:269
+R25000:25022 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R24994:24997 Verimz.Barocqmz <> p_ks:265 var
+binder 24985:24989 <> u_mie:270
+R25043:25071 Verimz.Barocqmz <> Br_interface_and_with_bitwise def
+R25073:25077 Verimz.Barocqmz <> u_mie:270 var
+R25079:25083 Verimz.Barocqmz <> u_uie:269 var
+binder 25034:25038 <> u_res:271
+R25090:25092 BarocqComp.common.Monads MonError ret def
+R25099:25102 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R25126:25129 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R25135:25137 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R25103:25125 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R25130:25134 Verimz.Barocqmz <> u_res:271 var
+R25095:25098 Verimz.Barocqmz <> p_ks:265 var
+def 25153:25184 <> Br_trap_get_current_zone_HANDLER
+R25197:25199 compcert.lib.Integers <> int abbrev
+binder 25187:25194 <> p_mcause:272
+R25209:25227 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 25203:25206 <> p_ks:273
+R25232:25234 compcert.common.Errors <> res ind
+R25236:25238 compcert.lib.Integers <> int abbrev
+R25268:25294 Verimz.Barocqmz <> br_interface_kernel_current proj
+R25262:25265 Verimz.Barocqmz <> p_ks:273 var
+binder 25249:25257 <> u_current:274
+R25302:25306 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25313:25316 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25385:25390 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25317:25326 BarocqComp.common.Barray <> get def
+R25364:25373 BarocqComp.common.Intop U64 of_u32 def
+R25375:25383 Verimz.Barocqmz <> u_current:274 var
+R25335:25359 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R25329:25332 Verimz.Barocqmz <> p_ks:273 var
+binder 25307:25312 <> u_zone:275
+R25391:25395 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25405:25408 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25485:25490 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25409:25418 BarocqComp.common.Barray <> get def
+R25465:25474 BarocqComp.common.Intop U64 of_u32 def
+R25476:25483 Verimz.Barocqmz <> p_mcause:272 var
+R25429:25460 Verimz.Barocqmz <> br_interface_zone_excpt_handlers proj
+R25421:25426 Verimz.Barocqmz <> u_zone:275 var
+binder 25396:25404 <> u_handler:276
+R25491:25493 BarocqComp.common.Monads MonError ret def
+R25495:25503 Verimz.Barocqmz <> u_handler:276 var
+def 25518:25549 <> Br_trap_get_current_zone_handler
+R25562:25564 compcert.lib.Integers <> int abbrev
+binder 25552:25559 <> p_mcause:277
+R25574:25592 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 25568:25571 <> p_ks:278
+R25597:25599 compcert.common.Errors <> res ind
+R25601:25603 compcert.lib.Integers <> int abbrev
+R25631:25657 Verimz.Barocqmz <> br_interface_kernel_current proj
+R25625:25628 Verimz.Barocqmz <> p_ks:278 var
+binder 25614:25620 <> u_index:279
+R25686:25710 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R25680:25683 Verimz.Barocqmz <> p_ks:278 var
+binder 25669:25675 <> u_zones:280
+R25718:25722 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25729:25732 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25772:25777 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25733:25742 BarocqComp.common.Barray <> get def
+R25753:25762 BarocqComp.common.Intop U64 of_u32 def
+R25764:25770 Verimz.Barocqmz <> u_index:279 var
+R25744:25750 Verimz.Barocqmz <> u_zones:280 var
+binder 25723:25728 <> u_zone:281
+R25778:25782 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25792:25795 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25872:25877 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R25796:25805 BarocqComp.common.Barray <> get def
+R25852:25861 BarocqComp.common.Intop U64 of_u32 def
+R25863:25870 Verimz.Barocqmz <> p_mcause:277 var
+R25816:25847 Verimz.Barocqmz <> br_interface_zone_excpt_handlers proj
+R25808:25813 Verimz.Barocqmz <> u_zone:281 var
+binder 25783:25791 <> u_handler:282
+R25878:25880 BarocqComp.common.Monads MonError ret def
+R25882:25890 Verimz.Barocqmz <> u_handler:282 var
+def 25905:25930 <> Br_trap_get_i_handler_ZONE
+R25943:25945 compcert.lib.Integers <> int abbrev
+binder 25933:25940 <> p_mcause:283
+R25955:25973 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 25949:25952 <> p_ks:284
+R25978:25980 compcert.common.Errors <> res ind
+R25982:25984 compcert.lib.Integers <> int abbrev
+R26017:26050 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R26011:26014 Verimz.Barocqmz <> p_ks:284 var
+binder 25995:26006 <> u_i_handlers:285
+R26058:26062 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26074:26081 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26174:26181 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26082:26086 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26089:26092 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26127:26134 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26093:26117 Verimz.Barocqmz <> Br_interface_MCAUSE_INTRP def
+R26119:26126 Verimz.Barocqmz <> p_mcause:283 var
+binder 26087:26088 <> b0:286
+R26135:26144 BarocqComp.common.Barray <> get def
+R26160:26169 BarocqComp.common.Intop U64 of_u32 def
+R26171:26172 Verimz.Barocqmz <> b0:286 var
+R26146:26157 Verimz.Barocqmz <> u_i_handlers:285 var
+binder 26063:26073 <> u_i_handler:287
+R26212:26245 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R26199:26209 Verimz.Barocqmz <> u_i_handler:287 var
+binder 26186:26194 <> u_handler:288
+R26253:26255 BarocqComp.common.Monads MonError ret def
+R26271:26301 Verimz.Barocqmz <> br_interface_intrp_handler_zone proj
+R26258:26268 Verimz.Barocqmz <> u_i_handler:287 var
+def 26318:26346 <> Br_trap_get_i_handler_HANDLER
+R26359:26361 compcert.lib.Integers <> int abbrev
+binder 26349:26356 <> p_mcause:289
+R26371:26389 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 26365:26368 <> p_ks:290
+R26394:26396 compcert.common.Errors <> res ind
+R26398:26400 compcert.lib.Integers <> int abbrev
+R26433:26466 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R26427:26430 Verimz.Barocqmz <> p_ks:290 var
+binder 26411:26422 <> u_i_handlers:291
+R26474:26478 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26490:26497 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26590:26597 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26498:26502 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26505:26508 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26543:26550 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26509:26533 Verimz.Barocqmz <> Br_interface_MCAUSE_INTRP def
+R26535:26542 Verimz.Barocqmz <> p_mcause:289 var
+binder 26503:26504 <> b0:292
+R26551:26560 BarocqComp.common.Barray <> get def
+R26576:26585 BarocqComp.common.Intop U64 of_u32 def
+R26587:26588 Verimz.Barocqmz <> b0:292 var
+R26562:26573 Verimz.Barocqmz <> u_i_handlers:291 var
+binder 26479:26489 <> u_i_handler:293
+R26628:26661 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R26615:26625 Verimz.Barocqmz <> u_i_handler:293 var
+binder 26602:26610 <> u_handler:294
+R26669:26671 BarocqComp.common.Monads MonError ret def
+R26687:26720 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R26674:26684 Verimz.Barocqmz <> u_i_handler:293 var
+def 26737:26769 <> Br_trap_wrapped_handle_user_intrp
+R26782:26784 compcert.lib.Integers <> int abbrev
+binder 26772:26779 <> p_mcause:295
+R26797:26799 compcert.lib.Integers <> int abbrev
+binder 26788:26794 <> p_mtval:296
+R26809:26827 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 26803:26806 <> p_ks:297
+R26832:26834 compcert.common.Errors <> res ind
+R26836:26854 Verimz.Barocqmz <> Br_interface_kernel rec
+R26887:26920 Verimz.Barocqmz <> br_interface_kernel_intrp_handlers proj
+R26881:26884 Verimz.Barocqmz <> p_ks:297 var
+binder 26865:26876 <> u_i_handlers:298
+R26928:26932 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26944:26951 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27044:27051 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26952:26956 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26959:26962 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26997:27004 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R26963:26987 Verimz.Barocqmz <> Br_interface_MCAUSE_INTRP def
+R26989:26996 Verimz.Barocqmz <> p_mcause:295 var
+binder 26957:26958 <> b0:299
+R27005:27014 BarocqComp.common.Barray <> get def
+R27030:27039 BarocqComp.common.Intop U64 of_u32 def
+R27041:27042 Verimz.Barocqmz <> b0:299 var
+R27016:27027 Verimz.Barocqmz <> u_i_handlers:298 var
+binder 26933:26943 <> u_i_handler:300
+R27082:27115 Verimz.Barocqmz <> br_interface_intrp_handler_handler proj
+R27069:27079 Verimz.Barocqmz <> u_i_handler:300 var
+binder 27056:27064 <> u_handler:301
+R27127:27134 compcert.lib.Integers Int cmpu def
+R27136:27138 compcert.lib.Integers <> Cgt constr
+R27140:27148 Verimz.Barocqmz <> u_handler:301 var
+R27151:27158 compcert.lib.Integers Int repr def
+R28305:28307 BarocqComp.common.Monads MonError ret def
+R28309:28312 Verimz.Barocqmz <> p_ks:297 var
+R27196:27220 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R27190:27193 Verimz.Barocqmz <> p_ks:297 var
+binder 27179:27185 <> u_zones:302
+R27258:27288 Verimz.Barocqmz <> br_interface_intrp_handler_zone proj
+R27245:27255 Verimz.Barocqmz <> u_i_handler:300 var
+binder 27234:27240 <> u_index:303
+R27321:27347 Verimz.Barocqmz <> br_interface_kernel_current proj
+R27315:27318 Verimz.Barocqmz <> p_ks:297 var
+binder 27302:27310 <> u_current:304
+R27357:27361 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27368:27371 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27411:27418 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27372:27381 BarocqComp.common.Barray <> get def
+R27392:27401 BarocqComp.common.Intop U64 of_u32 def
+R27403:27409 Verimz.Barocqmz <> u_index:303 var
+R27383:27389 Verimz.Barocqmz <> u_zones:302 var
+binder 27362:27367 <> u_zone:305
+R27419:27423 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27430:27439 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27581:27592 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27440:27444 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27447:27450 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27524:27533 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27451:27460 BarocqComp.common.Barray <> get def
+R27497:27506 BarocqComp.common.Intop U64 of_u32 def
+R27508:27522 Verimz.Barocqmz <> Br_interface_PC def
+R27471:27492 Verimz.Barocqmz <> br_interface_zone_regs proj
+R27463:27468 Verimz.Barocqmz <> u_zone:305 var
+binder 27445:27446 <> b1:306
+R27534:27536 BarocqComp.common.Monads MonError ret def
+R27545:27548 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27571:27574 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27577:27579 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27549:27570 Verimz.Barocqmz <> br_interface_zone_uepc proj
+R27575:27576 Verimz.Barocqmz <> b1:306 var
+R27539:27544 Verimz.Barocqmz <> u_zone:305 var
+binder 27424:27429 <> u_zone:307
+R27613:27616 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27641:27644 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27653:27655 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27617:27640 Verimz.Barocqmz <> br_interface_zone_ucause proj
+R27645:27652 Verimz.Barocqmz <> p_mcause:295 var
+R27607:27612 Verimz.Barocqmz <> u_zone:307 var
+binder 27597:27602 <> u_zone:308
+R27684:27687 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27711:27714 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27722:27724 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27688:27710 Verimz.Barocqmz <> br_interface_zone_utval proj
+R27715:27721 Verimz.Barocqmz <> p_mtval:296 var
+R27678:27683 Verimz.Barocqmz <> u_zone:308 var
+binder 27668:27673 <> u_zone:309
+R27755:27776 Verimz.Barocqmz <> br_interface_zone_regs proj
+R27747:27752 Verimz.Barocqmz <> u_zone:309 var
+binder 27737:27742 <> u_regs:310
+R27810:27818 Verimz.Barocqmz <> u_handler:301 var
+binder 27790:27805 <> u_handler_casted:311
+R27827:27831 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27838:27841 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27905:27912 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R27842:27851 BarocqComp.common.Barray <> set def
+R27889:27904 Verimz.Barocqmz <> u_handler_casted:311 var
+R27861:27870 BarocqComp.common.Intop U64 of_u32 def
+R27872:27886 Verimz.Barocqmz <> Br_interface_PC def
+R27853:27858 Verimz.Barocqmz <> u_regs:310 var
+binder 27832:27837 <> u_regs:312
+R27933:27936 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27959:27962 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27969:27971 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R27937:27958 Verimz.Barocqmz <> br_interface_zone_regs proj
+R27963:27968 Verimz.Barocqmz <> u_regs:312 var
+R27927:27932 Verimz.Barocqmz <> u_zone:309 var
+binder 27917:27922 <> u_zone:313
+R28000:28003 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28029:28032 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28057:28059 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28004:28028 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R28033:28056 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R27994:27999 Verimz.Barocqmz <> u_zone:313 var
+binder 27984:27989 <> u_zone:314
+R28088:28091 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28121:28124 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28137:28139 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28092:28120 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R28125:28132 compcert.lib.Integers Int repr def
+R28082:28087 Verimz.Barocqmz <> u_zone:314 var
+binder 28072:28077 <> u_zone:315
+R28148:28152 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28160:28163 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28210:28217 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28164:28173 BarocqComp.common.Barray <> set def
+R28204:28209 Verimz.Barocqmz <> u_zone:315 var
+R28184:28193 BarocqComp.common.Intop U64 of_u32 def
+R28195:28201 Verimz.Barocqmz <> u_index:303 var
+R28175:28181 Verimz.Barocqmz <> u_zones:302 var
+binder 28153:28159 <> u_zones:316
+R28234:28237 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28263:28266 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28274:28276 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R28238:28262 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R28267:28273 Verimz.Barocqmz <> u_zones:316 var
+R28230:28233 Verimz.Barocqmz <> p_ks:297 var
+binder 28222:28225 <> u_ks:317
+R28285:28287 BarocqComp.common.Monads MonError ret def
+R28289:28292 Verimz.Barocqmz <> u_ks:317 var
+def 28327:28351 <> Br_trap_handle_user_intrp
+R28364:28366 compcert.lib.Integers <> int abbrev
+binder 28354:28361 <> p_mcause:318
+R28379:28381 compcert.lib.Integers <> int abbrev
+binder 28370:28376 <> p_mtval:319
+R28391:28409 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 28385:28388 <> p_ks:320
+R28414:28416 compcert.common.Errors <> res ind
+R28418:28436 Verimz.Barocqmz <> Br_interface_kernel rec
+R28443:28447 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28457:28460 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28504:28509 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28461:28489 Verimz.Barocqmz <> Br_trap_get_i_handler_HANDLER def
+R28491:28498 Verimz.Barocqmz <> p_mcause:318 var
+R28500:28503 Verimz.Barocqmz <> p_ks:320 var
+binder 28448:28456 <> u_handler:321
+R28510:28514 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28521:28524 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28565:28570 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28525:28550 Verimz.Barocqmz <> Br_trap_get_i_handler_ZONE def
+R28552:28559 Verimz.Barocqmz <> p_mcause:318 var
+R28561:28564 Verimz.Barocqmz <> p_ks:320 var
+binder 28515:28520 <> u_zone:322
+R28594:28620 Verimz.Barocqmz <> br_interface_kernel_current proj
+R28588:28591 Verimz.Barocqmz <> p_ks:320 var
+binder 28575:28583 <> u_current:323
+R28628:28632 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28638:28641 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28697:28702 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28642:28674 Verimz.Barocqmz <> Br_trap_wrapped_handle_user_intrp def
+R28676:28683 Verimz.Barocqmz <> p_mcause:318 var
+R28685:28691 Verimz.Barocqmz <> p_mtval:319 var
+R28693:28696 Verimz.Barocqmz <> p_ks:320 var
+binder 28633:28637 <> u_ks1:324
+R28703:28707 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28713:28716 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28753:28758 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R28717:28746 Verimz.Barocqmz <> Br_trap_set_ks_mie_and_bitwise def
+R28748:28752 Verimz.Barocqmz <> u_ks1:324 var
+binder 28708:28712 <> u_ks1:325
+R28763:28763 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28801:28806 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28836:28836 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28764:28771 compcert.lib.Integers Int cmpu def
+R28773:28775 compcert.lib.Integers <> Cgt constr
+R28777:28785 Verimz.Barocqmz <> u_handler:321 var
+R28788:28795 compcert.lib.Integers Int repr def
+R28807:28814 compcert.lib.Integers Int cmpu def
+R28816:28818 compcert.lib.Integers <> Cne constr
+R28820:28825 Verimz.Barocqmz <> u_zone:322 var
+R28827:28835 Verimz.Barocqmz <> u_current:323 var
+R28893:28895 BarocqComp.common.Monads MonError ret def
+R28897:28901 Verimz.Barocqmz <> u_ks1:325 var
+R28848:28867 Verimz.Barocqmz <> Br_sched_sched_intrp def
+R28869:28873 Verimz.Barocqmz <> u_ks1:325 var
+R28875:28880 Verimz.Barocqmz <> u_zone:322 var
+def 28916:28940 <> Br_trap_handle_user_excpt
+R28953:28955 compcert.lib.Integers <> int abbrev
+binder 28943:28950 <> p_mcause:326
+R28968:28970 compcert.lib.Integers <> int abbrev
+binder 28959:28965 <> p_mtval:327
+R28980:28998 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 28974:28977 <> p_ks:328
+R29003:29005 compcert.common.Errors <> res ind
+R29007:29025 Verimz.Barocqmz <> Br_interface_kernel rec
+R29032:29036 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29046:29049 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29096:29101 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29050:29081 Verimz.Barocqmz <> Br_trap_get_current_zone_handler def
+R29083:29090 Verimz.Barocqmz <> p_mcause:326 var
+R29092:29095 Verimz.Barocqmz <> p_ks:328 var
+binder 29037:29045 <> u_handler:329
+R29106:29113 compcert.lib.Integers Int cmpu def
+R29115:29117 compcert.lib.Integers <> Cgt constr
+R29119:29127 Verimz.Barocqmz <> u_handler:329 var
+R29130:29137 compcert.lib.Integers Int repr def
+R30460:30462 BarocqComp.common.Monads MonError ret def
+R30464:30467 Verimz.Barocqmz <> p_ks:328 var
+R29175:29201 Verimz.Barocqmz <> br_interface_kernel_current proj
+R29169:29172 Verimz.Barocqmz <> p_ks:328 var
+binder 29158:29164 <> u_index:330
+R29232:29256 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R29226:29229 Verimz.Barocqmz <> p_ks:328 var
+binder 29215:29221 <> u_zones:331
+R29266:29270 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29277:29280 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29320:29327 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29281:29290 BarocqComp.common.Barray <> get def
+R29301:29310 BarocqComp.common.Intop U64 of_u32 def
+R29312:29318 Verimz.Barocqmz <> u_index:330 var
+R29292:29298 Verimz.Barocqmz <> u_zones:331 var
+binder 29271:29276 <> u_zone:332
+R29328:29332 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29339:29348 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29490:29501 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29349:29353 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29356:29359 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29433:29442 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29360:29369 BarocqComp.common.Barray <> get def
+R29406:29415 BarocqComp.common.Intop U64 of_u32 def
+R29417:29431 Verimz.Barocqmz <> Br_interface_PC def
+R29380:29401 Verimz.Barocqmz <> br_interface_zone_regs proj
+R29372:29377 Verimz.Barocqmz <> u_zone:332 var
+binder 29354:29355 <> b0:333
+R29443:29445 BarocqComp.common.Monads MonError ret def
+R29454:29457 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29480:29483 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29486:29488 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29458:29479 Verimz.Barocqmz <> br_interface_zone_uepc proj
+R29484:29485 Verimz.Barocqmz <> b0:333 var
+R29448:29453 Verimz.Barocqmz <> u_zone:332 var
+binder 29333:29338 <> u_zone:334
+R29522:29525 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29550:29553 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29562:29564 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29526:29549 Verimz.Barocqmz <> br_interface_zone_ucause proj
+R29554:29561 Verimz.Barocqmz <> p_mcause:326 var
+R29516:29521 Verimz.Barocqmz <> u_zone:334 var
+binder 29506:29511 <> u_zone:335
+R29593:29596 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29620:29623 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29631:29633 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29597:29619 Verimz.Barocqmz <> br_interface_zone_utval proj
+R29624:29630 Verimz.Barocqmz <> p_mtval:327 var
+R29587:29592 Verimz.Barocqmz <> u_zone:335 var
+binder 29577:29582 <> u_zone:336
+R29664:29685 Verimz.Barocqmz <> br_interface_zone_regs proj
+R29656:29661 Verimz.Barocqmz <> u_zone:336 var
+binder 29646:29651 <> u_regs:337
+R29719:29727 Verimz.Barocqmz <> u_handler:329 var
+binder 29699:29714 <> u_handler_casted:338
+R29736:29740 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29747:29750 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29814:29821 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R29751:29760 BarocqComp.common.Barray <> set def
+R29798:29813 Verimz.Barocqmz <> u_handler_casted:338 var
+R29770:29779 BarocqComp.common.Intop U64 of_u32 def
+R29781:29795 Verimz.Barocqmz <> Br_interface_PC def
+R29762:29767 Verimz.Barocqmz <> u_regs:337 var
+binder 29741:29746 <> u_regs:339
+R29842:29845 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29868:29871 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29878:29880 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R29846:29867 Verimz.Barocqmz <> br_interface_zone_regs proj
+R29872:29877 Verimz.Barocqmz <> u_regs:339 var
+R29836:29841 Verimz.Barocqmz <> u_zone:336 var
+binder 29826:29831 <> u_zone:340
+R29914:29938 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R29906:29911 Verimz.Barocqmz <> u_zone:340 var
+binder 29893:29901 <> u_ustatus:341
+R29972:29979 compcert.lib.Integers Int cmpu def
+R29981:29983 compcert.lib.Integers <> Cgt constr
+R29986:29992 compcert.lib.Integers Int and def
+R29994:30002 Verimz.Barocqmz <> u_ustatus:341 var
+R30004:30027 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R30031:30038 compcert.lib.Integers Int repr def
+R30145:30150 Verimz.Barocqmz <> u_zone:340 var
+R30065:30068 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30094:30097 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30122:30124 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30069:30093 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R30098:30121 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R30059:30064 Verimz.Barocqmz <> u_zone:340 var
+binder 29952:29957 <> u_zone:342
+R30163:30167 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30175:30178 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30225:30232 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30179:30188 BarocqComp.common.Barray <> set def
+R30219:30224 Verimz.Barocqmz <> u_zone:342 var
+R30199:30208 BarocqComp.common.Intop U64 of_u32 def
+R30210:30216 Verimz.Barocqmz <> u_index:330 var
+R30190:30196 Verimz.Barocqmz <> u_zones:331 var
+binder 30168:30174 <> u_zones:343
+R30249:30252 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30278:30281 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30289:30291 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R30253:30277 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R30282:30288 Verimz.Barocqmz <> u_zones:343 var
+R30245:30248 Verimz.Barocqmz <> p_ks:328 var
+binder 30237:30240 <> u_ks:344
+R30304:30311 compcert.lib.Integers Int cmpu def
+R30313:30315 compcert.lib.Integers <> Cgt constr
+R30318:30324 compcert.lib.Integers Int and def
+R30326:30334 Verimz.Barocqmz <> u_ustatus:341 var
+R30336:30359 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R30363:30370 compcert.lib.Integers Int repr def
+R30440:30442 BarocqComp.common.Monads MonError ret def
+R30444:30447 Verimz.Barocqmz <> u_ks:344 var
+R30389:30418 Verimz.Barocqmz <> Br_trap_set_ks_mie_and_bitwise def
+R30420:30423 Verimz.Barocqmz <> u_ks:344 var
+def 30482:30500 <> Br_trap_handle_uret
+R30509:30527 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 30503:30506 <> p_ks:345
+R30532:30534 compcert.common.Errors <> res ind
+R30536:30554 Verimz.Barocqmz <> Br_interface_kernel rec
+R30582:30606 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R30576:30579 Verimz.Barocqmz <> p_ks:345 var
+binder 30565:30571 <> u_zones:346
+R30635:30661 Verimz.Barocqmz <> br_interface_kernel_current proj
+R30629:30632 Verimz.Barocqmz <> p_ks:345 var
+binder 30618:30624 <> u_index:347
+R30669:30673 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30680:30683 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30723:30728 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30684:30693 BarocqComp.common.Barray <> get def
+R30704:30713 BarocqComp.common.Intop U64 of_u32 def
+R30715:30721 Verimz.Barocqmz <> u_index:347 var
+R30695:30701 Verimz.Barocqmz <> u_zones:346 var
+binder 30674:30679 <> u_zone:348
+R30751:30771 Verimz.Barocqmz <> br_interface_zone_uie proj
+R30743:30748 Verimz.Barocqmz <> u_zone:348 var
+binder 30733:30738 <> u_zuie:349
+R30804:30828 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R30796:30801 Verimz.Barocqmz <> u_zone:348 var
+binder 30783:30791 <> u_ustatus:350
+R30858:30879 Verimz.Barocqmz <> br_interface_zone_regs proj
+R30850:30855 Verimz.Barocqmz <> u_zone:348 var
+binder 30840:30845 <> u_regs:351
+R30887:30891 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30898:30901 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30982:30987 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R30902:30911 BarocqComp.common.Barray <> set def
+R30958:30979 Verimz.Barocqmz <> br_interface_zone_uepc proj
+R30950:30955 Verimz.Barocqmz <> u_zone:348 var
+R30921:30930 BarocqComp.common.Intop U64 of_u32 def
+R30932:30946 Verimz.Barocqmz <> Br_interface_PC def
+R30913:30918 Verimz.Barocqmz <> u_regs:351 var
+binder 30892:30897 <> u_regs:352
+R31008:31011 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31034:31037 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31044:31046 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31012:31033 Verimz.Barocqmz <> br_interface_zone_regs proj
+R31038:31043 Verimz.Barocqmz <> u_regs:352 var
+R31002:31007 Verimz.Barocqmz <> u_zone:348 var
+binder 30992:30997 <> u_zone:353
+R31073:31076 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31101:31104 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31117:31119 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31077:31100 Verimz.Barocqmz <> br_interface_zone_ucause proj
+R31105:31112 compcert.lib.Integers Int repr def
+R31067:31072 Verimz.Barocqmz <> u_zone:353 var
+binder 31057:31062 <> u_zone:354
+R31146:31149 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31172:31175 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31188:31190 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31150:31171 Verimz.Barocqmz <> br_interface_zone_uepc proj
+R31176:31183 compcert.lib.Integers Int repr def
+R31140:31145 Verimz.Barocqmz <> u_zone:354 var
+binder 31130:31135 <> u_zone:355
+R31217:31220 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31244:31247 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31260:31262 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31221:31243 Verimz.Barocqmz <> br_interface_zone_utval proj
+R31248:31255 compcert.lib.Integers Int repr def
+R31211:31216 Verimz.Barocqmz <> u_zone:355 var
+binder 31201:31206 <> u_zone:356
+R31291:31298 compcert.lib.Integers Int cmpu def
+R31300:31302 compcert.lib.Integers <> Cgt constr
+R31305:31311 compcert.lib.Integers Int and def
+R31313:31321 Verimz.Barocqmz <> u_ustatus:350 var
+R31323:31346 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R31350:31357 compcert.lib.Integers Int repr def
+R31530:31535 Verimz.Barocqmz <> u_zone:356 var
+R31389:31394 compcert.lib.Integers Int or def
+R31405:31429 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R31397:31402 Verimz.Barocqmz <> u_zone:356 var
+R31433:31456 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+binder 31380:31384 <> u_res:357
+R31473:31476 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31502:31505 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31511:31513 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31477:31501 Verimz.Barocqmz <> br_interface_zone_ustatus proj
+R31506:31510 Verimz.Barocqmz <> u_res:357 var
+R31467:31472 Verimz.Barocqmz <> u_zone:356 var
+binder 31273:31278 <> u_zone:358
+R31544:31548 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31556:31559 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31606:31611 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31560:31569 BarocqComp.common.Barray <> set def
+R31600:31605 Verimz.Barocqmz <> u_zone:358 var
+R31580:31589 BarocqComp.common.Intop U64 of_u32 def
+R31591:31597 Verimz.Barocqmz <> u_index:347 var
+R31571:31577 Verimz.Barocqmz <> u_zones:346 var
+binder 31549:31555 <> u_zones:359
+R31628:31631 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31657:31660 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31668:31670 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31632:31656 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R31661:31667 Verimz.Barocqmz <> u_zones:359 var
+R31624:31627 Verimz.Barocqmz <> p_ks:345 var
+binder 31616:31619 <> u_ks:360
+R31677:31681 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31687:31694 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32065:32072 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31699:31706 compcert.lib.Integers Int cmpu def
+R31708:31710 compcert.lib.Integers <> Cgt constr
+R31713:31719 compcert.lib.Integers Int and def
+R31721:31729 Verimz.Barocqmz <> u_ustatus:350 var
+R31731:31754 Verimz.Barocqmz <> Br_interface_USTATUS_PIE def
+R31758:31765 compcert.lib.Integers Int repr def
+R31983:31986 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32010:32013 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32044:32046 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31987:32009 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R32020:32042 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R32014:32017 Verimz.Barocqmz <> u_ks:360 var
+R31979:31982 Verimz.Barocqmz <> u_ks:360 var
+binder 31971:31974 <> u_ks:361
+R32057:32059 BarocqComp.common.Monads MonError ret def
+R32061:32064 Verimz.Barocqmz <> u_ks:361 var
+R31784:31788 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31798:31801 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31864:31873 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R31802:31823 Verimz.Barocqmz <> Br_interface_binary_or def
+R31832:31854 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R31826:31829 Verimz.Barocqmz <> u_ks:360 var
+R31858:31863 Verimz.Barocqmz <> u_zuie:349 var
+binder 31789:31797 <> u_new_mie:362
+R31890:31893 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31917:31920 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31930:31932 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R31894:31916 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R31921:31929 Verimz.Barocqmz <> u_new_mie:362 var
+R31886:31889 Verimz.Barocqmz <> u_ks:360 var
+binder 31878:31881 <> u_ks:363
+R31943:31945 BarocqComp.common.Monads MonError ret def
+R31947:31950 Verimz.Barocqmz <> u_ks:363 var
+binder 31682:31686 <> u_ks1:364
+R32073:32077 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32080:32083 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32150:32155 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32084:32093 BarocqComp.common.Barray <> get def
+R32131:32140 BarocqComp.common.Intop U64 of_u32 def
+R32142:32148 Verimz.Barocqmz <> u_index:347 var
+R32102:32126 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R32096:32099 Verimz.Barocqmz <> u_ks:360 var
+binder 32078:32079 <> b0:365
+R32160:32167 compcert.lib.Integers Int cmpu def
+R32169:32171 compcert.lib.Integers <> Cgt constr
+R32178:32206 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R32174:32175 Verimz.Barocqmz <> b0:365 var
+R32211:32218 compcert.lib.Integers Int repr def
+R32832:32834 BarocqComp.common.Monads MonError ret def
+R32836:32839 Verimz.Barocqmz <> u_ks:360 var
+R32235:32239 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32244:32253 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32380:32391 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32264:32286 Verimz.Barocqmz <> Br_interface_read_mtime def
+R32295:32316 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R32289:32292 Verimz.Barocqmz <> u_ks:360 var
+binder 32258:32259 <> b1:366
+R32329:32331 BarocqComp.common.Monads MonError ret def
+R32338:32341 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32370:32373 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32376:32378 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32342:32369 Verimz.Barocqmz <> br_interface_kernel_deadline proj
+R32374:32375 Verimz.Barocqmz <> b1:366 var
+R32334:32337 Verimz.Barocqmz <> u_ks:360 var
+binder 32240:32243 <> u_ks:367
+R32413:32437 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R32407:32410 Verimz.Barocqmz <> u_ks:367 var
+binder 32396:32402 <> u_zones:368
+R32468:32494 Verimz.Barocqmz <> br_interface_kernel_current proj
+R32462:32465 Verimz.Barocqmz <> u_ks:367 var
+binder 32451:32457 <> u_index:369
+R32504:32508 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32518:32521 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32561:32568 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32522:32531 BarocqComp.common.Barray <> get def
+R32542:32551 BarocqComp.common.Intop U64 of_u32 def
+R32553:32559 Verimz.Barocqmz <> u_index:369 var
+R32533:32539 Verimz.Barocqmz <> u_zones:368 var
+binder 32509:32517 <> u_current:370
+R32595:32598 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32628:32631 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32644:32646 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32599:32627 Verimz.Barocqmz <> br_interface_zone_intrp_deleg proj
+R32632:32639 compcert.lib.Integers Int repr def
+R32586:32594 Verimz.Barocqmz <> u_current:370 var
+binder 32573:32581 <> u_current:371
+R32655:32659 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32667:32670 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32720:32727 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R32671:32680 BarocqComp.common.Barray <> set def
+R32711:32719 Verimz.Barocqmz <> u_current:371 var
+R32691:32700 BarocqComp.common.Intop U64 of_u32 def
+R32702:32708 Verimz.Barocqmz <> u_index:369 var
+R32682:32688 Verimz.Barocqmz <> u_zones:368 var
+binder 32660:32666 <> u_zones:372
+R32744:32747 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32773:32776 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32784:32786 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R32748:32772 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R32777:32783 Verimz.Barocqmz <> u_zones:372 var
+R32740:32743 Verimz.Barocqmz <> u_ks:367 var
+binder 32732:32735 <> u_ks:373
+R32795:32814 Verimz.Barocqmz <> Br_sched_sched_yield def
+R32816:32819 Verimz.Barocqmz <> u_ks:373 var
+def 32854:32887 <> Br_trap_handle_illegal_instruction
+R32900:32902 compcert.lib.Integers <> int abbrev
+binder 32890:32897 <> p_mcause:374
+R32915:32917 compcert.lib.Integers <> int abbrev
+binder 32906:32912 <> p_mtval:375
+R32927:32945 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 32921:32924 <> p_ks:376
+R32950:32952 compcert.common.Errors <> res ind
+R32954:32972 Verimz.Barocqmz <> Br_interface_kernel rec
+R32983:32988 compcert.lib.Integers Int eq def
+R32990:32996 Verimz.Barocqmz <> p_mtval:375 var
+R32998:33012 Verimz.Barocqmz <> Br_trap_OP_URET def
+R33060:33062 BarocqComp.common.Monads MonError ret def
+R33064:33067 Verimz.Barocqmz <> p_ks:376 var
+R33024:33042 Verimz.Barocqmz <> Br_trap_handle_uret def
+R33044:33047 Verimz.Barocqmz <> p_ks:376 var
+def 33082:33100 <> Br_trap_handle_trap
+R33113:33115 compcert.lib.Integers <> int abbrev
+binder 33103:33110 <> p_mcause:377
+R33128:33130 compcert.lib.Integers <> int abbrev
+binder 33119:33125 <> p_mtval:378
+R33140:33158 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 33134:33137 <> p_ks:379
+R33163:33165 compcert.common.Errors <> res ind
+R33167:33185 Verimz.Barocqmz <> Br_interface_kernel rec
+R33215:33224 BarocqComp.common.Intop I32 of_u32 def
+R33226:33233 Verimz.Barocqmz <> p_mcause:377 var
+binder 33196:33210 <> u_mcause_casted:380
+R33240:33244 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33250:33257 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33804:33811 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33262:33267 compcert.lib.Integers Int lt def
+R33269:33283 Verimz.Barocqmz <> u_mcause_casted:380 var
+R33286:33293 compcert.lib.Integers Int repr def
+R33518:33523 compcert.lib.Integers Int eq def
+R33525:33532 Verimz.Barocqmz <> p_mcause:377 var
+R33534:33560 Verimz.Barocqmz <> Br_trap_EXCPT_ILLEGAL_INSTR def
+R33644:33649 compcert.lib.Integers Int eq def
+R33651:33658 Verimz.Barocqmz <> p_mcause:377 var
+R33660:33684 Verimz.Barocqmz <> Br_trap_EXCPT_ECALL_UMODE def
+R33757:33781 Verimz.Barocqmz <> Br_trap_handle_user_excpt def
+R33783:33790 Verimz.Barocqmz <> p_mcause:377 var
+R33792:33798 Verimz.Barocqmz <> p_mtval:378 var
+R33800:33803 Verimz.Barocqmz <> p_ks:379 var
+R33698:33718 Verimz.Barocqmz <> Br_ecall_handle_ecall def
+R33720:33727 Verimz.Barocqmz <> p_mcause:377 var
+R33729:33735 Verimz.Barocqmz <> p_mtval:378 var
+R33737:33740 Verimz.Barocqmz <> p_ks:379 var
+R33574:33607 Verimz.Barocqmz <> Br_trap_handle_illegal_instruction def
+R33609:33616 Verimz.Barocqmz <> p_mcause:377 var
+R33618:33624 Verimz.Barocqmz <> p_mtval:378 var
+R33626:33629 Verimz.Barocqmz <> p_ks:379 var
+R33312:33316 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33322:33325 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33360:33369 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33326:33350 Verimz.Barocqmz <> Br_interface_MCAUSE_INTRP def
+R33352:33359 Verimz.Barocqmz <> p_mcause:377 var
+binder 33317:33321 <> u_res:381
+R33374:33379 compcert.lib.Integers Int eq def
+R33381:33385 Verimz.Barocqmz <> u_res:381 var
+R33387:33413 Verimz.Barocqmz <> Br_trap_INTRP_MACHINE_TIMER def
+R33457:33481 Verimz.Barocqmz <> Br_trap_handle_user_intrp def
+R33483:33490 Verimz.Barocqmz <> p_mcause:377 var
+R33492:33498 Verimz.Barocqmz <> p_mtval:378 var
+R33500:33503 Verimz.Barocqmz <> p_ks:379 var
+R33429:33431 BarocqComp.common.Monads MonError ret def
+R33433:33436 Verimz.Barocqmz <> p_ks:379 var
+binder 33245:33249 <> u_ks1:382
+R33812:33825 Verimz.Barocqmz <> Br_sched_sched def
+R33827:33831 Verimz.Barocqmz <> u_ks1:382 var
+def 33846:33859 <> Br_kernel_main
+R33868:33886 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 33862:33865 <> p_ks:383
+R33891:33893 compcert.common.Errors <> res ind
+R33895:33913 Verimz.Barocqmz <> Br_interface_kernel rec
+R33920:33924 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33929:33932 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34021:34026 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R33933:33969 Verimz.Barocqmz <> Br_interface_csr_write_asm_trap_entry def
+R33978:33999 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R33972:33975 Verimz.Barocqmz <> p_ks:383 var
+R34003:34020 Verimz.Barocqmz <> Br_interface_mtvec def
+binder 33925:33928 <> u_ms:384
+R34043:34046 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34069:34072 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34077:34079 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34047:34068 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R34073:34076 Verimz.Barocqmz <> u_ms:384 var
+R34039:34042 Verimz.Barocqmz <> p_ks:383 var
+binder 34031:34034 <> u_ks:385
+R34086:34090 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34095:34098 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34189:34194 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34099:34120 Verimz.Barocqmz <> Br_interface_csr_write def
+R34129:34150 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R34123:34126 Verimz.Barocqmz <> u_ks:385 var
+R34154:34173 Verimz.Barocqmz <> Br_interface_mstatus def
+R34176:34183 compcert.lib.Integers Int repr def
+binder 34091:34094 <> u_ms:386
+R34211:34214 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34237:34240 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34245:34247 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R34215:34236 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R34241:34244 Verimz.Barocqmz <> u_ms:386 var
+R34207:34210 Verimz.Barocqmz <> u_ks:385 var
+binder 34199:34202 <> u_ks:387
+R34254:34258 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34263:34266 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34291:34296 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R34267:34285 Verimz.Barocqmz <> Br_sched_sched_init def
+R34287:34290 Verimz.Barocqmz <> u_ks:387 var
+binder 34259:34262 <> u_ks:388
+R34297:34299 BarocqComp.common.Monads MonError ret def
+R34301:34304 Verimz.Barocqmz <> u_ks:388 var

@@ -1,0 +1,65 @@
+DIGEST db3e57ca1e7a80418f48c2106280ea9f
+FBarocqComp.backend.ImpABNF
+R31:36 BarocqComp.common.Syntax <> <> lib
+def 97:103 <> literal
+R115:128 BarocqComp.common.Syntax <> literal ind
+def 160:163 <> atom
+R175:185 BarocqComp.common.Syntax <> atom ind
+ind 221:229 <> statement
+constr 245:254 <> StSequence
+constr 298:302 <> StSet
+constr 337:348 <> StIfThenElse
+R267:270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R258:266 BarocqComp.backend.ImpABNF <> statement:1 ind
+R280:283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R271:279 BarocqComp.backend.ImpABNF <> statement:1 ind
+R284:292 BarocqComp.backend.ImpABNF <> statement:1 ind
+R311:314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R306:310 BarocqComp.common.Syntax <> ident def
+R319:322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R315:318 BarocqComp.common.Syntax <> comp ind
+R323:331 BarocqComp.backend.ImpABNF <> statement:1 ind
+R356:359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R352:355 BarocqComp.backend.ImpABNF <> atom def
+R369:373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R360:368 BarocqComp.backend.ImpABNF <> statement:1 ind
+R383:386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R374:382 BarocqComp.backend.ImpABNF <> statement:1 ind
+R387:395 BarocqComp.backend.ImpABNF <> statement:1 ind
+scheme 221:229 <> statement_rect
+scheme 221:229 <> statement_ind
+scheme 221:229 <> statement_rec
+scheme 221:229 <> statement_sind
+ind 438:445 <> tailcomp
+constr 461:467 <> TcBegin
+constr 509:514 <> TcComp
+constr 539:550 <> TcIfThenElse
+R480:483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R471:479 BarocqComp.backend.ImpABNF <> statement ind
+R492:495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R484:491 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+R496:503 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+R522:525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R518:521 BarocqComp.common.Syntax <> comp ind
+R526:533 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+R558:561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R554:557 BarocqComp.backend.ImpABNF <> atom def
+R570:573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R562:569 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+R582:585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R574:581 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+R586:593 BarocqComp.backend.ImpABNF <> tailcomp:3 ind
+scheme 438:445 <> tailcomp_rect
+scheme 438:445 <> tailcomp_ind
+scheme 438:445 <> tailcomp_rec
+scheme 438:445 <> tailcomp_sind
+def 629:636 <> function
+R648:662 BarocqComp.common.Syntax <> function rec
+R664:671 BarocqComp.backend.ImpABNF <> tailcomp ind
+def 716:722 <> globdef
+R734:747 BarocqComp.common.Syntax <> globdef ind
+R749:755 BarocqComp.backend.ImpABNF <> literal def
+R757:764 BarocqComp.backend.ImpABNF <> function def
+def 799:805 <> program
+R817:830 BarocqComp.common.Syntax <> program rec
+R832:838 BarocqComp.backend.ImpABNF <> globdef def

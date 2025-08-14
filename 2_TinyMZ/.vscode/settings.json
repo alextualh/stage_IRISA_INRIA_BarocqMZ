@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.br": "barocq",
+        "*.S": "arm",
+        "kernel.h": "c",
+        "sched.h": "c"
+    }
+}

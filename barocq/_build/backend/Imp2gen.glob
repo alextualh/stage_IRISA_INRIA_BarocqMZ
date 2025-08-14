@@ -1,0 +1,489 @@
+DIGEST 70cf0a0958d8e84e3b1013dff8eea4bf
+FBarocqComp.backend.Imp2gen
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.Strings.String <> <> lib
+R66:69 compcert.lib.Maps <> <> lib
+R103:108 BarocqComp.common.Monads <> <> lib
+R110:114 BarocqComp.common.Maps2 <> <> lib
+R116:120 BarocqComp.common.Utils <> <> lib
+R122:127 BarocqComp.common.Barray <> <> lib
+R129:134 BarocqComp.common.Syntax <> <> lib
+R136:140 BarocqComp.common.Types <> <> lib
+R142:147 BarocqComp.common.Typing <> <> lib
+R149:152 BarocqComp.backend.Imp1 <> <> lib
+R162:174 Coq.Lists.List ListNotations <> mod
+R184:195 BarocqComp.common.Syntax Typed <> mod
+R205:213 BarocqComp.backend.Imp1 Imp1Typed <> mod
+R223:232 BarocqComp.backend.Imp1 Imp1Typing <> mod
+R266:269 BarocqComp.backend.Imp2 <> <> lib
+R279:288 BarocqComp.common.Monads MonCounter <> mod
+def 301:316 <> transl_statement
+R322:340 BarocqComp.backend.Imp1 Imp1Typed statement ind
+binder 319:319 <> s:1
+R345:358 BarocqComp.backend.Imp2 <> statement ind
+R371:371 BarocqComp.backend.Imp2gen <> s:1 var
+R382:396 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R401:406 BarocqComp.common.Syntax Typed CpAtom constr
+R423:431 BarocqComp.backend.Imp2 <> StSetExpr constr
+R436:440 BarocqComp.backend.Imp2 <> EAtom constr
+R452:466 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R471:480 BarocqComp.common.Syntax Typed CpArrayGet constr
+R501:509 BarocqComp.backend.Imp2 <> StSetExpr constr
+R514:522 BarocqComp.backend.Imp2 <> EArrayGet constr
+R538:552 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R557:568 BarocqComp.common.Syntax Typed CpRecordProj constr
+R588:596 BarocqComp.backend.Imp2 <> StSetExpr constr
+R601:611 BarocqComp.backend.Imp2 <> ERecordProj constr
+R626:640 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R645:656 BarocqComp.common.Syntax Typed CpDeepAccess constr
+R677:685 BarocqComp.backend.Imp2 <> StSetExpr constr
+R690:700 BarocqComp.backend.Imp2 <> EDeepAccess constr
+R716:730 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R735:744 BarocqComp.common.Syntax Typed CpArraySet constr
+R767:776 BarocqComp.backend.Imp2 <> StSetEcomp constr
+R781:790 BarocqComp.backend.Imp2 <> EcArraySet constr
+R806:820 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R825:838 BarocqComp.common.Syntax Typed CpRecordUpdate constr
+R860:869 BarocqComp.backend.Imp2 <> StSetEcomp constr
+R874:887 BarocqComp.backend.Imp2 <> EcRecordUpdate constr
+R902:916 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R921:926 BarocqComp.common.Syntax Typed CpCall constr
+R941:946 BarocqComp.backend.Imp2 <> StCall constr
+R961:982 BarocqComp.backend.Imp1 Imp1Typed StIfThenElse constr
+R1001:1012 BarocqComp.backend.Imp2 <> StIfThenElse constr
+R1017:1032 BarocqComp.backend.Imp2gen <> transl_statement:2 def
+R1039:1054 BarocqComp.backend.Imp2gen <> transl_statement:2 def
+R1064:1083 BarocqComp.backend.Imp1 Imp1Typed StSequence constr
+R1100:1109 BarocqComp.backend.Imp2 <> StSequence constr
+R1112:1127 BarocqComp.backend.Imp2gen <> transl_statement:2 def
+R1134:1149 BarocqComp.backend.Imp2gen <> transl_statement:2 def
+R1159:1176 BarocqComp.backend.Imp1 Imp1Typed StReturn constr
+R1183:1190 BarocqComp.backend.Imp2 <> StReturn constr
+def 1211:1218 <> all_vars
+R1224:1242 BarocqComp.backend.Imp1 Imp1Typed statement ind
+binder 1221:1221 <> s:4
+R1247:1256 BarocqComp.common.Maps2 SMapList t def
+R1258:1261 BarocqComp.common.Types <> btyp ind
+R1274:1274 BarocqComp.backend.Imp2gen <> s:4 var
+R1285:1302 BarocqComp.backend.Imp1 Imp1Typed StReturn constr
+R1309:1311 Coq.Init.Datatypes <> nil constr
+R1317:1331 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R1357:1360 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1340:1340 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1342:1343 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1356:1356 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1344:1353 BarocqComp.common.Typing <> typof_comp def
+R1361:1363 Coq.Init.Datatypes <> nil constr
+R1369:1390 BarocqComp.backend.Imp1 Imp1Typed StIfThenElse constr
+R1404:1423 BarocqComp.backend.Imp1 Imp1Typed StSequence constr
+R1434:1447 BarocqComp.common.Maps2 SMapList merge def
+R1464:1471 BarocqComp.backend.Imp2gen <> all_vars:5 def
+R1450:1457 BarocqComp.backend.Imp2gen <> all_vars:5 def
+R1434:1447 BarocqComp.common.Maps2 SMapList merge def
+R1464:1471 BarocqComp.backend.Imp2gen <> all_vars:5 def
+R1450:1457 BarocqComp.backend.Imp2gen <> all_vars:5 def
+def 1496:1510 <> transl_function
+R1516:1533 BarocqComp.backend.Imp1 Imp1Typed function def
+binder 1513:1513 <> f:7
+R1538:1550 BarocqComp.backend.Imp2 <> function rec
+R1564:1572 BarocqComp.backend.Imp2 <> fn_return proj
+R1564:1572 BarocqComp.backend.Imp2 <> fn_return proj
+R1564:1572 BarocqComp.backend.Imp2 <> fn_return proj
+R1601:1609 BarocqComp.backend.Imp2 <> fn_params proj
+R1601:1609 BarocqComp.backend.Imp2 <> fn_params proj
+R1638:1644 BarocqComp.backend.Imp2 <> fn_vars proj
+R1638:1644 BarocqComp.backend.Imp2 <> fn_vars proj
+R1682:1688 BarocqComp.backend.Imp2 <> fn_body proj
+R1682:1688 BarocqComp.backend.Imp2 <> fn_body proj
+R1577:1592 BarocqComp.common.Syntax <> fn_return proj
+R1594:1594 BarocqComp.backend.Imp2gen <> f:7 var
+R1614:1629 BarocqComp.common.Syntax <> fn_params proj
+R1631:1631 BarocqComp.backend.Imp2gen <> f:7 var
+R1649:1656 BarocqComp.backend.Imp2gen <> all_vars def
+R1659:1672 BarocqComp.common.Syntax <> fn_body proj
+R1674:1674 BarocqComp.backend.Imp2gen <> f:7 var
+R1693:1708 BarocqComp.backend.Imp2gen <> transl_statement def
+R1711:1724 BarocqComp.common.Syntax <> fn_body proj
+R1726:1726 BarocqComp.backend.Imp2gen <> f:7 var
+sec 1781:1789 <> LITTRANSL
+var 1804:1817 LITTRANSL transl_literal
+R1838:1841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1821:1837 BarocqComp.backend.Imp1 Imp1Typed literal def
+R1865:1868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1842:1851 BarocqComp.common.Maps2 SMapList t def
+R1853:1864 BarocqComp.backend.Imp2 <> literal ind
+R1869:1872 BarocqComp.common.Monads MonCounter cmon abbrev
+R1892:1895 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1919:1919 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1875:1891 BarocqComp.backend.Imp2 <> literal_base ind
+R1896:1905 BarocqComp.common.Maps2 SMapList t def
+R1907:1918 BarocqComp.backend.Imp2 <> literal ind
+def 1935:1950 <> transl_array_lit
+R1956:1960 BarocqComp.common.Barray <> array def
+R1962:1978 BarocqComp.backend.Imp1 Imp1Typed literal def
+binder 1953:1953 <> a:10
+R1988:1997 BarocqComp.common.Maps2 SMapList t def
+R1999:2010 BarocqComp.backend.Imp2 <> literal ind
+binder 1982:1985 <> defs:11
+R2015:2018 BarocqComp.common.Monads MonCounter cmon abbrev
+R2044:2046 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2021:2025 BarocqComp.common.Barray <> array def
+R2027:2043 BarocqComp.backend.Imp2 <> literal_base ind
+R2047:2056 BarocqComp.common.Maps2 SMapList t def
+R2058:2069 BarocqComp.backend.Imp2 <> literal ind
+R2085:2085 BarocqComp.backend.Imp2gen <> a:10 var
+R2098:2100 Coq.Init.Datatypes <> nil constr
+R2105:2107 BarocqComp.common.Monads MonCounter ret def
+R2109:2109 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2113:2114 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2119:2119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2110:2112 Coq.Init.Datatypes <> nil constr
+R2115:2118 BarocqComp.backend.Imp2gen <> defs:11 var
+R2129:2132 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2147:2152 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2156:2157 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2163:2167 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2190:2201 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2168:2181 BarocqComp.backend.Imp2gen <> LITTRANSL.transl_literal var
+R2186:2189 BarocqComp.backend.Imp2gen <> defs:11 var
+binder 2153:2155 <> lx':14
+binder 2158:2162 <> defs1:15
+R2202:2207 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2209:2210 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2216:2220 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2246:2257 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2221:2236 BarocqComp.backend.Imp2gen <> transl_array_lit:12 def
+R2241:2245 BarocqComp.backend.Imp2gen <> defs1:15 var
+binder 2208:2208 <> r:16
+binder 2211:2215 <> defs2:17
+R2258:2260 BarocqComp.common.Monads MonCounter ret def
+R2262:2262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2271:2272 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2278:2278 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2266:2269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2263:2265 BarocqComp.backend.Imp2gen <> lx':14 var
+R2270:2270 BarocqComp.backend.Imp2gen <> r:16 var
+R2273:2277 BarocqComp.backend.Imp2gen <> defs2:17 var
+def 2301:2317 <> transl_record_lit
+R2324:2333 BarocqComp.common.Maps2 SMapList t def
+R2335:2351 BarocqComp.backend.Imp1 Imp1Typed literal def
+binder 2320:2321 <> rc:18
+R2361:2370 BarocqComp.common.Maps2 SMapList t def
+R2372:2383 BarocqComp.backend.Imp2 <> literal ind
+binder 2355:2358 <> defs:19
+R2388:2391 BarocqComp.common.Monads MonCounter cmon abbrev
+R2394:2394 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2423:2426 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2395:2404 BarocqComp.common.Maps2 SMapList t def
+R2406:2422 BarocqComp.backend.Imp2 <> literal_base ind
+R2427:2436 BarocqComp.common.Maps2 SMapList t def
+R2438:2449 BarocqComp.backend.Imp2 <> literal ind
+R2465:2466 BarocqComp.backend.Imp2gen <> rc:18 var
+R2479:2481 Coq.Init.Datatypes <> nil constr
+R2486:2488 BarocqComp.common.Monads MonCounter ret def
+R2490:2490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2494:2495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2500:2500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2491:2493 Coq.Init.Datatypes <> nil constr
+R2496:2499 BarocqComp.backend.Imp2gen <> defs:19 var
+R2515:2518 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2508:2508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2510:2511 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2514:2514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2534:2539 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2543:2544 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2550:2554 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2577:2588 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2555:2568 BarocqComp.backend.Imp2gen <> LITTRANSL.transl_literal var
+R2573:2576 BarocqComp.backend.Imp2gen <> defs:19 var
+binder 2540:2542 <> lx':22
+binder 2545:2549 <> defs1:23
+R2589:2594 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2596:2597 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2603:2607 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2635:2646 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R2608:2624 BarocqComp.backend.Imp2gen <> transl_record_lit:20 def
+R2630:2634 BarocqComp.backend.Imp2gen <> defs1:23 var
+binder 2595:2595 <> r:24
+binder 2598:2602 <> defs2:25
+R2647:2649 BarocqComp.common.Monads MonCounter ret def
+R2651:2651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2665:2666 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2672:2672 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2660:2663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2652:2652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2654:2655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2659:2659 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2656:2658 BarocqComp.backend.Imp2gen <> lx':22 var
+R2664:2664 BarocqComp.backend.Imp2gen <> r:24 var
+R2667:2671 BarocqComp.backend.Imp2gen <> defs2:25 var
+R2688:2696 BarocqComp.backend.Imp2gen LITTRANSL <> sec
+def 2711:2719 <> fresh_var
+R2723:2726 BarocqComp.common.Monads MonCounter cmon abbrev
+R2728:2732 BarocqComp.common.Types <> ident def
+R2737:2751 BarocqComp.common.Utils <> fresh_var def
+def 2768:2785 <> transl_literal_rec
+R2791:2807 BarocqComp.backend.Imp1 Imp1Typed literal def
+binder 2788:2788 <> l:26
+R2817:2826 BarocqComp.common.Maps2 SMapList t def
+R2828:2839 BarocqComp.backend.Imp2 <> literal ind
+binder 2811:2814 <> defs:27
+R2844:2847 BarocqComp.common.Monads MonCounter cmon abbrev
+R2867:2869 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2850:2866 BarocqComp.backend.Imp2 <> literal_base ind
+R2870:2879 BarocqComp.common.Maps2 SMapList t def
+R2881:2892 BarocqComp.backend.Imp2 <> literal ind
+R2906:2906 BarocqComp.backend.Imp2gen <> l:26 var
+R2917:2934 BarocqComp.common.Syntax Typed LTrue constr
+R2942:2944 BarocqComp.common.Monads MonCounter ret def
+R2946:2946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2953:2954 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2959:2959 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2947:2952 BarocqComp.backend.Imp2 <> LbTrue constr
+R2955:2958 BarocqComp.backend.Imp2gen <> defs:27 var
+R2965:2983 BarocqComp.common.Syntax Typed LFalse constr
+R2991:2993 BarocqComp.common.Monads MonCounter ret def
+R2995:2995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3003:3004 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3009:3009 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2996:3002 BarocqComp.backend.Imp2 <> LbFalse constr
+R3005:3008 BarocqComp.backend.Imp2gen <> defs:27 var
+R3015:3033 BarocqComp.common.Syntax Typed LInt32 constr
+R3043:3045 BarocqComp.common.Monads MonCounter ret def
+R3047:3047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3057:3058 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3063:3063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3048:3054 BarocqComp.backend.Imp2 <> LbInt32 constr
+R3059:3062 BarocqComp.backend.Imp2gen <> defs:27 var
+R3069:3087 BarocqComp.common.Syntax Typed LInt64 constr
+R3097:3099 BarocqComp.common.Monads MonCounter ret def
+R3101:3101 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3111:3112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3117:3117 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3102:3108 BarocqComp.backend.Imp2 <> LbInt64 constr
+R3113:3116 BarocqComp.backend.Imp2gen <> defs:27 var
+R3123:3141 BarocqComp.common.Syntax Typed LArray constr
+R3157:3162 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3165:3166 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3171:3175 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3218:3227 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3176:3191 BarocqComp.backend.Imp2gen <> transl_array_lit def
+R3214:3217 BarocqComp.backend.Imp2gen <> defs:27 var
+R3193:3210 BarocqComp.backend.Imp2gen <> transl_literal_rec:28 def
+binder 3163:3164 <> a':30
+binder 3167:3170 <> defs:31
+R3228:3232 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3234:3237 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3247:3256 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3238:3246 BarocqComp.backend.Imp2gen <> fresh_var def
+binder 3233:3233 <> x:32
+R3257:3259 BarocqComp.common.Monads MonCounter ret def
+R3261:3261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3269:3270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3296:3296 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3262:3266 BarocqComp.backend.Imp2 <> LbVar constr
+R3268:3268 BarocqComp.backend.Imp2gen <> x:32 var
+R3288:3291 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3271:3271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3273:3274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3287:3287 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3272:3272 BarocqComp.backend.Imp2gen <> x:32 var
+R3275:3280 BarocqComp.backend.Imp2 <> LArray constr
+R3282:3283 BarocqComp.backend.Imp2gen <> a':30 var
+R3292:3295 BarocqComp.backend.Imp2gen <> defs:31 var
+R3302:3321 BarocqComp.common.Syntax Typed LRecord constr
+R3338:3343 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3347:3348 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3353:3357 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3402:3411 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3358:3374 BarocqComp.backend.Imp2gen <> transl_record_lit def
+R3398:3401 BarocqComp.backend.Imp2gen <> defs:27 var
+R3376:3393 BarocqComp.backend.Imp2gen <> transl_literal_rec:28 def
+binder 3344:3346 <> st':33
+binder 3349:3352 <> defs:34
+R3412:3416 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3418:3421 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3431:3440 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R3422:3430 BarocqComp.backend.Imp2gen <> fresh_var def
+binder 3417:3417 <> x:35
+R3441:3443 BarocqComp.common.Monads MonCounter ret def
+R3445:3445 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3453:3454 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3482:3482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3446:3450 BarocqComp.backend.Imp2 <> LbVar constr
+R3452:3452 BarocqComp.backend.Imp2gen <> x:35 var
+R3474:3477 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3455:3455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3457:3458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3473:3473 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3456:3456 BarocqComp.backend.Imp2gen <> x:35 var
+R3459:3465 BarocqComp.backend.Imp2 <> LRecord constr
+R3467:3469 BarocqComp.backend.Imp2gen <> st':33 var
+R3478:3481 BarocqComp.backend.Imp2gen <> defs:34 var
+def 3503:3516 <> transl_literal
+R3522:3538 BarocqComp.backend.Imp1 Imp1Typed literal def
+binder 3519:3519 <> l:36
+R3543:3546 BarocqComp.common.Monads MonCounter cmon abbrev
+R3561:3563 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3549:3560 BarocqComp.backend.Imp2 <> literal ind
+R3564:3573 BarocqComp.common.Maps2 SMapList t def
+R3575:3586 BarocqComp.backend.Imp2 <> literal ind
+R3594:3599 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3602:3603 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3608:3616 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3891:3896 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3623:3623 BarocqComp.backend.Imp2gen <> l:36 var
+R3636:3654 BarocqComp.common.Syntax Typed LArray constr
+R3672:3677 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3680:3681 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3686:3690 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3732:3743 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3691:3706 BarocqComp.backend.Imp2gen <> transl_array_lit def
+R3729:3731 Coq.Init.Datatypes <> nil constr
+R3708:3725 BarocqComp.backend.Imp2gen <> transl_literal_rec def
+binder 3678:3679 <> a':38
+binder 3682:3685 <> defs:39
+R3744:3746 BarocqComp.common.Monads MonCounter ret def
+R3748:3748 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3761:3762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3767:3767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3749:3754 BarocqComp.backend.Imp2 <> LArray constr
+R3756:3757 BarocqComp.backend.Imp2gen <> a':38 var
+R3763:3766 BarocqComp.backend.Imp2gen <> defs:39 var
+R3788:3793 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3797:3798 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3803:3807 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3832:3843 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R3808:3825 BarocqComp.backend.Imp2gen <> transl_literal_rec def
+R3827:3827 BarocqComp.backend.Imp2gen <> l:36 var
+R3829:3831 Coq.Init.Datatypes <> nil constr
+binder 3794:3796 <> stb:40
+binder 3799:3802 <> defs:41
+R3844:3846 BarocqComp.common.Monads MonCounter ret def
+R3848:3848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3876:3877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3882:3882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3849:3853 BarocqComp.backend.Imp2 <> LBase constr
+R3855:3857 BarocqComp.backend.Imp2gen <> stb:40 var
+R3860:3872 BarocqComp.common.Typing <> typof_literal def
+R3874:3874 BarocqComp.backend.Imp2gen <> l:36 var
+R3878:3881 BarocqComp.backend.Imp2gen <> defs:41 var
+binder 3600:3601 <> l':42
+binder 3604:3607 <> defs:43
+R3897:3899 BarocqComp.common.Monads MonCounter ret def
+R3901:3901 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3904:3905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3915:3915 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3902:3903 BarocqComp.backend.Imp2gen <> l':42 var
+R3906:3909 Coq.Lists.List <> rev' def
+R3911:3914 BarocqComp.backend.Imp2gen <> defs:43 var
+def 3930:3942 <> typof_literal
+R3948:3959 BarocqComp.backend.Imp2 <> literal ind
+binder 3945:3945 <> l:44
+R3964:3967 BarocqComp.common.Types <> btyp ind
+R3980:3980 BarocqComp.backend.Imp2gen <> l:44 var
+R3991:3995 BarocqComp.backend.Imp2 <> LBase constr
+R4012:4018 BarocqComp.backend.Imp2 <> LRecord constr
+R4035:4040 BarocqComp.backend.Imp2 <> LArray constr
+def 4070:4088 <> transl_globdefs_rec
+R4097:4100 Coq.Init.Datatypes <> list ind
+R4102:4118 BarocqComp.backend.Imp1 Imp1Typed globdef def
+binder 4091:4094 <> defs:46
+R4123:4126 BarocqComp.common.Monads MonCounter cmon abbrev
+R4129:4132 Coq.Init.Datatypes <> list ind
+R4134:4145 BarocqComp.backend.Imp2 <> globdef def
+R4159:4162 BarocqComp.backend.Imp2gen <> defs:46 var
+R4173:4175 Coq.Init.Datatypes <> nil constr
+R4180:4182 BarocqComp.common.Monads MonCounter ret def
+R4184:4186 Coq.Init.Datatypes <> nil constr
+R4193:4196 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4233:4238 BarocqComp.common.Syntax <> DefFun constr
+R4257:4261 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4264:4267 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4293:4306 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4268:4286 BarocqComp.backend.Imp2gen <> transl_globdefs_rec:47 def
+binder 4262:4263 <> dr:50
+R4307:4309 BarocqComp.common.Monads MonCounter ret def
+R4340:4343 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4312:4317 BarocqComp.common.Syntax <> DefFun constr
+R4322:4336 BarocqComp.backend.Imp2gen <> transl_function def
+R4344:4345 BarocqComp.backend.Imp2gen <> dr:50 var
+R4356:4363 BarocqComp.common.Syntax <> DefConst constr
+R4385:4390 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4393:4394 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4397:4401 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4418:4431 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4402:4415 BarocqComp.backend.Imp2gen <> transl_literal def
+binder 4391:4392 <> l':51
+binder 4395:4396 <> d1:52
+R4445:4447 Coq.Lists.List <> map def
+R4500:4501 BarocqComp.backend.Imp2gen <> d1:52 var
+R4455:4455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4457:4458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4461:4461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 4459:4460 <> lx:53
+binder 4456:4456 <> x:54
+binder 4455:4461 <> pat:55
+R4466:4473 BarocqComp.common.Syntax <> DefConst constr
+R4481:4493 BarocqComp.backend.Imp2gen <> typof_literal def
+R4495:4496 BarocqComp.backend.Imp2gen <> lx:53 var
+R4477:4478 BarocqComp.backend.Imp2gen <> lx:53 var
+R4475:4475 BarocqComp.backend.Imp2gen <> x:54 var
+binder 4436:4440 <> defs1:56
+R4516:4520 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4523:4526 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4552:4565 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4527:4545 BarocqComp.backend.Imp2gen <> transl_globdefs_rec:47 def
+binder 4521:4522 <> dr:57
+R4566:4568 BarocqComp.common.Monads MonCounter ret def
+R4576:4580 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4605:4605 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4571:4575 BarocqComp.backend.Imp2gen <> defs1:56 var
+R4581:4581 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4598:4602 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4582:4589 BarocqComp.common.Syntax <> DefConst constr
+R4593:4594 BarocqComp.backend.Imp2gen <> l':51 var
+R4603:4604 BarocqComp.backend.Imp2gen <> dr:57 var
+R4616:4624 BarocqComp.common.Syntax <> DeclConst constr
+R4644:4648 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4651:4654 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4680:4693 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4655:4673 BarocqComp.backend.Imp2gen <> transl_globdefs_rec:47 def
+binder 4649:4650 <> dr:58
+R4694:4696 BarocqComp.common.Monads MonCounter ret def
+R4713:4716 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4699:4707 BarocqComp.common.Syntax <> DeclConst constr
+R4717:4718 BarocqComp.backend.Imp2gen <> dr:58 var
+R4729:4735 BarocqComp.common.Syntax <> DeclFun constr
+R4765:4769 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4772:4775 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4801:4814 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R4776:4794 BarocqComp.backend.Imp2gen <> transl_globdefs_rec:47 def
+binder 4770:4771 <> dr:59
+R4815:4817 BarocqComp.common.Monads MonCounter ret def
+R4842:4845 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4820:4826 BarocqComp.common.Syntax <> DeclFun constr
+R4846:4847 BarocqComp.backend.Imp2gen <> dr:59 var
+def 4879:4893 <> transl_globdefs
+R4902:4905 Coq.Init.Datatypes <> list ind
+R4907:4923 BarocqComp.backend.Imp1 Imp1Typed globdef def
+binder 4896:4899 <> defs:60
+R4928:4931 Coq.Init.Datatypes <> list ind
+R4933:4944 BarocqComp.backend.Imp2 <> globdef def
+R4951:4953 Coq.Init.Datatypes <> fst def
+R4956:4974 BarocqComp.backend.Imp2gen <> transl_globdefs_rec def
+R4976:4979 BarocqComp.backend.Imp2gen <> defs:60 var
+def 4997:5010 <> transl_program
+R5019:5035 BarocqComp.backend.Imp1 Imp1Typed program def
+binder 5013:5016 <> prog:61
+R5040:5051 BarocqComp.backend.Imp2 <> program def
+R5065:5073 BarocqComp.common.Syntax <> prog_defs proj
+R5065:5073 BarocqComp.common.Syntax <> prog_defs proj
+R5065:5073 BarocqComp.common.Syntax <> prog_defs proj
+R5116:5125 BarocqComp.common.Syntax <> prog_types proj
+R5116:5125 BarocqComp.common.Syntax <> prog_types proj
+R5078:5092 BarocqComp.backend.Imp2gen <> transl_globdefs def
+R5095:5103 BarocqComp.common.Syntax <> prog_defs proj
+R5105:5108 BarocqComp.backend.Imp2gen <> prog:61 var
+R5130:5139 BarocqComp.common.Syntax <> prog_types proj
+R5141:5144 BarocqComp.backend.Imp2gen <> prog:61 var

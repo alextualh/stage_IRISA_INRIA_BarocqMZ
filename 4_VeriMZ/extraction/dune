@@ -1,0 +1,47 @@
+(coq.extraction
+ (prelude extraction)
+ (extracted_modules
+  Archi
+  Ascii
+  Asm
+  Barocqmz
+  Barocqmzutils
+  Barray
+  BinIntDef
+  BinInt
+  BinNat
+  BinNums
+  BinPosDef
+  BinPos
+  Compare_dec
+  Coqlib
+  Datatypes
+  Error
+  Errors
+  Int0
+  Integers
+  Intop
+  Kernel
+  List0
+  Machine
+  Maps
+  Memdata
+  Memory
+  Monads
+  Nat
+  Oracle
+  PeanoNat
+  Pmp
+  RecordSet
+  Specif
+  String
+  Utils
+  ZArith_dec
+  Zbits
+  Zpower)
+ (theories Verimz compcert Flocq BarocqComp RecordUpdate))
+
+(library
+ (name Verimz)
+ (flags
+  (:standard -w -33-39-67)))

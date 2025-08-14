@@ -1,0 +1,78 @@
+DIGEST 8996a826becaa6f63bf45290aa7a836e
+FBarocqComp.common.Ident
+R24:29 Coq.PArith.PArith <> <> lib
+R31:36 Coq.Strings.String <> <> lib
+R38:50 Coq.Numbers.DecimalString <> <> lib
+R82:91 compcert.export.Ctypesdefs <> <> lib
+def 106:106 <> t
+R118:123 Coq.Strings.String <> string ind
+def 138:146 <> of_string
+R154:159 Coq.Strings.String <> string ind
+binder 149:151 <> str:1
+R164:164 BarocqComp.common.Ident <> t def
+R171:173 BarocqComp.common.Ident <> str:1 var
+def 188:196 <> to_string
+R202:202 BarocqComp.common.Ident <> t def
+binder 199:199 <> i:2
+R207:212 Coq.Strings.String <> string ind
+R219:219 BarocqComp.common.Ident <> i:2 var
+def 234:243 <> of_str_nat
+R249:251 Coq.Init.Datatypes <> nat ind
+binder 246:246 <> n:3
+R256:256 BarocqComp.common.Ident <> t def
+R272:294 Coq.Numbers.DecimalString NilEmpty string_of_uint def
+R297:307 Coq.Init.Nat <> to_uint def
+R309:309 BarocqComp.common.Ident <> n:3 var
+binder 267:267 <> s:4
+R317:325 BarocqComp.common.Ident <> of_string def
+R327:327 BarocqComp.common.Ident <> s:4 var
+def 342:347 <> of_pos
+R353:360 Coq.Numbers.BinNums <> positive ind
+binder 350:350 <> p:5
+R365:365 BarocqComp.common.Ident <> t def
+R372:397 compcert.export.Ctypesdefs <> string_of_ident def
+R399:399 BarocqComp.common.Ident <> p:5 var
+def 414:419 <> to_pos
+R425:425 BarocqComp.common.Ident <> t def
+binder 422:422 <> i:6
+R430:437 Coq.Numbers.BinNums <> positive ind
+R444:469 compcert.export.Ctypesdefs <> ident_of_string def
+R471:471 BarocqComp.common.Ident <> i:6 var
+def 486:491 <> concat
+R501:501 BarocqComp.common.Ident <> t def
+binder 494:495 <> i1:7
+binder 497:498 <> i2:8
+R506:506 BarocqComp.common.Ident <> t def
+R523:531 BarocqComp.common.Ident <> to_string def
+R533:534 BarocqComp.common.Ident <> i1:7 var
+binder 517:518 <> s1:9
+R551:559 BarocqComp.common.Ident <> to_string def
+R561:562 BarocqComp.common.Ident <> i2:8 var
+binder 545:546 <> s2:10
+R569:577 BarocqComp.common.Ident <> of_string def
+R580:592 Coq.Strings.String <> append def
+R594:595 BarocqComp.common.Ident <> s1:9 var
+R597:598 BarocqComp.common.Ident <> s2:10 var
+def 614:624 <> prefix_with
+R632:637 Coq.Strings.String <> string ind
+binder 627:629 <> str:11
+R644:644 BarocqComp.common.Ident <> t def
+binder 641:641 <> i:12
+R649:649 BarocqComp.common.Ident <> t def
+R665:673 BarocqComp.common.Ident <> to_string def
+R675:675 BarocqComp.common.Ident <> i:12 var
+binder 660:660 <> s:13
+R682:690 BarocqComp.common.Ident <> of_string def
+R693:705 Coq.Strings.String <> append def
+R707:709 BarocqComp.common.Ident <> str:11 var
+R711:711 BarocqComp.common.Ident <> s:13 var
+def 727:733 <> compare
+R743:743 BarocqComp.common.Ident <> t def
+binder 736:737 <> i1:14
+binder 739:740 <> i2:15
+R748:757 Coq.Init.Datatypes <> comparison ind
+R764:777 Coq.Strings.String <> compare def
+R779:780 BarocqComp.common.Ident <> i1:14 var
+R782:783 BarocqComp.common.Ident <> i2:15 var
+def 798:803 <> eq_dec
+R808:817 Coq.Strings.String <> string_dec def

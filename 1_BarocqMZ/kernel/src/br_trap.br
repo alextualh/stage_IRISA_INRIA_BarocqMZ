@@ -1,0 +1,198 @@
+module Br_trap
+
+import Br_interface
+import Br_sched
+import Br_ecall
+
+defn EXCPT_ILLEGAL_INSTR: u32 = 0x2U
+defn EXCPT_ECALL_UMODE  : u32 = 0x8U
+defn EXCPT_ECALL_SMODE  : u32 = 0x9U
+defn EXCPT_ECALL_MMODE  : u32 = 0x11U
+defn INTRP_MACHINE_TIMER : u32 = 0x7U
+defn OP_URET : u32 = 0x200073U
+
+(* UTILS : *)
+(* operation used twice : avoid locking and line repeated *)
+defn set_ks_mie_and_bitwise(ks : kernel) : kernel = 
+    let index = ks.current in
+    let zones = ks.zones in 
+    let zone = zones[index] in
+    let uie = zone.uie in
+    let mie = ks.mie in
+    let res = and_with_bitwise(mie, uie) in
+    ks.mie <- res
+
+(* GETTERS : *)
+(* it avoid locked array passed in argument errors *)
+defn get_current_zone_HANDLER(mcause : u32, ks : kernel) : u32 =
+    let current = ks.current in
+    let zone = ks.zones[current] in
+    let handler = zone.excpt_handlers[mcause] in
+    handler
+
+defn get_current_zone_handler(mcause : u32, ks : kernel) : u32 =
+    let index = ks.current in
+    let zones = ks.zones in
+    let zone = zones[index] in
+    let handler = zone.excpt_handlers[mcause] in
+    handler
+
+defn get_i_handler_ZONE(mcause : u32, ks : kernel) : u32 =
+    let i_handlers = ks.intrp_handlers in
+    let i_handler = i_handlers[MCAUSE_INTRP(mcause)] in
+    let handler = i_handler.handler in
+    i_handler.zone
+
+defn get_i_handler_HANDLER(mcause : u32, ks : kernel) : u32 =
+    let i_handlers = ks.intrp_handlers in
+    let i_handler = i_handlers[MCAUSE_INTRP(mcause)] in
+    let handler = i_handler.handler in
+    i_handler.handler
+
+(*______________________________________________________________________________*)
+(* MAIN TRAP FUNCTIONS : *)
+
+(* wrapped to avoid locked array error, occurring when doing what's here and then the sched_init call *)
+defn wrapped_handle_user_intrp(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    let i_handlers = ks.intrp_handlers in
+    let i_handler = i_handlers[MCAUSE_INTRP(mcause)] in
+    let handler = i_handler.handler in
+
+    if handler > 0U then
+        let zones = ks.zones in 
+        let index = i_handler.zone in
+        let current = ks.current in
+        let zone = zones[index] in
+        (* major zone modification : *)
+        let zone = zone.uepc <- zone.regs[PC] in (* everything ready in the zone for it to exec handler when possible *)
+        let zone = zone.ucause <- mcause in
+        let zone = zone.utval <- mtval in
+        let regs = zone.regs in
+        let handler_casted = handler as u32 in
+        let regs = regs[PC] <- handler_casted in
+        let zone = zone.regs <- regs in
+        let zone = zone.ustatus <- USTATUS_PIE in
+        let zone = zone.intrp_deleg <- 1U in 
+        (* flag of the zone that is going to exec handler (so must be of "zone", not always "current" *)
+        let zones = zones[index] <- zone in
+        let ks = ks.zones <- zones in
+        ks
+    else 
+        ks
+
+defn handle_user_intrp(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    (* the getters calls must be before wrapped_handler_user_intrp which modified non primitive type*)
+    let handler = get_i_handler_HANDLER(mcause, ks) in
+    let zone = get_i_handler_ZONE(mcause, ks) in
+    let current = ks.current in
+    (* modif zone *)
+    let ks1 = wrapped_handle_user_intrp(mcause, mtval, ks) in (* everything ready in the zone for it to exec handler when possible *)
+    (* modif kernel *)
+    let ks1 = set_ks_mie_and_bitwise(ks1) in
+    if (handler > 0U) && (zone != current) then
+        sched_intrp(ks1, zone)
+    else 
+        ks1
+
+
+defn handle_user_excpt(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    let handler = get_current_zone_handler(mcause, ks) in
+    if handler > 0U then
+        let index = ks.current in
+        let zones = ks.zones in 
+        let zone = zones[index] in
+    (* modif zone *)
+        let zone = zone.uepc <- zone.regs[PC] in
+        let zone = zone.ucause <- mcause in
+        let zone = zone.utval <- mtval in
+        let regs = zone.regs in
+        let handler_casted = handler as u32 in
+        let regs = regs[PC] <- handler_casted in
+        let zone = zone.regs <- regs in
+
+        let ustatus = zone.ustatus in
+        let zone =
+        if (ustatus & USTATUS_PIE) > 0U then
+            zone.ustatus <- USTATUS_PIE
+        else
+            zone
+        in
+        let zones = zones[index] <- zone in
+        let ks = ks.zones <- zones in
+    (* modif kernel *)
+        if (ustatus & USTATUS_PIE) > 0U then
+            set_ks_mie_and_bitwise(ks)
+        else 
+            ks
+    else
+        ks
+
+
+defn handle_uret(ks : kernel) : kernel =
+    let zones = ks.zones in
+    let index = ks.current in
+    let zone = zones[index] in
+    let zuie = zone.uie in          (* used after *)
+    let ustatus = zone.ustatus in   (* used after *)
+    let regs = zone.regs in
+    let regs = regs[PC] <- zone.uepc in
+    let zone = zone.regs <- regs in
+    let zone = zone.ucause <- 0U in
+    let zone = zone.uepc <- 0U in
+    let zone = zone.utval <- 0U in
+    let zone =
+    if (ustatus & USTATUS_PIE) > 0U then
+        let res = zone.ustatus | USTATUS_PIE in
+        zone.ustatus <- res
+    else
+        zone
+    in
+    let zones = zones[index] <- zone in
+    let ks = ks.zones <- zones in
+    let ks1 =
+    if (ustatus & USTATUS_PIE) > 0U then
+        let new_mie = binary_or(ks.mie, zuie) in
+        let ks = ks.mie <- new_mie in
+        ks
+    else 
+        let ks = ks.mie <- ks.mie in
+        ks 
+    in
+    if ks.zones[index].intrp_deleg > 0U then
+        let ks = ks.deadline <- read_mtime(ks.ms) in
+        let zones = ks.zones in (* modif field intrp_deleg of current zone *)
+        let index = ks.current in
+        let current = zones[index] in
+        let current = current.intrp_deleg <- 0U in 
+        let zones = zones[index] <- current in
+        let ks = ks.zones <- zones in (* modif field intrp_deleg of current zone *)
+        sched_yield(ks)
+    else
+        ks
+
+
+defn handle_illegal_instruction(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    if (mtval == OP_URET) then
+        handle_uret(ks)
+    else    
+        ks
+
+
+defn handle_trap(mcause : u32, mtval : u32, ks : kernel) : kernel =
+    let mcause_casted = mcause as i32 in
+    let ks1 = 
+    if mcause_casted < 0 then
+        let res = MCAUSE_INTRP(mcause) in
+        if res == INTRP_MACHINE_TIMER then
+            ks
+        else
+            handle_user_intrp(mcause, mtval, ks)
+    else
+        if mcause == EXCPT_ILLEGAL_INSTR then
+            handle_illegal_instruction(mcause, mtval, ks)
+        else if mcause == EXCPT_ECALL_UMODE then
+            handle_ecall(mcause, mtval, ks)
+        else
+            handle_user_excpt(mcause, mtval, ks)
+    in
+    sched(ks1)

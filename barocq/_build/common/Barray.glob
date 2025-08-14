@@ -1,0 +1,103 @@
+DIGEST b6e8058deb1af11463964f0d644b5066
+FBarocqComp.common.Barray
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.ZArith.ZArith <> <> lib
+R66:73 compcert.lib.Integers <> <> lib
+R107:111 BarocqComp.common.Intop <> <> lib
+R113:117 BarocqComp.common.Error <> <> lib
+R119:123 BarocqComp.common.Utils <> <> lib
+R134:146 Coq.Lists.List ListNotations <> mod
+def 186:190 <> array
+binder 193:193 <> A:1
+R205:208 Coq.Init.Datatypes <> list ind
+R210:210 BarocqComp.common.Barray <> A:1 var
+sec 222:227 <> ARRAYS
+var 242:242 ARRAYS A
+def 265:270 <> length
+R276:280 BarocqComp.common.Barray <> array def
+R282:282 BarocqComp.common.Barray <> ARRAYS.A var
+binder 273:273 <> a:4
+R287:289 Coq.Init.Datatypes <> nat ind
+R294:299 Coq.Init.Datatypes <> length def
+R301:301 BarocqComp.common.Barray <> a:4 var
+def 318:328 <> valid_index
+R334:338 BarocqComp.common.Barray <> array def
+R340:340 BarocqComp.common.Barray <> ARRAYS.A var
+binder 331:331 <> a:5
+R347:351 compcert.lib.Integers <> int64 abbrev
+binder 344:344 <> i:6
+R356:359 Coq.Init.Datatypes <> bool ind
+R395:402 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R368:377 compcert.lib.Integers Int64 cmpu def
+R379:381 compcert.lib.Integers <> Cle constr
+R383:392 compcert.lib.Integers Int64 zero def
+R394:394 BarocqComp.common.Barray <> i:6 var
+R404:404 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R417:422 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R431:431 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R405:414 BarocqComp.common.Intop U64 to_nat def
+R416:416 BarocqComp.common.Barray <> i:6 var
+R423:428 BarocqComp.common.Barray <> length def
+R430:430 BarocqComp.common.Barray <> a:5 var
+def 453:455 <> get
+R461:465 BarocqComp.common.Barray <> array def
+R467:467 BarocqComp.common.Barray <> ARRAYS.A var
+binder 458:458 <> a:7
+R474:478 compcert.lib.Integers <> int64 abbrev
+binder 471:471 <> i:8
+R483:485 compcert.common.Errors <> res ind
+R487:487 BarocqComp.common.Barray <> ARRAYS.A var
+R499:509 BarocqComp.common.Barray <> valid_index def
+R513:513 BarocqComp.common.Barray <> i:8 var
+R511:511 BarocqComp.common.Barray <> a:7 var
+R569:572 BarocqComp.common.Monads MonError fail def
+R520:529 BarocqComp.common.Monads MonError err_of_opt def
+R532:540 Coq.Lists.List <> nth_error def
+R545:554 BarocqComp.common.Intop U64 to_nat def
+R556:556 BarocqComp.common.Barray <> i:8 var
+R542:542 BarocqComp.common.Barray <> a:7 var
+def 589:595 <> set_rec
+R601:604 Coq.Init.Datatypes <> list ind
+R606:606 BarocqComp.common.Barray <> ARRAYS.A var
+binder 598:598 <> l:9
+R613:615 Coq.Init.Datatypes <> nat ind
+binder 610:610 <> n:10
+R622:622 BarocqComp.common.Barray <> ARRAYS.A var
+binder 619:619 <> x:11
+R638:641 Coq.Init.Datatypes <> list ind
+R643:643 BarocqComp.common.Barray <> ARRAYS.A var
+R661:661 BarocqComp.common.Barray <> l:9 var
+R658:658 BarocqComp.common.Barray <> n:10 var
+R674:674 Coq.Init.Datatypes <> O constr
+R678:681 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R689:692 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R688:688 BarocqComp.common.Barray <> x:11 var
+R702:702 Coq.Init.Datatypes <> S constr
+R709:712 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R720:724 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R740:740 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R725:731 BarocqComp.common.Barray <> set_rec:12 def
+R739:739 BarocqComp.common.Barray <> x:11 var
+R757:759 Coq.Init.Datatypes <> nil constr
+def 784:786 <> set
+R792:796 BarocqComp.common.Barray <> array def
+R798:798 BarocqComp.common.Barray <> ARRAYS.A var
+binder 789:789 <> a:15
+R805:809 compcert.lib.Integers <> int64 abbrev
+binder 802:802 <> i:16
+R816:816 BarocqComp.common.Barray <> ARRAYS.A var
+binder 813:813 <> x:17
+R821:823 compcert.common.Errors <> res ind
+R826:830 BarocqComp.common.Barray <> array def
+R832:832 BarocqComp.common.Barray <> ARRAYS.A var
+R845:855 BarocqComp.common.Barray <> valid_index def
+R859:859 BarocqComp.common.Barray <> i:16 var
+R857:857 BarocqComp.common.Barray <> a:15 var
+R908:911 BarocqComp.common.Monads MonError fail def
+R866:868 BarocqComp.common.Monads MonError ret def
+R871:877 BarocqComp.common.Barray <> set_rec def
+R896:896 BarocqComp.common.Barray <> x:17 var
+R882:891 BarocqComp.common.Intop U64 to_nat def
+R893:893 BarocqComp.common.Barray <> i:16 var
+R879:879 BarocqComp.common.Barray <> a:15 var
+R919:924 BarocqComp.common.Barray ARRAYS <> sec

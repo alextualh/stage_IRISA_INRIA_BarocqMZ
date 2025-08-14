@@ -1,0 +1,72 @@
+DIGEST 1f0445ba0fbaa51b82485b67974e65d5
+FVerimz.Machine
+R27:29 Verimz.Int <> <> lib
+rec 134:140 <> machine
+proj 160:164 <> mtime
+proj 200:207 <> mtimecmp
+proj 257:259 <> mie
+R167:171 compcert.lib.Integers <> int64 abbrev
+R210:214 compcert.lib.Integers <> int64 abbrev
+R262:267 Verimz.Int <> intptr abbrev
+def 325:334 <> read_mtime
+R339:343 Verimz.Machine <> mtime proj
+def 358:370 <> read_mtimecmp
+R375:382 Verimz.Machine <> mtimecmp proj
+def 397:407 <> write_mtime
+R414:420 Verimz.Machine <> machine rec
+binder 410:411 <> mc:5
+R427:431 compcert.lib.Integers <> int64 abbrev
+binder 424:424 <> v:6
+R436:442 Verimz.Machine <> machine rec
+R449:458 Verimz.Machine <> mk_machine constr
+R460:460 Verimz.Machine <> v:6 var
+R463:470 Verimz.Machine <> mtimecmp proj
+R472:473 Verimz.Machine <> mc:5 var
+R477:479 Verimz.Machine <> mie proj
+R481:482 Verimz.Machine <> mc:5 var
+def 498:511 <> write_mtimecmp
+R518:524 Verimz.Machine <> machine rec
+binder 514:515 <> mc:7
+R531:535 compcert.lib.Integers <> int64 abbrev
+binder 528:528 <> v:8
+R540:546 Verimz.Machine <> machine rec
+R553:562 Verimz.Machine <> mk_machine constr
+R565:569 Verimz.Machine <> mtime proj
+R571:572 Verimz.Machine <> mc:7 var
+R575:575 Verimz.Machine <> v:8 var
+R578:580 Verimz.Machine <> mie proj
+R582:583 Verimz.Machine <> mc:7 var
+def 599:606 <> read_mie
+R611:613 Verimz.Machine <> mie proj
+def 628:636 <> write_mie
+R643:649 Verimz.Machine <> machine rec
+binder 639:640 <> mc:9
+R656:661 Verimz.Int <> intptr abbrev
+binder 653:653 <> v:10
+R666:672 Verimz.Machine <> machine rec
+R679:688 Verimz.Machine <> mk_machine constr
+R691:695 Verimz.Machine <> mtime proj
+R697:698 Verimz.Machine <> mc:9 var
+R702:709 Verimz.Machine <> mtimecmp proj
+R711:712 Verimz.Machine <> mc:9 var
+R715:715 Verimz.Machine <> v:10 var
+def 730:736 <> set_mie
+R743:749 Verimz.Machine <> machine rec
+binder 739:740 <> mc:11
+R758:763 Verimz.Int <> intptr abbrev
+binder 753:755 <> ofs:12
+R768:774 Verimz.Machine <> machine rec
+R793:801 Verimz.Int Intptr or def
+R804:806 Verimz.Machine <> mie proj
+R808:809 Verimz.Machine <> mc:11 var
+R813:822 Verimz.Int Intptr shl def
+R824:833 Verimz.Int Intptr one def
+R835:837 Verimz.Machine <> ofs:12 var
+binder 785:788 <> mie':13
+R845:854 Verimz.Machine <> mk_machine constr
+R857:861 Verimz.Machine <> mtime proj
+R863:864 Verimz.Machine <> mc:11 var
+R868:875 Verimz.Machine <> mtimecmp proj
+R877:878 Verimz.Machine <> mc:11 var
+R882:884 Verimz.Machine <> mie proj
+R886:887 Verimz.Machine <> mc:11 var

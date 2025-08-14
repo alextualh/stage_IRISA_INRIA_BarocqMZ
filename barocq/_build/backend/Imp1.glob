@@ -1,0 +1,1019 @@
+DIGEST 42b74de1a541a29e1cda1ad936f8675f
+FBarocqComp.backend.Imp1
+R24:27 Coq.Lists.List <> <> lib
+R29:34 Coq.Strings.String <> <> lib
+R66:73 compcert.lib.Integers <> <> lib
+R107:111 BarocqComp.common.Error <> <> lib
+R113:117 BarocqComp.common.Maps2 <> <> lib
+R119:123 BarocqComp.common.Utils <> <> lib
+R125:130 BarocqComp.common.Syntax <> <> lib
+R132:136 BarocqComp.common.Types <> <> lib
+R138:143 BarocqComp.common.Typing <> <> lib
+R145:150 BarocqComp.common.Barray <> <> lib
+def 211:217 <> literal
+R229:242 BarocqComp.common.Syntax <> literal ind
+def 274:277 <> atom
+R289:299 BarocqComp.common.Syntax <> atom ind
+ind 336:344 <> statement
+constr 360:364 <> StSet
+constr 399:410 <> StIfThenElse
+constr 462:471 <> StSequence
+constr 515:522 <> StReturn
+R373:376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:372 BarocqComp.common.Types <> ident def
+R381:384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R377:380 BarocqComp.common.Syntax <> comp ind
+R385:393 BarocqComp.backend.Imp1 <> statement:1 ind
+R418:421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R414:417 BarocqComp.backend.Imp1 <> atom def
+R431:434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R422:430 BarocqComp.backend.Imp1 <> statement:1 ind
+R444:447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R435:443 BarocqComp.backend.Imp1 <> statement:1 ind
+R448:456 BarocqComp.backend.Imp1 <> statement:1 ind
+R484:487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R475:483 BarocqComp.backend.Imp1 <> statement:1 ind
+R497:500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R488:496 BarocqComp.backend.Imp1 <> statement:1 ind
+R501:509 BarocqComp.backend.Imp1 <> statement:1 ind
+R530:533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R526:529 BarocqComp.backend.Imp1 <> atom def
+R534:542 BarocqComp.backend.Imp1 <> statement:1 ind
+scheme 336:344 <> statement_rect
+scheme 336:344 <> statement_ind
+scheme 336:344 <> statement_rec
+scheme 336:344 <> statement_sind
+def 578:585 <> function
+R597:611 BarocqComp.common.Syntax <> function rec
+R613:621 BarocqComp.backend.Imp1 <> statement ind
+def 666:672 <> globdef
+R684:697 BarocqComp.common.Syntax <> globdef ind
+R699:705 BarocqComp.backend.Imp1 <> literal def
+R707:714 BarocqComp.backend.Imp1 <> function def
+def 749:755 <> program
+R767:780 BarocqComp.common.Syntax <> program rec
+R782:788 BarocqComp.backend.Imp1 <> globdef def
+mod 799:803 <> Typed
+def 876:882 Typed literal
+R894:913 BarocqComp.common.Syntax Typed literal ind
+def 953:956 Typed atom
+R968:984 BarocqComp.common.Syntax Typed atom ind
+def 1027:1030 Typed comp
+R1042:1058 BarocqComp.common.Syntax Typed comp ind
+ind 1098:1106 Typed statement
+constr 1124:1128 Typed StSet
+constr 1165:1176 Typed StIfThenElse
+constr 1230:1239 Typed StSequence
+constr 1285:1292 Typed StReturn
+R1137:1140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1132:1136 BarocqComp.common.Types <> ident def
+R1145:1148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1141:1144 BarocqComp.backend.Imp1 Typed comp def
+R1149:1157 BarocqComp.backend.Imp1 <> statement:3 ind
+R1184:1187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1180:1183 BarocqComp.backend.Imp1 Typed atom def
+R1197:1200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1188:1196 BarocqComp.backend.Imp1 <> statement:3 ind
+R1210:1213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1201:1209 BarocqComp.backend.Imp1 <> statement:3 ind
+R1214:1222 BarocqComp.backend.Imp1 <> statement:3 ind
+R1252:1255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1243:1251 BarocqComp.backend.Imp1 <> statement:3 ind
+R1265:1268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1256:1264 BarocqComp.backend.Imp1 <> statement:3 ind
+R1269:1277 BarocqComp.backend.Imp1 <> statement:3 ind
+R1300:1303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1296:1299 BarocqComp.backend.Imp1 Typed atom def
+R1304:1312 BarocqComp.backend.Imp1 <> statement:3 ind
+scheme 1098:1106 Typed statement_rect
+scheme 1098:1106 Typed statement_ind
+scheme 1098:1106 Typed statement_rec
+scheme 1098:1106 Typed statement_sind
+def 1352:1359 Typed function
+R1371:1385 BarocqComp.common.Syntax <> function rec
+R1387:1395 BarocqComp.backend.Imp1 Typed statement ind
+def 1444:1450 Typed globdef
+R1462:1475 BarocqComp.common.Syntax <> globdef ind
+R1477:1483 BarocqComp.backend.Imp1 Typed literal def
+R1485:1492 BarocqComp.backend.Imp1 Typed function def
+def 1531:1537 Typed program
+R1549:1562 BarocqComp.common.Syntax <> program rec
+R1564:1570 BarocqComp.backend.Imp1 Typed globdef def
+R1578:1582 BarocqComp.backend.Imp1 Typed <> mod
+mod 1593:1604 <> Aliasing_AST
+ax 1680:1685 Aliasing_AST ABSDOM
+def 1731:1737 Aliasing_AST literal
+R1749:1768 BarocqComp.common.Syntax Typed literal ind
+def 1808:1811 Aliasing_AST atom
+R1823:1839 BarocqComp.common.Syntax Typed atom ind
+def 1882:1885 Aliasing_AST comp
+R1897:1913 BarocqComp.common.Syntax Typed comp ind
+ind 1953:1961 Aliasing_AST statement
+constr 1979:1983 Aliasing_AST StSet
+constr 2040:2051 Aliasing_AST StIfThenElse
+constr 2125:2134 Aliasing_AST StSequence
+constr 2180:2187 Aliasing_AST StReturn
+R1992:1995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1987:1991 BarocqComp.common.Types <> ident def
+R2000:2003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1996:1999 BarocqComp.backend.Imp1 Aliasing_AST comp def
+R2010:2013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2004:2009 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2020:2023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2014:2019 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2024:2032 BarocqComp.backend.Imp1 <> statement:7 ind
+R2059:2062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2055:2058 BarocqComp.backend.Imp1 Aliasing_AST atom def
+R2072:2075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2063:2071 BarocqComp.backend.Imp1 <> statement:7 ind
+R2085:2088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2076:2084 BarocqComp.backend.Imp1 <> statement:7 ind
+R2095:2098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2089:2094 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2105:2108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2099:2104 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2109:2117 BarocqComp.backend.Imp1 <> statement:7 ind
+R2147:2150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2138:2146 BarocqComp.backend.Imp1 <> statement:7 ind
+R2160:2163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2151:2159 BarocqComp.backend.Imp1 <> statement:7 ind
+R2164:2172 BarocqComp.backend.Imp1 <> statement:7 ind
+R2195:2198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2191:2194 BarocqComp.backend.Imp1 Aliasing_AST atom def
+R2205:2208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2199:2204 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2215:2218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2209:2214 BarocqComp.backend.Imp1 Aliasing_AST ABSDOM defax
+R2219:2227 BarocqComp.backend.Imp1 <> statement:7 ind
+scheme 1953:1961 Aliasing_AST statement_rect
+scheme 1953:1961 Aliasing_AST statement_ind
+scheme 1953:1961 Aliasing_AST statement_rec
+scheme 1953:1961 Aliasing_AST statement_sind
+def 2267:2274 Aliasing_AST function
+R2286:2300 BarocqComp.common.Syntax <> function rec
+R2302:2310 BarocqComp.backend.Imp1 Aliasing_AST statement ind
+def 2359:2365 Aliasing_AST globdef
+R2377:2390 BarocqComp.common.Syntax <> globdef ind
+R2392:2398 BarocqComp.backend.Imp1 Aliasing_AST literal def
+R2400:2407 BarocqComp.backend.Imp1 Aliasing_AST function def
+def 2446:2452 Aliasing_AST program
+R2464:2477 BarocqComp.common.Syntax <> program rec
+R2479:2485 BarocqComp.backend.Imp1 Aliasing_AST globdef def
+R2493:2504 BarocqComp.backend.Imp1 Aliasing_AST <> mod
+R2528:2537 BarocqComp.backend.Imp1 Typed <> modtype
+mod 2515:2523 <> Imp1Typed
+mod 2548:2553 <> Typing
+R2566:2577 BarocqComp.common.Syntax Typed <> mod
+R2589:2597 BarocqComp.backend.Imp1 Imp1Typed <> mod
+R2609:2621 Coq.Lists.List ListNotations <> mod
+sec 2635:2639 Typing ARCHI
+var 2654:2657 Typing.ARCHI arch
+R2661:2672 BarocqComp.common.Target <> archi ind
+def 2689:2697 Typing typof_var
+R2704:2711 BarocqComp.common.Typing <> gcontext def
+binder 2700:2701 <> gx:11
+R2719:2726 BarocqComp.common.Typing <> lcontext def
+binder 2715:2716 <> lx:12
+R2733:2737 BarocqComp.common.Types <> ident def
+binder 2730:2730 <> x:13
+R2742:2744 compcert.common.Errors <> res ind
+R2746:2749 BarocqComp.common.Types <> btyp ind
+R2764:2775 BarocqComp.common.Typing <> lcontext_get def
+R2777:2778 BarocqComp.backend.Imp1 <> lx:12 var
+R2780:2780 BarocqComp.backend.Imp1 <> x:13 var
+R2793:2794 compcert.common.Errors <> OK constr
+R2802:2805 BarocqComp.common.Monads MonError eret abbrev
+R2816:2820 compcert.common.Errors <> Error constr
+R2841:2852 BarocqComp.common.Typing <> gcontext_get def
+R2854:2855 BarocqComp.backend.Imp1 <> gx:11 var
+R2857:2857 BarocqComp.backend.Imp1 <> x:13 var
+R2874:2875 compcert.common.Errors <> OK constr
+R2878:2883 BarocqComp.common.Types <> BArray constr
+R2898:2899 compcert.common.Errors <> OK constr
+R2902:2908 BarocqComp.common.Types <> BRecord constr
+R2923:2924 compcert.common.Errors <> OK constr
+R2927:2930 BarocqComp.common.Types <> BAbs constr
+R2950:2957 BarocqComp.common.Monads MonError failwith def
+R2950:2957 BarocqComp.common.Monads MonError failwith def
+R2950:2957 BarocqComp.common.Monads MonError failwith def
+R3053:3054 compcert.common.Errors <> OK constr
+R3062:3065 BarocqComp.common.Monads MonError eret abbrev
+R3080:3084 compcert.common.Errors <> Error constr
+R3091:3095 compcert.common.Errors <> Error constr
+def 3132:3145 Typing typecheck_atom
+R3152:3159 BarocqComp.common.Typing <> gcontext def
+binder 3148:3149 <> gx:14
+R3167:3174 BarocqComp.common.Typing <> lcontext def
+binder 3163:3164 <> lx:15
+R3181:3191 BarocqComp.common.Syntax <> atom ind
+binder 3178:3178 <> a:16
+R3196:3198 compcert.common.Errors <> res ind
+R3200:3216 BarocqComp.common.Syntax Typed atom ind
+R3231:3231 BarocqComp.backend.Imp1 <> a:16 var
+R3244:3255 BarocqComp.common.Syntax <> ATrue constr
+R3260:3262 BarocqComp.common.Monads MonError ret def
+R3265:3269 BarocqComp.common.Syntax Typed ATrue constr
+R3271:3275 BarocqComp.common.Types <> BBool constr
+R3284:3296 BarocqComp.common.Syntax <> AFalse constr
+R3301:3303 BarocqComp.common.Monads MonError ret def
+R3306:3311 BarocqComp.common.Syntax Typed AFalse constr
+R3313:3317 BarocqComp.common.Types <> BBool constr
+R3326:3338 BarocqComp.common.Syntax <> AInt32 constr
+R3347:3349 BarocqComp.common.Monads MonError ret def
+R3352:3357 BarocqComp.common.Syntax Typed AInt32 constr
+R3362:3367 BarocqComp.common.Types <> BInt32 constr
+R3379:3391 BarocqComp.common.Syntax <> AInt64 constr
+R3400:3402 BarocqComp.common.Monads MonError ret def
+R3405:3410 BarocqComp.common.Syntax Typed AInt64 constr
+R3415:3420 BarocqComp.common.Types <> BInt64 constr
+R3432:3442 BarocqComp.common.Syntax <> AVar constr
+R3457:3461 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3463:3466 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3484:3495 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3467:3475 BarocqComp.backend.Imp1 Typing typof_var def
+R3477:3478 BarocqComp.backend.Imp1 <> gx:14 var
+R3480:3481 BarocqComp.backend.Imp1 <> lx:15 var
+binder 3462:3462 <> t:19
+R3496:3498 BarocqComp.common.Monads MonError ret def
+R3501:3504 BarocqComp.common.Syntax Typed AVar constr
+R3508:3508 BarocqComp.backend.Imp1 <> t:19 var
+R3517:3528 BarocqComp.common.Syntax <> ACast constr
+R3547:3551 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3555:3558 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3582:3593 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3559:3572 BarocqComp.backend.Imp1 <> typecheck_atom:17 def
+R3577:3578 BarocqComp.backend.Imp1 <> lx:15 var
+R3574:3575 BarocqComp.backend.Imp1 <> gx:14 var
+binder 3552:3554 <> a1':20
+R3594:3598 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3600:3603 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3638:3649 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3604:3617 BarocqComp.common.Typing <> typecheck_cast def
+R3620:3629 BarocqComp.common.Typing <> typof_atom def
+R3631:3633 BarocqComp.backend.Imp1 <> a1':20 var
+binder 3599:3599 <> t:21
+R3650:3652 BarocqComp.common.Monads MonError ret def
+R3655:3659 BarocqComp.common.Syntax Typed ACast constr
+R3661:3663 BarocqComp.backend.Imp1 <> a1':20 var
+R3665:3665 BarocqComp.backend.Imp1 <> t:21 var
+R3674:3688 BarocqComp.common.Syntax <> AUnaryOp constr
+R3707:3711 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3715:3718 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3742:3753 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3719:3732 BarocqComp.backend.Imp1 <> typecheck_atom:17 def
+R3737:3738 BarocqComp.backend.Imp1 <> lx:15 var
+R3734:3735 BarocqComp.backend.Imp1 <> gx:14 var
+binder 3712:3714 <> a1':22
+R3765:3774 BarocqComp.common.Typing <> typof_atom def
+R3776:3778 BarocqComp.backend.Imp1 <> a1':22 var
+binder 3758:3760 <> ty1:23
+R3791:3795 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3797:3800 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3826:3837 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3801:3818 BarocqComp.common.Typing <> typecheck_unary_op def
+R3823:3825 BarocqComp.backend.Imp1 <> ty1:23 var
+binder 3796:3796 <> t:24
+R3838:3840 BarocqComp.common.Monads MonError ret def
+R3843:3850 BarocqComp.common.Syntax Typed AUnaryOp constr
+R3855:3857 BarocqComp.backend.Imp1 <> a1':22 var
+R3859:3859 BarocqComp.backend.Imp1 <> t:24 var
+R3868:3883 BarocqComp.common.Syntax <> ABinaryOp constr
+R3905:3909 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3913:3916 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3940:3951 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3917:3930 BarocqComp.backend.Imp1 <> typecheck_atom:17 def
+R3935:3936 BarocqComp.backend.Imp1 <> lx:15 var
+R3932:3933 BarocqComp.backend.Imp1 <> gx:14 var
+binder 3910:3912 <> a1':25
+R3952:3956 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3960:3963 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3987:3998 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3964:3977 BarocqComp.backend.Imp1 <> typecheck_atom:17 def
+R3982:3983 BarocqComp.backend.Imp1 <> lx:15 var
+R3979:3980 BarocqComp.backend.Imp1 <> gx:14 var
+binder 3957:3959 <> a2':26
+R4010:4019 BarocqComp.common.Typing <> typof_atom def
+R4021:4023 BarocqComp.backend.Imp1 <> a1':25 var
+binder 4003:4005 <> ty1:27
+R4047:4056 BarocqComp.common.Typing <> typof_atom def
+R4058:4060 BarocqComp.backend.Imp1 <> a2':26 var
+binder 4040:4042 <> ty2:28
+R4073:4077 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4079:4082 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4113:4124 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4083:4101 BarocqComp.common.Typing <> typecheck_binary_op def
+R4106:4108 BarocqComp.backend.Imp1 <> ty1:27 var
+R4110:4112 BarocqComp.backend.Imp1 <> ty2:28 var
+binder 4078:4078 <> t:29
+R4125:4127 BarocqComp.common.Monads MonError ret def
+R4130:4138 BarocqComp.common.Syntax Typed ABinaryOp constr
+R4143:4145 BarocqComp.backend.Imp1 <> a1':25 var
+R4147:4149 BarocqComp.backend.Imp1 <> a2':26 var
+R4151:4151 BarocqComp.backend.Imp1 <> t:29 var
+def 4175:4190 Typing typecheck_access
+R4197:4200 BarocqComp.common.Typing <> renv def
+binder 4193:4194 <> re:30
+R4208:4215 BarocqComp.common.Typing <> gcontext def
+binder 4204:4205 <> gx:31
+R4223:4230 BarocqComp.common.Typing <> lcontext def
+binder 4219:4220 <> lx:32
+R4238:4241 BarocqComp.common.Types <> btyp ind
+binder 4234:4235 <> ty:33
+R4250:4253 Coq.Init.Datatypes <> list ind
+R4255:4267 BarocqComp.common.Syntax <> access ind
+binder 4245:4247 <> acs:34
+R4272:4274 compcert.common.Errors <> res ind
+R4281:4283 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4277:4280 BarocqComp.common.Types <> btyp ind
+R4284:4287 Coq.Init.Datatypes <> list ind
+R4289:4307 BarocqComp.common.Syntax Typed access ind
+R4323:4325 BarocqComp.backend.Imp1 <> acs:34 var
+R4338:4340 Coq.Init.Datatypes <> nil constr
+R4345:4347 BarocqComp.common.Monads MonError ret def
+R4349:4349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4352:4353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4357:4357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4350:4351 BarocqComp.backend.Imp1 <> ty:33 var
+R4354:4356 Coq.Init.Datatypes <> nil constr
+R4367:4370 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4411:4430 BarocqComp.common.Syntax <> AcRecordField constr
+R4449:4453 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4457:4460 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4490:4505 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4461:4481 BarocqComp.common.Typing <> typecheck_record_proj def
+R4483:4484 BarocqComp.backend.Imp1 <> re:30 var
+R4486:4487 BarocqComp.backend.Imp1 <> ty:33 var
+binder 4454:4456 <> ty':38
+R4506:4511 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4513:4514 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4517:4521 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4556:4571 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4522:4537 BarocqComp.backend.Imp1 <> typecheck_access:35 def
+R4548:4550 BarocqComp.backend.Imp1 <> ty':38 var
+R4545:4546 BarocqComp.backend.Imp1 <> lx:32 var
+R4542:4543 BarocqComp.backend.Imp1 <> gx:31 var
+R4539:4540 BarocqComp.backend.Imp1 <> re:30 var
+binder 4512:4512 <> r:39
+binder 4515:4516 <> lr:40
+R4572:4574 BarocqComp.common.Monads MonError ret def
+R4576:4576 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4578:4579 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4607:4607 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4577:4577 BarocqComp.backend.Imp1 <> r:39 var
+R4580:4580 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4600:4604 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4581:4593 BarocqComp.common.Syntax Typed AcRecordField constr
+R4597:4599 BarocqComp.backend.Imp1 <> ty':38 var
+R4605:4606 BarocqComp.backend.Imp1 <> lr:40 var
+R4619:4637 BarocqComp.common.Syntax <> AcArrayIndex constr
+R4657:4661 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4665:4668 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4692:4707 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4669:4682 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R4684:4685 BarocqComp.backend.Imp1 <> gx:31 var
+R4687:4688 BarocqComp.backend.Imp1 <> lx:32 var
+binder 4662:4664 <> ai':41
+R4708:4712 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4716:4719 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4764:4779 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4720:4738 BarocqComp.common.Typing <> typecheck_array_get def
+R4740:4743 BarocqComp.backend.Imp1 <> Typing.ARCHI.arch var
+R4745:4746 BarocqComp.backend.Imp1 <> ty:33 var
+R4749:4758 BarocqComp.common.Typing <> typof_atom def
+R4760:4762 BarocqComp.backend.Imp1 <> ai':41 var
+binder 4713:4715 <> ty':42
+R4780:4785 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4787:4788 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4791:4795 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4830:4845 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R4796:4811 BarocqComp.backend.Imp1 <> typecheck_access:35 def
+R4822:4824 BarocqComp.backend.Imp1 <> ty':42 var
+R4819:4820 BarocqComp.backend.Imp1 <> lx:32 var
+R4816:4817 BarocqComp.backend.Imp1 <> gx:31 var
+R4813:4814 BarocqComp.backend.Imp1 <> re:30 var
+binder 4786:4786 <> r:43
+binder 4789:4790 <> lr:44
+R4846:4848 BarocqComp.common.Monads MonError ret def
+R4850:4850 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4852:4853 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4882:4882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4851:4851 BarocqComp.backend.Imp1 <> r:43 var
+R4854:4854 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4875:4879 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4855:4866 BarocqComp.common.Syntax Typed AcArrayIndex constr
+R4868:4870 BarocqComp.backend.Imp1 <> ai':41 var
+R4872:4874 BarocqComp.backend.Imp1 <> ty':42 var
+R4880:4881 BarocqComp.backend.Imp1 <> lr:44 var
+def 4919:4932 Typing typecheck_comp
+R4939:4942 BarocqComp.common.Typing <> renv def
+binder 4935:4936 <> re:45
+R4950:4957 BarocqComp.common.Typing <> gcontext def
+binder 4946:4947 <> gx:46
+R4965:4972 BarocqComp.common.Typing <> lcontext def
+binder 4961:4962 <> lx:47
+R4979:4989 BarocqComp.common.Syntax <> comp ind
+binder 4976:4976 <> c:48
+R4994:4996 compcert.common.Errors <> res ind
+R4998:5011 BarocqComp.backend.Imp1 Imp1Typed comp def
+R5026:5026 BarocqComp.backend.Imp1 <> c:48 var
+R5039:5051 BarocqComp.common.Syntax <> CpAtom constr
+R5066:5070 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5073:5076 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5099:5110 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5077:5090 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5092:5093 BarocqComp.backend.Imp1 <> gx:46 var
+R5095:5096 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5071:5072 <> a':50
+R5111:5113 BarocqComp.common.Monads MonError ret def
+R5116:5121 BarocqComp.common.Syntax Typed CpAtom constr
+R5123:5124 BarocqComp.backend.Imp1 <> a':50 var
+R5127:5136 BarocqComp.common.Typing <> typof_atom def
+R5138:5139 BarocqComp.backend.Imp1 <> a':50 var
+R5149:5165 BarocqComp.common.Syntax <> CpArrayGet constr
+R5184:5188 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5192:5195 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5219:5230 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5196:5209 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5211:5212 BarocqComp.backend.Imp1 <> gx:46 var
+R5214:5215 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5189:5191 <> a1':51
+R5231:5235 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5239:5242 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5266:5277 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5243:5256 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5258:5259 BarocqComp.backend.Imp1 <> gx:46 var
+R5261:5262 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5236:5238 <> a2':52
+R5289:5298 BarocqComp.common.Typing <> typof_atom def
+R5300:5302 BarocqComp.backend.Imp1 <> a1':51 var
+binder 5282:5284 <> ty1:53
+R5326:5335 BarocqComp.common.Typing <> typof_atom def
+R5337:5339 BarocqComp.backend.Imp1 <> a2':52 var
+binder 5319:5321 <> ty2:54
+R5352:5356 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5359:5362 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5395:5406 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5363:5381 BarocqComp.common.Typing <> typecheck_array_get def
+R5383:5386 BarocqComp.backend.Imp1 <> Typing.ARCHI.arch var
+R5388:5390 BarocqComp.backend.Imp1 <> ty1:53 var
+R5392:5394 BarocqComp.backend.Imp1 <> ty2:54 var
+binder 5357:5358 <> ty:55
+R5407:5409 BarocqComp.common.Monads MonError ret def
+R5412:5421 BarocqComp.common.Syntax Typed CpArrayGet constr
+R5423:5425 BarocqComp.backend.Imp1 <> a1':51 var
+R5427:5429 BarocqComp.backend.Imp1 <> a2':52 var
+R5431:5432 BarocqComp.backend.Imp1 <> ty:55 var
+R5441:5457 BarocqComp.common.Syntax <> CpArraySet constr
+R5479:5483 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5487:5490 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5514:5525 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5491:5504 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5506:5507 BarocqComp.backend.Imp1 <> gx:46 var
+R5509:5510 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5484:5486 <> a1':56
+R5526:5530 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5534:5537 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5561:5572 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5538:5551 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5553:5554 BarocqComp.backend.Imp1 <> gx:46 var
+R5556:5557 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5531:5533 <> a2':57
+R5573:5577 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5581:5584 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5608:5619 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5585:5598 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5600:5601 BarocqComp.backend.Imp1 <> gx:46 var
+R5603:5604 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5578:5580 <> a3':58
+R5631:5640 BarocqComp.common.Typing <> typof_atom def
+R5642:5644 BarocqComp.backend.Imp1 <> a1':56 var
+binder 5624:5626 <> ty1:59
+R5668:5677 BarocqComp.common.Typing <> typof_atom def
+R5679:5681 BarocqComp.backend.Imp1 <> a2':57 var
+binder 5661:5663 <> ty2:60
+R5705:5714 BarocqComp.common.Typing <> typof_atom def
+R5716:5718 BarocqComp.backend.Imp1 <> a3':58 var
+binder 5698:5700 <> ty3:61
+R5731:5735 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5738:5741 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5778:5789 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5742:5760 BarocqComp.common.Typing <> typecheck_array_set def
+R5762:5765 BarocqComp.backend.Imp1 <> Typing.ARCHI.arch var
+R5767:5769 BarocqComp.backend.Imp1 <> ty1:59 var
+R5771:5773 BarocqComp.backend.Imp1 <> ty2:60 var
+R5775:5777 BarocqComp.backend.Imp1 <> ty3:61 var
+binder 5736:5737 <> ty:62
+R5790:5792 BarocqComp.common.Monads MonError ret def
+R5795:5804 BarocqComp.common.Syntax Typed CpArraySet constr
+R5806:5808 BarocqComp.backend.Imp1 <> a1':56 var
+R5810:5812 BarocqComp.backend.Imp1 <> a2':57 var
+R5814:5816 BarocqComp.backend.Imp1 <> a3':58 var
+R5818:5819 BarocqComp.backend.Imp1 <> ty:62 var
+R5828:5846 BarocqComp.common.Syntax <> CpRecordProj constr
+R5863:5867 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5870:5873 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5896:5907 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5874:5887 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R5889:5890 BarocqComp.backend.Imp1 <> gx:46 var
+R5892:5893 BarocqComp.backend.Imp1 <> lx:47 var
+binder 5868:5869 <> a':63
+R5919:5928 BarocqComp.common.Typing <> typof_atom def
+R5930:5931 BarocqComp.backend.Imp1 <> a':63 var
+binder 5912:5914 <> tya:64
+R5944:5948 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5951:5954 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5985:5996 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5955:5975 BarocqComp.common.Typing <> typecheck_record_proj def
+R5977:5978 BarocqComp.backend.Imp1 <> re:45 var
+R5980:5982 BarocqComp.backend.Imp1 <> tya:64 var
+binder 5949:5950 <> ty:65
+R5997:5999 BarocqComp.common.Monads MonError ret def
+R6002:6013 BarocqComp.common.Syntax Typed CpRecordProj constr
+R6015:6016 BarocqComp.backend.Imp1 <> a':63 var
+R6020:6021 BarocqComp.backend.Imp1 <> ty:65 var
+R6030:6050 BarocqComp.common.Syntax <> CpRecordUpdate constr
+R6071:6075 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6079:6082 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6106:6117 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6083:6096 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R6098:6099 BarocqComp.backend.Imp1 <> gx:46 var
+R6101:6102 BarocqComp.backend.Imp1 <> lx:47 var
+binder 6076:6078 <> a1':66
+R6118:6122 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6126:6129 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6153:6164 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6130:6143 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R6145:6146 BarocqComp.backend.Imp1 <> gx:46 var
+R6148:6149 BarocqComp.backend.Imp1 <> lx:47 var
+binder 6123:6125 <> a2':67
+R6176:6185 BarocqComp.common.Typing <> typof_atom def
+R6187:6189 BarocqComp.backend.Imp1 <> a1':66 var
+binder 6169:6171 <> ty1:68
+R6213:6222 BarocqComp.common.Typing <> typof_atom def
+R6224:6226 BarocqComp.backend.Imp1 <> a2':67 var
+binder 6206:6208 <> ty2:69
+R6239:6243 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6246:6249 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6286:6297 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6250:6272 BarocqComp.common.Typing <> typecheck_record_update def
+R6274:6275 BarocqComp.backend.Imp1 <> re:45 var
+R6277:6279 BarocqComp.backend.Imp1 <> ty1:68 var
+R6281:6283 BarocqComp.backend.Imp1 <> ty2:69 var
+binder 6244:6245 <> ty:70
+R6298:6300 BarocqComp.common.Monads MonError ret def
+R6303:6316 BarocqComp.common.Syntax Typed CpRecordUpdate constr
+R6318:6320 BarocqComp.backend.Imp1 <> a1':66 var
+R6324:6326 BarocqComp.backend.Imp1 <> a2':67 var
+R6328:6329 BarocqComp.backend.Imp1 <> ty:70 var
+R6338:6356 BarocqComp.common.Syntax <> CpDeepAccess constr
+R6375:6379 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6382:6385 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6408:6419 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6386:6399 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R6401:6402 BarocqComp.backend.Imp1 <> gx:46 var
+R6404:6405 BarocqComp.backend.Imp1 <> lx:47 var
+binder 6380:6381 <> a':71
+R6420:6425 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R6427:6428 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R6433:6437 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R6483:6494 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R6438:6453 BarocqComp.backend.Imp1 Typing typecheck_access def
+R6455:6456 BarocqComp.backend.Imp1 <> re:45 var
+R6458:6459 BarocqComp.backend.Imp1 <> gx:46 var
+R6461:6462 BarocqComp.backend.Imp1 <> lx:47 var
+R6465:6474 BarocqComp.common.Typing <> typof_atom def
+R6476:6477 BarocqComp.backend.Imp1 <> a':71 var
+binder 6426:6426 <> t:72
+binder 6429:6432 <> acs':73
+R6495:6497 BarocqComp.common.Monads MonError ret def
+R6500:6511 BarocqComp.common.Syntax Typed CpDeepAccess constr
+R6513:6514 BarocqComp.backend.Imp1 <> a':71 var
+R6516:6519 BarocqComp.backend.Imp1 <> acs':73 var
+R6521:6521 BarocqComp.backend.Imp1 <> t:72 var
+R6530:6542 BarocqComp.common.Syntax <> CpCall constr
+R6562:6566 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6569:6572 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6595:6606 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6573:6586 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R6588:6589 BarocqComp.backend.Imp1 <> gx:46 var
+R6591:6592 BarocqComp.backend.Imp1 <> lx:47 var
+binder 6567:6568 <> a':74
+R6618:6627 BarocqComp.common.Typing <> typof_atom def
+R6629:6630 BarocqComp.backend.Imp1 <> a':74 var
+binder 6611:6613 <> tya:75
+R6643:6647 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6653:6656 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6689:6700 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6657:6660 compcert.common.Errors <> mmap def
+R6663:6676 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R6678:6679 BarocqComp.backend.Imp1 <> gx:46 var
+R6681:6682 BarocqComp.backend.Imp1 <> lx:47 var
+binder 6648:6652 <> args':76
+R6714:6716 Coq.Lists.List <> map def
+R6729:6733 BarocqComp.backend.Imp1 <> args':76 var
+R6718:6727 BarocqComp.common.Typing <> typof_atom def
+binder 6705:6709 <> targs:77
+R6746:6750 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6753:6756 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6781:6792 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6757:6770 BarocqComp.common.Typing <> typecheck_call def
+R6772:6774 BarocqComp.backend.Imp1 <> tya:75 var
+R6776:6780 BarocqComp.backend.Imp1 <> targs:77 var
+binder 6751:6752 <> ty:78
+R6793:6795 BarocqComp.common.Monads MonError ret def
+R6798:6803 BarocqComp.common.Syntax Typed CpCall constr
+R6805:6806 BarocqComp.backend.Imp1 <> a':74 var
+R6808:6812 BarocqComp.backend.Imp1 <> args':76 var
+R6814:6815 BarocqComp.backend.Imp1 <> ty:78 var
+def 6923:6935 Typing merge_context
+R6947:6954 BarocqComp.common.Typing <> lcontext def
+binder 6938:6940 <> lx1:79
+binder 6942:6944 <> lx2:80
+R6959:6961 compcert.common.Errors <> res ind
+R6963:6970 BarocqComp.common.Typing <> lcontext def
+R6979:6988 BarocqComp.common.Maps2 STree fold def
+R7089:7091 BarocqComp.common.Monads MonError ret def
+R7093:7095 BarocqComp.backend.Imp1 <> lx1:79 var
+R7078:7080 BarocqComp.backend.Imp1 <> lx2:80 var
+binder 7001:7003 <> acc:81
+binder 7005:7005 <> k:82
+binder 7007:7007 <> v:83
+R7020:7024 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7028:7031 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7035:7046 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7032:7034 BarocqComp.backend.Imp1 <> acc:81 var
+binder 7025:7027 <> acc:84
+R7047:7061 BarocqComp.common.Typing <> lcontext_update def
+R7063:7065 BarocqComp.backend.Imp1 <> acc:84 var
+R7067:7067 BarocqComp.backend.Imp1 <> k:82 var
+R7069:7069 BarocqComp.backend.Imp1 <> v:83 var
+def 7111:7129 Typing typecheck_statement
+R7136:7139 BarocqComp.common.Typing <> renv def
+binder 7132:7133 <> re:85
+R7147:7154 BarocqComp.common.Typing <> gcontext def
+binder 7143:7144 <> gx:86
+R7162:7169 BarocqComp.common.Typing <> lcontext def
+binder 7158:7159 <> lx:87
+R7179:7182 BarocqComp.common.Types <> btyp ind
+binder 7173:7176 <> tret:88
+R7189:7202 BarocqComp.backend.Imp1 <> statement ind
+binder 7186:7186 <> s:89
+R7207:7209 compcert.common.Errors <> res ind
+R7231:7233 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7212:7230 BarocqComp.backend.Imp1 Imp1Typed statement ind
+R7234:7241 BarocqComp.common.Typing <> lcontext def
+R7258:7258 BarocqComp.backend.Imp1 <> s:89 var
+R7271:7280 BarocqComp.backend.Imp1 <> StSet constr
+R7297:7301 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7304:7307 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7333:7344 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7308:7321 BarocqComp.backend.Imp1 Typing typecheck_comp def
+R7323:7324 BarocqComp.backend.Imp1 <> re:85 var
+R7326:7327 BarocqComp.backend.Imp1 <> gx:86 var
+R7329:7330 BarocqComp.backend.Imp1 <> lx:87 var
+binder 7302:7303 <> c':92
+R7345:7349 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7353:7356 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7393:7404 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7357:7371 BarocqComp.common.Typing <> lcontext_update def
+R7373:7374 BarocqComp.backend.Imp1 <> lx:87 var
+R7379:7388 BarocqComp.common.Typing <> typof_comp def
+R7390:7391 BarocqComp.backend.Imp1 <> c':92 var
+binder 7350:7352 <> lx':93
+R7405:7407 BarocqComp.common.Monads MonError ret def
+R7409:7409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7420:7421 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7425:7425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7410:7414 BarocqComp.backend.Imp1 Imp1Typed StSet constr
+R7418:7419 BarocqComp.backend.Imp1 <> c':92 var
+R7422:7424 BarocqComp.backend.Imp1 <> lx':93 var
+R7433:7449 BarocqComp.backend.Imp1 <> StIfThenElse constr
+R7470:7475 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7479:7480 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7484:7488 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7525:7536 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7489:7507 BarocqComp.backend.Imp1 <> typecheck_statement:90 def
+R7518:7521 BarocqComp.backend.Imp1 <> tret:88 var
+R7515:7516 BarocqComp.backend.Imp1 <> lx:87 var
+R7512:7513 BarocqComp.backend.Imp1 <> gx:86 var
+R7509:7510 BarocqComp.backend.Imp1 <> re:85 var
+binder 7476:7478 <> s1':94
+binder 7481:7483 <> lx1:95
+R7537:7542 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7546:7547 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7551:7555 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7592:7603 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7556:7574 BarocqComp.backend.Imp1 <> typecheck_statement:90 def
+R7585:7588 BarocqComp.backend.Imp1 <> tret:88 var
+R7582:7583 BarocqComp.backend.Imp1 <> lx:87 var
+R7579:7580 BarocqComp.backend.Imp1 <> gx:86 var
+R7576:7577 BarocqComp.backend.Imp1 <> re:85 var
+binder 7543:7545 <> s2':96
+binder 7548:7550 <> lx2:97
+R7604:7608 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7611:7614 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7637:7648 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7615:7628 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R7630:7631 BarocqComp.backend.Imp1 <> gx:86 var
+R7633:7634 BarocqComp.backend.Imp1 <> lx:87 var
+binder 7609:7610 <> a':98
+R7655:7664 BarocqComp.common.Typing <> typof_atom def
+R7666:7667 BarocqComp.backend.Imp1 <> a':98 var
+R7684:7688 BarocqComp.common.Types <> BBool constr
+R7705:7709 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7713:7716 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7738:7753 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7717:7729 BarocqComp.backend.Imp1 Typing merge_context def
+R7731:7733 BarocqComp.backend.Imp1 <> lx1:95 var
+R7735:7737 BarocqComp.backend.Imp1 <> lx2:97 var
+binder 7710:7712 <> lx':99
+R7754:7756 BarocqComp.common.Monads MonError ret def
+R7758:7758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7782:7783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7787:7787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7759:7770 BarocqComp.backend.Imp1 Imp1Typed StIfThenElse constr
+R7772:7773 BarocqComp.backend.Imp1 <> a':98 var
+R7775:7777 BarocqComp.backend.Imp1 <> s1':94 var
+R7779:7781 BarocqComp.backend.Imp1 <> s2':96 var
+R7784:7786 BarocqComp.backend.Imp1 <> lx':99 var
+R7804:7811 BarocqComp.common.Monads MonError failwith def
+R7893:7907 BarocqComp.backend.Imp1 <> StSequence constr
+R7926:7931 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7935:7936 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7940:7944 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7981:7992 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7945:7963 BarocqComp.backend.Imp1 <> typecheck_statement:90 def
+R7974:7977 BarocqComp.backend.Imp1 <> tret:88 var
+R7971:7972 BarocqComp.backend.Imp1 <> lx:87 var
+R7968:7969 BarocqComp.backend.Imp1 <> gx:86 var
+R7965:7966 BarocqComp.backend.Imp1 <> re:85 var
+binder 7932:7934 <> s1':100
+binder 7937:7939 <> lx1:101
+R7993:7998 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8002:8003 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8007:8011 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8049:8060 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8012:8030 BarocqComp.backend.Imp1 <> typecheck_statement:90 def
+R8042:8045 BarocqComp.backend.Imp1 <> tret:88 var
+R8038:8040 BarocqComp.backend.Imp1 <> lx1:101 var
+R8035:8036 BarocqComp.backend.Imp1 <> gx:86 var
+R8032:8033 BarocqComp.backend.Imp1 <> re:85 var
+binder 7999:8001 <> s2':102
+binder 8004:8006 <> lx2:103
+R8061:8063 BarocqComp.common.Monads MonError ret def
+R8065:8065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8084:8085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8089:8089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8066:8075 BarocqComp.backend.Imp1 Imp1Typed StSequence constr
+R8077:8079 BarocqComp.backend.Imp1 <> s1':100 var
+R8081:8083 BarocqComp.backend.Imp1 <> s2':102 var
+R8086:8088 BarocqComp.backend.Imp1 <> lx2:103 var
+R8097:8109 BarocqComp.backend.Imp1 <> StReturn constr
+R8124:8128 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8131:8134 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8157:8168 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8135:8148 BarocqComp.backend.Imp1 Typing typecheck_atom def
+R8150:8151 BarocqComp.backend.Imp1 <> gx:86 var
+R8153:8154 BarocqComp.backend.Imp1 <> lx:87 var
+binder 8129:8130 <> a':104
+R8179:8188 BarocqComp.common.Typing <> typof_atom def
+R8190:8191 BarocqComp.backend.Imp1 <> a':104 var
+binder 8173:8174 <> ty:105
+R8207:8217 BarocqComp.common.Types <> btyp_eq_dec def
+R8219:8220 BarocqComp.backend.Imp1 <> ty:105 var
+R8222:8225 BarocqComp.backend.Imp1 <> tret:88 var
+R8287:8294 BarocqComp.common.Monads MonError failwith def
+R8242:8244 BarocqComp.common.Monads MonError ret def
+R8246:8246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8258:8259 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8262:8262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8247:8254 BarocqComp.backend.Imp1 Imp1Typed StReturn constr
+R8256:8257 BarocqComp.backend.Imp1 <> a':104 var
+R8260:8261 BarocqComp.backend.Imp1 <> lx:87 var
+def 8375:8392 Typing typecheck_function
+R8399:8402 BarocqComp.common.Typing <> renv def
+binder 8395:8396 <> re:106
+R8410:8417 BarocqComp.common.Typing <> gcontext def
+binder 8406:8407 <> gx:107
+R8424:8436 BarocqComp.backend.Imp1 <> function def
+binder 8421:8421 <> f:108
+R8441:8443 compcert.common.Errors <> res ind
+R8445:8462 BarocqComp.backend.Imp1 Imp1Typed function def
+R8471:8475 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8478:8487 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8604:8615 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8488:8500 BarocqComp.common.Utils <> fold_left_err def
+R8588:8590 BarocqComp.common.Monads MonError ret def
+R8592:8602 BarocqComp.common.Maps2 STree empty def
+R8566:8574 BarocqComp.common.Syntax <> fn_params proj
+R8576:8576 BarocqComp.backend.Imp1 <> f:108 var
+binder 8515:8517 <> acc:109
+R8520:8520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8522:8523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8526:8526 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 8524:8525 <> tx:110
+binder 8521:8521 <> x:111
+binder 8520:8526 <> pat:112
+R8531:8545 BarocqComp.common.Typing <> lcontext_update def
+R8547:8549 BarocqComp.backend.Imp1 <> acc:109 var
+R8551:8551 BarocqComp.backend.Imp1 <> x:111 var
+R8553:8554 BarocqComp.backend.Imp1 <> tx:110 var
+binder 8476:8477 <> lx:113
+R8616:8621 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8626:8627 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8629:8633 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8688:8695 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8634:8652 BarocqComp.backend.Imp1 Typing typecheck_statement def
+R8654:8655 BarocqComp.backend.Imp1 <> re:106 var
+R8657:8658 BarocqComp.backend.Imp1 <> gx:107 var
+R8660:8661 BarocqComp.backend.Imp1 <> lx:113 var
+R8664:8672 BarocqComp.common.Syntax <> fn_return proj
+R8674:8674 BarocqComp.backend.Imp1 <> f:108 var
+R8678:8684 BarocqComp.common.Syntax <> fn_body proj
+R8686:8686 BarocqComp.backend.Imp1 <> f:108 var
+binder 8622:8625 <> body:114
+R8696:8698 BarocqComp.common.Monads MonError ret def
+R8709:8717 BarocqComp.common.Syntax <> fn_return proj
+R8709:8717 BarocqComp.common.Syntax <> fn_return proj
+R8709:8717 BarocqComp.common.Syntax <> fn_return proj
+R8741:8749 BarocqComp.common.Syntax <> fn_params proj
+R8741:8749 BarocqComp.common.Syntax <> fn_params proj
+R8773:8779 BarocqComp.common.Syntax <> fn_body proj
+R8773:8779 BarocqComp.common.Syntax <> fn_body proj
+R8722:8730 BarocqComp.common.Syntax <> fn_return proj
+R8732:8732 BarocqComp.backend.Imp1 <> f:108 var
+R8754:8762 BarocqComp.common.Syntax <> fn_params proj
+R8764:8764 BarocqComp.backend.Imp1 <> f:108 var
+R8784:8787 BarocqComp.backend.Imp1 <> body:114 var
+def 8811:8832 Typing typecheck_globdefs_rec
+R8839:8842 BarocqComp.common.Typing <> renv def
+binder 8835:8836 <> re:115
+R8850:8857 BarocqComp.common.Typing <> gcontext def
+binder 8846:8847 <> gx:116
+R8867:8870 Coq.Init.Datatypes <> list ind
+R8872:8883 BarocqComp.backend.Imp1 <> globdef def
+binder 8861:8864 <> defs:117
+R8888:8890 compcert.common.Errors <> res ind
+R8893:8896 Coq.Init.Datatypes <> list ind
+R8898:8914 BarocqComp.backend.Imp1 Imp1Typed globdef def
+R8930:8933 BarocqComp.backend.Imp1 <> defs:117 var
+R8946:8948 Coq.Init.Datatypes <> nil constr
+R8953:8955 BarocqComp.common.Monads MonError ret def
+R8957:8959 Coq.Init.Datatypes <> nil constr
+R8968:8971 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9012:9019 BarocqComp.common.Syntax <> DefConst constr
+R9043:9047 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9050:9053 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9076:9091 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9054:9070 BarocqComp.common.Typing <> typecheck_literal def
+R9072:9073 BarocqComp.backend.Imp1 <> re:115 var
+binder 9048:9049 <> l':121
+R9095:9105 BarocqComp.common.Types <> btyp_eq_dec def
+R9111:9123 BarocqComp.common.Typing <> typof_literal def
+R9125:9126 BarocqComp.backend.Imp1 <> l':121 var
+R9323:9330 BarocqComp.common.Monads MonError failwith def
+R9148:9152 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9155:9158 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9182:9199 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9159:9173 BarocqComp.common.Typing <> gcontext_update def
+R9175:9176 BarocqComp.backend.Imp1 <> gx:116 var
+binder 9153:9154 <> gx:122
+R9200:9204 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9207:9210 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9245:9262 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9211:9232 BarocqComp.backend.Imp1 <> typecheck_globdefs_rec:118 def
+R9237:9238 BarocqComp.backend.Imp1 <> gx:122 var
+R9234:9235 BarocqComp.backend.Imp1 <> re:115 var
+binder 9205:9206 <> rd:123
+R9263:9265 BarocqComp.common.Monads MonError ret def
+R9284:9287 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9268:9275 BarocqComp.common.Syntax <> DefConst constr
+R9279:9280 BarocqComp.backend.Imp1 <> l':121 var
+R9288:9289 BarocqComp.backend.Imp1 <> rd:123 var
+R9413:9418 BarocqComp.common.Syntax <> DefFun constr
+R9439:9443 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9446:9449 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9476:9491 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9450:9467 BarocqComp.backend.Imp1 Typing typecheck_function def
+R9469:9470 BarocqComp.backend.Imp1 <> re:115 var
+R9472:9473 BarocqComp.backend.Imp1 <> gx:116 var
+binder 9444:9445 <> f':124
+R9492:9496 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9499:9502 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9567:9582 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9503:9517 BarocqComp.common.Typing <> gcontext_update def
+R9519:9520 BarocqComp.backend.Imp1 <> gx:116 var
+R9525:9535 BarocqComp.common.Types <> mk_fun_btyp def
+R9553:9561 BarocqComp.common.Syntax <> fn_return proj
+R9563:9564 BarocqComp.backend.Imp1 <> f':124 var
+R9538:9546 BarocqComp.common.Syntax <> fn_params proj
+R9548:9549 BarocqComp.backend.Imp1 <> f':124 var
+binder 9497:9498 <> gx:125
+R9583:9587 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9590:9593 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9628:9643 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9594:9615 BarocqComp.backend.Imp1 <> typecheck_globdefs_rec:118 def
+R9620:9621 BarocqComp.backend.Imp1 <> gx:125 var
+R9617:9618 BarocqComp.backend.Imp1 <> re:115 var
+binder 9588:9589 <> rd:126
+R9644:9646 BarocqComp.common.Monads MonError ret def
+R9660:9663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9649:9654 BarocqComp.common.Syntax <> DefFun constr
+R9658:9659 BarocqComp.backend.Imp1 <> f':124 var
+R9664:9665 BarocqComp.backend.Imp1 <> rd:126 var
+R9678:9686 BarocqComp.common.Syntax <> DeclConst constr
+R9708:9712 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9715:9718 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9742:9757 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9719:9733 BarocqComp.common.Typing <> gcontext_update def
+R9735:9736 BarocqComp.backend.Imp1 <> gx:116 var
+binder 9713:9714 <> gx:127
+R9758:9762 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9765:9768 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9803:9818 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9769:9790 BarocqComp.backend.Imp1 <> typecheck_globdefs_rec:118 def
+R9795:9796 BarocqComp.backend.Imp1 <> gx:127 var
+R9792:9793 BarocqComp.backend.Imp1 <> re:115 var
+binder 9763:9764 <> rd:128
+R9819:9821 BarocqComp.common.Monads MonError ret def
+R9838:9841 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9824:9832 BarocqComp.common.Syntax <> DeclConst constr
+R9842:9843 BarocqComp.backend.Imp1 <> rd:128 var
+R9856:9862 BarocqComp.common.Syntax <> DeclFun constr
+R9894:9898 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9901:9904 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9952:9967 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9905:9919 BarocqComp.common.Typing <> gcontext_update def
+R9921:9922 BarocqComp.backend.Imp1 <> gx:116 var
+R9927:9937 BarocqComp.common.Types <> mk_fun_btyp def
+binder 9899:9900 <> gx:129
+R9968:9972 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9975:9978 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10013:10028 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R9979:10000 BarocqComp.backend.Imp1 <> typecheck_globdefs_rec:118 def
+R10005:10006 BarocqComp.backend.Imp1 <> gx:129 var
+R10002:10003 BarocqComp.backend.Imp1 <> re:115 var
+binder 9973:9974 <> rd:130
+R10029:10031 BarocqComp.common.Monads MonError ret def
+R10056:10059 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10034:10040 BarocqComp.common.Syntax <> DeclFun constr
+R10060:10061 BarocqComp.backend.Imp1 <> rd:130 var
+def 10099:10116 Typing typecheck_globdefs
+R10123:10126 BarocqComp.common.Typing <> renv def
+binder 10119:10120 <> re:131
+R10136:10139 Coq.Init.Datatypes <> list ind
+R10141:10152 BarocqComp.backend.Imp1 <> globdef def
+binder 10130:10133 <> defs:132
+R10157:10159 compcert.common.Errors <> res ind
+R10162:10165 Coq.Init.Datatypes <> list ind
+R10167:10183 BarocqComp.backend.Imp1 Imp1Typed globdef def
+R10193:10214 BarocqComp.backend.Imp1 Typing typecheck_globdefs_rec def
+R10216:10217 BarocqComp.backend.Imp1 <> re:131 var
+R10219:10229 BarocqComp.common.Maps2 STree empty def
+R10231:10234 BarocqComp.backend.Imp1 <> defs:132 var
+def 10251:10267 Typing typecheck_program
+R10276:10287 BarocqComp.backend.Imp1 <> program def
+binder 10270:10273 <> prog:133
+R10292:10294 compcert.common.Errors <> res ind
+R10296:10312 BarocqComp.backend.Imp1 Imp1Typed program def
+R10321:10325 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10328:10337 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10581:10592 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10338:10356 BarocqComp.common.Utils <> fold_left_err def
+R10564:10567 BarocqComp.common.Monads MonError eret abbrev
+R10569:10579 BarocqComp.common.Maps2 STree empty def
+R10538:10547 BarocqComp.common.Syntax <> prog_types proj
+R10549:10552 BarocqComp.backend.Imp1 <> prog:133 var
+binder 10371:10373 <> acc:134
+binder 10375:10376 <> td:135
+R10397:10398 BarocqComp.backend.Imp1 <> td:135 var
+R10417:10424 BarocqComp.common.Syntax <> TdRecord constr
+R10432:10442 BarocqComp.common.Typing <> renv_update def
+R10444:10446 BarocqComp.backend.Imp1 <> acc:134 var
+R10449:10455 BarocqComp.common.Syntax <> rd_name proj
+R10462:10470 BarocqComp.common.Syntax <> rd_fields proj
+R10488:10497 BarocqComp.common.Syntax <> TdAbstract constr
+R10506:10508 BarocqComp.common.Monads MonError ret def
+R10510:10512 BarocqComp.backend.Imp1 <> acc:134 var
+binder 10326:10327 <> re:137
+R10593:10597 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10602:10605 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10644:10651 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10606:10623 BarocqComp.backend.Imp1 Typing typecheck_globdefs def
+R10625:10626 BarocqComp.backend.Imp1 <> re:137 var
+R10629:10637 BarocqComp.common.Syntax <> prog_defs proj
+R10639:10642 BarocqComp.backend.Imp1 <> prog:133 var
+binder 10598:10601 <> defs:138
+R10652:10654 BarocqComp.common.Monads MonError ret def
+R10665:10673 BarocqComp.common.Syntax <> prog_defs proj
+R10665:10673 BarocqComp.common.Syntax <> prog_defs proj
+R10665:10673 BarocqComp.common.Syntax <> prog_defs proj
+R10690:10699 BarocqComp.common.Syntax <> prog_types proj
+R10690:10699 BarocqComp.common.Syntax <> prog_types proj
+R10678:10681 BarocqComp.backend.Imp1 <> defs:138 var
+R10704:10713 BarocqComp.common.Syntax <> prog_types proj
+R10715:10718 BarocqComp.backend.Imp1 <> prog:133 var
+R10736:10740 BarocqComp.backend.Imp1 Typing.ARCHI <> sec
+R10748:10753 BarocqComp.backend.Imp1 Typing <> mod
+R10778:10788 BarocqComp.backend.Imp1 Typing <> modtype
+mod 10764:10773 <> Imp1Typing

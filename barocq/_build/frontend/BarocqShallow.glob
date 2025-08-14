@@ -1,0 +1,478 @@
+DIGEST 90634c826d6f48f015d96bdf7cddb12b
+FBarocqComp.frontend.BarocqShallow
+R29:34 compcert.cfrontend.Ctypes <> <> lib
+R36:43 compcert.lib.Integers <> <> lib
+R77:82 BarocqComp.common.Barray <> <> lib
+R84:88 BarocqComp.common.Utils <> <> lib
+R90:94 BarocqComp.common.Types <> <> lib
+R96:101 BarocqComp.common.Syntax <> <> lib
+mod 112:114 <> BNF
+def 204:210 BNF literal
+R222:235 BarocqComp.common.Syntax <> literal ind
+ind 270:273 BNF atom
+constr 284:288 BNF ATrue
+constr 303:308 BNF AFalse
+constr 323:328 BNF AInt32
+constr 364:369 BNF AInt64
+constr 407:410 BNF AVar
+constr 434:438 BNF ACast
+constr 469:476 BNF AUnaryOp
+constr 511:519 BNF ABinaryOp
+constr 563:573 BNF ARecordProj
+constr 605:617 BNF ARecordUpdate
+R292:295 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R312:315 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R332:334 compcert.lib.Integers <> int abbrev
+R349:352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R339:348 BarocqComp.common.Types <> signedness ind
+R353:356 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R378:381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:377 compcert.lib.Integers <> int64 abbrev
+R392:395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R382:391 BarocqComp.common.Types <> signedness ind
+R396:399 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R419:422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R414:418 BarocqComp.common.Syntax <> ident def
+R423:426 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R446:449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R442:445 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R454:457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R450:453 BarocqComp.common.Types <> btyp ind
+R458:461 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R488:491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R480:487 BarocqComp.common.Syntax <> unary_op ind
+R496:499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R492:495 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R500:503 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R532:535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R523:531 BarocqComp.common.Syntax <> binary_op ind
+R540:543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R536:539 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R548:551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R544:547 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R552:555 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R581:584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R577:580 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R590:593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R585:589 BarocqComp.common.Syntax <> ident def
+R594:597 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R625:628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R621:624 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R634:637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R629:633 BarocqComp.common.Syntax <> ident def
+R642:645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R638:641 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+R646:649 BarocqComp.frontend.BarocqShallow <> atom:1 ind
+scheme 270:273 BNF atom_rect
+scheme 270:273 BNF atom_ind
+scheme 270:273 BNF atom_rec
+scheme 270:273 BNF atom_sind
+ind 690:693 BNF expr
+constr 711:715 BNF EAtom
+constr 738:746 BNF EArrayGet
+constr 777:785 BNF EArraySet
+constr 824:827 BNF EApp
+constr 863:873 BNF EIfThenElse
+constr 912:917 BNF ELetIn
+R723:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R719:722 BarocqComp.frontend.BarocqShallow BNF atom ind
+R727:730 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R754:757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R750:753 BarocqComp.frontend.BarocqShallow BNF atom ind
+R762:765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R758:761 BarocqComp.frontend.BarocqShallow BNF atom ind
+R766:769 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R793:796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R789:792 BarocqComp.frontend.BarocqShallow BNF atom ind
+R801:804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R797:800 BarocqComp.frontend.BarocqShallow BNF atom ind
+R809:812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R805:808 BarocqComp.frontend.BarocqShallow BNF atom ind
+R813:816 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R835:838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R831:834 BarocqComp.frontend.BarocqShallow BNF atom ind
+R848:851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R839:842 Coq.Init.Datatypes <> list ind
+R844:847 BarocqComp.frontend.BarocqShallow BNF atom ind
+R852:855 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R881:884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R877:880 BarocqComp.frontend.BarocqShallow BNF atom ind
+R889:892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R885:888 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R897:900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R893:896 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R901:904 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R926:929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R921:925 BarocqComp.common.Syntax <> ident def
+R934:937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R930:933 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R942:945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R938:941 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+R946:949 BarocqComp.frontend.BarocqShallow <> expr:3 ind
+scheme 690:693 BNF expr_rect
+scheme 690:693 BNF expr_ind
+scheme 690:693 BNF expr_rec
+scheme 690:693 BNF expr_sind
+def 989:996 BNF function
+R1008:1022 BarocqComp.common.Syntax <> function rec
+R1024:1027 BarocqComp.frontend.BarocqShallow BNF expr ind
+def 1076:1082 BNF globdef
+R1094:1107 BarocqComp.common.Syntax <> globdef ind
+R1109:1115 BarocqComp.frontend.BarocqShallow BNF literal def
+R1117:1124 BarocqComp.frontend.BarocqShallow BNF function def
+rec 1159:1165 BNF program
+proj 1194:1202 BNF prog_defs
+proj 1224:1233 BNF prog_types
+R1206:1209 Coq.Init.Datatypes <> list ind
+R1211:1217 BarocqComp.frontend.BarocqShallow BNF globdef def
+R1237:1240 Coq.Init.Datatypes <> list ind
+R1242:1249 BarocqComp.common.Syntax <> type_def ind
+R1261:1263 BarocqComp.frontend.BarocqShallow BNF <> mod
+mod 1274:1280 <> Monadic
+ind 1387:1390 Monadic mtyp
+constr 1408:1412 Monadic MBool
+constr 1427:1432 Monadic MInt32
+constr 1461:1466 Monadic MInt64
+constr 1495:1500 Monadic MArray
+constr 1523:1529 Monadic MRecord
+constr 1553:1556 Monadic MFun
+constr 1592:1595 Monadic MAbs
+constr 1619:1622 Monadic MRes
+R1416:1419 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1446:1449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1436:1445 BarocqComp.common.Types <> signedness ind
+R1450:1453 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1480:1483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1470:1479 BarocqComp.common.Types <> signedness ind
+R1484:1487 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1508:1511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1504:1507 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1512:1515 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1538:1541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1533:1537 BarocqComp.common.Syntax <> ident def
+R1542:1545 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1569:1572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1560:1563 Coq.Init.Datatypes <> list ind
+R1565:1568 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1577:1580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1573:1576 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1581:1584 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1604:1607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1599:1603 BarocqComp.common.Syntax <> ident def
+R1608:1611 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1630:1633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1626:1629 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+R1634:1637 BarocqComp.frontend.BarocqShallow <> mtyp:8 ind
+scheme 1387:1390 Monadic mtyp_rect
+scheme 1387:1390 Monadic mtyp_ind
+scheme 1387:1390 Monadic mtyp_rec
+scheme 1387:1390 Monadic mtyp_sind
+ind 1672:1678 Monadic literal
+constr 1689:1693 Monadic LTrue
+constr 1719:1724 Monadic LFalse
+constr 1750:1755 Monadic LInt32
+constr 1788:1793 Monadic LInt64
+constr 1828:1833 Monadic LArray
+constr 1876:1882 Monadic LRecord
+R1701:1704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1697:1700 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1705:1711 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1732:1735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1728:1731 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1736:1742 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1762:1765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1759:1761 compcert.lib.Integers <> int abbrev
+R1770:1773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1766:1769 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1774:1780 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1802:1805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1797:1801 compcert.lib.Integers <> int64 abbrev
+R1810:1813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1806:1809 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1814:1820 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1850:1853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1837:1841 BarocqComp.common.Barray <> array def
+R1843:1849 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1858:1861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1854:1857 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1862:1868 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1908:1911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1886:1889 Coq.Init.Datatypes <> list ind
+R1897:1899 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1892:1896 BarocqComp.common.Syntax <> ident def
+R1900:1906 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+R1916:1919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1912:1915 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1920:1926 BarocqComp.frontend.BarocqShallow <> literal:10 ind
+scheme 1672:1678 Monadic literal_rect
+scheme 1672:1678 Monadic literal_ind
+scheme 1672:1678 Monadic literal_rec
+scheme 1672:1678 Monadic literal_sind
+ind 1961:1964 Monadic atom
+constr 1975:1979 Monadic ATrue
+constr 2002:2007 Monadic AFalse
+constr 2030:2035 Monadic AInt32
+constr 2065:2070 Monadic AInt64
+constr 2102:2105 Monadic AVar
+constr 2137:2141 Monadic ACast
+constr 2172:2179 Monadic AUnaryOp
+constr 2222:2230 Monadic ABinaryOp
+constr 2283:2293 Monadic ARecordProj
+constr 2333:2345 Monadic ARecordUpdate
+constr 2393:2399 Monadic ALambda
+constr 2444:2453 Monadic ALambdaRet
+constr 2498:2501 Monadic AApp
+R1987:1990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1986 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R1991:1994 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2015:2018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2011:2014 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2019:2022 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2042:2045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2041 compcert.lib.Integers <> int abbrev
+R2050:2053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2046:2049 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2054:2057 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2079:2082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2074:2078 compcert.lib.Integers <> int64 abbrev
+R2087:2090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2083:2086 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2091:2094 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2114:2117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2109:2113 BarocqComp.common.Syntax <> ident def
+R2122:2125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2118:2121 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2126:2129 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2149:2152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2145:2148 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2157:2160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2153:2156 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2161:2164 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2191:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2183:2190 BarocqComp.common.Syntax <> unary_op ind
+R2199:2202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2195:2198 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2207:2210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2203:2206 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2211:2214 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2243:2246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2234:2242 BarocqComp.common.Syntax <> binary_op ind
+R2251:2254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2247:2250 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2259:2262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2255:2258 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2267:2271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2263:2266 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2272:2275 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2301:2304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2297:2300 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2310:2313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2305:2309 BarocqComp.common.Syntax <> ident def
+R2318:2321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2314:2317 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2322:2325 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2353:2356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2349:2352 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2362:2365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2357:2361 BarocqComp.common.Syntax <> ident def
+R2370:2373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2366:2369 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2378:2381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2374:2377 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2382:2385 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2413:2416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2403:2406 Coq.Init.Datatypes <> list ind
+R2408:2412 BarocqComp.common.Syntax <> ident def
+R2421:2424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2417:2420 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2429:2432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2425:2428 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2433:2436 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2467:2470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2457:2460 Coq.Init.Datatypes <> list ind
+R2462:2466 BarocqComp.common.Syntax <> ident def
+R2475:2478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2474 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2483:2486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2479:2482 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2487:2490 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+R2510:2513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2505:2509 BarocqComp.common.Syntax <> ident def
+R2524:2527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2514:2517 Coq.Init.Datatypes <> list ind
+R2519:2523 BarocqComp.common.Syntax <> ident def
+R2532:2535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2528:2531 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2536:2539 BarocqComp.frontend.BarocqShallow <> atom:12 ind
+scheme 1961:1964 Monadic atom_rect
+scheme 1961:1964 Monadic atom_ind
+scheme 1961:1964 Monadic atom_rec
+scheme 1961:1964 Monadic atom_sind
+ind 2580:2583 Monadic expr
+constr 2601:2605 Monadic EAtom
+constr 2636:2644 Monadic EArrayGet
+constr 2683:2691 Monadic EArraySet
+constr 2738:2741 Monadic EApp
+constr 2785:2795 Monadic EIfThenElse
+constr 2842:2847 Monadic ELetIn
+constr 2895:2901 Monadic ELetMon
+constr 2949:2952 Monadic ERet
+R2613:2616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2609:2612 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2621:2624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2617:2620 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2625:2628 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2652:2655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2648:2651 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2660:2663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2656:2659 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2668:2671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2664:2667 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2672:2675 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2699:2702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2695:2698 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2707:2710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2703:2706 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2715:2718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2711:2714 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2723:2726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2719:2722 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2727:2730 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2749:2752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2745:2748 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2762:2765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2753:2756 Coq.Init.Datatypes <> list ind
+R2758:2761 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2770:2773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2766:2769 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2774:2777 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2803:2806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2799:2802 BarocqComp.frontend.BarocqShallow Monadic atom ind
+R2811:2814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2807:2810 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2819:2822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2815:2818 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2827:2830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2823:2826 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2831:2834 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2856:2859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2851:2855 BarocqComp.common.Syntax <> ident def
+R2864:2867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2860:2863 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2872:2875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2868:2871 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2880:2883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2876:2879 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2884:2887 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2910:2913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2905:2909 BarocqComp.common.Syntax <> ident def
+R2918:2921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2914:2917 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2926:2929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2922:2925 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2934:2937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2930:2933 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2938:2941 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2960:2963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2956:2959 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+R2968:2971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2964:2967 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R2972:2975 BarocqComp.frontend.BarocqShallow <> expr:14 ind
+scheme 2580:2583 Monadic expr_rect
+scheme 2580:2583 Monadic expr_ind
+scheme 2580:2583 Monadic expr_rec
+scheme 2580:2583 Monadic expr_sind
+rec 3011:3018 Monadic function
+proj 3048:3056 Monadic fn_return
+proj 3069:3077 Monadic fn_params
+proj 3105:3111 Monadic fn_body
+R3059:3062 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3080:3083 Coq.Init.Datatypes <> list ind
+R3091:3093 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3086:3090 BarocqComp.common.Syntax <> ident def
+R3094:3097 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3114:3117 BarocqComp.frontend.BarocqShallow Monadic expr ind
+ind 3169:3175 Monadic globdef
+constr 3193:3200 Monadic DefConst
+constr 3246:3251 Monadic DefFun
+constr 3290:3298 Monadic DeclConst
+constr 3333:3339 Monadic DeclFun
+R3209:3212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3204:3208 BarocqComp.common.Syntax <> ident def
+R3220:3223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3213:3219 BarocqComp.frontend.BarocqShallow Monadic literal ind
+R3228:3231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3224:3227 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3232:3238 BarocqComp.frontend.BarocqShallow <> globdef:20 ind
+R3260:3263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3255:3259 BarocqComp.common.Syntax <> ident def
+R3272:3275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3264:3271 BarocqComp.frontend.BarocqShallow Monadic function rec
+R3276:3282 BarocqComp.frontend.BarocqShallow <> globdef:20 ind
+R3307:3310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3302:3306 BarocqComp.common.Syntax <> ident def
+R3315:3318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3311:3314 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3319:3325 BarocqComp.frontend.BarocqShallow <> globdef:20 ind
+R3348:3351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3343:3347 BarocqComp.common.Syntax <> ident def
+R3376:3379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3352:3355 Coq.Init.Datatypes <> list ind
+R3368:3370 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3358:3367 BarocqComp.common.Syntax <> param_attr ind
+R3371:3374 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3384:3387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3380:3383 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+R3388:3394 BarocqComp.frontend.BarocqShallow <> globdef:20 ind
+scheme 3169:3175 Monadic globdef_rect
+scheme 3169:3175 Monadic globdef_ind
+scheme 3169:3175 Monadic globdef_rec
+scheme 3169:3175 Monadic globdef_sind
+rec 3429:3438 Monadic record_def
+proj 3463:3469 Monadic rd_name
+proj 3484:3492 Monadic rd_fields
+R3473:3477 BarocqComp.common.Syntax <> ident def
+R3496:3499 Coq.Init.Datatypes <> list ind
+R3507:3509 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3502:3506 BarocqComp.common.Syntax <> ident def
+R3510:3513 BarocqComp.frontend.BarocqShallow Monadic mtyp ind
+ind 3534:3541 Monadic type_def
+constr 3559:3566 Monadic TdRecord
+constr 3599:3608 Monadic TdAbstract
+R3580:3583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3570:3579 BarocqComp.frontend.BarocqShallow Monadic record_def rec
+R3584:3591 BarocqComp.frontend.BarocqShallow <> type_def:25 ind
+R3617:3620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3612:3616 BarocqComp.common.Syntax <> ident def
+R3636:3639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3621:3635 compcert.cfrontend.Ctypes <> struct_or_union ind
+R3640:3647 BarocqComp.frontend.BarocqShallow <> type_def:25 ind
+scheme 3534:3541 Monadic type_def_rect
+scheme 3534:3541 Monadic type_def_ind
+scheme 3534:3541 Monadic type_def_rec
+scheme 3534:3541 Monadic type_def_sind
+rec 3661:3667 Monadic program
+proj 3696:3704 Monadic prog_defs
+proj 3726:3735 Monadic prog_types
+R3708:3711 Coq.Init.Datatypes <> list ind
+R3713:3719 BarocqComp.frontend.BarocqShallow Monadic globdef ind
+R3739:3742 Coq.Init.Datatypes <> list ind
+R3744:3751 BarocqComp.frontend.BarocqShallow Monadic type_def ind
+def 3772:3786 Monadic get_record_defs
+R3796:3799 Coq.Init.Datatypes <> list ind
+R3801:3808 BarocqComp.frontend.BarocqShallow Monadic type_def ind
+binder 3789:3793 <> types:30
+R3813:3816 Coq.Init.Datatypes <> list ind
+R3818:3827 BarocqComp.frontend.BarocqShallow Monadic record_def rec
+R3836:3850 Coq.Lists.List <> fold_right def
+R3980:3984 BarocqComp.frontend.BarocqShallow <> types:30 var
+R3970:3972 Coq.Init.Datatypes <> nil constr
+binder 3863:3864 <> td:31
+binder 3866:3868 <> acc:32
+R3887:3888 BarocqComp.frontend.BarocqShallow <> td:31 var
+R3905:3912 BarocqComp.frontend.BarocqShallow Monadic TdRecord constr
+R3920:3923 Coq.Init.Datatypes <> cons constr
+R3928:3930 BarocqComp.frontend.BarocqShallow <> acc:32 var
+R3947:3949 BarocqComp.frontend.BarocqShallow <> acc:32 var
+R3992:3998 BarocqComp.frontend.BarocqShallow Monadic <> mod

@@ -1,0 +1,74 @@
+module Br_interface
+
+(* Types definitions ============================================================ *)
+
+type inbox = {
+    full : u32;			(* if full != 0, then we have a message, else no message. *)
+    msgs : array u32;	(* 128-bit message *)
+}
+
+type zone = {
+  	id : u32;
+  	regs: array u32;
+  	pmpcfg : array u32;
+  	pmpaddr : array u32;
+	ustatus : u32;
+	uepc : u32;
+	uie : u32;
+	ucause : u32;
+	utval : u32;
+	excpt_handlers : array u32;
+	intrp_deleg : u32;
+}
+
+type intrp_handler = {
+	zone : u32; 	(* zone : u32 cannot be of type zone but can only be an index in kernel.zones*)
+	handler : u32;
+}
+
+type state of "struct"
+
+type kernel = {
+	current : u32;  (* cannot be of type zone but can only be an index in kernel.zones*)
+	deadline : u64; (* time is the only type of value that stay in u64 *)
+	next : u32;     (* same as current : cannot be of type zone *)
+	next_quantum : u64;
+	mie : u32;
+	zones : array zone;
+	intrp_handlers : array intrp_handler;
+	inboxes : array inbox;
+	ms : state;  	(* State : dummy type for write/read functions impl in C, ms for machine state*)
+}
+
+
+(* Constants and no type definition : ====================================================== *)
+
+defn USTATUS_IE  : u32 = 1U
+defn USTATUS_PIE : u32 = 16U  	(* in c : (1 << 4), it's the same *)
+decl QUANTUM_CYC : u64 			(* time value so stay in 64, imported from .h called Br_sched_QUANTUM_CYC *)
+decl N_ZONES : u32
+defn MIE_TIMER : u32 = 128U 	(* in C : MIE_TIMER (1 << 7), it's the same *)
+defn mie : i32 = 0x304
+defn mtvec : i32 = 0x305
+defn mstatus : i32 = 0x306
+defn PC : u32 = 0U 
+
+(* Functions decla implemented in C : ====================================================== *)
+(*
+decl read_mtime : () -> u64 	(* only place in the code where still u64 and not 32 bit because time value needs 64 *)
+*)
+
+decl read_mtime : (@read state) -> u64 	(* only place in the code where still u64 and not 32 bit because time value needs 64 *)
+
+decl write_mtimecmp : (@write state, u64) -> state 	(* same here its time *)
+decl csr_write_asm_trap_entry : (@write state, i32) -> state
+decl csr_write : (@write state, i32, u32) -> state
+
+decl MCAUSE_INTRP : (u32) -> u32
+decl binary_or : (u32, u32) -> u32
+
+
+defn and_with_bitwise(mie: u32, uie: u32) : u32 =
+    let bitwise = ~uie in
+    let result = mie & bitwise in 
+    result

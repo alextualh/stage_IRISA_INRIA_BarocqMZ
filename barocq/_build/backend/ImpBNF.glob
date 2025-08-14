@@ -1,0 +1,51 @@
+DIGEST 63924d27a4e250b01030d6789cdba408
+FBarocqComp.backend.ImpBNF
+R31:36 BarocqComp.common.Syntax <> <> lib
+def 97:103 <> literal
+R115:128 BarocqComp.common.Syntax <> literal ind
+def 160:163 <> atom
+R175:185 BarocqComp.common.Syntax <> atom ind
+ind 228:235 <> tailcomp
+constr 251:257 <> TcBegin
+constr 299:304 <> TcComp
+constr 329:340 <> TcIfThenElse
+ind 413:421 <> statement
+constr 437:449 <> StSetTailcomp
+R270:273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R261:269 BarocqComp.backend.ImpBNF <> statement:2 ind
+R282:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R274:281 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R286:293 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R312:315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R308:311 BarocqComp.common.Syntax <> comp ind
+R316:323 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R348:351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R344:347 BarocqComp.backend.ImpBNF <> atom def
+R360:363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R352:359 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R372:375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:371 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R376:383 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R458:461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R453:457 BarocqComp.common.Syntax <> ident def
+R470:473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R462:469 BarocqComp.backend.ImpBNF <> tailcomp:1 ind
+R474:482 BarocqComp.backend.ImpBNF <> statement:2 ind
+scheme 228:235 <> tailcomp_rect
+scheme 228:235 <> tailcomp_ind
+scheme 228:235 <> tailcomp_rec
+scheme 228:235 <> tailcomp_sind
+scheme 413:421 <> statement_rect
+scheme 413:421 <> statement_ind
+scheme 413:421 <> statement_rec
+scheme 413:421 <> statement_sind
+def 518:525 <> function
+R537:551 BarocqComp.common.Syntax <> function rec
+R553:560 BarocqComp.backend.ImpBNF <> tailcomp ind
+def 605:611 <> globdef
+R623:636 BarocqComp.common.Syntax <> globdef ind
+R638:644 BarocqComp.backend.ImpBNF <> literal def
+R646:653 BarocqComp.backend.ImpBNF <> function def
+def 688:694 <> program
+R706:719 BarocqComp.common.Syntax <> program rec
+R721:727 BarocqComp.backend.ImpBNF <> globdef def

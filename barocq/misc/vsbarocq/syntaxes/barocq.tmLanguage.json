@@ -1,0 +1,294 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Barocq",
+	"patterns": [
+		{ "include": "#comments" },
+		{ "include": "#directives" },
+		{ "include": "#operators" },
+		{ "include": "#types_cast" },
+		{ "include": "#keywords"},
+		{ "include": "#literals" },
+		{ "include": "#types_builtin" },
+		{ "include": "#identifiers"}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"comment": "control keyword",
+					"name": "keyword.control.barocq",
+					"match": "\\b(if|then|else)\\b"
+				},
+                {
+                    "comment": "other keyword",
+				    "name": "keyword.other.barocq",
+				    "match": "\\b(module|import|type|defn|decl|let|and|in|with|compute|as|of)\\b"
+                }
+            ]
+		},
+		"operators": {
+            "patterns": [
+                {
+                    "comment": "infix operator",
+                    "name": "keyword.operator.barocq",
+                    "match": "<-|[.+\\-\\*/%\\^<>&\\|]"
+                },
+                {
+                    "comment": "prefix operator",
+                    "name": "keyword.operator.barocq",
+                    "match": "[+\\-!~]"
+                },
+                {
+                    "comment": "binding operator",
+                    "name": "keyword.operator.barocq",
+                    "match": "="
+                },
+				{
+					"comment": "annotation",
+					"name": "storage.modifier.barocq",
+					"match": "(@\\w+)"
+				}
+            ]
+        },
+		"types_builtin": {
+            "patterns": [
+                {
+                    "comment": "builtin type",
+                    "name": "entity.name.type.barocq",
+                    "match": "\\b(bool|i32|u32|i64|u64|array)\\b"
+                }
+			]
+		},
+		"types": {
+			"patterns": [
+				{ "include": "#types_builtin" },
+				{
+					"comment": "user-defined type",
+					"match": "((\\w+)(::))?(\\w+)",
+					"captures": {
+						"2": { "name": "entity.name.namespace.barocq" },
+						"3": { "name": "keyword.operator.barocq" },
+						"4": { "name": "entity.name.type.barocq" }
+					}
+				}
+			]
+		},
+		"types_decl": {
+			"patterns": [
+				{
+					"comment": "type declaration",
+					"begin": ":\\s*",
+					"end": "((\\w+)(::))?(?!array)(\\w+)",
+					"endCaptures": {
+						"2": { "name": "entity.name.namespace.barocq" },
+						"3": { "name": "keyword.operator.barocq" },
+						"4": { "name": "entity.name.type.barocq" } 
+					},
+					"patterns": [
+						{ "include": "#types_builtin" }
+					]
+				}
+			]
+		},
+		"types_cast": {
+			"patterns": [
+				{
+					"comment": "type cast",
+					"match": "\\b(as)\\s+((\\w+)(::))?(\\w+)",
+					"captures": {
+						"1": { "name": "keyword.other.barocq" },
+						"3": { "name": "entity.name.namespace.barocq" },
+						"4": { "name": "keyword.operator.barocq" },
+						"5": { "name": "entity.name.type.barocq" }
+					}
+				}
+			]
+		},
+		"directives": {
+			"patterns": [
+                {
+                    "comment": "module definition",
+                    "match": "\\b(module)\\s+(\\w+)",
+                    "captures": {
+                        "1": { "name": "keyword.other.barocq" },
+                        "2": { "name": "entity.name.namespace.barocq" }
+                    }
+                },
+                {
+                    "comment": "module import",
+                    "match": "\\b(import)\\s+(\\w+)",
+                    "captures": {
+                        "1": { "name": "keyword.other.barocq" },
+                        "2": { "name": "entity.name.namespace.barocq" }
+                    }
+                },
+				{
+					"comment": "abstrat function declaration",
+					"begin": "\\b(decl)\\s+(\\w+)\\s*:\\s+\\(",
+					"end": "$",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "entity.name.function.barocq" }
+					},
+					"patterns": [
+						{ "include": "#operators" },
+						{ "include": "#keywords" },
+						{ "include": "#types" }
+					]
+				},
+				{
+					"comment": "abstract constant declaration",
+					"begin": "\\b(decl)\\s+(\\w+)\\s*:",
+					"end": "$",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "variable.name.barocq" }
+					},
+					"patterns": [
+						{ "include": "#types" }
+					]
+				},
+				{
+					"comment": "function definition",
+					"begin": "\\b(defn)\\s+(\\w+)\\s*\\(",
+					"end": "(=)",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "entity.name.function.barocq" }
+					},
+					"endCaptures": {
+						"1": { "name": "keyword.operator.barocq" }
+					},
+					"patterns": [
+						{ "include": "#types_decl" }
+					]
+				},
+				{
+					"comment": "constant definition",
+					"begin": "\\b(defn)\\s+(\\w+)\\s*:",
+					"end": "(=)",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "variable.name.barocq" }
+					},
+					"endCaptures": {
+						"1": { "name": "keyword.operator.barocq" }
+					},
+					"patterns": [
+						{ "include": "#types" }
+					]
+				},
+				{
+					"comment": "record type definition",
+					"begin": "\\b(type)\\s+(\\w+)\\s+(=)\\s*{",
+					"end": "}",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "entity.name.type.barocq" },
+						"3": { "name": "keyword.operator.barocq" }
+					},
+					"patterns": [
+						{ "include": "#comments" },
+						{ "include": "#types_decl" }
+					]
+				},
+				{
+					"comment": "type alias definition",
+					"begin": "\\b(type)\\s+(\\w+)\\s+(=)",
+					"end": "$",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "entity.name.type.barocq" },
+						"3": { "name": "keyword.operator.barocq" }
+					},
+					"patterns": [
+						{ "include": "#types" }
+					]
+				},
+				{
+					"comment": "abstract type declaration",
+					"begin": "\\b(type)\\s+(\\w+)\\s+(of)",
+					"end": "$",
+					"beginCaptures": {
+						"1": { "name": "keyword.other.barocq" },
+						"2": { "name": "entity.name.type.barocq" },
+						"3": { "name": "keyword.other.barocq" }
+					},
+					"patterns": [
+						{ "include": "#strings" }
+					]
+				}
+			]
+		},
+		"literals": {
+            "patterns": [
+                {
+                    "comment": "boolean literal",
+                    "name": "constant.language.boolean.barocq",
+                    "match": "\\b(true|false)\\b"
+                },
+                {
+                    "comment": "decimal integer literal",
+                    "name": "constant.numeric.integer.barocq",
+                    "match": "\\b\\d(\\d|_)*[U]?[L]?\\b"
+                },
+                {
+                    "comment": "hexadecimal integer literal",
+                    "name": "constant.numeric.integer.barocq",
+                    "match": "\\b(0x|0X)[[:xdigit:]][[:xdigit:]|_]*[U]?[L]?\\b"
+                }
+            ]
+        },
+		"identifiers": {
+            "patterns": [
+                {
+                    "comment": "module name",
+                    "match": "(\\w+)(::)",
+                    "captures": {
+                        "1": { "name": "entity.name.namespace.barocq" },
+                        "2": { "name": "keyword.operator.barocq" }
+                    }
+                },
+				{
+                    "comment": "function call",
+                    "match": "(\\w+)\\s*\\((?=[^*])",
+                    "captures": {
+                        "1": { "name": "entity.name.function.barocq" }
+                    }
+                },
+				{
+					"comment": "record field or function parameter",
+					"match": "(\\w+)\\s*:",
+					"capture":{
+						"1": { "name": "entity.name.variable.barocq" }
+					}
+				}
+
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"comment": "string literal",
+					"name": "string.quoted.double.ocaml",
+					"begin": "\"",
+					"end": "\""
+				}
+			]
+		},
+		"comments": {
+            "patterns": [
+                {
+                    "comment": "block comment",
+                    "begin": "\\(\\*",
+                    "end": "\\*\\)",
+                    "name": "comment.block.barocq",
+                    "patterns": [
+                        { "include": "#comments" }
+                    ]
+                }
+            ]
+        }
+    },
+	"scopeName": "source.barocq"
+}

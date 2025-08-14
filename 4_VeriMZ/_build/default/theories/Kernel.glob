@@ -1,0 +1,519 @@
+DIGEST 1fea84d54b40bcc1e44921a9dc2f4937
+FVerimz.Kernel
+R27:29 Verimz.Int <> <> lib
+R31:37 Verimz.Machine <> <> lib
+R39:44 Verimz.Memory <> <> lib
+R46:48 Verimz.Pmp <> <> lib
+R50:55 Verimz.Oracle <> <> lib
+R57:59 Verimz.Asm <> <> lib
+R61:68 Verimz.Barocqmz <> <> lib
+R70:82 Verimz.Barocqmzutils <> <> lib
+R119:122 Coq.Bool.Bool <> <> lib
+R124:127 Coq.Lists.List <> <> lib
+R129:137 Coq.ZArith.BinIntDef <> <> lib
+R169:176 compcert.lib.Integers <> <> lib
+R212:223 RecordUpdate.RecordUpdate <> <> lib
+R257:261 BarocqComp.common.Error <> <> lib
+R263:268 BarocqComp.common.Barray <> <> lib
+R270:274 BarocqComp.common.Intop <> <> lib
+R284:296 Coq.Bool.Bool BoolNotations <> mod
+R298:310 Coq.Lists.List ListNotations <> mod
+R369:374 Coq.ZArith.ZArith <> <> lib
+R376:378 Coq.Init.Nat <> <> lib
+R380:383 Coq.Bool.Bool <> <> lib
+rec 447:464 <> truc_bidule_kernel
+proj 488:511 <> truc_bidule_kernel_dummy
+R514:516 compcert.lib.Integers <> int abbrev
+def 732:745 <> interrupt_code
+R755:763 Verimz.Asm <> interrupt ind
+binder 748:752 <> intrp:3
+R768:777 Verimz.Int Intptr int rec
+R814:818 Verimz.Kernel <> intrp:3 var
+R831:850 Verimz.Asm <> IntrpMachineSoftware constr
+R867:883 Verimz.Asm <> IntrpMachineTimer constr
+R900:919 Verimz.Asm <> IntrpMachineExternal constr
+R797:799 Coq.Init.Datatypes <> nat ind
+binder 788:793 <> code_n:5
+R944:956 Verimz.Int Intptr of_nat def
+R958:963 Verimz.Kernel <> code_n:5 var
+def 980:988 <> mie_intrp
+R998:1006 Verimz.Asm <> interrupt ind
+binder 991:995 <> intrp:6
+R1012:1021 Verimz.Int Intptr shl def
+R1023:1032 Verimz.Int Intptr one def
+R1035:1048 Verimz.Kernel <> interrupt_code def
+R1050:1054 Verimz.Kernel <> intrp:6 var
+def 1072:1088 <> mie_machine_timer
+R1093:1101 Verimz.Kernel <> mie_intrp def
+R1103:1119 Verimz.Asm <> IntrpMachineTimer constr
+def 1136:1155 <> mie_machine_software
+R1160:1168 Verimz.Kernel <> mie_intrp def
+R1170:1189 Verimz.Asm <> IntrpMachineSoftware constr
+def 1208:1227 <> mie_machine_external
+R1232:1240 Verimz.Kernel <> mie_intrp def
+R1242:1261 Verimz.Asm <> IntrpMachineExternal constr
+def 2644:2656 <> ms_as_machine
+R2664:2682 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 2659:2660 <> ks:7
+R2687:2693 Verimz.Machine <> machine rec
+R2703:2724 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R2726:2727 Verimz.Kernel <> ks:7 var
+sec 2786:2794 <> Semantics
+rec 2915:2924 <> zone_descr
+proj 2949:2954 <> zd_bpc
+proj 2969:2975 <> zd_prog
+R2957:2962 Verimz.Int <> intptr abbrev
+R2978:2984 Verimz.Asm <> program rec
+R3066:3075 BarocqComp.common.Barray <> get def
+def 3258:3269 <> save_context
+R3276:3294 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 3272:3273 <> ks:11
+R3304:3308 BarocqComp.common.Barray <> array def
+R3310:3312 compcert.lib.Integers <> int abbrev
+binder 3298:3301 <> regs:12
+R3317:3319 compcert.common.Errors <> res ind
+R3321:3339 Verimz.Barocqmz <> Br_interface_kernel rec
+R3367:3371 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3384:3387 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3477:3502 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3388:3397 BarocqComp.common.Barray <> get def
+R3431:3442 Verimz.Barocqmzutils <> int_to_int64 def
+R3448:3474 Verimz.Barocqmz <> br_interface_kernel_current proj
+R3444:3445 Verimz.Kernel <> ks:11 var
+R3403:3427 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R3399:3400 Verimz.Kernel <> ks:11 var
+binder 3372:3383 <> current_zone:13
+R3535:3538 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3561:3564 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3569:3571 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3539:3560 Verimz.Barocqmz <> br_interface_zone_regs proj
+R3565:3568 Verimz.Kernel <> regs:12 var
+R3523:3534 Verimz.Kernel <> current_zone:13 var
+binder 3507:3518 <> current_zone:14
+R3598:3602 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3608:3611 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3714:3721 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3612:3621 BarocqComp.common.Barray <> set def
+R3702:3713 Verimz.Kernel <> current_zone:14 var
+R3655:3666 Verimz.Barocqmzutils <> int_to_int64 def
+R3672:3698 Verimz.Barocqmz <> br_interface_kernel_current proj
+R3668:3669 Verimz.Kernel <> ks:11 var
+R3627:3651 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R3623:3624 Verimz.Kernel <> ks:11 var
+binder 3603:3607 <> zones:15
+R3735:3738 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3764:3767 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3773:3775 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R3739:3763 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R3768:3772 Verimz.Kernel <> zones:15 var
+R3733:3734 Verimz.Kernel <> ks:11 var
+binder 3726:3728 <> ks1:16
+R3785:3787 BarocqComp.common.Monads MonError ret def
+R3789:3791 Verimz.Kernel <> ks1:16 var
+def 3896:3910 <> restore_context
+R3916:3932 Verimz.Barocqmz <> Br_interface_zone rec
+binder 3913:3913 <> z:17
+R3937:3941 BarocqComp.common.Barray <> array def
+R3943:3945 compcert.lib.Integers <> int abbrev
+R3950:3971 Verimz.Barocqmz <> br_interface_zone_regs proj
+R3973:3973 Verimz.Kernel <> z:17 var
+ind 4736:4747 <> kernel_entry
+constr 4758:4766 <> InitEntry
+constr 4789:4797 <> TrapEntry
+R4770:4781 Verimz.Kernel <> kernel_entry:18 ind
+R4805:4808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4801:4804 Verimz.Asm <> trap ind
+R4809:4820 Verimz.Kernel <> kernel_entry:18 ind
+scheme 4736:4747 <> kernel_entry_rect
+scheme 4736:4747 <> kernel_entry_ind
+scheme 4736:4747 <> kernel_entry_rec
+scheme 4736:4747 <> kernel_entry_sind
+ind 4979:4983 <> state
+constr 4994:5004 <> KernelState
+constr 5085:5093 <> ZoneState
+R5020:5023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5008:5019 Verimz.Kernel <> kernel_entry ind
+R5043:5046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5024:5042 Verimz.Barocqmz <> Br_interface_kernel rec
+R5062:5065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5047:5050 Coq.Init.Datatypes <> list ind
+R5052:5061 Verimz.Kernel <> zone_descr rec
+R5069:5072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5066:5068 Verimz.Memory <> mem def
+R5073:5077 Verimz.Kernel <> state:20 ind
+R5100:5103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5097:5099 compcert.lib.Integers <> int abbrev
+R5113:5116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5104:5108 BarocqComp.common.Barray <> array def
+R5110:5112 compcert.lib.Integers <> int abbrev
+R5136:5139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5117:5135 Verimz.Barocqmz <> Br_interface_kernel rec
+R5155:5158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5140:5143 Coq.Init.Datatypes <> list ind
+R5145:5154 Verimz.Kernel <> zone_descr rec
+R5162:5165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5159:5161 Verimz.Memory <> mem def
+R5166:5170 Verimz.Kernel <> state:20 ind
+scheme 4979:4983 <> state_rect
+scheme 4979:4983 <> state_ind
+scheme 4979:4983 <> state_rec
+scheme 4979:4983 <> state_sind
+ind 5258:5262 <> event
+constr 5273:5283 <> EvInterrupt
+constr 5312:5325 <> EvMemoryAccess
+constr 5355:5365 <> EvException
+constr 5394:5406 <> EvRestoreZone
+constr 5429:5434 <> EvNone
+R5296:5299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5287:5295 Verimz.Asm <> interrupt ind
+R5300:5304 Verimz.Kernel <> event:22 ind
+R5339:5342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5329:5338 Verimz.Pmp <> pmp_access ind
+R5343:5347 Verimz.Kernel <> event:22 ind
+R5378:5381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5369:5377 Verimz.Asm <> exception ind
+R5382:5386 Verimz.Kernel <> event:22 ind
+R5413:5416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5410:5412 compcert.lib.Integers <> int abbrev
+R5417:5421 Verimz.Kernel <> event:22 ind
+R5438:5442 Verimz.Kernel <> event:22 ind
+scheme 5258:5262 <> event_rect
+scheme 5258:5262 <> event_ind
+scheme 5258:5262 <> event_rec
+scheme 5258:5262 <> event_sind
+def 5911:5923 <> int_to_Intptr
+R5929:5931 compcert.lib.Integers <> int abbrev
+binder 5925:5925 <> x:24
+R5936:5945 Verimz.Int Intptr int rec
+R5954:5964 Verimz.Int Intptr repr def
+R5967:5978 compcert.lib.Integers Int unsigned def
+R5980:5980 Verimz.Kernel <> x:24 var
+def 6052:6071 <> is_interrupt_enabled
+R6078:6096 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 6074:6075 <> ks:25
+R6107:6115 Verimz.Asm <> interrupt ind
+binder 6100:6104 <> intrp:26
+R6120:6123 Coq.Init.Datatypes <> bool ind
+R6132:6140 Verimz.Int Intptr eq def
+R6211:6221 Verimz.Int Intptr shru def
+R6297:6306 Verimz.Int Intptr and def
+R6309:6321 Verimz.Kernel <> int_to_Intptr def
+R6328:6350 Verimz.Barocqmz <> br_interface_kernel_mie proj
+R6324:6325 Verimz.Kernel <> ks:25 var
+R6356:6364 Verimz.Kernel <> mie_intrp def
+R6366:6370 Verimz.Kernel <> intrp:26 var
+R6383:6396 Verimz.Kernel <> interrupt_code def
+R6398:6402 Verimz.Kernel <> intrp:26 var
+R6418:6427 Verimz.Int Intptr one def
+def 6577:6592 <> get_current_zone
+R6599:6617 Verimz.Barocqmz <> Br_interface_kernel rec
+binder 6595:6596 <> ks:27
+R6622:6624 compcert.common.Errors <> res ind
+R6626:6642 Verimz.Barocqmz <> Br_interface_zone rec
+R6653:6657 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6670:6673 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6763:6772 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6674:6683 BarocqComp.common.Barray <> get def
+R6717:6728 Verimz.Barocqmzutils <> int_to_int64 def
+R6734:6760 Verimz.Barocqmz <> br_interface_kernel_current proj
+R6730:6731 Verimz.Kernel <> ks:27 var
+R6689:6713 Verimz.Barocqmz <> br_interface_kernel_zones proj
+R6685:6686 Verimz.Kernel <> ks:27 var
+binder 6658:6669 <> current_zone:28
+R6773:6775 BarocqComp.common.Monads MonError ret def
+R6777:6788 Verimz.Kernel <> current_zone:28 var
+def 6919:6931 <> Intptr_to_int
+R6938:6947 Verimz.Int Intptr int rec
+binder 6934:6934 <> p:29
+R6952:6958 compcert.lib.Integers Int int rec
+R6965:6972 compcert.lib.Integers Int repr def
+R6975:6989 Verimz.Int Intptr unsigned def
+R6991:6991 Verimz.Kernel <> p:29 var
+def 7707:7715 <> code_ireg
+R7722:7725 Verimz.Asm <> ireg ind
+binder 7718:7718 <> r:30
+R7730:7732 compcert.lib.Integers <> int abbrev
+R7745:7745 Verimz.Kernel <> r:30 var
+R7756:7757 Verimz.Asm <> X1 constr
+R7762:7769 compcert.lib.Integers Int repr def
+R7777:7778 Verimz.Asm <> X2 constr
+R7783:7790 compcert.lib.Integers Int repr def
+R7798:7799 Verimz.Asm <> X3 constr
+R7804:7811 compcert.lib.Integers Int repr def
+def 8048:8051 <> step
+R8059:8064 Verimz.Oracle <> oracle rec
+binder 8054:8056 <> orc:32
+R8072:8076 Verimz.Kernel <> state ind
+binder 8068:8069 <> st:33
+R8081:8083 compcert.common.Errors <> res ind
+R8099:8101 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8091:8093 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8086:8090 Verimz.Kernel <> state ind
+R8094:8098 Verimz.Kernel <> event ind
+R8102:8107 Verimz.Oracle <> oracle rec
+R8123:8124 Verimz.Kernel <> st:33 var
+R8137:8147 Verimz.Kernel <> KernelState constr
+R8191:8200 Verimz.Machine <> read_mtime def
+R8203:8215 Verimz.Kernel <> ms_as_machine def
+binder 8181:8185 <> mtime:35
+R8233:8238 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8241:8242 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8247:8251 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8268:8279 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R8252:8263 Verimz.Oracle <> call_koracle def
+R8265:8267 Verimz.Kernel <> orc:32 var
+binder 8239:8240 <> tu:36
+binder 8243:8246 <> orc':37
+R8280:8282 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8286:8289 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8496:8505 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8317:8325 Verimz.Kernel <> InitEntry constr
+R8330:8348 Verimz.Barocqmz <> Br_sched_sched_init def
+R8363:8371 Verimz.Kernel <> TrapEntry constr
+R8402:8415 Verimz.Asm <> trap_to_mcause def
+binder 8384:8389 <> mcause:39
+binder 8392:8396 <> mtval:40
+R8449:8467 Verimz.Barocqmz <> Br_trap_handle_trap def
+R8469:8474 Verimz.Kernel <> mcause:39 var
+R8476:8480 Verimz.Kernel <> mtval:40 var
+binder 8283:8285 <> ks':41
+R8506:8508 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8510:8513 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8534:8543 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R8514:8529 Verimz.Kernel <> get_current_zone def
+R8531:8533 Verimz.Kernel <> ks':41 var
+binder 8509:8509 <> z:42
+R8558:8577 Verimz.Barocqmz <> br_interface_zone_id proj
+R8555:8555 Verimz.Kernel <> z:42 var
+binder 8548:8550 <> zid:43
+R8630:8640 Verimz.Machine <> write_mtime def
+R8643:8655 Verimz.Kernel <> ms_as_machine def
+R8662:8670 compcert.lib.Integers Int64 add def
+R8672:8676 Verimz.Kernel <> mtime:35 var
+R8678:8679 Verimz.Kernel <> tu:36 var
+binder 8623:8625 <> ms':44
+R8751:8754 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8777:8780 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8784:8786 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R8755:8776 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R8781:8783 Verimz.Kernel <> ms':44 var
+binder 8743:8744 <> ks:45
+R8851:8865 Verimz.Kernel <> restore_context def
+R8867:8867 Verimz.Kernel <> z:42 var
+binder 8843:8846 <> regs:46
+R8891:8899 Verimz.Kernel <> ZoneState constr
+R8901:8903 Verimz.Kernel <> zid:43 var
+R8905:8908 Verimz.Kernel <> regs:46 var
+R8910:8912 Verimz.Kernel <> ks':41 var
+binder 8884:8886 <> st':47
+R8933:8934 compcert.common.Errors <> OK constr
+R8936:8936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8940:8941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8959:8960 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8965:8965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8937:8939 Verimz.Kernel <> st':47 var
+R8942:8954 Verimz.Kernel <> EvRestoreZone constr
+R8956:8958 Verimz.Kernel <> zid:43 var
+R8961:8964 Verimz.Kernel <> orc':37 var
+R9117:9125 Verimz.Kernel <> ZoneState constr
+R9158:9161 compcert.common.Errors <> ::error_monad_scope:'do'_'('_x_','_x_')'_'<-'_x_';'_x not
+R9165:9166 compcert.common.Errors <> ::error_monad_scope:'do'_'('_x_','_x_')'_'<-'_x_';'_x not
+R9171:9175 compcert.common.Errors <> ::error_monad_scope:'do'_'('_x_','_x_')'_'<-'_x_';'_x not
+R9196:9205 compcert.common.Errors <> ::error_monad_scope:'do'_'('_x_','_x_')'_'<-'_x_';'_x not
+R9176:9187 Verimz.Oracle <> call_zoracle def
+R9189:9191 Verimz.Kernel <> orc:32 var
+binder 9162:9164 <> zev:48
+binder 9167:9170 <> orc':49
+R9220:9229 Verimz.Machine <> read_mtime def
+R9232:9244 Verimz.Kernel <> ms_as_machine def
+binder 9210:9214 <> mtime:50
+R9288:9290 Verimz.Kernel <> zev:48 var
+R9307:9318 Verimz.Oracle <> ZevInterrupt constr
+R9384:9401 Verimz.Oracle <> IevMachineExternal constr
+R9406:9425 Verimz.Asm <> IntrpMachineExternal constr
+R9441:9458 Verimz.Oracle <> IevMachineSoftware constr
+R9463:9482 Verimz.Asm <> IntrpMachineSoftware constr
+binder 9346:9350 <> intrp:53
+R9518:9537 Verimz.Kernel <> is_interrupt_enabled def
+R9542:9546 Verimz.Kernel <> intrp:53 var
+R9590:9590 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9646:9651 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9693:9693 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9591:9600 compcert.lib.Integers Int64 cmpu def
+R9602:9604 compcert.lib.Integers <> Cle constr
+R9607:9619 Verimz.Machine <> read_mtimecmp def
+R9622:9634 Verimz.Kernel <> ms_as_machine def
+R9641:9645 Verimz.Kernel <> mtime:50 var
+R9652:9671 Verimz.Kernel <> is_interrupt_enabled def
+R9676:9692 Verimz.Asm <> IntrpMachineTimer constr
+R9760:9760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9765:9766 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9769:9769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9761:9764 Coq.Init.Datatypes <> None constr
+R9714:9714 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9737:9738 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9741:9741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9715:9718 Coq.Init.Datatypes <> Some constr
+R9720:9736 Verimz.Asm <> IntrpMachineTimer constr
+R9553:9553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9564:9565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9568:9568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9554:9557 Coq.Init.Datatypes <> Some constr
+R9559:9563 Verimz.Kernel <> intrp:53 var
+R9781:9794 Verimz.Oracle <> ZevTimerUpdate constr
+R9817:9817 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9874:9879 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9921:9921 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9818:9827 compcert.lib.Integers Int64 cmpu def
+R9829:9831 compcert.lib.Integers <> Cle constr
+R9834:9846 Verimz.Machine <> read_mtimecmp def
+R9849:9861 Verimz.Kernel <> ms_as_machine def
+R9869:9873 Verimz.Kernel <> mtime:50 var
+R9880:9899 Verimz.Kernel <> is_interrupt_enabled def
+R9904:9920 Verimz.Asm <> IntrpMachineTimer constr
+R9988:9988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9993:9994 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9997:9997 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9989:9992 Coq.Init.Datatypes <> None constr
+R9942:9942 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9965:9966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9969:9969 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9943:9946 Coq.Init.Datatypes <> Some constr
+R9948:9964 Verimz.Asm <> IntrpMachineTimer constr
+binder 9267:9272 <> ointrp:54
+binder 9275:9276 <> tu:55
+R10061:10071 Verimz.Machine <> write_mtime def
+R10074:10086 Verimz.Kernel <> ms_as_machine def
+R10093:10101 compcert.lib.Integers Int64 add def
+R10103:10107 Verimz.Kernel <> mtime:50 var
+R10109:10110 Verimz.Kernel <> tu:55 var
+binder 10054:10056 <> ms':56
+R10182:10185 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R10208:10211 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R10215:10217 RecordUpdate.RecordSet RecordSetNotations ::record_set:x_'<|'_x_':='_x_'|>' not
+R10186:10207 Verimz.Barocqmz <> br_interface_kernel_ms proj
+R10212:10214 Verimz.Kernel <> ms':56 var
+binder 10174:10175 <> ks:57
+R10273:10274 Verimz.Kernel <> ks:57 var
+binder 10266:10268 <> ks':58
+R10293:10298 Verimz.Kernel <> ointrp:54 var
+R10315:10318 Coq.Init.Datatypes <> Some constr
+R10351:10361 Verimz.Kernel <> EvInterrupt constr
+binder 10345:10346 <> ev:60
+R10397:10405 Verimz.Kernel <> TrapEntry constr
+R10408:10419 Verimz.Asm <> TrpInterrupt constr
+binder 10388:10392 <> entry:61
+R10443:10445 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10449:10452 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10474:10487 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10453:10464 Verimz.Kernel <> save_context def
+R10466:10468 Verimz.Kernel <> ks':58 var
+binder 10446:10448 <> ks':62
+R10499:10509 Verimz.Kernel <> KernelState constr
+R10511:10515 Verimz.Kernel <> entry:61 var
+R10517:10519 Verimz.Kernel <> ks':62 var
+binder 10492:10494 <> st':63
+R10544:10545 compcert.common.Errors <> OK constr
+R10547:10547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10551:10552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10555:10556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10561:10561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10548:10550 Verimz.Kernel <> st':63 var
+R10553:10554 Verimz.Kernel <> ev:60 var
+R10557:10560 Verimz.Kernel <> orc':49 var
+R10573:10576 Coq.Init.Datatypes <> None constr
+R10594:10596 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10598:10601 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10622:10635 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10602:10617 Verimz.Kernel <> get_current_zone def
+R10619:10621 Verimz.Kernel <> ks':58 var
+binder 10597:10597 <> z:64
+R10636:10638 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10644:10647 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10676:10689 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10648:10650 BarocqComp.common.Barray <> get def
+R10659:10670 Verimz.Barocqmzutils <> int_to_int64 def
+binder 10639:10643 <> zdscr:65
+R10690:10692 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10706:10709 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10762:10775 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10710:10719 BarocqComp.common.Barray <> get def
+R10749:10757 Verimz.Asm <> code_preg def
+R10759:10760 Verimz.Asm <> PC constr
+R10724:10745 Verimz.Barocqmz <> br_interface_zone_regs proj
+R10721:10721 Verimz.Kernel <> z:64 var
+binder 10693:10705 <> resg_index_PC:66
+R10787:10797 Verimz.Int Intptr divu def
+R10800:10809 Verimz.Int Intptr sub def
+R10812:10824 Verimz.Kernel <> int_to_Intptr def
+R10826:10838 Verimz.Kernel <> resg_index_PC:66 var
+R10842:10847 Verimz.Kernel <> zd_bpc proj
+R10849:10853 Verimz.Kernel <> zdscr:65 var
+R10858:10870 Verimz.Int Intptr of_nat def
+R10872:10881 Verimz.Asm <> instr_size def
+binder 10780:10782 <> rpc:67
+R10911:10917 Verimz.Kernel <> zd_prog proj
+R10919:10923 Verimz.Kernel <> zdscr:65 var
+binder 10903:10906 <> prog:68
+R10940:10942 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10948:10951 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10994:11007 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R10952:10954 BarocqComp.common.Barray <> get def
+R10974:10988 Verimz.Barocqmzutils <> Intptr_to_int64 def
+R10990:10992 Verimz.Kernel <> rpc:67 var
+R10957:10965 Verimz.Asm <> prog_code proj
+R10967:10970 Verimz.Kernel <> prog:68 var
+binder 10943:10947 <> instr:69
+R11015:11028 Verimz.Asm <> pmp_exec_instr def
+R11030:11034 Verimz.Kernel <> instr:69 var
+R11042:11050 Verimz.Asm <> prog_genv proj
+R11052:11055 Verimz.Kernel <> prog:68 var
+R11061:11084 Verimz.Barocqmz <> br_interface_zone_pmpcfg proj
+R11086:11086 Verimz.Kernel <> z:64 var
+R11090:11114 Verimz.Barocqmz <> br_interface_zone_pmpaddr proj
+R11116:11116 Verimz.Kernel <> z:64 var
+R11139:11142 Verimz.Asm <> Next constr
+R11223:11226 Coq.Init.Datatypes <> Some constr
+R11236:11249 Verimz.Kernel <> EvMemoryAccess constr
+R11274:11277 Coq.Init.Datatypes <> None constr
+R11282:11287 Verimz.Kernel <> EvNone constr
+binder 11182:11183 <> ev:71
+R11339:11347 Verimz.Kernel <> ZoneState constr
+R11359:11361 Verimz.Kernel <> ks':58 var
+binder 11332:11334 <> st':72
+R11391:11392 compcert.common.Errors <> OK constr
+R11394:11394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11398:11399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11402:11403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11408:11408 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11395:11397 Verimz.Kernel <> st':72 var
+R11400:11401 Verimz.Kernel <> ev:71 var
+R11404:11407 Verimz.Kernel <> orc':49 var
+R11424:11432 Verimz.Asm <> Exception constr
+R11467:11477 Verimz.Kernel <> EvException constr
+binder 11461:11462 <> ev:73
+R11515:11523 Verimz.Kernel <> TrapEntry constr
+R11526:11537 Verimz.Asm <> TrpException constr
+binder 11506:11510 <> entry:74
+R11563:11565 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R11569:11572 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R11594:11611 compcert.common.Errors <> ::error_monad_scope:'do'_x_'<-'_x_';'_x not
+R11573:11584 Verimz.Kernel <> save_context def
+R11586:11588 Verimz.Kernel <> ks':58 var
+binder 11566:11568 <> ks':75
+R11623:11633 Verimz.Kernel <> KernelState constr
+R11635:11639 Verimz.Kernel <> entry:74 var
+R11641:11643 Verimz.Kernel <> ks':75 var
+binder 11616:11618 <> st':76
+R11672:11673 compcert.common.Errors <> OK constr
+R11675:11675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11679:11680 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11683:11684 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11689:11689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11676:11678 Verimz.Kernel <> st':76 var
+R11681:11682 Verimz.Kernel <> ev:73 var
+R11685:11688 Verimz.Kernel <> orc':49 var
+R11705:11709 Verimz.Asm <> Stuck constr
+R11714:11718 compcert.common.Errors <> Error constr
+R11720:11722 Coq.Init.Datatypes <> nil constr
+R11766:11774 Verimz.Kernel Semantics <> sec

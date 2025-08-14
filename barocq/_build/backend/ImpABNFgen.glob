@@ -1,0 +1,204 @@
+DIGEST afab366f942fe38658bf36fa8d2830e3
+FBarocqComp.backend.ImpABNFgen
+R24:27 Coq.Lists.List <> <> lib
+R61:65 BarocqComp.common.Error <> <> lib
+R67:72 BarocqComp.common.Syntax <> <> lib
+R74:79 BarocqComp.backend.ImpBNF <> <> lib
+R81:87 BarocqComp.backend.ImpABNF <> <> lib
+R97:109 Coq.Lists.List ListNotations <> mod
+def 122:135 <> tailcomp_depth
+def 433:447 <> statement_depth
+R141:155 BarocqComp.backend.ImpBNF <> tailcomp ind
+binder 138:138 <> t:1
+R453:468 BarocqComp.backend.ImpBNF <> statement ind
+binder 450:450 <> s:2
+R160:162 Coq.Init.Datatypes <> nat ind
+R473:475 Coq.Init.Datatypes <> nat ind
+R175:175 BarocqComp.backend.ImpABNFgen <> t:1 var
+R186:199 BarocqComp.backend.ImpBNF <> TcBegin constr
+R238:241 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R259:259 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R216:219 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R237:237 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R220:234 BarocqComp.backend.ImpABNFgen <> statement_depth:4 def
+R242:255 BarocqComp.backend.ImpABNFgen <> tailcomp_depth:3 def
+R265:277 BarocqComp.backend.ImpBNF <> TcComp constr
+R290:308 BarocqComp.backend.ImpBNF <> TcIfThenElse constr
+R336:338 Coq.Init.Peano <> max abbrev
+R343:356 BarocqComp.backend.ImpABNFgen <> tailcomp_depth:3 def
+binder 331:331 <> m:6
+R380:382 Coq.Init.Peano <> max abbrev
+R384:384 BarocqComp.backend.ImpABNFgen <> m:6 var
+R387:400 BarocqComp.backend.ImpABNFgen <> tailcomp_depth:3 def
+binder 375:375 <> m:7
+R416:418 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R419:419 BarocqComp.backend.ImpABNFgen <> m:7 var
+R488:488 BarocqComp.backend.ImpABNFgen <> s:2 var
+R499:518 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+R528:531 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R548:548 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R532:545 BarocqComp.backend.ImpABNFgen <> tailcomp_depth:3 def
+def 567:580 <> norm_statement
+R589:591 Coq.Init.Datatypes <> nat ind
+binder 583:586 <> fuel:9
+R598:613 BarocqComp.backend.ImpBNF <> statement ind
+binder 595:595 <> s:10
+R618:620 compcert.common.Errors <> res ind
+R622:638 BarocqComp.backend.ImpABNF <> statement ind
+R651:654 BarocqComp.backend.ImpABNFgen <> fuel:9 var
+R665:665 Coq.Init.Datatypes <> O constr
+R670:673 BarocqComp.common.Monads MonError fail def
+R679:679 Coq.Init.Datatypes <> S constr
+R731:731 BarocqComp.backend.ImpABNFgen <> s:10 var
+R702:721 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+R765:778 BarocqComp.backend.ImpBNF <> TcBegin constr
+R800:804 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R807:810 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R833:848 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R811:824 BarocqComp.backend.ImpABNFgen <> norm_statement:11 def
+R832:832 BarocqComp.backend.ImpABNFgen <> s:10 var
+binder 805:806 <> s':15
+R849:853 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R856:859 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R908:923 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R860:873 BarocqComp.backend.ImpABNFgen <> norm_statement:11 def
+R882:901 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+binder 854:855 <> sc:16
+R924:926 BarocqComp.common.Monads MonError ret def
+R929:938 BarocqComp.backend.ImpABNF <> StSequence constr
+R940:941 BarocqComp.backend.ImpABNFgen <> s':15 var
+R943:944 BarocqComp.backend.ImpABNFgen <> sc:16 var
+R957:975 BarocqComp.backend.ImpBNF <> TcIfThenElse constr
+R1001:1005 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1008:1011 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1060:1075 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1012:1025 BarocqComp.backend.ImpABNFgen <> norm_statement:11 def
+R1034:1053 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+binder 1006:1007 <> s1:17
+R1076:1080 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1083:1086 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1135:1150 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1087:1100 BarocqComp.backend.ImpABNFgen <> norm_statement:11 def
+R1109:1128 BarocqComp.backend.ImpBNF <> StSetTailcomp constr
+binder 1081:1082 <> s2:18
+R1151:1153 BarocqComp.common.Monads MonError ret def
+R1156:1167 BarocqComp.backend.ImpABNF <> StIfThenElse constr
+R1171:1172 BarocqComp.backend.ImpABNFgen <> s1:17 var
+R1174:1175 BarocqComp.backend.ImpABNFgen <> s2:18 var
+R1188:1200 BarocqComp.backend.ImpBNF <> TcComp constr
+R1207:1209 BarocqComp.common.Monads MonError ret def
+R1212:1216 BarocqComp.backend.ImpABNF <> StSet constr
+def 1250:1262 <> norm_tailcomp
+R1268:1282 BarocqComp.backend.ImpBNF <> tailcomp ind
+binder 1265:1265 <> t:19
+R1287:1289 compcert.common.Errors <> res ind
+R1291:1306 BarocqComp.backend.ImpABNF <> tailcomp ind
+R1319:1319 BarocqComp.backend.ImpABNFgen <> t:19 var
+R1330:1343 BarocqComp.backend.ImpBNF <> TcBegin constr
+R1359:1363 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1366:1369 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1410:1419 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1370:1383 BarocqComp.backend.ImpABNFgen <> norm_statement def
+R1403:1405 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1386:1400 BarocqComp.backend.ImpABNFgen <> statement_depth def
+binder 1364:1365 <> s':22
+R1420:1424 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1428:1431 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1448:1457 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1432:1444 BarocqComp.backend.ImpABNFgen <> norm_tailcomp:20 def
+binder 1425:1427 <> t1':23
+R1458:1460 BarocqComp.common.Monads MonError ret def
+R1463:1469 BarocqComp.backend.ImpABNF <> TcBegin constr
+R1471:1472 BarocqComp.backend.ImpABNFgen <> s':22 var
+R1474:1476 BarocqComp.backend.ImpABNFgen <> t1':23 var
+R1483:1501 BarocqComp.backend.ImpBNF <> TcIfThenElse constr
+R1520:1524 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1528:1531 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1548:1557 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1532:1544 BarocqComp.backend.ImpABNFgen <> norm_tailcomp:20 def
+binder 1525:1527 <> t1':24
+R1558:1562 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1566:1569 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1586:1595 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1570:1582 BarocqComp.backend.ImpABNFgen <> norm_tailcomp:20 def
+binder 1563:1565 <> t2':25
+R1596:1598 BarocqComp.common.Monads MonError ret def
+R1601:1612 BarocqComp.backend.ImpABNF <> TcIfThenElse constr
+R1616:1618 BarocqComp.backend.ImpABNFgen <> t1':24 var
+R1620:1622 BarocqComp.backend.ImpABNFgen <> t2':25 var
+R1629:1641 BarocqComp.backend.ImpBNF <> TcComp constr
+R1648:1650 BarocqComp.common.Monads MonError ret def
+R1653:1658 BarocqComp.backend.ImpABNF <> TcComp constr
+def 1682:1694 <> norm_function
+R1700:1714 BarocqComp.backend.ImpBNF <> function def
+binder 1697:1697 <> f:26
+R1719:1721 compcert.common.Errors <> res ind
+R1723:1738 BarocqComp.backend.ImpABNF <> function def
+R1745:1749 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1754:1757 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1783:1788 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1758:1770 BarocqComp.backend.ImpABNFgen <> norm_tailcomp def
+R1773:1779 BarocqComp.common.Syntax <> fn_body proj
+R1781:1781 BarocqComp.backend.ImpABNFgen <> f:26 var
+binder 1750:1753 <> body:27
+R1789:1791 BarocqComp.common.Monads MonError ret def
+R1800:1808 BarocqComp.common.Syntax <> fn_return proj
+R1800:1808 BarocqComp.common.Syntax <> fn_return proj
+R1800:1808 BarocqComp.common.Syntax <> fn_return proj
+R1830:1838 BarocqComp.common.Syntax <> fn_params proj
+R1830:1838 BarocqComp.common.Syntax <> fn_params proj
+R1860:1866 BarocqComp.common.Syntax <> fn_body proj
+R1860:1866 BarocqComp.common.Syntax <> fn_body proj
+R1813:1821 BarocqComp.common.Syntax <> fn_return proj
+R1823:1823 BarocqComp.backend.ImpABNFgen <> f:26 var
+R1843:1851 BarocqComp.common.Syntax <> fn_params proj
+R1853:1853 BarocqComp.backend.ImpABNFgen <> f:26 var
+R1871:1874 BarocqComp.backend.ImpABNFgen <> body:27 var
+def 1894:1905 <> norm_globdef
+R1913:1926 BarocqComp.backend.ImpBNF <> globdef def
+binder 1908:1910 <> def:28
+R1931:1933 compcert.common.Errors <> res ind
+R1935:1949 BarocqComp.backend.ImpABNF <> globdef def
+R1962:1964 BarocqComp.backend.ImpABNFgen <> def:28 var
+R1975:1982 BarocqComp.common.Syntax <> DefConst constr
+R1994:1996 BarocqComp.common.Monads MonError ret def
+R1999:2006 BarocqComp.common.Syntax <> DefConst constr
+R2020:2025 BarocqComp.common.Syntax <> DefFun constr
+R2040:2044 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2047:2050 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2066:2075 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2051:2063 BarocqComp.backend.ImpABNFgen <> norm_function def
+binder 2045:2046 <> f':30
+R2076:2078 BarocqComp.common.Monads MonError ret def
+R2081:2086 BarocqComp.common.Syntax <> DefFun constr
+R2090:2091 BarocqComp.backend.ImpABNFgen <> f':30 var
+R2098:2106 BarocqComp.common.Syntax <> DeclConst constr
+R2116:2118 BarocqComp.common.Monads MonError ret def
+R2121:2129 BarocqComp.common.Syntax <> DeclConst constr
+R2141:2147 BarocqComp.common.Syntax <> DeclFun constr
+R2167:2169 BarocqComp.common.Monads MonError ret def
+R2172:2178 BarocqComp.common.Syntax <> DeclFun constr
+def 2215:2226 <> norm_program
+R2235:2248 BarocqComp.backend.ImpBNF <> program def
+binder 2229:2232 <> prog:31
+R2253:2255 compcert.common.Errors <> res ind
+R2257:2271 BarocqComp.backend.ImpABNF <> program def
+R2278:2282 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2287:2290 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2325:2330 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R2291:2294 compcert.common.Errors <> mmap def
+R2310:2318 BarocqComp.common.Syntax <> prog_defs proj
+R2320:2323 BarocqComp.backend.ImpABNFgen <> prog:31 var
+R2296:2307 BarocqComp.backend.ImpABNFgen <> norm_globdef def
+binder 2283:2286 <> defs:32
+R2350:2358 BarocqComp.common.Syntax <> prog_defs proj
+R2350:2358 BarocqComp.common.Syntax <> prog_defs proj
+R2350:2358 BarocqComp.common.Syntax <> prog_defs proj
+R2373:2382 BarocqComp.common.Syntax <> prog_types proj
+R2373:2382 BarocqComp.common.Syntax <> prog_types proj
+R2363:2366 BarocqComp.backend.ImpABNFgen <> defs:32 var
+R2387:2396 BarocqComp.common.Syntax <> prog_types proj
+R2398:2401 BarocqComp.backend.ImpABNFgen <> prog:31 var
+binder 2335:2339 <> prog':33
+R2414:2416 BarocqComp.common.Monads MonError ret def
+R2418:2422 BarocqComp.backend.ImpABNFgen <> prog':33 var

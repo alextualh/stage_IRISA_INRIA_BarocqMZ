@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.S": "arm",
+        "main.h": "c",
+        "libhexfive.h": "c",
+        "sched.h": "c",
+        "br_sched.h": "c",
+        "platform.h": "c",
+        "timer.h": "c",
+        "uart.h": "c",
+        "csr.h": "c",
+        "stdlib.h": "c",
+        "br_kernel.h": "c",
+        "types.h": "c",
+        "br_interface.h": "c",
+        "kernel.h": "c",
+        "regs.h": "c",
+        "config.h": "c",
+        "stdio.h": "c",
+        "altio.h": "c",
+        "*.gitignore": "c",
+        "config_macros.h": "c",
+        "*.txt": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

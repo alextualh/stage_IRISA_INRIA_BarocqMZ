@@ -1,0 +1,1341 @@
+DIGEST 2429c9cedc8f0e86ec631f563b8bde9f
+FBarocqComp.backend.ClightCegen
+R24:29 Coq.ZArith.ZArith <> <> lib
+R31:36 Coq.Strings.String <> <> lib
+R38:41 Coq.Lists.List <> <> lib
+R43:54 Coq.FSets.FMapPositive <> <> lib
+R56:67 Coq.MSets.MSetPositive <> <> lib
+R99:101 compcert.common.AST <> <> lib
+R103:108 compcert.cfrontend.Ctypes <> <> lib
+R110:115 compcert.cfrontend.Clight <> <> lib
+R117:124 compcert.cfrontend.ClightCe <> <> lib
+R126:135 compcert.export.Clightdefs <> <> lib
+R137:139 compcert.cfrontend.Cop <> <> lib
+R141:144 compcert.lib.Maps <> <> lib
+R146:153 compcert.lib.Integers <> <> lib
+R187:191 BarocqComp.common.Error <> <> lib
+R193:197 BarocqComp.common.Maps2 <> <> lib
+R199:203 BarocqComp.common.Utils <> <> lib
+R205:209 BarocqComp.common.Types <> <> lib
+R211:216 BarocqComp.common.Syntax <> <> lib
+R226:240 compcert.export.Clightdefs ClightNotations <> mod
+R250:261 BarocqComp.common.Syntax Typed <> mod
+R295:298 BarocqComp.backend.Imp2 <> <> lib
+sec 373:378 <> TRANSL
+var 393:406 TRANSL abs_types_impl
+R410:415 compcert.lib.Maps PMap t def
+R417:427 compcert.cfrontend.Ctypes <> type ind
+def 442:452 <> transl_btyp
+R459:462 BarocqComp.common.Types <> btyp ind
+binder 455:456 <> ty:3
+R467:477 compcert.cfrontend.Ctypes <> type ind
+R492:493 BarocqComp.backend.ClightCegen <> ty:3 var
+R506:510 BarocqComp.common.Types <> BBool constr
+R515:519 compcert.export.Ctypesdefs <> tbool def
+R527:532 BarocqComp.common.Types <> BInt32 constr
+R534:539 BarocqComp.common.Types <> Signed constr
+R544:547 compcert.export.Ctypesdefs <> tint def
+R555:560 BarocqComp.common.Types <> BInt32 constr
+R562:569 BarocqComp.common.Types <> Unsigned constr
+R574:578 compcert.export.Ctypesdefs <> tuint def
+R586:591 BarocqComp.common.Types <> BInt64 constr
+R593:598 BarocqComp.common.Types <> Signed constr
+R603:607 compcert.export.Ctypesdefs <> tlong def
+R615:620 BarocqComp.common.Types <> BInt64 constr
+R622:629 BarocqComp.common.Types <> Unsigned constr
+R634:639 compcert.export.Ctypesdefs <> tulong def
+R647:652 BarocqComp.common.Types <> BArray constr
+R660:663 compcert.export.Ctypesdefs <> tptr def
+R666:676 BarocqComp.backend.ClightCegen <> transl_btyp:4 def
+R688:694 BarocqComp.common.Types <> BRecord constr
+R701:704 compcert.export.Ctypesdefs <> tptr def
+R707:713 compcert.cfrontend.Ctypes <> Tstruct constr
+R716:727 BarocqComp.common.Ident <> to_pos def
+R732:737 compcert.cfrontend.Ctypes <> noattr def
+R746:749 BarocqComp.common.Types <> BFun constr
+R791:798 Coq.Lists.List <> map def
+R800:810 BarocqComp.backend.ClightCegen <> transl_btyp:4 def
+binder 779:786 <> tparams':6
+R844:854 BarocqComp.backend.ClightCegen <> transl_btyp:4 def
+binder 835:839 <> tret':7
+R872:875 compcert.export.Ctypesdefs <> tptr def
+R878:886 compcert.cfrontend.Ctypes <> Tfunction constr
+R888:895 BarocqComp.backend.ClightCegen <> tparams':6 var
+R897:901 BarocqComp.backend.ClightCegen <> tret':7 var
+R903:912 compcert.common.AST <> cc_default def
+R921:924 BarocqComp.common.Types <> BAbs constr
+R931:934 compcert.export.Ctypesdefs <> tptr def
+R937:944 compcert.lib.Maps PMap get def
+R963:976 BarocqComp.backend.ClightCegen <> TRANSL.abs_types_impl var
+R947:958 BarocqComp.common.Ident <> to_pos def
+def 1002:1021 <> transl_btyp_to_xtype
+R1028:1031 BarocqComp.common.Types <> btyp ind
+binder 1024:1025 <> ty:8
+R1036:1044 compcert.common.AST <> xtype ind
+R1059:1060 BarocqComp.backend.ClightCegen <> ty:8 var
+R1073:1077 BarocqComp.common.Types <> BBool constr
+R1082:1086 compcert.common.AST <> Xbool constr
+R1094:1099 BarocqComp.common.Types <> BInt32 constr
+R1106:1109 compcert.common.AST <> Xint constr
+R1117:1122 BarocqComp.common.Types <> BInt64 constr
+R1129:1133 compcert.common.AST <> Xlong constr
+R1141:1146 BarocqComp.common.Types <> BArray constr
+R1156:1162 BarocqComp.common.Types <> BRecord constr
+R1172:1175 BarocqComp.common.Types <> BFun constr
+R1188:1191 BarocqComp.common.Types <> BAbs constr
+R1198:1201 compcert.common.AST <> Xptr constr
+R1198:1201 compcert.common.AST <> Xptr constr
+R1198:1201 compcert.common.AST <> Xptr constr
+R1198:1201 compcert.common.AST <> Xptr constr
+def 1226:1240 <> transl_btyp_lit
+R1247:1250 BarocqComp.common.Types <> btyp ind
+binder 1243:1244 <> ty:10
+R1257:1257 Coq.Numbers.BinNums <> Z ind
+binder 1254:1254 <> n:11
+R1262:1272 compcert.cfrontend.Ctypes <> type ind
+R1287:1288 BarocqComp.backend.ClightCegen <> ty:10 var
+R1301:1306 BarocqComp.common.Types <> BArray constr
+R1314:1319 compcert.cfrontend.Ctypes <> Tarray constr
+R1322:1332 BarocqComp.backend.ClightCegen <> transl_btyp def
+R1338:1338 BarocqComp.backend.ClightCegen <> n:11 var
+R1340:1345 compcert.cfrontend.Ctypes <> noattr def
+R1353:1359 BarocqComp.common.Types <> BRecord constr
+R1366:1372 compcert.cfrontend.Ctypes <> Tstruct constr
+R1375:1386 BarocqComp.common.Ident <> to_pos def
+R1391:1396 compcert.cfrontend.Ctypes <> noattr def
+R1409:1419 BarocqComp.backend.ClightCegen <> transl_btyp def
+R1421:1422 BarocqComp.backend.ClightCegen <> ty:10 var
+def 1447:1465 <> transl_literal_base
+R1471:1487 BarocqComp.backend.Imp2 <> literal_base ind
+binder 1468:1468 <> l:13
+R1492:1504 compcert.common.AST <> init_data ind
+R1519:1519 BarocqComp.backend.ClightCegen <> l:13 var
+R1532:1537 BarocqComp.backend.Imp2 <> LbTrue constr
+R1542:1551 compcert.common.AST <> Init_int32 constr
+R1553:1559 compcert.lib.Integers Int one def
+R1567:1573 BarocqComp.backend.Imp2 <> LbFalse constr
+R1578:1587 compcert.common.AST <> Init_int32 constr
+R1589:1596 compcert.lib.Integers Int zero def
+R1604:1610 BarocqComp.backend.Imp2 <> LbInt32 constr
+R1617:1626 compcert.common.AST <> Init_int32 constr
+R1636:1642 BarocqComp.backend.Imp2 <> LbInt64 constr
+R1649:1658 compcert.common.AST <> Init_int64 constr
+R1668:1672 BarocqComp.backend.Imp2 <> LbVar constr
+R1679:1689 compcert.common.AST <> Init_addrof constr
+R1708:1718 compcert.lib.Integers Ptrofs zero def
+R1692:1703 BarocqComp.common.Ident <> to_pos def
+def 1743:1756 <> transl_literal
+R1762:1773 BarocqComp.backend.Imp2 <> literal ind
+binder 1759:1759 <> l:15
+R1778:1781 Coq.Init.Datatypes <> list ind
+R1783:1795 compcert.common.AST <> init_data ind
+R1810:1810 BarocqComp.backend.ClightCegen <> l:15 var
+R1823:1832 BarocqComp.backend.Imp2 <> LBase constr
+R1862:1865 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1841:1859 BarocqComp.backend.ClightCegen <> transl_literal_base def
+R1866:1868 Coq.Init.Datatypes <> nil constr
+R1876:1886 BarocqComp.backend.Imp2 <> LArray constr
+R1895:1897 Coq.Lists.List <> map def
+R1899:1917 BarocqComp.backend.ClightCegen <> transl_literal_base def
+R1927:1938 BarocqComp.backend.Imp2 <> LRecord constr
+R1948:1950 Coq.Lists.List <> map def
+R1958:1958 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1960:1961 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1964:1964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1962:1963 <> lx:17
+binder 1958:1964 <> pat:18
+R1969:1987 BarocqComp.backend.ClightCegen <> transl_literal_base def
+R1989:1990 BarocqComp.backend.ClightCegen <> lx:17 var
+def 2019:2033 <> transl_unary_op
+R2040:2054 BarocqComp.common.Syntax <> unary_op ind
+binder 2036:2037 <> op:19
+R2059:2061 compcert.common.Errors <> res ind
+R2063:2081 compcert.cfrontend.Cop <> unary_operation ind
+R2096:2097 BarocqComp.backend.ClightCegen <> op:19 var
+R2110:2119 BarocqComp.common.Syntax <> UopNotbool constr
+R2124:2127 BarocqComp.common.Monads MonError eret abbrev
+R2129:2136 compcert.cfrontend.Cop <> Onotbool constr
+R2144:2152 BarocqComp.common.Syntax <> UopNotint constr
+R2157:2160 BarocqComp.common.Monads MonError eret abbrev
+R2162:2168 compcert.cfrontend.Cop <> Onotint constr
+R2176:2181 BarocqComp.common.Syntax <> UopNeg constr
+R2186:2189 BarocqComp.common.Monads MonError eret abbrev
+R2191:2194 compcert.cfrontend.Cop <> Oneg constr
+R2202:2208 BarocqComp.common.Syntax <> UopPlus constr
+R2213:2216 BarocqComp.common.Monads MonError fail def
+def 2241:2256 <> transl_binary_op
+R2263:2278 BarocqComp.common.Syntax <> binary_op ind
+binder 2259:2260 <> op:21
+R2283:2285 compcert.common.Errors <> res ind
+R2287:2306 compcert.cfrontend.Cop <> binary_operation ind
+R2321:2322 BarocqComp.backend.ClightCegen <> op:21 var
+R2335:2343 BarocqComp.common.Syntax <> BopAndint constr
+R2348:2350 BarocqComp.common.Monads MonError ret def
+R2352:2355 compcert.cfrontend.Cop <> Oand constr
+R2363:2370 BarocqComp.common.Syntax <> BopOrint constr
+R2375:2377 BarocqComp.common.Monads MonError ret def
+R2379:2381 compcert.cfrontend.Cop <> Oor constr
+R2389:2398 BarocqComp.common.Syntax <> BopXorbool constr
+R2403:2405 BarocqComp.common.Monads MonError ret def
+R2407:2409 compcert.cfrontend.Cop <> One constr
+R2417:2425 BarocqComp.common.Syntax <> BopXorint constr
+R2430:2432 BarocqComp.common.Monads MonError ret def
+R2434:2437 compcert.cfrontend.Cop <> Oxor constr
+R2445:2450 BarocqComp.common.Syntax <> BopAdd constr
+R2455:2457 BarocqComp.common.Monads MonError ret def
+R2459:2462 compcert.cfrontend.Cop <> Oadd constr
+R2470:2475 BarocqComp.common.Syntax <> BopSub constr
+R2480:2482 BarocqComp.common.Monads MonError ret def
+R2484:2487 compcert.cfrontend.Cop <> Osub constr
+R2495:2500 BarocqComp.common.Syntax <> BopMul constr
+R2505:2507 BarocqComp.common.Monads MonError ret def
+R2509:2512 compcert.cfrontend.Cop <> Omul constr
+R2520:2525 BarocqComp.common.Syntax <> BopDiv constr
+R2530:2532 BarocqComp.common.Monads MonError ret def
+R2534:2537 compcert.cfrontend.Cop <> Odiv constr
+R2545:2550 BarocqComp.common.Syntax <> BopMod constr
+R2555:2557 BarocqComp.common.Monads MonError ret def
+R2559:2562 compcert.cfrontend.Cop <> Omod constr
+R2570:2575 BarocqComp.common.Syntax <> BopShl constr
+R2580:2582 BarocqComp.common.Monads MonError ret def
+R2584:2587 compcert.cfrontend.Cop <> Oshl constr
+R2595:2600 BarocqComp.common.Syntax <> BopShr constr
+R2605:2607 BarocqComp.common.Monads MonError ret def
+R2609:2612 compcert.cfrontend.Cop <> Oshr constr
+R2620:2624 BarocqComp.common.Syntax <> BopEq constr
+R2629:2631 BarocqComp.common.Monads MonError ret def
+R2633:2635 compcert.cfrontend.Cop <> Oeq constr
+R2643:2648 BarocqComp.common.Syntax <> BopNeq constr
+R2653:2655 BarocqComp.common.Monads MonError ret def
+R2657:2659 compcert.cfrontend.Cop <> One constr
+R2667:2671 BarocqComp.common.Syntax <> BopLt constr
+R2676:2678 BarocqComp.common.Monads MonError ret def
+R2680:2682 compcert.cfrontend.Cop <> Olt constr
+R2690:2694 BarocqComp.common.Syntax <> BopGt constr
+R2699:2701 BarocqComp.common.Monads MonError ret def
+R2703:2705 compcert.cfrontend.Cop <> Ogt constr
+R2713:2717 BarocqComp.common.Syntax <> BopLe constr
+R2722:2724 BarocqComp.common.Monads MonError ret def
+R2726:2728 compcert.cfrontend.Cop <> Ole constr
+R2736:2740 BarocqComp.common.Syntax <> BopGe constr
+R2745:2747 BarocqComp.common.Monads MonError ret def
+R2749:2751 compcert.cfrontend.Cop <> Oge constr
+R2759:2768 BarocqComp.common.Syntax <> BopAndbool constr
+R2776:2784 BarocqComp.common.Syntax <> BopOrbool constr
+R2797:2804 BarocqComp.common.Monads MonError failwith def
+R2797:2804 BarocqComp.common.Monads MonError failwith def
+def 2888:2898 <> transl_atom
+R2908:2911 BarocqComp.common.Utils <> pset abbrev
+binder 2901:2905 <> globs:23
+R2918:2934 BarocqComp.common.Syntax Typed atom ind
+binder 2915:2915 <> a:24
+R2939:2941 compcert.common.Errors <> res ind
+R2943:2955 compcert.cfrontend.ClightCe <> expr def
+R2970:2970 BarocqComp.backend.ClightCegen <> a:24 var
+R2983:2987 BarocqComp.common.Syntax Typed ATrue constr
+R2994:2996 BarocqComp.common.Monads MonError ret def
+R2999:3008 compcert.cfrontend.Clight <> Econst_int constr
+R3010:3016 compcert.lib.Integers Int one def
+R3018:3022 compcert.export.Ctypesdefs <> tbool def
+R3031:3036 BarocqComp.common.Syntax Typed AFalse constr
+R3043:3045 BarocqComp.common.Monads MonError ret def
+R3048:3057 compcert.cfrontend.Clight <> Econst_int constr
+R3059:3066 compcert.lib.Integers Int zero def
+R3068:3072 compcert.export.Ctypesdefs <> tbool def
+R3081:3086 BarocqComp.common.Syntax Typed AInt32 constr
+R3095:3097 BarocqComp.common.Monads MonError ret def
+R3100:3109 compcert.cfrontend.Clight <> Econst_int constr
+R3113:3116 compcert.export.Ctypesdefs <> tint def
+R3125:3130 BarocqComp.common.Syntax Typed AInt64 constr
+R3139:3141 BarocqComp.common.Monads MonError ret def
+R3144:3154 compcert.cfrontend.Clight <> Econst_long constr
+R3158:3162 compcert.export.Ctypesdefs <> tlong def
+R3171:3174 BarocqComp.common.Syntax Typed AVar constr
+R3195:3198 BarocqComp.common.Utils <> smem def
+R3200:3204 BarocqComp.backend.ClightCegen <> globs:23 var
+R3207:3218 BarocqComp.common.Ident <> to_pos def
+R3286:3288 BarocqComp.common.Monads MonError ret def
+R3291:3298 compcert.cfrontend.Clight <> Etempvar constr
+R3301:3312 BarocqComp.common.Ident <> to_pos def
+R3318:3328 BarocqComp.backend.ClightCegen <> transl_btyp def
+R3228:3230 BarocqComp.common.Monads MonError ret def
+R3233:3236 compcert.cfrontend.Clight <> Evar constr
+R3239:3250 BarocqComp.common.Ident <> to_pos def
+R3256:3266 BarocqComp.backend.ClightCegen <> transl_btyp def
+R3341:3345 BarocqComp.common.Syntax Typed ACast constr
+R3363:3367 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3369:3372 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3392:3403 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3373:3383 BarocqComp.backend.ClightCegen <> transl_atom:25 def
+R3391:3391 BarocqComp.backend.ClightCegen <> a:24 var
+R3385:3389 BarocqComp.backend.ClightCegen <> globs:23 var
+binder 3368:3368 <> e:27
+R3404:3406 BarocqComp.common.Monads MonError ret def
+R3409:3413 compcert.cfrontend.Clight <> Ecast constr
+R3415:3415 BarocqComp.backend.ClightCegen <> e:27 var
+R3418:3428 BarocqComp.backend.ClightCegen <> transl_btyp def
+R3441:3448 BarocqComp.common.Syntax Typed AUnaryOp constr
+R3470:3474 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3476:3479 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3500:3511 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3480:3490 BarocqComp.backend.ClightCegen <> transl_atom:25 def
+R3492:3496 BarocqComp.backend.ClightCegen <> globs:23 var
+binder 3475:3475 <> e:28
+R3521:3531 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 3516:3516 <> t:29
+R3553:3567 BarocqComp.backend.ClightCegen <> transl_unary_op def
+R3587:3588 compcert.common.Errors <> OK constr
+R3597:3599 BarocqComp.common.Monads MonError ret def
+R3602:3606 compcert.cfrontend.Clight <> Eunop constr
+R3612:3612 BarocqComp.backend.ClightCegen <> e:28 var
+R3614:3614 BarocqComp.backend.ClightCegen <> t:29 var
+R3627:3631 compcert.common.Errors <> Error constr
+R3638:3640 BarocqComp.common.Monads MonError ret def
+R3642:3642 BarocqComp.backend.ClightCegen <> e:28 var
+R3662:3670 BarocqComp.common.Syntax Typed ABinaryOp constr
+R3695:3699 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3702:3705 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3726:3737 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3706:3716 BarocqComp.backend.ClightCegen <> transl_atom:25 def
+R3718:3722 BarocqComp.backend.ClightCegen <> globs:23 var
+binder 3700:3701 <> e1:30
+R3738:3742 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3745:3748 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3769:3780 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3749:3759 BarocqComp.backend.ClightCegen <> transl_atom:25 def
+R3761:3765 BarocqComp.backend.ClightCegen <> globs:23 var
+binder 3743:3744 <> e2:31
+R3790:3800 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 3785:3785 <> t:32
+R3816:3820 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3824:3827 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3847:3858 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R3828:3843 BarocqComp.backend.ClightCegen <> transl_binary_op def
+binder 3821:3823 <> op':33
+R3859:3861 BarocqComp.common.Monads MonError ret def
+R3864:3869 compcert.cfrontend.Clight <> Ebinop constr
+R3871:3873 BarocqComp.backend.ClightCegen <> op':33 var
+R3875:3876 BarocqComp.backend.ClightCegen <> e1:30 var
+R3878:3879 BarocqComp.backend.ClightCegen <> e2:31 var
+R3881:3881 BarocqComp.backend.ClightCegen <> t:32 var
+def 3907:3919 <> deref_pointer
+R3926:3929 compcert.cfrontend.Ctypes <> type ind
+binder 3922:3923 <> ty:34
+R3934:3937 compcert.cfrontend.Ctypes <> type ind
+R3952:3953 BarocqComp.backend.ClightCegen <> ty:34 var
+R3966:3973 compcert.cfrontend.Ctypes <> Tpointer constr
+R3995:3996 BarocqComp.backend.ClightCegen <> ty:34 var
+def 4019:4036 <> transl_deep_access
+R4046:4049 BarocqComp.common.Utils <> pset abbrev
+binder 4039:4043 <> globs:36
+R4056:4059 BarocqComp.backend.Imp2 <> atom def
+binder 4053:4053 <> a:37
+R4068:4071 Coq.Init.Datatypes <> list ind
+R4073:4078 BarocqComp.backend.Imp2 <> access def
+binder 4063:4065 <> acs:38
+R4083:4085 compcert.common.Errors <> res ind
+R4087:4099 compcert.cfrontend.ClightCe <> expr def
+R4114:4116 BarocqComp.backend.ClightCegen <> acs:38 var
+R4129:4131 Coq.Init.Datatypes <> nil constr
+R4136:4146 BarocqComp.backend.ClightCegen <> transl_atom def
+R4148:4152 BarocqComp.backend.ClightCegen <> globs:36 var
+R4154:4154 BarocqComp.backend.ClightCegen <> a:37 var
+R4164:4167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4168:4170 Coq.Init.Datatypes <> nil constr
+R4207:4219 BarocqComp.common.Syntax Typed AcRecordField constr
+R4241:4245 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4247:4250 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4270:4285 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4251:4261 BarocqComp.backend.ClightCegen <> transl_atom def
+R4263:4267 BarocqComp.backend.ClightCegen <> globs:36 var
+R4269:4269 BarocqComp.backend.ClightCegen <> a:37 var
+binder 4246:4246 <> e:42
+R4300:4312 BarocqComp.backend.ClightCegen <> deref_pointer def
+R4315:4320 compcert.cfrontend.Clight <> typeof def
+R4322:4322 BarocqComp.backend.ClightCegen <> e:42 var
+binder 4290:4295 <> tderef:43
+R4354:4364 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 4344:4349 <> tfield:44
+R4384:4386 BarocqComp.common.Monads MonError ret def
+R4389:4394 compcert.cfrontend.Clight <> Efield constr
+R4397:4402 compcert.cfrontend.Clight <> Ederef constr
+R4404:4404 BarocqComp.backend.ClightCegen <> e:42 var
+R4406:4411 BarocqComp.backend.ClightCegen <> tderef:43 var
+R4415:4426 BarocqComp.common.Ident <> to_pos def
+R4431:4436 BarocqComp.backend.ClightCegen <> tfield:44 var
+R4449:4460 BarocqComp.common.Syntax Typed AcArrayIndex constr
+R4483:4487 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4489:4492 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4512:4527 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4493:4503 BarocqComp.backend.ClightCegen <> transl_atom def
+R4505:4509 BarocqComp.backend.ClightCegen <> globs:36 var
+R4511:4511 BarocqComp.backend.ClightCegen <> a:37 var
+binder 4488:4488 <> e:45
+R4528:4532 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4535:4538 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4559:4574 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4539:4549 BarocqComp.backend.ClightCegen <> transl_atom def
+R4551:4555 BarocqComp.backend.ClightCegen <> globs:36 var
+binder 4533:4534 <> ei:46
+R4589:4594 compcert.cfrontend.Clight <> typeof def
+R4596:4596 BarocqComp.backend.ClightCegen <> e:45 var
+binder 4579:4584 <> tarith:47
+R4627:4637 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 4617:4622 <> tderef:48
+R4657:4659 BarocqComp.common.Monads MonError ret def
+R4662:4667 compcert.cfrontend.Clight <> Ederef constr
+R4670:4675 compcert.cfrontend.Clight <> Ebinop constr
+R4677:4680 compcert.cfrontend.Cop <> Oadd constr
+R4682:4682 BarocqComp.backend.ClightCegen <> e:45 var
+R4684:4685 BarocqComp.backend.ClightCegen <> ei:46 var
+R4687:4692 BarocqComp.backend.ClightCegen <> tarith:47 var
+R4695:4700 BarocqComp.backend.ClightCegen <> tderef:48 var
+R4723:4726 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4767:4779 BarocqComp.common.Syntax Typed AcRecordField constr
+R4799:4803 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4806:4809 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4841:4854 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R4810:4827 BarocqComp.backend.ClightCegen <> transl_deep_access:39 def
+R4835:4835 BarocqComp.backend.ClightCegen <> a:37 var
+R4829:4833 BarocqComp.backend.ClightCegen <> globs:36 var
+binder 4804:4805 <> er:50
+R4869:4881 BarocqComp.backend.ClightCegen <> deref_pointer def
+R4884:4889 compcert.cfrontend.Clight <> typeof def
+R4891:4892 BarocqComp.backend.ClightCegen <> er:50 var
+binder 4859:4864 <> tderef:51
+R4922:4932 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 4912:4917 <> tfield:52
+R4950:4952 BarocqComp.common.Monads MonError ret def
+R4955:4960 compcert.cfrontend.Clight <> Efield constr
+R4963:4968 compcert.cfrontend.Clight <> Ederef constr
+R4970:4971 BarocqComp.backend.ClightCegen <> er:50 var
+R4973:4978 BarocqComp.backend.ClightCegen <> tderef:51 var
+R4982:4993 BarocqComp.common.Ident <> to_pos def
+R4998:5003 BarocqComp.backend.ClightCegen <> tfield:52 var
+R5020:5031 BarocqComp.common.Syntax Typed AcArrayIndex constr
+R5054:5058 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5061:5064 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5096:5111 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5065:5082 BarocqComp.backend.ClightCegen <> transl_deep_access:39 def
+R5090:5090 BarocqComp.backend.ClightCegen <> a:37 var
+R5084:5088 BarocqComp.backend.ClightCegen <> globs:36 var
+binder 5059:5060 <> er:53
+R5112:5116 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5119:5122 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5143:5158 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5123:5133 BarocqComp.backend.ClightCegen <> transl_atom def
+R5135:5139 BarocqComp.backend.ClightCegen <> globs:36 var
+binder 5117:5118 <> ei:54
+R5173:5178 compcert.cfrontend.Clight <> typeof def
+R5180:5181 BarocqComp.backend.ClightCegen <> er:53 var
+binder 5163:5168 <> tarith:55
+R5212:5222 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 5202:5207 <> tderef:56
+R5242:5244 BarocqComp.common.Monads MonError ret def
+R5247:5252 compcert.cfrontend.Clight <> Ederef constr
+R5255:5260 compcert.cfrontend.Clight <> Ebinop constr
+R5262:5265 compcert.cfrontend.Cop <> Oadd constr
+R5267:5268 BarocqComp.backend.ClightCegen <> er:53 var
+R5270:5271 BarocqComp.backend.ClightCegen <> ei:54 var
+R5273:5278 BarocqComp.backend.ClightCegen <> tarith:55 var
+R5281:5286 BarocqComp.backend.ClightCegen <> tderef:56 var
+def 5324:5334 <> transl_expr
+R5344:5347 BarocqComp.common.Utils <> pset abbrev
+binder 5337:5341 <> globs:57
+R5354:5362 BarocqComp.backend.Imp2 <> expr ind
+binder 5351:5351 <> e:58
+R5367:5369 compcert.common.Errors <> res ind
+R5371:5383 compcert.cfrontend.ClightCe <> expr def
+R5398:5398 BarocqComp.backend.ClightCegen <> e:58 var
+R5411:5415 BarocqComp.backend.Imp2 <> EAtom constr
+R5424:5434 BarocqComp.backend.ClightCegen <> transl_atom def
+R5436:5440 BarocqComp.backend.ClightCegen <> globs:57 var
+R5450:5458 BarocqComp.backend.Imp2 <> EArrayGet constr
+R5480:5484 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5487:5490 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5511:5522 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5491:5501 BarocqComp.backend.ClightCegen <> transl_atom def
+R5503:5507 BarocqComp.backend.ClightCegen <> globs:57 var
+binder 5485:5486 <> e1:60
+R5523:5527 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5530:5533 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5554:5565 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5534:5544 BarocqComp.backend.ClightCegen <> transl_atom def
+R5546:5550 BarocqComp.backend.ClightCegen <> globs:57 var
+binder 5528:5529 <> e2:61
+R5580:5585 compcert.cfrontend.Clight <> typeof def
+R5587:5588 BarocqComp.backend.ClightCegen <> e1:60 var
+binder 5570:5575 <> tarith:62
+R5615:5625 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 5605:5610 <> tderef:63
+R5641:5643 BarocqComp.common.Monads MonError ret def
+R5646:5651 compcert.cfrontend.Clight <> Ederef constr
+R5654:5659 compcert.cfrontend.Clight <> Ebinop constr
+R5661:5664 compcert.cfrontend.Cop <> Oadd constr
+R5666:5667 BarocqComp.backend.ClightCegen <> e1:60 var
+R5669:5670 BarocqComp.backend.ClightCegen <> e2:61 var
+R5672:5677 BarocqComp.backend.ClightCegen <> tarith:62 var
+R5680:5685 BarocqComp.backend.ClightCegen <> tderef:63 var
+R5694:5704 BarocqComp.backend.Imp2 <> ERecordProj constr
+R5724:5728 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5730:5733 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5753:5764 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R5734:5744 BarocqComp.backend.ClightCegen <> transl_atom def
+R5746:5750 BarocqComp.backend.ClightCegen <> globs:57 var
+binder 5729:5729 <> e:64
+R5779:5791 BarocqComp.backend.ClightCegen <> deref_pointer def
+R5794:5799 compcert.cfrontend.Clight <> typeof def
+R5801:5801 BarocqComp.backend.ClightCegen <> e:64 var
+binder 5769:5774 <> tderef:65
+R5829:5839 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 5819:5824 <> tfield:66
+R5855:5857 BarocqComp.common.Monads MonError ret def
+R5860:5865 compcert.cfrontend.Clight <> Efield constr
+R5868:5873 compcert.cfrontend.Clight <> Ederef constr
+R5875:5875 BarocqComp.backend.ClightCegen <> e:64 var
+R5877:5882 BarocqComp.backend.ClightCegen <> tderef:65 var
+R5886:5897 BarocqComp.common.Ident <> to_pos def
+R5902:5907 BarocqComp.backend.ClightCegen <> tfield:66 var
+R5916:5926 BarocqComp.backend.Imp2 <> EDeepAccess constr
+R5939:5956 BarocqComp.backend.ClightCegen <> transl_deep_access def
+R5958:5962 BarocqComp.backend.ClightCegen <> globs:57 var
+R5967:5975 Coq.Lists.List <> rev' def
+def 6005:6016 <> transl_ecomp
+R6026:6029 BarocqComp.common.Utils <> pset abbrev
+binder 6019:6023 <> globs:67
+R6037:6046 BarocqComp.backend.Imp2 <> ecomp ind
+binder 6033:6034 <> ec:68
+R6051:6053 compcert.common.Errors <> res ind
+R6069:6071 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6056:6068 compcert.cfrontend.ClightCe <> expr def
+R6072:6089 compcert.cfrontend.ClightCe <> statement ind
+R6105:6106 BarocqComp.backend.ClightCegen <> ec:68 var
+R6119:6128 BarocqComp.backend.Imp2 <> EcArraySet constr
+R6150:6154 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6157:6160 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6181:6192 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6161:6171 BarocqComp.backend.ClightCegen <> transl_atom def
+R6173:6177 BarocqComp.backend.ClightCegen <> globs:67 var
+binder 6155:6156 <> e1:70
+R6193:6197 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6200:6203 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6224:6235 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6204:6214 BarocqComp.backend.ClightCegen <> transl_atom def
+R6216:6220 BarocqComp.backend.ClightCegen <> globs:67 var
+binder 6198:6199 <> e2:71
+R6236:6240 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6243:6246 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6267:6278 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6247:6257 BarocqComp.backend.ClightCegen <> transl_atom def
+R6259:6263 BarocqComp.backend.ClightCegen <> globs:67 var
+binder 6241:6242 <> e3:72
+R6293:6298 compcert.cfrontend.Clight <> typeof def
+R6300:6301 BarocqComp.backend.ClightCegen <> e1:70 var
+binder 6283:6288 <> tarith:73
+R6328:6333 compcert.cfrontend.Clight <> typeof def
+R6335:6336 BarocqComp.backend.ClightCegen <> e3:72 var
+binder 6318:6323 <> tderef:74
+R6349:6351 BarocqComp.common.Monads MonError ret def
+R6353:6353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6356:6357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6411:6411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6354:6355 BarocqComp.backend.ClightCegen <> e1:70 var
+R6358:6364 compcert.cfrontend.ClightCe <> Sassign constr
+R6367:6372 compcert.cfrontend.Clight <> Ederef constr
+R6375:6380 compcert.cfrontend.Clight <> Ebinop constr
+R6382:6385 compcert.cfrontend.Cop <> Oadd constr
+R6387:6388 BarocqComp.backend.ClightCegen <> e1:70 var
+R6390:6391 BarocqComp.backend.ClightCegen <> e2:71 var
+R6393:6398 BarocqComp.backend.ClightCegen <> tarith:73 var
+R6401:6406 BarocqComp.backend.ClightCegen <> tderef:74 var
+R6409:6410 BarocqComp.backend.ClightCegen <> e3:72 var
+R6419:6432 BarocqComp.backend.Imp2 <> EcRecordUpdate constr
+R6453:6457 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6460:6463 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6484:6495 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6464:6474 BarocqComp.backend.ClightCegen <> transl_atom def
+R6476:6480 BarocqComp.backend.ClightCegen <> globs:67 var
+binder 6458:6459 <> e1:75
+R6496:6500 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6503:6506 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6527:6538 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6507:6517 BarocqComp.backend.ClightCegen <> transl_atom def
+R6519:6523 BarocqComp.backend.ClightCegen <> globs:67 var
+binder 6501:6502 <> e2:76
+R6553:6565 BarocqComp.backend.ClightCegen <> deref_pointer def
+R6568:6573 compcert.cfrontend.Clight <> typeof def
+R6575:6576 BarocqComp.backend.ClightCegen <> e1:75 var
+binder 6543:6548 <> tderef:77
+R6604:6609 compcert.cfrontend.Clight <> typeof def
+R6611:6612 BarocqComp.backend.ClightCegen <> e2:76 var
+binder 6594:6599 <> tfield:78
+R6625:6627 BarocqComp.common.Monads MonError ret def
+R6629:6629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6632:6633 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6696:6696 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6630:6631 BarocqComp.backend.ClightCegen <> e1:75 var
+R6634:6640 compcert.cfrontend.ClightCe <> Sassign constr
+R6643:6648 compcert.cfrontend.Clight <> Efield constr
+R6651:6656 compcert.cfrontend.Clight <> Ederef constr
+R6658:6659 BarocqComp.backend.ClightCegen <> e1:75 var
+R6661:6666 BarocqComp.backend.ClightCegen <> tderef:77 var
+R6670:6681 BarocqComp.common.Ident <> to_pos def
+R6686:6691 BarocqComp.backend.ClightCegen <> tfield:78 var
+R6694:6695 BarocqComp.backend.ClightCegen <> e2:76 var
+def 6719:6734 <> transl_cond_atom
+R6744:6747 BarocqComp.common.Utils <> pset abbrev
+binder 6737:6741 <> globs:79
+R6754:6757 BarocqComp.backend.Imp2 <> atom def
+binder 6751:6751 <> a:80
+R6762:6764 compcert.common.Errors <> res ind
+R6766:6779 compcert.cfrontend.ClightCe <> cexpr ind
+R6794:6804 BarocqComp.backend.ClightCegen <> transl_atom def
+R6806:6810 BarocqComp.backend.ClightCegen <> globs:79 var
+R6812:6812 BarocqComp.backend.ClightCegen <> a:80 var
+R6825:6826 compcert.common.Errors <> OK constr
+R6834:6836 BarocqComp.common.Monads MonError ret def
+R6839:6845 compcert.cfrontend.ClightCe <> CE_expr constr
+R6857:6861 compcert.common.Errors <> Error constr
+R6882:6882 BarocqComp.backend.ClightCegen <> a:80 var
+R6899:6906 BarocqComp.common.Syntax Typed AUnaryOp constr
+R6931:6935 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6939:6942 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6968:6983 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R6943:6958 BarocqComp.backend.ClightCegen <> transl_cond_atom:81 def
+R6960:6964 BarocqComp.backend.ClightCegen <> globs:79 var
+binder 6936:6938 <> a1':83
+R7012:7021 BarocqComp.common.Syntax <> UopNotbool constr
+R7026:7028 BarocqComp.common.Monads MonError ret def
+R7031:7036 compcert.cfrontend.ClightCe <> CE_not constr
+R7038:7040 BarocqComp.backend.ClightCegen <> a1':83 var
+R7062:7065 BarocqComp.common.Monads MonError fail def
+R7093:7101 BarocqComp.common.Syntax Typed ABinaryOp constr
+R7129:7133 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7137:7140 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7166:7181 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7141:7156 BarocqComp.backend.ClightCegen <> transl_cond_atom:81 def
+R7158:7162 BarocqComp.backend.ClightCegen <> globs:79 var
+binder 7134:7136 <> a1':85
+R7182:7186 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7190:7193 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7219:7234 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7194:7209 BarocqComp.backend.ClightCegen <> transl_cond_atom:81 def
+R7211:7215 BarocqComp.backend.ClightCegen <> globs:79 var
+binder 7187:7189 <> a2':86
+R7263:7272 BarocqComp.common.Syntax <> BopAndbool constr
+R7277:7279 BarocqComp.common.Monads MonError ret def
+R7282:7287 compcert.cfrontend.ClightCe <> CE_and constr
+R7289:7291 BarocqComp.backend.ClightCegen <> a1':85 var
+R7293:7295 BarocqComp.backend.ClightCegen <> a2':86 var
+R7312:7320 BarocqComp.common.Syntax <> BopOrbool constr
+R7325:7327 BarocqComp.common.Monads MonError ret def
+R7330:7334 compcert.cfrontend.ClightCe <> CE_or constr
+R7336:7338 BarocqComp.backend.ClightCegen <> a1':85 var
+R7340:7342 BarocqComp.backend.ClightCegen <> a2':86 var
+R7364:7367 BarocqComp.common.Monads MonError fail def
+R7400:7403 BarocqComp.common.Monads MonError fail def
+def 7438:7453 <> transl_statement
+R7463:7466 BarocqComp.common.Utils <> pset abbrev
+binder 7456:7460 <> globs:88
+R7473:7486 BarocqComp.backend.Imp2 <> statement ind
+binder 7470:7470 <> s:89
+R7491:7493 compcert.common.Errors <> res ind
+R7495:7512 compcert.cfrontend.ClightCe <> statement ind
+R7527:7527 BarocqComp.backend.ClightCegen <> s:89 var
+R7540:7545 BarocqComp.backend.Imp2 <> StSkip constr
+R7550:7552 BarocqComp.common.Monads MonError ret def
+R7554:7558 compcert.cfrontend.ClightCe <> Sskip constr
+R7566:7574 BarocqComp.backend.Imp2 <> StSetExpr constr
+R7591:7595 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7598:7601 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7621:7632 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7602:7612 BarocqComp.backend.ClightCegen <> transl_expr def
+R7614:7618 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 7596:7597 <> e':92
+R7633:7635 BarocqComp.common.Monads MonError ret def
+R7638:7641 compcert.cfrontend.ClightCe <> Sset constr
+R7644:7655 BarocqComp.common.Ident <> to_pos def
+R7660:7661 BarocqComp.backend.ClightCegen <> e':92 var
+R7670:7679 BarocqComp.backend.Imp2 <> StSetEcomp constr
+R7697:7702 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7704:7705 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7707:7711 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7733:7744 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_'('_x_','_x_')'_':='_x_'in'_x not
+R7712:7723 BarocqComp.backend.ClightCegen <> transl_ecomp def
+R7725:7729 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 7703:7703 <> e:93
+binder 7706:7706 <> s:94
+R7757:7760 compcert.cfrontend.ClightCe <> Sset constr
+R7763:7774 BarocqComp.common.Ident <> to_pos def
+R7779:7779 BarocqComp.backend.ClightCegen <> e:93 var
+binder 7749:7752 <> sset:95
+R7792:7794 BarocqComp.common.Monads MonError ret def
+R7797:7805 compcert.cfrontend.ClightCe <> Ssequence constr
+R7807:7807 BarocqComp.backend.ClightCegen <> s:94 var
+R7809:7812 BarocqComp.backend.ClightCegen <> sset:95 var
+R7821:7826 BarocqComp.backend.Imp2 <> StCall constr
+R7848:7852 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7854:7857 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7877:7888 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7858:7868 BarocqComp.backend.ClightCegen <> transl_atom def
+R7870:7874 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 7853:7853 <> e:96
+R7889:7893 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7899:7902 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7932:7943 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R7903:7906 compcert.common.Errors <> mmap def
+R7909:7919 BarocqComp.backend.ClightCegen <> transl_atom def
+R7921:7925 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 7894:7898 <> args':97
+R7944:7946 BarocqComp.common.Monads MonError ret def
+R7949:7953 compcert.cfrontend.ClightCe <> Scall constr
+R7956:7959 Coq.Init.Datatypes <> Some constr
+R7962:7973 BarocqComp.common.Ident <> to_pos def
+R7979:7979 BarocqComp.backend.ClightCegen <> e:96 var
+R7981:7985 BarocqComp.backend.ClightCegen <> args':97 var
+R7994:8005 BarocqComp.backend.Imp2 <> StIfThenElse constr
+R8026:8030 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8032:8035 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8060:8071 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8036:8051 BarocqComp.backend.ClightCegen <> transl_cond_atom def
+R8053:8057 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8031:8031 <> e:98
+R8072:8076 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8080:8083 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8109:8120 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8084:8099 BarocqComp.backend.ClightCegen <> transl_statement:90 def
+R8101:8105 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8077:8079 <> s1':99
+R8121:8125 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8129:8132 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8158:8169 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8133:8148 BarocqComp.backend.ClightCegen <> transl_statement:90 def
+R8150:8154 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8126:8128 <> s2':100
+R8170:8172 BarocqComp.common.Monads MonError ret def
+R8175:8185 compcert.cfrontend.ClightCe <> Sifthenelse constr
+R8187:8187 BarocqComp.backend.ClightCegen <> e:98 var
+R8189:8191 BarocqComp.backend.ClightCegen <> s1':99 var
+R8193:8195 BarocqComp.backend.ClightCegen <> s2':100 var
+R8204:8213 BarocqComp.backend.Imp2 <> StSequence constr
+R8232:8236 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8240:8243 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8269:8280 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8244:8259 BarocqComp.backend.ClightCegen <> transl_statement:90 def
+R8261:8265 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8237:8239 <> s1':101
+R8281:8285 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8289:8292 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8318:8329 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8293:8308 BarocqComp.backend.ClightCegen <> transl_statement:90 def
+R8310:8314 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8286:8288 <> s2':102
+R8330:8332 BarocqComp.common.Monads MonError ret def
+R8335:8343 compcert.cfrontend.ClightCe <> Ssequence constr
+R8345:8347 BarocqComp.backend.ClightCegen <> s1':101 var
+R8349:8351 BarocqComp.backend.ClightCegen <> s2':102 var
+R8360:8367 BarocqComp.backend.Imp2 <> StReturn constr
+R8382:8386 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8388:8391 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8411:8422 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8392:8402 BarocqComp.backend.ClightCegen <> transl_atom def
+R8404:8408 BarocqComp.backend.ClightCegen <> globs:88 var
+binder 8387:8387 <> e:103
+R8423:8425 BarocqComp.common.Monads MonError ret def
+R8428:8434 compcert.cfrontend.ClightCe <> Sreturn constr
+R8437:8440 Coq.Init.Datatypes <> Some constr
+R8442:8442 BarocqComp.backend.ClightCegen <> e:103 var
+def 8469:8483 <> transl_function
+R8493:8496 BarocqComp.common.Utils <> pset abbrev
+binder 8486:8490 <> globs:104
+R8503:8515 BarocqComp.backend.Imp2 <> function rec
+binder 8500:8500 <> f:105
+R8520:8522 compcert.common.Errors <> res ind
+R8524:8540 compcert.cfrontend.ClightCe <> function rec
+R8559:8569 BarocqComp.backend.ClightCegen <> transl_btyp def
+R8572:8580 BarocqComp.backend.Imp2 <> fn_return proj
+R8582:8582 BarocqComp.backend.ClightCegen <> f:105 var
+binder 8553:8554 <> ty:106
+R8606:8613 Coq.Lists.List <> map def
+R8673:8681 BarocqComp.backend.Imp2 <> fn_params proj
+R8683:8683 BarocqComp.backend.ClightCegen <> f:105 var
+R8621:8621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8625:8626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8630:8630 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 8627:8629 <> pty:107
+binder 8622:8624 <> pid:108
+binder 8621:8630 <> pat:109
+R8635:8635 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8652:8653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8669:8669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8636:8647 BarocqComp.common.Ident <> to_pos def
+R8649:8651 BarocqComp.backend.ClightCegen <> pid:108 var
+R8654:8664 BarocqComp.backend.ClightCegen <> transl_btyp def
+R8666:8668 BarocqComp.backend.ClightCegen <> pty:107 var
+binder 8596:8601 <> params:110
+R8706:8713 Coq.Lists.List <> map def
+R8773:8779 BarocqComp.backend.Imp2 <> fn_vars proj
+R8781:8781 BarocqComp.backend.ClightCegen <> f:105 var
+R8721:8721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8725:8726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8730:8730 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 8727:8729 <> pty:111
+binder 8722:8724 <> pid:112
+binder 8721:8730 <> pat:113
+R8735:8735 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8752:8753 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8769:8769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8736:8747 BarocqComp.common.Ident <> to_pos def
+R8749:8751 BarocqComp.backend.ClightCegen <> pid:112 var
+R8754:8764 BarocqComp.backend.ClightCegen <> transl_btyp def
+R8766:8768 BarocqComp.backend.ClightCegen <> pty:111 var
+binder 8697:8701 <> temps:114
+R8791:8795 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8800:8803 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8838:8845 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R8804:8819 BarocqComp.backend.ClightCegen <> transl_statement def
+R8821:8825 BarocqComp.backend.ClightCegen <> globs:104 var
+R8828:8834 BarocqComp.backend.Imp2 <> fn_body proj
+R8836:8836 BarocqComp.backend.ClightCegen <> f:105 var
+binder 8796:8799 <> body:115
+R8846:8848 BarocqComp.common.Monads MonError ret def
+R8859:8876 compcert.cfrontend.ClightCe <> fn_return proj
+R8859:8876 compcert.cfrontend.ClightCe <> fn_return proj
+R8859:8876 compcert.cfrontend.ClightCe <> fn_return proj
+R8891:8910 compcert.cfrontend.ClightCe <> fn_callconv proj
+R8891:8910 compcert.cfrontend.ClightCe <> fn_callconv proj
+R8933:8950 compcert.cfrontend.ClightCe <> fn_params proj
+R8933:8950 compcert.cfrontend.ClightCe <> fn_params proj
+R8969:8984 compcert.cfrontend.ClightCe <> fn_vars proj
+R8969:8984 compcert.cfrontend.ClightCe <> fn_vars proj
+R9000:9016 compcert.cfrontend.ClightCe <> fn_temps proj
+R9000:9016 compcert.cfrontend.ClightCe <> fn_temps proj
+R9034:9049 compcert.cfrontend.ClightCe <> fn_body proj
+R9034:9049 compcert.cfrontend.ClightCe <> fn_body proj
+R8881:8882 BarocqComp.backend.ClightCegen <> ty:106 var
+R8915:8924 compcert.common.AST <> cc_default def
+R8955:8960 BarocqComp.backend.ClightCegen <> params:110 var
+R8989:8991 Coq.Init.Datatypes <> nil constr
+R9021:9025 BarocqComp.backend.ClightCegen <> temps:114 var
+R9054:9057 BarocqComp.backend.ClightCegen <> body:115 var
+def 9081:9099 <> transl_abs_function
+R9105:9109 BarocqComp.common.Syntax <> ident def
+binder 9102:9102 <> f:116
+R9122:9125 Coq.Init.Datatypes <> list ind
+R9138:9140 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9128:9137 BarocqComp.common.Syntax <> param_attr ind
+R9141:9144 BarocqComp.common.Types <> btyp ind
+binder 9113:9119 <> tparams:117
+R9155:9158 BarocqComp.common.Types <> btyp ind
+binder 9149:9152 <> tret:118
+R9163:9177 compcert.cfrontend.ClightCe <> fundef def
+R9201:9208 Coq.Lists.List <> map def
+R9214:9220 BarocqComp.backend.ClightCegen <> tparams:117 var
+R9210:9212 Coq.Init.Datatypes <> snd def
+binder 9190:9196 <> tparams:119
+R9251:9261 compcert.common.AST <> EF_external constr
+R9286:9293 compcert.common.AST <> sig_args proj
+R9286:9293 compcert.common.AST <> sig_args proj
+R9286:9293 compcert.common.AST <> sig_args proj
+R9347:9353 compcert.common.AST <> sig_res proj
+R9347:9353 compcert.common.AST <> sig_res proj
+R9395:9400 compcert.common.AST <> sig_cc proj
+R9395:9400 compcert.common.AST <> sig_cc proj
+R9298:9305 Coq.Lists.List <> map def
+R9328:9334 BarocqComp.backend.ClightCegen <> tparams:119 var
+R9307:9326 BarocqComp.backend.ClightCegen <> transl_btyp_to_xtype def
+R9358:9377 BarocqComp.backend.ClightCegen <> transl_btyp_to_xtype def
+R9379:9382 BarocqComp.backend.ClightCegen <> tret:118 var
+R9405:9414 compcert.common.AST <> cc_default def
+R9263:9263 BarocqComp.backend.ClightCegen <> f:116 var
+binder 9233:9240 <> ext_func:120
+R9438:9445 compcert.cfrontend.Ctypes <> External constr
+R9506:9515 compcert.common.AST <> cc_default def
+R9488:9498 BarocqComp.backend.ClightCegen <> transl_btyp def
+R9500:9503 BarocqComp.backend.ClightCegen <> tret:118 var
+R9457:9464 Coq.Lists.List <> map def
+R9478:9484 BarocqComp.backend.ClightCegen <> tparams:119 var
+R9466:9476 BarocqComp.backend.ClightCegen <> transl_btyp def
+R9447:9454 BarocqComp.backend.ClightCegen <> ext_func:120 var
+R9528:9540 Coq.Lists.List ListNotations <> mod
+def 9557:9564 <> cglobdef
+R9589:9591 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9580:9588 compcert.common.AST <> ident def
+R9592:9602 compcert.common.AST <> globdef ind
+R9638:9641 compcert.cfrontend.Ctypes <> type ind
+R9605:9617 compcert.cfrontend.Ctypes <> fundef ind
+R9619:9635 compcert.cfrontend.ClightCe <> function rec
+def 9658:9669 <> literal_size
+R9675:9686 BarocqComp.backend.Imp2 <> literal ind
+binder 9672:9672 <> l:121
+R9691:9691 Coq.Numbers.BinNums <> Z ind
+R9706:9706 BarocqComp.backend.ClightCegen <> l:121 var
+R9719:9729 BarocqComp.backend.Imp2 <> LArray constr
+R9738:9745 Coq.ZArith.BinInt Z of_nat def
+R9748:9760 BarocqComp.common.Barray <> length def
+R9776:9783 Coq.ZArith.BinInt Z of_nat def
+def 9808:9826 <> transl_globdefs_rec
+R9835:9838 Coq.Init.Datatypes <> list ind
+R9840:9851 BarocqComp.backend.Imp2 <> globdef def
+binder 9829:9832 <> defs:123
+R9862:9865 BarocqComp.common.Utils <> pset abbrev
+binder 9855:9859 <> globs:124
+R9869:9871 compcert.common.Errors <> res ind
+R9874:9877 Coq.Init.Datatypes <> list ind
+R9879:9886 BarocqComp.backend.ClightCegen <> cglobdef def
+R9902:9905 BarocqComp.backend.ClightCegen <> defs:123 var
+R9918:9920 Coq.Init.Datatypes <> nil constr
+R9925:9927 BarocqComp.common.Monads MonError ret def
+R9929:9931 Coq.Init.Datatypes <> nil constr
+R9940:9943 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9984:9991 BarocqComp.common.Syntax <> DefConst constr
+R10027:10040 BarocqComp.backend.ClightCegen <> transl_literal def
+binder 10019:10022 <> init:128
+R10068:10082 BarocqComp.backend.ClightCegen <> transl_btyp_lit def
+R10088:10099 BarocqComp.backend.ClightCegen <> literal_size def
+binder 10063:10063 <> t:129
+R10175:10181 BarocqComp.common.Types <> BRecord constr
+R10186:10190 BarocqComp.backend.Imp2 <> LBase constr
+R10193:10197 BarocqComp.backend.Imp2 <> LbVar constr
+R10207:10210 compcert.export.Ctypesdefs <> tptr def
+R10212:10212 BarocqComp.backend.ClightCegen <> t:129 var
+R10238:10238 BarocqComp.backend.ClightCegen <> t:129 var
+binder 10123:10123 <> t:132
+R10294:10294 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10309:10310 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10481:10481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10295:10306 BarocqComp.common.Ident <> to_pos def
+R10311:10314 compcert.common.AST <> Gvar constr
+R10333:10341 compcert.common.AST <> gvar_info proj
+R10333:10341 compcert.common.AST <> gvar_info proj
+R10333:10341 compcert.common.AST <> gvar_info proj
+R10363:10371 compcert.common.AST <> gvar_init proj
+R10363:10371 compcert.common.AST <> gvar_init proj
+R10396:10408 compcert.common.AST <> gvar_readonly proj
+R10396:10408 compcert.common.AST <> gvar_readonly proj
+R10444:10456 compcert.common.AST <> gvar_volatile proj
+R10444:10456 compcert.common.AST <> gvar_volatile proj
+R10346:10346 BarocqComp.backend.ClightCegen <> t:132 var
+R10376:10379 BarocqComp.backend.ClightCegen <> init:128 var
+R10413:10424 BarocqComp.common.Types <> btyp_is_prim def
+R10461:10465 Coq.Init.Datatypes <> false constr
+binder 10289:10289 <> d:133
+R10498:10502 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10504:10507 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10563:10578 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10508:10526 BarocqComp.backend.ClightCegen <> transl_globdefs_rec:125 def
+R10535:10538 BarocqComp.common.Utils <> sadd def
+R10540:10544 BarocqComp.backend.ClightCegen <> globs:124 var
+R10547:10558 BarocqComp.common.Ident <> to_pos def
+binder 10503:10503 <> r:134
+R10579:10581 BarocqComp.common.Monads MonError ret def
+R10585:10588 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10584:10584 BarocqComp.backend.ClightCegen <> d:133 var
+R10589:10589 BarocqComp.backend.ClightCegen <> r:134 var
+R10602:10607 BarocqComp.common.Syntax <> DefFun constr
+R10628:10632 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10635:10638 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10662:10677 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10639:10653 BarocqComp.backend.ClightCegen <> transl_function def
+R10655:10659 BarocqComp.backend.ClightCegen <> globs:124 var
+binder 10633:10634 <> f':135
+R10687:10688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10703:10706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10725:10726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10689:10700 BarocqComp.common.Ident <> to_pos def
+R10707:10710 compcert.common.AST <> Gfun constr
+R10713:10720 compcert.cfrontend.Ctypes <> Internal constr
+R10722:10723 BarocqComp.backend.ClightCegen <> f':135 var
+binder 10682:10682 <> d:136
+R10743:10747 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10749:10752 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10808:10823 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10753:10771 BarocqComp.backend.ClightCegen <> transl_globdefs_rec:125 def
+R10780:10783 BarocqComp.common.Utils <> sadd def
+R10785:10789 BarocqComp.backend.ClightCegen <> globs:124 var
+R10792:10803 BarocqComp.common.Ident <> to_pos def
+binder 10748:10748 <> r:137
+R10824:10826 BarocqComp.common.Monads MonError ret def
+R10830:10833 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10829:10829 BarocqComp.backend.ClightCegen <> d:136 var
+R10834:10834 BarocqComp.backend.ClightCegen <> r:137 var
+R10847:10855 BarocqComp.common.Syntax <> DeclConst constr
+R10886:10896 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 10881:10881 <> t:138
+R10916:10920 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10922:10925 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10981:10996 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R10926:10944 BarocqComp.backend.ClightCegen <> transl_globdefs_rec:125 def
+R10953:10956 BarocqComp.common.Utils <> sadd def
+R10958:10962 BarocqComp.backend.ClightCegen <> globs:124 var
+R10965:10976 BarocqComp.common.Ident <> to_pos def
+binder 10921:10921 <> r:139
+R11006:11007 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11022:11024 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11184:11184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11008:11019 BarocqComp.common.Ident <> to_pos def
+R11025:11028 compcert.common.AST <> Gvar constr
+R11047:11055 compcert.common.AST <> gvar_info proj
+R11047:11055 compcert.common.AST <> gvar_info proj
+R11047:11055 compcert.common.AST <> gvar_info proj
+R11077:11085 compcert.common.AST <> gvar_init proj
+R11077:11085 compcert.common.AST <> gvar_init proj
+R11109:11121 compcert.common.AST <> gvar_readonly proj
+R11109:11121 compcert.common.AST <> gvar_readonly proj
+R11147:11159 compcert.common.AST <> gvar_volatile proj
+R11147:11159 compcert.common.AST <> gvar_volatile proj
+R11060:11060 BarocqComp.backend.ClightCegen <> t:138 var
+R11090:11092 Coq.Init.Datatypes <> nil constr
+R11126:11130 Coq.Init.Datatypes <> false constr
+R11164:11168 Coq.Init.Datatypes <> false constr
+binder 11001:11001 <> d:140
+R11213:11215 BarocqComp.common.Monads MonError ret def
+R11219:11222 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11218:11218 BarocqComp.backend.ClightCegen <> d:140 var
+R11223:11223 BarocqComp.backend.ClightCegen <> r:139 var
+R11236:11242 BarocqComp.common.Syntax <> DeclFun constr
+R11274:11278 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11280:11283 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11339:11354 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R11284:11302 BarocqComp.backend.ClightCegen <> transl_globdefs_rec:125 def
+R11311:11314 BarocqComp.common.Utils <> sadd def
+R11316:11320 BarocqComp.backend.ClightCegen <> globs:124 var
+R11323:11334 BarocqComp.common.Ident <> to_pos def
+binder 11279:11279 <> r:141
+R11364:11365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11380:11382 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11424:11424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11366:11377 BarocqComp.common.Ident <> to_pos def
+R11383:11386 compcert.common.AST <> Gfun constr
+R11389:11407 BarocqComp.backend.ClightCegen <> transl_abs_function def
+binder 11359:11359 <> d:142
+R11441:11443 BarocqComp.common.Monads MonError ret def
+R11447:11450 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11446:11446 BarocqComp.backend.ClightCegen <> d:142 var
+R11451:11451 BarocqComp.backend.ClightCegen <> r:141 var
+def 11487:11501 <> transl_globdefs
+R11510:11513 Coq.Init.Datatypes <> list ind
+R11515:11526 BarocqComp.backend.Imp2 <> globdef def
+binder 11504:11507 <> defs:143
+R11531:11533 compcert.common.Errors <> res ind
+R11536:11539 Coq.Init.Datatypes <> list ind
+R11541:11548 BarocqComp.backend.ClightCegen <> cglobdef def
+R11558:11576 BarocqComp.backend.ClightCegen <> transl_globdefs_rec def
+R11578:11581 BarocqComp.backend.ClightCegen <> defs:143 var
+R11583:11588 BarocqComp.common.Utils <> sempty abbrev
+def 11607:11626 <> transl_record_fields
+R11637:11646 BarocqComp.common.Maps2 SMapList t def
+R11648:11651 BarocqComp.common.Types <> btyp ind
+binder 11629:11634 <> fields:144
+R11656:11669 compcert.cfrontend.Ctypes <> members def
+R11684:11689 BarocqComp.backend.ClightCegen <> fields:144 var
+R11702:11704 Coq.Init.Datatypes <> nil constr
+R11709:11711 Coq.Init.Datatypes <> nil constr
+R11726:11729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11719:11719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11721:11722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11725:11725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11760:11770 BarocqComp.backend.ClightCegen <> transl_btyp def
+binder 11753:11755 <> tx':147
+R11795:11814 BarocqComp.backend.ClightCegen <> transl_record_fields:145 def
+binder 11790:11790 <> r:148
+R11835:11835 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11869:11873 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11836:11847 compcert.cfrontend.Ctypes <> Member_plain constr
+R11850:11861 BarocqComp.common.Ident <> to_pos def
+R11866:11868 BarocqComp.backend.ClightCegen <> tx':147 var
+R11874:11874 BarocqComp.backend.ClightCegen <> r:148 var
+def 11899:11916 <> transl_struct_btyp
+R11922:11926 BarocqComp.common.Syntax <> ident def
+binder 11919:11919 <> x:149
+R11938:11947 BarocqComp.common.Maps2 SMapList t def
+R11949:11952 BarocqComp.common.Types <> btyp ind
+binder 11930:11935 <> fields:150
+R11957:11983 compcert.cfrontend.Ctypes <> composite_definition ind
+R11992:12000 compcert.cfrontend.Ctypes <> Composite constr
+R12003:12014 BarocqComp.common.Ident <> to_pos def
+R12016:12016 BarocqComp.backend.ClightCegen <> x:149 var
+R12019:12024 compcert.cfrontend.Ctypes <> Struct constr
+R12027:12046 BarocqComp.backend.ClightCegen <> transl_record_fields def
+R12048:12053 BarocqComp.backend.ClightCegen <> fields:150 var
+R12056:12061 compcert.cfrontend.Ctypes <> noattr def
+def 12078:12094 <> transl_prog_types
+R12104:12107 Coq.Init.Datatypes <> list ind
+R12109:12116 BarocqComp.common.Syntax <> type_def ind
+binder 12097:12101 <> types:151
+R12121:12124 Coq.Init.Datatypes <> list ind
+R12126:12152 compcert.cfrontend.Ctypes <> composite_definition ind
+R12161:12168 Coq.Lists.List <> map def
+R12242:12263 BarocqComp.common.Syntax <> get_record_defs def
+R12265:12269 BarocqComp.backend.ClightCegen <> types:151 var
+binder 12181:12182 <> sd:152
+R12187:12204 BarocqComp.backend.ClightCegen <> transl_struct_btyp def
+R12207:12213 BarocqComp.common.Syntax <> rd_name proj
+R12215:12216 BarocqComp.backend.ClightCegen <> sd:152 var
+R12220:12228 BarocqComp.common.Syntax <> rd_fields proj
+R12230:12231 BarocqComp.backend.ClightCegen <> sd:152 var
+def 12285:12297 <> public_idents
+R12306:12309 Coq.Init.Datatypes <> list ind
+R12311:12322 BarocqComp.backend.Imp2 <> globdef def
+binder 12300:12303 <> defs:153
+R12327:12330 Coq.Init.Datatypes <> list ind
+R12332:12336 BarocqComp.common.Syntax <> ident def
+R12351:12354 BarocqComp.backend.ClightCegen <> defs:153 var
+R12367:12369 Coq.Init.Datatypes <> nil constr
+R12374:12376 Coq.Init.Datatypes <> nil constr
+R12385:12388 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12429:12436 BarocqComp.common.Syntax <> DefConst constr
+R12454:12459 BarocqComp.common.Syntax <> DefFun constr
+R12475:12483 BarocqComp.common.Syntax <> DeclConst constr
+R12499:12505 BarocqComp.common.Syntax <> DeclFun constr
+R12517:12521 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12541:12541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12522:12534 BarocqComp.backend.ClightCegen <> public_idents:154 def
+R12517:12521 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12541:12541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12522:12534 BarocqComp.backend.ClightCegen <> public_idents:154 def
+R12517:12521 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12541:12541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12522:12534 BarocqComp.backend.ClightCegen <> public_idents:154 def
+R12517:12521 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12541:12541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12522:12534 BarocqComp.backend.ClightCegen <> public_idents:154 def
+def 12578:12582 <> _main
+R12586:12594 compcert.common.AST <> ident def
+R12599:12599 compcert.export.Clightdefs ClightNotations ::clight_scope:'$'_x not
+R12642:12647 BarocqComp.backend.ClightCegen TRANSL <> sec
+def 12660:12676 <> mk_abs_types_impl
+R12686:12689 Coq.Init.Datatypes <> list ind
+R12691:12698 BarocqComp.common.Syntax <> type_def ind
+binder 12679:12683 <> types:157
+R12703:12708 compcert.lib.Maps PMap t def
+R12710:12720 compcert.cfrontend.Ctypes <> type ind
+R12733:12737 BarocqComp.backend.ClightCegen <> types:157 var
+R12748:12750 Coq.Init.Datatypes <> nil constr
+R12755:12763 compcert.lib.Maps PMap init def
+R12765:12769 compcert.cfrontend.Ctypes <> Tvoid constr
+R12777:12780 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12819:12828 BarocqComp.common.Syntax <> TdAbstract constr
+R12900:12905 compcert.cfrontend.Ctypes <> Struct constr
+R12910:12916 compcert.cfrontend.Ctypes <> Tstruct constr
+R12919:12930 BarocqComp.common.Ident <> to_pos def
+R12937:12942 compcert.cfrontend.Ctypes <> noattr def
+R12958:12962 compcert.cfrontend.Ctypes <> Union constr
+R12967:12972 compcert.cfrontend.Ctypes <> Tunion constr
+R12975:12986 BarocqComp.common.Ident <> to_pos def
+R12993:12998 compcert.cfrontend.Ctypes <> noattr def
+binder 12854:12855 <> ct:162
+R13039:13046 compcert.lib.Maps PMap set def
+R13071:13087 BarocqComp.backend.ClightCegen <> mk_abs_types_impl:158 def
+R13067:13068 BarocqComp.backend.ClightCegen <> ct:162 var
+R13049:13060 BarocqComp.common.Ident <> to_pos def
+R13110:13126 BarocqComp.backend.ClightCegen <> mk_abs_types_impl:158 def
+def 13164:13177 <> transl_program
+R13186:13197 BarocqComp.backend.Imp2 <> program def
+binder 13180:13183 <> prog:163
+R13202:13204 compcert.common.Errors <> res ind
+R13206:13221 compcert.cfrontend.ClightCe <> program def
+R13241:13250 BarocqComp.common.Syntax <> prog_types proj
+R13252:13255 BarocqComp.backend.ClightCegen <> prog:163 var
+binder 13232:13236 <> types:164
+R13274:13282 BarocqComp.common.Syntax <> prog_defs proj
+R13284:13287 BarocqComp.backend.ClightCegen <> prog:163 var
+binder 13266:13269 <> defs:165
+R13316:13332 BarocqComp.backend.ClightCegen <> mk_abs_types_impl def
+R13334:13338 BarocqComp.backend.ClightCegen <> types:164 var
+binder 13298:13311 <> abs_types_impl:166
+R13355:13371 BarocqComp.backend.ClightCegen <> transl_prog_types def
+R13388:13392 BarocqComp.backend.ClightCegen <> types:164 var
+R13373:13386 BarocqComp.backend.ClightCegen <> abs_types_impl:166 var
+binder 13349:13350 <> ts:167
+R13399:13403 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13409:13412 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13448:13453 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R13413:13427 BarocqComp.backend.ClightCegen <> transl_globdefs def
+R13444:13447 BarocqComp.backend.ClightCegen <> defs:165 var
+R13429:13442 BarocqComp.backend.ClightCegen <> abs_types_impl:166 var
+binder 13404:13408 <> cdefs:168
+R13468:13475 Coq.Lists.List <> map def
+R13491:13503 BarocqComp.backend.ClightCegen <> public_idents def
+R13505:13508 BarocqComp.backend.ClightCegen <> defs:165 var
+R13477:13488 BarocqComp.common.Ident <> to_pos def
+binder 13458:13463 <> public:169
+R13528:13532 BarocqComp.backend.ClightCegen <> _main def
+binder 13520:13523 <> main:170
+R13545:13563 compcert.cfrontend.Ctypes <> make_program def
+R13581:13584 BarocqComp.backend.ClightCegen <> main:170 var
+R13574:13579 BarocqComp.backend.ClightCegen <> public:169 var
+R13568:13572 BarocqComp.backend.ClightCegen <> cdefs:168 var
+R13565:13566 BarocqComp.backend.ClightCegen <> ts:167 var
+R13595:13596 compcert.common.Errors <> OK constr
+R13606:13607 compcert.common.Errors <> OK constr
+R13609:13612 BarocqComp.backend.ClightCegen <> prog:163 var
+R13618:13622 compcert.common.Errors <> Error constr
+R13629:13636 BarocqComp.common.Monads MonError failwith def
+sec 13723:13728 <> IDENTS
+def 13743:13756 <> typ_idents_rec
+R13764:13767 BarocqComp.common.Utils <> pset abbrev
+binder 13759:13761 <> ids:171
+R13774:13784 compcert.cfrontend.Ctypes <> type ind
+binder 13771:13771 <> t:172
+R13789:13792 BarocqComp.common.Utils <> pset abbrev
+R13807:13807 BarocqComp.backend.ClightCegen <> t:172 var
+R13820:13826 compcert.cfrontend.Ctypes <> Tstruct constr
+R13840:13845 compcert.cfrontend.Ctypes <> Tunion constr
+R13856:13859 BarocqComp.common.Utils <> sadd def
+R13861:13863 BarocqComp.backend.ClightCegen <> ids:171 var
+R13856:13859 BarocqComp.common.Utils <> sadd def
+R13861:13863 BarocqComp.backend.ClightCegen <> ids:171 var
+R13875:13882 compcert.cfrontend.Ctypes <> Tpointer constr
+R13895:13900 compcert.cfrontend.Ctypes <> Tarray constr
+R13912:13917 BarocqComp.common.Utils <> sunion def
+R13919:13921 BarocqComp.backend.ClightCegen <> ids:171 var
+R13924:13937 BarocqComp.backend.ClightCegen <> typ_idents_rec:173 def
+R13939:13941 BarocqComp.backend.ClightCegen <> ids:171 var
+R13912:13917 BarocqComp.common.Utils <> sunion def
+R13919:13921 BarocqComp.backend.ClightCegen <> ids:171 var
+R13924:13937 BarocqComp.backend.ClightCegen <> typ_idents_rec:173 def
+R13939:13941 BarocqComp.backend.ClightCegen <> ids:171 var
+R13953:13961 compcert.cfrontend.Ctypes <> Tfunction constr
+R13989:14002 Coq.Lists.List <> fold_left def
+R14081:14094 BarocqComp.backend.ClightCegen <> typ_idents_rec:173 def
+R14096:14098 BarocqComp.backend.ClightCegen <> ids:171 var
+binder 14019:14021 <> ids:175
+binder 14023:14024 <> tp:176
+R14029:14042 BarocqComp.backend.ClightCegen <> typ_idents_rec:173 def
+R14048:14049 BarocqComp.backend.ClightCegen <> tp:176 var
+R14044:14046 BarocqComp.backend.ClightCegen <> ids:175 var
+R14117:14119 BarocqComp.backend.ClightCegen <> ids:171 var
+def 14144:14153 <> typ_idents
+R14159:14169 compcert.cfrontend.Ctypes <> type ind
+binder 14156:14156 <> t:177
+R14174:14177 BarocqComp.common.Utils <> pset abbrev
+R14186:14199 BarocqComp.backend.ClightCegen <> typ_idents_rec def
+R14201:14206 BarocqComp.common.Utils <> sempty abbrev
+R14208:14208 BarocqComp.backend.ClightCegen <> t:177 var
+def 14225:14239 <> function_idents
+R14245:14261 compcert.cfrontend.ClightCe <> function rec
+binder 14242:14242 <> f:178
+R14266:14269 BarocqComp.common.Utils <> pset abbrev
+R14304:14317 Coq.Lists.List <> fold_left def
+R14432:14437 BarocqComp.common.Utils <> sempty abbrev
+R14404:14421 compcert.cfrontend.ClightCe <> fn_params proj
+R14423:14423 BarocqComp.backend.ClightCegen <> f:178 var
+binder 14330:14332 <> ids:179
+R14335:14335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14339:14340 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14344:14344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 14341:14343 <> pty:180
+binder 14336:14338 <> pid:181
+binder 14335:14344 <> pat:182
+R14357:14362 BarocqComp.common.Utils <> sunion def
+R14365:14374 BarocqComp.backend.ClightCegen <> typ_idents def
+R14376:14378 BarocqComp.backend.ClightCegen <> pty:180 var
+R14382:14385 BarocqComp.common.Utils <> sadd def
+R14387:14389 BarocqComp.backend.ClightCegen <> ids:179 var
+R14391:14393 BarocqComp.backend.ClightCegen <> pid:181 var
+binder 14282:14293 <> param_idents:183
+R14474:14487 Coq.Lists.List <> fold_left def
+R14579:14584 BarocqComp.common.Utils <> sempty abbrev
+R14536:14543 Coq.Lists.List <> map def
+R14550:14565 compcert.cfrontend.ClightCe <> fn_vars proj
+R14567:14567 BarocqComp.backend.ClightCegen <> f:178 var
+R14545:14547 Coq.Init.Datatypes <> fst def
+binder 14502:14504 <> ids:184
+binder 14506:14508 <> vid:185
+R14513:14516 BarocqComp.common.Utils <> sadd def
+R14518:14520 BarocqComp.backend.ClightCegen <> ids:184 var
+R14522:14524 BarocqComp.backend.ClightCegen <> vid:185 var
+binder 14454:14463 <> var_idents:186
+R14622:14635 Coq.Lists.List <> fold_left def
+R14728:14733 BarocqComp.common.Utils <> sempty abbrev
+R14684:14691 Coq.Lists.List <> map def
+R14698:14714 compcert.cfrontend.ClightCe <> fn_temps proj
+R14716:14716 BarocqComp.backend.ClightCegen <> f:178 var
+R14693:14695 Coq.Init.Datatypes <> fst def
+binder 14650:14652 <> ids:187
+binder 14654:14656 <> tid:188
+R14661:14664 BarocqComp.common.Utils <> sadd def
+R14666:14668 BarocqComp.backend.ClightCegen <> ids:187 var
+R14670:14672 BarocqComp.backend.ClightCegen <> tid:188 var
+binder 14601:14611 <> temp_idents:189
+R14746:14751 BarocqComp.common.Utils <> sunion def
+R14754:14759 BarocqComp.common.Utils <> sunion def
+R14761:14772 BarocqComp.backend.ClightCegen <> param_idents:183 var
+R14774:14783 BarocqComp.backend.ClightCegen <> var_idents:186 var
+R14786:14796 BarocqComp.backend.ClightCegen <> temp_idents:189 var
+def 14813:14826 <> globdef_idents
+R14834:14841 BarocqComp.backend.ClightCegen <> cglobdef def
+binder 14829:14831 <> def:190
+R14846:14849 BarocqComp.common.Utils <> pset abbrev
+R14875:14877 BarocqComp.backend.ClightCegen <> def:190 var
+R14863:14863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14865:14866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14870:14870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14909:14911 BarocqComp.backend.ClightCegen <> def:190 var
+R14926:14929 compcert.common.AST <> Gfun constr
+R14932:14939 compcert.cfrontend.Ctypes <> Internal constr
+R14947:14961 BarocqComp.backend.ClightCegen <> function_idents def
+R14973:14976 compcert.common.AST <> Gfun constr
+R14979:14986 compcert.cfrontend.Ctypes <> External constr
+R15019:15032 Coq.Lists.List <> fold_left def
+R15124:15133 BarocqComp.backend.ClightCegen <> typ_idents def
+binder 15051:15053 <> ids:193
+binder 15055:15057 <> pty:194
+R15062:15067 BarocqComp.common.Utils <> sunion def
+R15069:15071 BarocqComp.backend.ClightCegen <> ids:193 var
+R15074:15083 BarocqComp.backend.ClightCegen <> typ_idents def
+R15085:15087 BarocqComp.backend.ClightCegen <> pty:194 var
+R15154:15159 BarocqComp.common.Utils <> sempty abbrev
+binder 14890:14892 <> ids:195
+R15182:15185 BarocqComp.common.Utils <> sadd def
+R15187:15189 BarocqComp.backend.ClightCegen <> ids:195 var
+def 15206:15219 <> members_idents
+R15225:15238 compcert.cfrontend.Ctypes <> members def
+binder 15222:15222 <> m:196
+R15243:15246 BarocqComp.common.Utils <> pset abbrev
+R15261:15261 BarocqComp.backend.ClightCegen <> m:196 var
+R15274:15276 Coq.Init.Datatypes <> nil constr
+R15281:15286 BarocqComp.common.Utils <> sempty abbrev
+R15295:15298 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15304:15307 BarocqComp.common.Utils <> sadd def
+R15310:15323 BarocqComp.backend.ClightCegen <> members_idents:197 def
+R15329:15339 compcert.cfrontend.Ctypes <> name_member def
+def 15367:15382 <> composite_idents
+R15389:15415 compcert.cfrontend.Ctypes <> composite_definition ind
+binder 15385:15386 <> cd:199
+R15420:15423 BarocqComp.common.Utils <> pset abbrev
+R15438:15439 BarocqComp.backend.ClightCegen <> cd:199 var
+R15446:15454 compcert.cfrontend.Ctypes <> Composite constr
+R15467:15470 BarocqComp.common.Utils <> sadd def
+R15473:15486 BarocqComp.backend.ClightCegen <> members_idents def
+def 15512:15525 <> program_idents
+R15534:15549 compcert.cfrontend.ClightCe <> program def
+binder 15528:15531 <> prog:201
+R15554:15557 Coq.Init.Datatypes <> list ind
+R15559:15567 compcert.common.AST <> ident def
+R15593:15606 Coq.Lists.List <> fold_left def
+R15705:15710 BarocqComp.common.Utils <> sempty abbrev
+R15674:15689 compcert.cfrontend.Ctypes <> prog_defs proj
+R15691:15694 BarocqComp.backend.ClightCegen <> prog:201 var
+binder 15621:15623 <> ids:202
+binder 15625:15627 <> def:203
+R15632:15637 BarocqComp.common.Utils <> sunion def
+R15640:15653 BarocqComp.backend.ClightCegen <> globdef_idents def
+R15655:15657 BarocqComp.backend.ClightCegen <> def:203 var
+R15660:15662 BarocqComp.backend.ClightCegen <> ids:202 var
+binder 15580:15582 <> ids:204
+R15740:15753 Coq.Lists.List <> fold_left def
+R15859:15861 BarocqComp.backend.ClightCegen <> ids:204 var
+R15827:15843 compcert.cfrontend.Ctypes <> prog_types proj
+R15845:15848 BarocqComp.backend.ClightCegen <> prog:201 var
+binder 15768:15770 <> ids:205
+binder 15772:15776 <> types:206
+R15781:15786 BarocqComp.common.Utils <> sunion def
+R15789:15804 BarocqComp.backend.ClightCegen <> composite_idents def
+R15806:15810 BarocqComp.backend.ClightCegen <> types:206 var
+R15813:15815 BarocqComp.backend.ClightCegen <> ids:205 var
+binder 15727:15729 <> ids:207
+R15874:15893 Coq.MSets.MSetPositive PositiveSet elements def
+R15895:15897 BarocqComp.backend.ClightCegen <> ids:207 var
+R15905:15910 BarocqComp.backend.ClightCegen IDENTS <> sec

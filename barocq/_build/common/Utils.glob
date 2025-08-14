@@ -1,0 +1,151 @@
+DIGEST 465202f8c43088da300eb5d8ea55c7e0
+FBarocqComp.common.Utils
+R24:29 Coq.PArith.PArith <> <> lib
+R31:36 Coq.ZArith.ZArith <> <> lib
+R38:43 Coq.Strings.String <> <> lib
+R45:57 Coq.Numbers.DecimalString <> <> lib
+R59:62 Coq.Lists.List <> <> lib
+R64:75 Coq.MSets.MSetPositive <> <> lib
+R107:109 compcert.common.AST <> <> lib
+R111:120 compcert.export.Ctypesdefs <> <> lib
+R122:125 compcert.lib.Maps <> <> lib
+R127:134 compcert.lib.Integers <> <> lib
+R168:172 BarocqComp.common.Error <> <> lib
+R174:179 BarocqComp.common.Monads <> <> lib
+R181:185 BarocqComp.common.Ident <> <> lib
+R195:204 BarocqComp.common.Monads MonCounter <> mod
+R214:226 BarocqComp.common.Monads MonCounterErr <> mod
+R236:248 Coq.Lists.List ListNotations <> mod
+def 285:301 <> transl_user_ident
+R307:313 BarocqComp.common.Ident <> t def
+binder 304:304 <> i:1
+R318:324 BarocqComp.common.Ident <> t def
+R331:347 BarocqComp.common.Ident <> prefix_with def
+R354:354 BarocqComp.common.Utils <> i:1 var
+def 400:408 <> fresh_var
+R419:424 Coq.Strings.String <> string ind
+binder 411:416 <> prefix:2
+R429:432 BarocqComp.common.Monads MonCounter cmon abbrev
+R434:440 BarocqComp.common.Ident <> t def
+R447:451 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R455:458 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R473:478 BarocqComp.common.Monads MonState ::state_monad_scope:'let*'_x_':='_x_'in'_x not
+R459:472 BarocqComp.common.Monads MonCounter get def
+binder 452:454 <> ctr:3
+R490:506 BarocqComp.common.Ident <> prefix_with def
+R508:513 BarocqComp.common.Utils <> prefix:2 var
+R516:531 BarocqComp.common.Ident <> of_str_nat def
+R533:535 BarocqComp.common.Utils <> ctr:3 var
+binder 483:485 <> var:4
+R543:557 BarocqComp.common.Monads MonCounter incr def
+R559:561 BarocqComp.common.Utils <> var:4 var
+def 643:655 <> fresh_var_err
+R666:671 Coq.Strings.String <> string ind
+binder 658:663 <> prefix:5
+R676:680 BarocqComp.common.Monads MonCounterErr crmon abbrev
+R682:688 BarocqComp.common.Ident <> t def
+R695:699 BarocqComp.common.Monads MonStateErr ::state_err_monad_scope:'let*'_x_':='_x_'in'_x not
+R703:706 BarocqComp.common.Monads MonStateErr ::state_err_monad_scope:'let*'_x_':='_x_'in'_x not
+R724:729 BarocqComp.common.Monads MonStateErr ::state_err_monad_scope:'let*'_x_':='_x_'in'_x not
+R707:723 BarocqComp.common.Monads MonCounterErr get def
+binder 700:702 <> ctr:6
+R741:757 BarocqComp.common.Ident <> prefix_with def
+R759:764 BarocqComp.common.Utils <> prefix:5 var
+R767:782 BarocqComp.common.Ident <> of_str_nat def
+R784:786 BarocqComp.common.Utils <> ctr:6 var
+binder 734:736 <> var:7
+R794:811 BarocqComp.common.Monads MonCounterErr incr def
+R813:815 BarocqComp.common.Utils <> var:7 var
+def 882:888 <> nth_err
+binder 891:891 <> A:8
+R904:907 Coq.Init.Datatypes <> list ind
+R909:909 BarocqComp.common.Utils <> A:8 var
+binder 901:901 <> l:9
+R916:918 Coq.Init.Datatypes <> nat ind
+binder 913:913 <> n:10
+R923:925 compcert.common.Errors <> res ind
+R927:927 BarocqComp.common.Utils <> A:8 var
+R934:943 BarocqComp.common.Monads MonError err_of_opt def
+R946:954 Coq.Lists.List <> nth_error def
+R958:958 BarocqComp.common.Utils <> n:10 var
+R956:956 BarocqComp.common.Utils <> l:9 var
+def 972:984 <> fold_left_err
+binder 987:987 <> A:11
+binder 989:989 <> B:12
+R1003:1006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1002:1002 BarocqComp.common.Utils <> A:11 var
+R1008:1011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1007:1007 BarocqComp.common.Utils <> B:12 var
+R1012:1014 compcert.common.Errors <> res ind
+R1016:1016 BarocqComp.common.Utils <> A:11 var
+binder 999:999 <> f:13
+R1023:1026 Coq.Init.Datatypes <> list ind
+R1028:1028 BarocqComp.common.Utils <> B:12 var
+binder 1020:1020 <> l:14
+R1036:1038 compcert.common.Errors <> res ind
+R1040:1040 BarocqComp.common.Utils <> A:11 var
+binder 1032:1033 <> a0:15
+R1045:1047 compcert.common.Errors <> res ind
+R1049:1049 BarocqComp.common.Utils <> A:11 var
+R1062:1062 BarocqComp.common.Utils <> l:14 var
+R1073:1075 Coq.Init.Datatypes <> nil constr
+R1080:1081 BarocqComp.common.Utils <> a0:15 var
+R1088:1091 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1104:1108 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1111:1114 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1117:1126 BarocqComp.common.Monads MonError ::error_monad_scope:'let*'_x_':='_x_'in'_x not
+R1115:1116 BarocqComp.common.Utils <> a0:15 var
+binder 1109:1110 <> a0:18
+R1127:1139 BarocqComp.common.Utils <> fold_left_err:16 def
+R1147:1147 BarocqComp.common.Utils <> f:13 var
+R1149:1150 BarocqComp.common.Utils <> a0:18 var
+R1141:1141 BarocqComp.common.Utils <> f:13 var
+def 1174:1186 <> list_is_empty
+binder 1189:1189 <> A:19
+R1202:1205 Coq.Init.Datatypes <> list ind
+R1207:1207 BarocqComp.common.Utils <> A:19 var
+binder 1199:1199 <> l:20
+R1212:1215 Coq.Init.Datatypes <> bool ind
+R1228:1228 BarocqComp.common.Utils <> l:20 var
+R1239:1241 Coq.Init.Datatypes <> nil constr
+R1246:1249 Coq.Init.Datatypes <> true constr
+R1260:1264 Coq.Init.Datatypes <> false constr
+abbrev 1300:1303 <> pset
+R1308:1320 Coq.MSets.MSetPositive PositiveSet t def
+def 1335:1338 <> smem
+R1344:1347 BarocqComp.common.Utils <> pset abbrev
+binder 1341:1341 <> s:22
+R1354:1361 Coq.Numbers.BinNums <> positive ind
+binder 1351:1351 <> p:23
+R1366:1369 Coq.Init.Datatypes <> bool ind
+R1374:1388 Coq.MSets.MSetPositive PositiveSet mem def
+R1392:1392 BarocqComp.common.Utils <> s:22 var
+R1390:1390 BarocqComp.common.Utils <> p:23 var
+def 1407:1410 <> sadd
+R1416:1419 BarocqComp.common.Utils <> pset abbrev
+binder 1413:1413 <> s:24
+R1426:1433 Coq.Numbers.BinNums <> positive ind
+binder 1423:1423 <> p:25
+R1438:1441 BarocqComp.common.Utils <> pset abbrev
+R1446:1460 Coq.MSets.MSetPositive PositiveSet add def
+R1464:1464 BarocqComp.common.Utils <> s:24 var
+R1462:1462 BarocqComp.common.Utils <> p:25 var
+def 1479:1485 <> sremove
+R1491:1494 BarocqComp.common.Utils <> pset abbrev
+binder 1488:1488 <> s:26
+R1501:1508 Coq.Numbers.BinNums <> positive ind
+binder 1498:1498 <> p:27
+R1513:1516 BarocqComp.common.Utils <> pset abbrev
+R1521:1538 Coq.MSets.MSetPositive PositiveSet remove def
+R1542:1542 BarocqComp.common.Utils <> s:26 var
+R1540:1540 BarocqComp.common.Utils <> p:27 var
+def 1557:1562 <> sunion
+R1572:1575 BarocqComp.common.Utils <> pset abbrev
+binder 1565:1566 <> s1:28
+binder 1568:1569 <> s2:29
+R1580:1583 BarocqComp.common.Utils <> pset abbrev
+R1588:1604 Coq.MSets.MSetPositive PositiveSet union def
+R1609:1610 BarocqComp.common.Utils <> s2:29 var
+R1606:1607 BarocqComp.common.Utils <> s1:28 var
+abbrev 1623:1628 <> sempty
+R1633:1649 Coq.MSets.MSetPositive PositiveSet empty def

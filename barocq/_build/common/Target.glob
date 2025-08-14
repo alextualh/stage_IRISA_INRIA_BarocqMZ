@@ -1,0 +1,9 @@
+DIGEST 1352dfd63a891f56d1d04f214c026e1d
+FBarocqComp.common.Target
+ind 199:203 <> archi
+constr 219:223 <> Ptr32
+constr 229:233 <> Ptr64
+scheme 199:203 <> archi_rect
+scheme 199:203 <> archi_ind
+scheme 199:203 <> archi_rec
+scheme 199:203 <> archi_sind
