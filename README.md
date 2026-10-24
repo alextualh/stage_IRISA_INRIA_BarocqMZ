@@ -1,6 +1,6 @@
 # *Développement d'un micro-noyau pour RISC-V et validation de ce micro-noyau*
 
-### Généralités :
+Ceci est un projet réalisé dans le cadre d'un stage de deuxième année d'école d'ingénieur. 
 - Laboratoire : IRISA / Inria Rennes — équipe Epicure (compilation vérifiée, méthodes formelles)
 - Encadrants : Sandrine Blazy (professeure, spécialiste de compilation vérifiée), Clément Chavanon (doctorant, projet Barocq)
 - Période : stage de 2ᵉ année d'école d'ingénieur — juin, juillet, août 2026
