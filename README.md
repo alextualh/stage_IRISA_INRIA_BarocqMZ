@@ -8,9 +8,10 @@ Ceci est un projet réalisé dans le cadre d'un stage de deuxième année d'éco
 
 Présentation du stage et de ce qui a été fait : 
 
-# BarocqMZ — Un micro-noyau RISC-V en langage Barocq, formellement vérifié
-Et si l'on pouvait prouver mathématiquement qu'un noyau d'OS est correct ?
-C'est le pari des méthodes formelles. Pendant mon stage de 2ᵉ année à l'IRISA/Inria (Rennes), j'ai contribué à rendre cela un peu plus concret à mon échelle : développer un *micro-noyau* de *séparation* en *Barocq*, puis générer son modèle Rocq pour en prouver les propriétés.
+# BarocqMZ : Un micro-noyau RISC-V en langage Barocq
+Les systèmes d'exploitations sont fondamentaux en informatique, il s'agit du programme fondamental d'un ordinateur, programme qui gère les ressources, le processeur, la mémoire, les processus, etc. Cependant, ces programmes très complexes peuvent contenir des erreurs. Cela peut être très embêtant pour le fonctionnement de la machine, et pourtant il est fréquent que des erreurs se glissent dans les très nombreuses lignes de code de ce genre de programme bas niveau. Quand une erreur fait crasher un pc sous windows, ce n'est pas très embêtant, mais quand il s'agit de l'ordinateur de bord d'un avion ou d'une fusée, cela est bien plus critique. C'est pour cela qu'on se demande : comment prouver mathématiquement qu'un OS est correct ? C'est le pari des méthodes formelles, prouver mathématiquement qu'un système est correct, pas en testant différentes situations, mais bien en démontrant qu'aucun de tous les scénarios possibles ne mène à une erreur grave.
+
+Pendant mon stage de 2ᵉ année à l'IRISA/Inria de Rennes, j'ai contribué à rendre cela un peu plus concret à mon échelle : développer un *micro-noyau* de *séparation* en *Barocq*, puis générer son modèle Rocq pour en prouver les propriétés. 
 
 ## 1. Le problème
 Un noyau est le cœur d'un système d'exploitation : il isole les applications, gère la mémoire, ordonnance les tâches, traite les interruptions. Une seule faille peut compromettre toute la sécurité d'une machine.
